@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}
+
+\bibitem{pythonScrape}
+Beautifulsoup documentation.
+\newblock http://www.crummy.com/software/BeautifulSoup/bs4/doc/.
+
+\bibitem{LateXSyntax}
+Bibliography management with bibtex.
+\newblock http://www.sharelatex.com/learn/Bibliography_management_with_bibtex.
+
+\bibitem{PythonReference}
+Extracting data in table using beautifulsoup.
+\newblock
+  http://stackoverflow.com/questions/16932072/extracting-data-in-table-using-beautifulsoup.
+
+\bibitem{Latex}
+Latex/floats, figures and captions.
+\newblock http://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions.
+
+\bibitem{WebStructure}
+The structure of the web.
+\newblock
+  http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch13.pdf.
+
+\end{thebibliography}
