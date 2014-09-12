@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2010)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: A1_report.aux
 The style file: plain.bst
-Database file #1: A1.bib
+Database file #1: A1_report.bib
 Warning--to sort, need author or key in pythonScrape
 Warning--to sort, need author or key in PythonReference
 Warning--to sort, need author or key in LateXSyntax
@@ -10,7 +10,7 @@ Warning--to sort, need author or key in Latex
 Warning--to sort, need author or key in WebStructure
 You've used 5 entries,
             2118 wiz_defined-function locations,
-            517 strings with 4614 characters,
+            516 strings with 4550 characters,
 and the built_in function-call counts, 817 in all, are:
 = -- 75
 > -- 5
