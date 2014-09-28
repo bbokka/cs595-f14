@@ -1,4 +1,4 @@
-hist(A2_momento$momento,xlab= "momento" , ylab= "URI",main ="Histogram of momento/URI",xlim=c(0,6000),ylim=c(1,1000),las=1,breaks=500)
+hist(A2_momento$momento,xlab= "momento" , ylab= "URI",main ="Histogram of momento/URI",xlim=c(0,6000),ylim=c(1,200),las=1,breaks=500,col=2)
 
 
 

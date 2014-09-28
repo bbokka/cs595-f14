@@ -1,0 +1,1 @@
+plot(momento_days$Days , momento_days$Momento , xlab="Days",ylab="Momento",main ="ScatterPlot for Days/Momento",las=1,xlim=c(1,5000),ylim=c(0, 10000),col=2)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2014.8.20)  28 SEP 2014 18:21
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2014.8.20)  28 SEP 2014 18:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -363,20 +363,20 @@ ns (reg-exp) to lo-cate the strings rel="memento"
 
 [6] (../Q2/momentoTwitter.py [7]) [8] (../Q2/momentoForDoc.txt) [9]
 (../Q2/histogramCode.txt)
-<../Q2/histogramMomentoURI_1.png, id=493, 754.82pt x 536.0025pt>
+<../Q2/histogramMomentoURI_1.png, id=457, 754.82pt x 536.0025pt>
 File: ../Q2/histogramMomentoURI_1.png Graphic file (type png)
 
 <use ../Q2/histogramMomentoURI_1.png>
-Overfull \hbox (11.89792pt too wide) in paragraph at lines 156--158
+Overfull \hbox (11.89792pt too wide) in paragraph at lines 155--157
  [][] 
  []
 
 [10 <../Q2/histogramMomentoURI_1.png (PNG copy)>]
-<../Q2/histogramMomentoURI_2.png, id=503, 754.82pt x 536.0025pt>
+<../Q2/histogramMomentoURI_2.png, id=467, 754.82pt x 536.0025pt>
 File: ../Q2/histogramMomentoURI_2.png Graphic file (type png)
 
 <use ../Q2/histogramMomentoURI_2.png>
-Overfull \hbox (11.89792pt too wide) in paragraph at lines 164--166
+Overfull \hbox (11.89792pt too wide) in paragraph at lines 162--164
  [][] 
  []
 
@@ -384,38 +384,38 @@ Overfull \hbox (11.89792pt too wide) in paragraph at lines 164--166
 (../Q3/daysCountTwitter.py) [13] (../Q3/momentoDays.py) [14]
 (../Q3/carbonForDoc.txt) (../Q3/carbonDaysForDoc.txt)
 (../Q3/momentoDaysForDoc.txt) [15] (../Q3/scatterplotCode.txt)
-<../Q3/scatterDaysMomento_1.png, id=691, 754.82pt x 536.0025pt>
+<../Q3/scatterDaysMomento_1.png, id=655, 754.82pt x 536.0025pt>
 File: ../Q3/scatterDaysMomento_1.png Graphic file (type png)
 
 <use ../Q3/scatterDaysMomento_1.png>
-Overfull \hbox (11.89792pt too wide) in paragraph at lines 224--226
+Overfull \hbox (11.89792pt too wide) in paragraph at lines 222--224
  [][] 
  []
 
 [16 <../Q3/scatterDaysMomento_1.png (PNG copy)>]
-<../Q3/scatterDaysMomento_2.png, id=700, 754.82pt x 536.0025pt>
+<../Q3/scatterDaysMomento_2.png, id=664, 754.82pt x 536.0025pt>
 File: ../Q3/scatterDaysMomento_2.png Graphic file (type png)
 
 <use ../Q3/scatterDaysMomento_2.png>
-Overfull \hbox (11.89792pt too wide) in paragraph at lines 232--234
+Overfull \hbox (11.89792pt too wide) in paragraph at lines 230--232
  [][] 
  []
 
 [17 <../Q3/scatterDaysMomento_2.png (PNG copy)>] (./A2_report.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 244.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
  [18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
 
 (./A2_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 244.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
 Package rerunfilecheck Info: File `A2_report.out' has not changed.
-(rerunfilecheck)             Checksum: B3A58A1C90A7AC024506EB00E950FC38;2892.
+(rerunfilecheck)             Checksum: 7B50EF2F2D565763EABE6BC87413B402;2389.
  ) 
 Here is how much of TeX's memory you used:
- 7708 strings out of 493747
- 118867 string characters out of 3143546
+ 7694 strings out of 493747
+ 118617 string characters out of 3143546
  730085 words of memory out of 3000000
- 10388 multiletter control sequences out of 15000+200000
+ 10381 multiletter control sequences out of 15000+200000
  8808 words of font info for 31 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  36i,7n,43p,487b,1714s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -426,10 +426,10 @@ usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
 al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on A2_report.pdf (19 pages, 179619 bytes).
+Output written on A2_report.pdf (19 pages, 175970 bytes).
 PDF statistics:
- 846 PDF objects out of 1000 (max. 8388607)
- 801 compressed objects within 9 object streams
- 474 named destinations out of 1000 (max. 500000)
- 333 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 808 PDF objects out of 1000 (max. 8388607)
+ 764 compressed objects within 8 object streams
+ 467 named destinations out of 1000 (max. 500000)
+ 277 words of extra memory for PDF output out of 10000 (max. 10000000)
 
