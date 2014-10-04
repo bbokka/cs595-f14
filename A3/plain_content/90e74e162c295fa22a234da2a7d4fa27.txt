@@ -1,0 +1,24 @@
+   Culture Concierge
+   Please note that we are in
+   BETA with the newsletters
+   re-launching in March 2014 and
+   the subscription boxes
+   launching in April 2015.
+
+   setstats
+
+References
+
+   Visible links
+
+   Hidden links:
+   2. file://localhost/home/bbokka/cs594/Assignment/programs/html_content/ContactUs.html
+   3. file://localhost/home/bbokka/cs594/Assignment/programs/html_content/ContactUs.html
+   4. file://localhost/home/bbokka/cs594/Assignment/programs/html_content/Newsletter12.html
+   5. file://localhost/home/bbokka/cs594/Assignment/programs/html_content/CultureConcierge.html
+   6. file://localhost/home/bbokka/cs594/Assignment/programs/html_content/CultureConcierge.html
+   7. file://localhost/home/bbokka/cs594/Assignment/programs/html_content/world.html
+   8. file://localhost/home/bbokka/cs594/Assignment/programs/html_content/CC101.html
+   9. http://eepurl.com/4jjk1
+  10. http://culture-concierge.us4.list-manage.com/subscribe?u=a0b0e0ff676a51be6ad57a470&id=f4524a8d0b
+  11. http://www.facebook.com/CultureConcierge

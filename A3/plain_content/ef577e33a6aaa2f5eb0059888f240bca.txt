@@ -1,0 +1,163 @@
+   #[1]copyright
+
+   [375-logo.png]
+
+UkTra.in
+
+   Information about the UK Rail Network for commuters by Commuters
+   [2]Headlines [3]Wiki [4]Forums [5]Software
+
+Popular articles
+
+     * [6]Homepage
+     * [7]Delay Repay
+     * [8]Excuses
+     * [9]Report Viewer
+     * [10]National Performance
+     * [11]National Rail Conditions Of Carriage
+     * [12]Railway Byelaws
+     * [13]General Safety Advice
+     * [14]Telephone Numbers non-premium rate
+
+Recent changes
+
+     * [15]Report Viewer
+     * [16]Excuses
+     * [17]National Performance
+     * [18]Train Fires
+     * [19]National Rail Conditions Of Carriage
+     * [20]Railway Byelaws
+     * [21]General Safety Advice
+     * [22]Delay Repay
+
+Main Page
+
+   Welcome to uktra.in
+
+      This is a service provided as part of [23]TrainWatch. It provides
+      details about the UK Rail Network useful for Commuters & Regular
+      Travellers.
+
+Featured Articles
+
+   [24]WeGetTheMessage the new non-emergency [25]61016 Text service from
+   [26]British Transport Police Launched on March 6 2013
+
+   [27]Excuses The ever growing list of Rail Excuses
+
+   [28]FareDodgerExcuses A list of excuses used by Fare Dodger's on why
+   they won't pay
+
+   [29]Badger on the line Where a badger hole brought trains to a halt
+
+   [30]National Conditions of Carriage The general rules passengers have
+   to abide to outside of the [31]Byelaws whilst on the UK rail network
+
+   [32]General Safety Advice when travelling on the Rail Network
+
+   [33]Bicycle Policy of rail companies in the South East
+
+   [34]Season Ticket Conditions of local rail companies
+
+   [35]Revenue Protection Officer, covers what an RPO/REO can do
+
+   [36]Digital Unstaffed Network Communications Equipment the technical
+   name for the [37]@SE_Railway twitter account.
+
+   [38]Twitter lists the known hashtags and accounts on twitter for the
+   various Train Operating Companies.
+
+   [39]Fix My Transport is a website built built by the mySociety charity
+   to help people get common public transport problems resolved. It is
+   targeted specifically at smaller problems such as persistently broken
+   ticket machines, buses that always leave early, or silly rules that
+   appear to do nothing but create inconvenience for travellers.
+
+   [40]Phantom International is the primary fictional rail station located
+   just outside [41]London Bridge station on the [42]South Eastern Main
+   Line operated by [43]Southeastern.
+
+   [44]Delay Repay is a scheme operated by the majority of the 'newer'
+   Train Operating Companies which is supposed to compensate anyone for
+   being delayed on the rail network.The details vary from company to
+   company with some being more generous than others.
+
+External Links
+
+   [45]Commuting websites listing various commuting websites
+
+   [46]Trainwatch main site containing the latest news for commuters
+
+   [47]Trainwatch Forums forums for general discussion
+
+   [48]Trainwatch software The software behind TrainWatch
+
+What this site contains
+
+   Pages/articles covering any of the following topics:
+     * Railway Stations, Facilities etc
+     * Train Operating Companies operating within the area
+     * specific commuting routes
+     * Rail user groups
+     * Individual stories of commuting hell, joy (if any)
+     * Technical documentation (e.g. some rest api's I make publically
+       available)
+
+     * This page was last modified on 9 July 2013, at 20:33.
+     * Content is available under [49]Creative Commons Attribution Share
+       Alike.
+
+     * [50]Creative Commons Attribution Share Alike
+
+References
+
+   1. http://creativecommons.org/licenses/by-sa/3.0/
+   2. http://trainwatch.co.uk/
+   3. http://uktra.in/
+   4. http://trainwatch.co.uk/forums/
+   5. http://trainwatch.org.uk/
+   6. file:///
+   7. file:///Delay_Repay
+   8. file:///Excuses
+   9. file:///reports/
+  10. file:///Performance
+  11. file:///National_Rail_Conditions_Of_Carriage
+  12. file:///Railway_Byelaws
+  13. file:///Safety
+  14. file:///Telephone
+  15. file:///reports/
+  16. file:///Excuses
+  17. file:///Performance
+  18. file:///TrainFires
+  19. file:///National_Rail_Conditions_Of_Carriage
+  20. file:///Railway_Byelaws
+  21. file:///Safety
+  22. file:///Delay_Repay
+  23. http://trainwatch.co.uk/
+  24. file:///WeGetTheMessage
+  25. file:///61016
+  26. file:///British_Transport_Police
+  27. file:///Excuses
+  28. file:///FareDodgerExcuses
+  29. file:///Badger_on_the_line
+  30. file:///National_Rail_Conditions_Of_Carriage
+  31. file:///Byelaws
+  32. file:///Safety
+  33. file:///Bicycle_Policy
+  34. file:///Season_Ticket_Conditions
+  35. file:///Revenue_Protection_Officer
+  36. file:///Digital_Unstaffed_Network_Communications_Equipment
+  37. file:///SE_Railway
+  38. file:///Twitter
+  39. file:///Fix_My_Transport
+  40. file:///Phantom_International_Main
+  41. file:///London_Bridge
+  42. file:///South_Eastern_Main_Line
+  43. file:///Southeastern
+  44. file:///Delay_Repay
+  45. file:///Commuter_Websites
+  46. http://trainwatch.co.uk/
+  47. http://trainwatch.co.uk/forums/
+  48. http://trainwatch.org.uk/
+  49. http://creativecommons.org/licenses/by-sa/3.0/
+  50. http://creativecommons.org/licenses/by-sa/3.0/

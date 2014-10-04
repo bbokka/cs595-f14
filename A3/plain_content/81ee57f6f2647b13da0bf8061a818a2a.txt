@@ -1,0 +1,137 @@
+   [1]wagamama
+     * [2]shopping basket
+     * [3]show navigation
+
+   enter town or postco →
+     * [4]my wagamama
+     * [5]about wagamama
+     * [6]dietary info
+     * [7]contact us
+     * [8]not in the uk?
+
+     * [9]our food
+     * [10]restaurants
+     * [11]order take-out
+     * [12]group bookings
+     * [13]events
+     * [14]shop
+     * [15]at home
+     * [16]jobs
+     * [17]Shopping Basket
+
+a soulful bowlful
+
+it's food for the mind, the soul, the eyes. a splash of colour plus a pinch
+of spice. not too light but not too heavy. everything in moderation. it's
+food to make you feel good
+
+   [18]view donburi
+   [19]next[20]prev
+   wagamama winter 2014 - teriyaki chicken donburi
+
+big long tables
+big festive parties
+
+make a booking for 6 or more people online and be entered into a draw to win
+£150 voucher
+
+   [21]book now
+   [22]next[23]prev
+   [24]wagamama beansprouts
+
+→understand wagamama
+
+   [25]winter 2014 wagamama teriyaki chicken donburi
+
+→our menu
+
+   [26]Wagamama_social-media-twitter-image
+
+→follow us
+
+   wagamama group bookings star
+
+share wagamama
+
+love noodles, love wagamama
+
+   loading twitter, please wait...
+   [27]check out more tweets
+   [28]next[29]prev
+   [30]Wagamama_social-media-facebook-image
+
+→join us
+
+   [31]wagamama instagram
+
+→follow us
+
+   [32]Wagamama_social-media-youtube-image
+
+→watch us
+
+   restaurant table
+   [33]facebook [34]twitter [35]instagram [36]youtube
+   © wagamama ltd 2014
+   [37]sitemap | [38]franchise opportunities | [39]privacy policy |
+   [40]terms + conditions | [41]accessibility | [42]head office
+
+a note to our visitors
+
+   wagamama has updated its [43]legal and [44]privacy policy to comply
+   with eu cookie legislation. please review this policy to find out about
+   which cookies we use and what information we collect on our website. by
+   continuing to use this site, you agree to our updated legal and privacy
+   policy
+
+   this notice should only appear the first time you visit our website
+
+   [45]I accept
+
+References
+
+   1. file:///
+   2. file:///webshop/checkout/shopping-cart
+   3. file:///home/bbokka/cs594/Assignment/programs/html_content/81ee57f6f2647b13da0bf8061a818a2a.htm
+   4. file:///login
+   5. file:///about-us
+   6. file:///dietary/dietary-info
+   7. file:///contact-us
+   8. file:///global-map
+   9. file:///our-food
+  10. file:///restaurants
+  11. file:///order-take-out
+  12. file:///group-bookings
+  13. file:///events
+  14. file:///webshop
+  15. file:///at-home
+  16. file:///jobs
+  17. file:///webshop/checkout/shopping-cart
+  18. http://www.wagamama.com/our-menu/category/donburi
+  19. file:///home/bbokka/cs594/Assignment/programs/html_content/81ee57f6f2647b13da0bf8061a818a2a.htm#next
+  20. file:///home/bbokka/cs594/Assignment/programs/html_content/81ee57f6f2647b13da0bf8061a818a2a.htm#prev
+  21. file:///group-bookings
+  22. file:///home/bbokka/cs594/Assignment/programs/html_content/81ee57f6f2647b13da0bf8061a818a2a.htm#next
+  23. file:///home/bbokka/cs594/Assignment/programs/html_content/81ee57f6f2647b13da0bf8061a818a2a.htm#prev
+  24. file:///about-us/understand-wagamama
+  25. file:///our-menu
+  26. https://twitter.com/wagamama_uk
+  27. https://twitter.com/wagamama_uk
+  28. file:///home/bbokka/cs594/Assignment/programs/html_content/81ee57f6f2647b13da0bf8061a818a2a.htm#next
+  29. file:///home/bbokka/cs594/Assignment/programs/html_content/81ee57f6f2647b13da0bf8061a818a2a.htm#prev
+  30. http://www.facebook.com/wagamama
+  31. http://instagram.com/wagamama_uk
+  32. https://www.youtube.com/user/wagamamauk
+  33. http://www.facebook.com/wagamama
+  34. https://twitter.com/wagamama_uk
+  35. http://instagram.com/wagamama_uk
+  36. http://www.youtube.com/wagamamauk
+  37. file:///sitemap
+  38. file:///franchise-enquiry-question
+  39. file:///policies/privacy-statement
+  40. file:///policies/terms-and-conditions
+  41. file:///policies/accessibility
+  42. file:///about-us/head-office
+  43. file:///policies/terms-and-conditions
+  44. file:///policies/privacy-statement
+  45. file:///home/bbokka/cs594/Assignment/programs/html_content/81ee57f6f2647b13da0bf8061a818a2a.htm#accept

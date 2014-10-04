@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+ <title>Author hakeem mukhtar on Booksie</title>
+<meta name="description" content="My name is mukhtar ayodeji hakeem a.k.a worldchanger,i was born on september 12th 1995 at isolo,lagos state.I started my primary education at keystone kiddies school,isolo.I was the social prefect boy while in primary 5.After successfully passing the entrance examination into secondary school,I proceeded for my secondary education at liberty college,lagos.Because ..."/>
+<meta name="keywords" content="online writing, writing community, writing forums, writing feedback, writing contests"/> 
+ 
+
+
+<link href="/parts/css/newinner.css" rel="stylesheet" type="text/css"/>
+<link href="/includes/new.css" rel="stylesheet" type="text/css"/> 
+<script type="text/javascript" src="/parts/global.js"></script>
+<script type="text/javascript" src="/parts/jquery-latest.pack.js"></script>
+<script type="text/javascript" src="/assets/js/adzones-google-default.js"></script>
+<script type="text/javascript" src="/assets/js/adzones-booksie-manage.js"></script> 
+   
+<script type="text/javascript">
+	//$(document).ready(function(){
+	//$("div[@id='comments']").load('//commentlist/nohead?'+(new Date()).valueOf()); 
+	//});
+</script>  
+
+
+
+
+<link rel="shortcut icon" href="/favicon.ico" />
+</head>
+
+<body>
+<!-- TOP HEADER -->
+
+	 
+	     <div id="userSpaceTopBar">
+        <p style="float:right"><a href="/register/index.html">Get your own Booksie page</a> | <a href="/users/beta.html">Edit</a></p>
+        <a href="/" style="float:left"><img src="/parts/images/userSpaceLogo.gif" alt="Booksie Home"/></a>
+        <p><a href="/">Home</a> | 
+		<a href="/users/beta.html/pubcenter" rel="nofollow">Publish</a> | 
+        <a href="/read/index.html">Read</a> | 
+        <a href="/writers">Writers</a> | 
+   
+    </div>
+    <div class="wrapper">  
+	<div class="clear"><!-- --></div>
+	          <div id="ad" align='center'>
+			  
+			  <!-- manage-ad-manage-top-728-90 -->
+<div id='div-gpt-ad-1374247537846-0' style='width:728px; height:90px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1374247537846-0'); });
+</script>
+</div>
+			  
+			  <div id="azk73213"></div></div>
+<div class="miniRule"><!-- --></div>
+
+     <div class="users_content"> 
+    
+<!-- Template: Inner_SMRTY_public.dwt--> 
+ 
+<script type="text/javascript">
+function savelink() 
+ 
+  {
+
+ title = "Author hakeem mukhtar on Booksie"; 
+  
+ url = "http://www.booksie.com/author hakeem mukhtar";
+   
+
+	if (window.sidebar) { // Mozilla Firefox Bookmark
+		window.sidebar.addPanel(title, url,"");
+	} else if( window.external ) { // IE Favorite
+		window.external.AddFavorite( url, title); }
+	else if(window.opera && window.print) { // Opera Hotlist
+		return true; }
+ }
+
+
+$(document).ready(function()
+{     
+    var author = $('#comments_author').val();         
+    $('#comments').load('/'+author+'/commentlist/nohead?'+(new Date()).valueOf());
+              
+    $('#comments_button').click(function(){
+        $('#comments_form_container').show();
+        $('#comments_button').hide();
+    });    
+    
+    $('#comments_cancel').click(function(){
+        $('#comments_form_container').hide();
+        $('#comment').attr('value','');
+        $('#comments_button').show();
+        
+    });    
+    $('#comments_save').click(function()
+    {
+       var comment = $('#comment').val(); 
+       if(comment.length<=0)
+       {
+            alert('Please Enter a comment');  
+       }     
+       $.post('/'+author+'/comment/nohead',{comment:comment},function(txt)
+       {                                                                             
+           $('#comments_cancel').trigger('click');
+           $('#comments').load('/'+author+'/commentlist/nohead?'+(new Date()).valueOf());
+            
+       }); 
+    });
+                 
+/**
+//$('#comments_form').show();
+$("button[id='comments.button']").click(function()
+{     
+    $("textarea[id='comment']").val('');$(this).hide();$("div[id='comments.form']").show();
+}); 
+$("button[id='comments.cancel']").click(function(){$("div[id='comments.form']").hide("slow");$("button[id='comments.button']").show();});
+$("div[id='comments']").load('/'+$("input[id='comments.author']").val()+'/commentlist/nohead?'+(new Date()).valueOf());   
+$("div[id='comments']").show();
+$("button[id='comments.save']").click(function(){
+var comment = $("textarea[id='comment']").val();
+var author  = $("input[id='comments.author']").val();
+
+if((author.length>0)&&(comment.length>0))
+{
+    $.post('/'+author+'/comment/nohead',{comment:comment},
+    function(txt){
+    $("div[id='comments.debug']").html(txt).fadeOut(2000); 
+    $("div[id='comments']").fadeOut(1000,function(){$(this).load('/'+author+'/commentlist/nohead?'+(new Date()).valueOf()); 
+    $(this).fadeIn(1000);});
+    $("button[id='comments.button']").show(); 
+    return false;});return false;
+}
+alert('Please Enter a comment');
+});
+$("div[id='comments.result']").ajaxStart(function(){$("div[id='comments.form']").hide("slow");$(this).show(500);});
+//.ajaxStop(function(){$(this).html("Your commment will appear shortly");});                
+**/
+});
+
+function RemoveComment(i)
+{
+    if(i==''){return;}
+    var author  = 'author_hakeem_mukhtar'; 
+    if(author.length>0){$.post('/'+author+'/rmcomment/nohead',{comment:i},function(data){$("div[id='comments']").fadeOut(1000,function(){$(this).load('/'+author+'/commentlist/nohead');$(this).fadeIn(1000);});});}
+} 
+</script>
+<script type="text/javascript" charset="utf-8">
+                    <!--
+                    function toggleTypes (div,tab){
+                        $("#tabs").children().each(function(){ $(this).attr('id','')});
+                        $("#portfolio").children().each(function(){ $(this).hide()});
+                        tab.id = "currentTab";
+                        $("#"+div).show();
+                    }
+                    // -->
+                </script>     
+
+
+                              <div class="newBio">
+                              
+            <div class="newBioLeft">  
+                                  <img src='/content/profiles/MED-149847_USER_PROFILE_.jpg' alt="" class="userPic"/>
+                
+                  
+               
+                                <h2 style="clear:none;margin:0">Author hakeem mukhtar</h2>
+              
+ <br />
+                        <div class="bioSection" style="float:left"> 
+                          <p>
+                            <a href="/users/fan_list_options.html/add/149847"><img src='/images/add-user-green.gif' border='0'/> Become a fan</a><br/>
+                            <a href="javascript:savelink();"><img src='/images/add-user-green.gif' border='0'/> Bookmark my page</a><br/>
+                            <a href="/contact/send_link.html/Author_hakeem_mukhtar"><img src="/parts/images/email-blue.gif" alt="Email this story" style="margin-bottom:2px" /> Forward to a friend </a><br>
+                            <a href="/Author_hakeem_mukhtar/rss/2.0/nohead"><img src="/images/rss-icon.gif" align=absmiddle height=14 alt="RSS" style="margin-bottom:2px" /> RSS Feed</a><br>
+                                                      </p>
+                        </div>
+						<br>
+                 <table cellpadding="3" cellspacing="1" style=clear:both >
+ 						  <tr>
+						    <td nowrap bgcolor="#FFFFFF"><strong>Booksie Address:</strong></td>
+						    <td bgcolor="#FFFFFF"><a target=_blank href="http://www.booksie.com/author_hakeem_mukhtar">http://www.booksie.com/Author_hakeem_mukhtar</a></td>
+						  </tr>
+ 
+       <tr>
+    <td nowrap bgcolor="#FFFFFF"><strong>Country:</strong></td>
+    <td bgcolor="#FFFFFF">Nigeria</td>
+  </tr>
+     <tr>
+    <td nowrap bgcolor="#FFFFFF"><strong>Other site:</strong></td>
+    <td bgcolor="#FFFFFF"><a href="http://www.greatnigerians.webs.com" target="_blank" rel="no follow">View Link</a></td>
+  </tr>
+     <tr>
+    <td nowrap bgcolor="#FFFFFF"><strong>Favorite book:</strong></td>
+    <td bgcolor="#FFFFFF">motivational and inspirational books</td>
+  </tr>
+    
+  <tr>
+    <td nowrap bgcolor="#FFFFFF"><strong>Member Since: </strong></td>
+    <td bgcolor="#FFFFFF">Apr 20, 2012</td>
+  </tr>
+     
+</table>
+
+                <div class="clear"><!-- --></div>
+                
+                
+                
+                   
+                     
+                    <h3>Featured Writing</h3>
+               <!-- ########################################### FEATURED WRITING -->
+This user has no featured writing. 
+     
+                 
+                  
+        
+                <h3>Writing Portfolio   </h3>
+                      
+                <ul id="tabs" class="tabs">
+                <li id="currentTab"><a href=javascript:; onclick="toggleTypes('all',this.parentNode)">All</a></li>
+                                                    </ul>
+               
+				<div class="clear"><!-- --></div>
+                <div id="portfolio">
+                <div id=all>                    
+                        
+None Listed
+    
+                   </div>
+                    
+                    
+        
+ </div>          
+
+                <br /><br /> 
+                            </div>
+            <div class="newBioRight">
+                     
+                <script type="text/javascript" charset="utf-8">
+                    <!--
+                    function toggleBio (div,tab) {
+                        document.getElementById('newstab').style.display = "none";
+                        document.getElementById('bio').style.display = "none";
+                        document.getElementById('books').style.display = "none";
+
+                        document.getElementById('toggleBioTabs').getElementsByTagName('li')[0].id = "";
+                        document.getElementById('toggleBioTabs').getElementsByTagName('li')[1].id = "";
+                        document.getElementById('toggleBioTabs').getElementsByTagName('li')[2].id = "";
+                        tab.parentNode.id = "currentTab";
+
+
+                        document.getElementById(div).style.display = "block";
+                    }
+                    
+                    
+                    // -->
+                </script>        
+                <ul class="tabs" id="toggleBioTabs">
+                <li id="currentTab"><a href="javascript:;" onmouseover="toggleBio('bio',this);">Profile</a></li>
+                <li><a href="javascript:;" onmouseover="toggleBio('newstab',this);">My News</a></li>
+                <li><a href="javascript:;" onmouseover="toggleBio('books',this);">Printed Books</a></li>
+		</ul>
+		</ul>
+                <div class="tabBioSection" id="books" style="display:none">
+                                          No books listed.
+                                  </div>
+                <div class="tabBioSection" id="newstab" style="display:none">
+                     <div id="news.list">
+                                                 <p>Welcome to my site!  I don't have any news at the moment.  Stay tuned.</p>
+						 <p> - Author hakeem mukhtar</p>
+						    
+                                        </div>
+                   
+                   
+                </div>
+                <div class="tabBioSection" id="bio"> 
+                    <p>My name is mukhtar ayodeji hakeem a.k.a worldchanger,i was born on september 12th 1995 at isolo,lagos state.I started my primary education at keystone kiddies school,isolo.I was the social prefect boy while in primary 5.After successfully passing the entrance examination into secondary school,I proceeded for my secondary education at liberty college,lagos.Because of my oratory,I earned the name solution on 19th May,2010.I have written and delivered lectures on different topics in schools such as hiv/aids,importance of agriculture as a source of nigeria income,examination mal-practice,education the best legacy,moral,health and career talks e.t.c.I am the founder and chief executive officer of the great moral pacesetters.while in ss1 I was the time keeper,while in ss2 I was the punctuality prefect still ss3.I passed out from liberty college in year 2012.i'm presently looking forward in gainning admission at unilag.I have also written many story books but have only published one tittled "Lucy The king's daughter" which was launched on thursday july 25th,2013 at liberty college.I'm also the writer of a bulletin "The Resolution to success " </p>
+                </div>
+                
+                <div class="tabBioSection" id="vgifts" style="display:none">
+                  				   <div style="text-align: left;"><h3>Author hakeem mukhtar's Virtual Gifts!</h3></div>	
+								  <div style="text-align: left;"><a href="/store/index.html/rid/149847" style="display: block; margin-top: 4px;"><img src="/images/gift3_32.png" width="20" height="20" border="0" align="absmiddle" style="margin-top: -3px;"/> Show the love. Send Author hakeem mukhtar a virtual gift!</a></div>
+				  				   
+				  <div id="viximo_gifting" style="padding: 5px 5px 0 5px;"></div>
+
+				  
+                </div>
+                 
+                <h3>Author hakeem mukhtar has 1   Fans  </h3>
+                <div class="newWritersBoxIEFix">
+                <div class="newWritersBox">
+                                                                                <div class="writers">
+              
+                <a href="/Nina_Simone" class="newWriterImage" style="height:90px;">
+                                 <img src="/content/profiles/SM-45088_USER_PROFILE_.jpg" alt="Nina Simone"/>
+                                </a> 
+                <h3><a href="/Nina_Simone">Nina Simone</a></h3>
+                </div> 
+
+                                                		
+		
+                <br /><br />
+                                 <div class='clear'><!-- --></div>
+                   
+                </div>
+                </div>
+                    
+                  
+             <h3>Comments</h3>
+                
+                    <input type="hidden" name="author" id="comments_author" value="Author_hakeem_mukhtar">
+                   
+                   <div id="comments">
+                   </div>
+                 
+                   <div id="comments_debug"></div> 
+                   <div id="comments_result" style="display:none"></div> 
+                   <button name="comments_button"  id="comments_button">Leave Comment</button>
+                   <div id="comments_form_container" style="display:none">
+                   <form id="comment_form" onsubmit="return false;">
+                   <h3>Leave Comment</h3>
+                   <textarea id="comment" name="comment" id="comment"></textarea>
+                   <p>
+                   <button name="comments_save"  id="comments_save">Leave Comment</button> 
+                   <button name="comments_cancel" id="comments_cancel">Cancel</button>
+                   </p>
+                   </form>
+                   </div>
+                           
+                 
+                  
+            </div>
+        </div>
+        <div class="clear"><!-- --></div>
+        <div class="miniRule"><!-- --></div>    
+<div class="clear"><!-- --></div>
+</div>
+<div class="clear"><!-- --></div>
+<div  >
+ 
+ <div id="ad" align='center'>
+ <!-- manage-ad_manage-bottom-728-90 -->
+<div id='div-gpt-ad-1374247537846-1' style='width:728px; height:90px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1374247537846-1'); });
+</script>
+</div>
+</div>
+ 
+<div id="azk20205"></div></div>
+
+<div class="footer2">
+<p><a href="/about/">About</a> | <a href="/news/">News</a> | <a href="/contact/" rel="nofollow">Contact</a> | <a href="/users/" rel="nofollow">Your Account </a> | <a href="http://www.booksiesilk.com" target="_blank">BooksieSilk</a> | <a href="http://www.thenextbigwriter.com" target="_blank">TheNextBigWriter</a> | <a href="http://www.thewriterssite.com/direct_pages/self_publishing.html">Self Publishing</a> | <a href="/about/advertise.html rel="nofollow"">Advertise</a></p>
+<p>&copy; 2013 TheNextBigWriter, LLC.  All Rights Reserved.  <a href="/about/terms.html" rel="nofollow">Terms </a>under which this service is provided to you. <a href="/about/site_privacy_policy.html" rel="nofollow">Privacy Policy.</a></p>
+<script src="http://www.google-analytics.com/urchin.js"
+type="text/javascript">
+
+</script>
+
+<script type="text/javascript">
+
+_uacct = "UA-512990-2";
+
+urchinTracker();
+
+</script>
+    
+</div>
+
+
+</div>
+</body>
+</html>

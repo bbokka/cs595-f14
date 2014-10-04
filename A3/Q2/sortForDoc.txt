@@ -1,0 +1,11 @@
+ k_count:   Preocessed files:
+ 1435       76dd67f38f9fca99ed242972b4b21498.txt 
+ 86         291612f0391cedca5954c52fa124aea1.txt 
+ 81         9c0de32a26ec4b3e251c882e80349e5d.txt 
+ 56         e5177cd8cf0fbaa16116f2edb8ae8eca.txt 
+ 56         071d5c179ef3d88beafacc5468a3f3ed.txt 
+ 44         9e75fbae0686c37c21b78bf3008fe88b.txt 
+ 22         cff62b7f415bc539174a200b5bb32e62.txt 
+ 22         c1389f478aa62dfba5eb0637b080c77a.txt 
+ 20         e0397dc1d2e5760be4a952550aa801e1.txt 
+ 16         b65368dab975f7eece39ec337641f839.txt 

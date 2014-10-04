@@ -1,0 +1,9 @@
+   exception 'Exception' with message 'No site found for host:
+   'www.Soesilo.ShopShaklee180.com' in
+   /home/doc56/kaboodle/php/shaklee/controller/SiteResolver.class.php:54
+   Stack trace: #0 /home/doc56/kaboodle/php/bootstrap.php(200):
+   shaklee_controller_SiteResolver::resolveSite('www.Soesilo.Sho...',
+   Object(shaklee_Config)) #1 /home/doc56/kaboodle/php/index.php(12):
+   require_once('/home/doc56/kab...') #2
+   /home/doc56/kaboodle/public/index.php(7):
+   require_once('/home/doc56/kab...') #3 {main}

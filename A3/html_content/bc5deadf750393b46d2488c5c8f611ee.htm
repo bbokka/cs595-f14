@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<meta http-equiv="X-UA-Compatible" content="IE=8, IE=9, IE=10, chrome=1" />
+<html lang="en-us">
+<head>
+                <title>JB Car Sales - Home</title>
+                <meta name="keywords" content="JB Car Sales, 103 Highway 125, Oak City , NC" />
+
+    <!-- Styles -->
+    <link rel="shortcut icon" type="image/png" href="/Content/images/favicon.ico" />  
+    <link href="/Content/jquery.wijmo-open.2.1.4.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/jquery.wijmo-complete.2.1.4.css" rel="stylesheet" type="text/css" />
+    <link href="/Scripts/wijmo/themes/rocket/jquery-wijmo.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/css/humanelibnotify.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/css/public.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="/Content/css/panel.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/css/jNotify.jquery.css" rel="stylesheet" type="text/css" />
+    <link href="/Scripts/paging/smartpaginator.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/themes/plain/jquery-ui-1.8.20.custom.css" rel="stylesheet" type="text/css" /> 
+    <link rel='stylesheet' id='camera-css'  href="/Scripts/camera/css/camera.css" type='text/css' media='all'> 
+    
+    <!-- External Scripts -->
+    <script src="/Scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery-ui-1.8.20.min.js" type="text/javascript"></script>
+    <script src="/Scripts/knockout-2.1.0.js" type="text/javascript"></script>
+    <script src="/Scripts/knockout.undoable.js" type="text/javascript"></script>
+    <script src="/Scripts/knockout.mapping-latest.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.wijmo-open.all.2.1.4.min.js" type="text/javascript"></script>    
+    <script src="/Scripts/knockout.wijmo.js" type="text/javascript"></script>
+    <script src="/Scripts/humane/humane.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jNotify.jquery.js" type="text/javascript"></script>
+    <script src="/Scripts/bootstrap/bootstrap-tooltip.js" type="text/javascript"></script>
+    <script src="/Scripts/jsrender.js" type="text/javascript"></script> 
+    <script src="/Scripts/jquery.validate.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.pagination.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.blockUI.js" type="text/javascript"></script>   
+    <script src="/Scripts/camera/js/camera.js" type="text/javascript"></script>
+    <script src="/Scripts/camera/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/Scripts/camera/js/jquery.mobile.customized.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script src="/Scripts/json2.js" type="text/javascript"></script> 
+    <script src="/Scripts/bigtext.js" type="text/javascript"></script>    
+    <script src="/Scripts/textfill.js" type="text/javascript"></script>    
+
+    <!-- Customized Scripts -->
+    <script src="/Scripts/Helper/CustomDialog.js" type="text/javascript"></script>
+    <script src="/Scripts/Helper/plugins.js" type="text/javascript"></script>
+    <script src="/Scripts/Concrete/Initialize.js" type="text/javascript"></script>
+    <script src="/Scripts/Helper/Utilities.js" type="text/javascript"></script>    
+
+    <link href="/Content/templates/Template3/main.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/templates/Template3/1/Aluminum/style.css" rel="stylesheet" type="text/css" />
+ 
+    
+     
+ 
+   <!-- commented for FB like footer <div id="fb-root"></div>   -->
+    <script src="/Scripts/Helper/spin.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#carouselSetUp").hide();
+            $("#page-image-editor-content").hide();
+            $("#page-carousel-editor-content").hide();
+            $("#page-text-video-editor-content").hide();
+            $("#social-links-editor-content").hide();
+        });
+
+        $(".clickToPlay").live("click", function () {
+            var videoId = $(this).attr("videoId");
+            var videoType = $(this).attr("videoType");
+            launchWatchVideoDialog("Watch Video", 493, 400, "/WatchVideoDialog?videoId=" + videoId + "&videoType=" + videoType)
+        });
+
+        function launchWatchVideoDialog(title, width, height, content) {
+            $("#dialog-watch-video").css("max-height", (height - 85) + "px");
+            $("#dialog-watch-video").css("height", (height - 85) + "px");
+            $('#dialog-watch-video iframe').hide();
+            $('#dialog-watch-video iframe').attr("src", content);
+
+            DealerWebSite.CustomDialog.DwsDialog({
+                title: title,
+                content: $("#watch-video"),
+                width: width + "px",
+                height: height + "px",
+                top: "14%",
+                left: ($(window).width() - width) / 2 + $(window).scrollLeft() + "px",
+                fadeIn: 0,
+                fadeOut: 0
+            });
+
+            showLoader('#dialog-watch-video');
+
+            $('#dialog-watch-video iframe').load(function () {
+                $("#enLoading").remove();
+                $('#dialog-watch-video iframe').show();
+            });
+
+            $("#Wrap").css("position", "fixed");
+            $(".blockPage").css("position", "absolute");            
+
+            $('#block-close, #watch-video-btnCancel').live('click', function () {
+                $('#dialog-watch-video iframe').attr("src", "");
+                $("#Wrap").css("position", "");
+                $(".blockPage").css("position", "");
+                $.unblockUI();
+            });
+        }
+
+        function showLoader(cont) {
+            var optsLoader = {
+                lines: 13,
+                length: 7,
+                width: 4,
+                radius: 10,
+                corners: 1,
+                rotate: 0,
+                color: '#333',
+                speed: 1,
+                trail: 60,
+                shadow: false,
+                hwaccel: false,
+                className: 'spinner',
+                zIndex: 2e9,
+                top: 'auto',
+                left: 0
+            };
+
+            var x = ($(cont + ' iframe').parents(".blockPage").width() - 40) / 2;
+            var y = (($(cont + ' iframe').parents(".blockPage").height()) / 2) - 50;
+            $(cont + ' iframe').hide();
+            $("#enLoading").remove();
+            $(cont).append("<div id='enLoading' style='margin-top:" + y + "px;margin-left:" + x + "px;' ></div>");
+            var target = document.getElementById('enLoading');
+            var spinner = new Spinner(optsLoader).spin(target);
+        }    
+    
+    
+    //<![CDATA[ 
+    $(window).load(function () {
+        var opts = {
+            lines: 5, // The number of lines to draw
+            length: 16, // The length of each line
+            width: 8, // The line thickness
+            radius: 10, // The radius of the inner circle
+            corners: 1, // Corner roundness (0..1)
+            rotate: 14, // The rotation offset
+            color: '#727272', // #rgb or #rrggbb
+            speed: 1.3, // Rounds per second
+            trail: 70, // Afterglow percentage
+            shadow: false, // Whether to render a shadow
+            hwaccel: false, // Whether to use hardware acceleration
+            className: 'spinner', // The CSS class to assign to the spinner
+            zIndex: 2e9, // The z-index (defaults to 2000000000)
+            top: 'auto', // Top position relative to parent in px
+            left: 'auto' // Left position relative to parent in px
+        };
+
+        var spinner = new Spinner(opts).spin();
+        $("#loading").append(spinner.el);
+
+    }); //]]>  
+
+    </script> 
+</head>
+<body>    
+    
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        var theme = 'Aluminum';
+        var version = '1';
+
+        if ('/' == "/" || '/' == "") {
+            $("#Wrap").css({ 'background-image': 'url(/Content/templates/Template3/' + version + '/' + theme + '/bg.jpg)',
+                'background-repeat': 'repeat-x'
+            });
+        } else {
+            $("#Wrap").css({ 'background-image': 'url(/Content/templates/Template3/' + version + '/' + theme + '/bg-all.jpg)',
+                'background-repeat': 'repeat-x'
+            });
+        }
+        if ("False" == "True") {
+            $.ajax({
+                url: "/admin/site/media/GetTextToLogo",
+                type: 'post',
+                global: false,
+                async: false,
+                success: function (data) {
+                    if (data != "") {
+                        $('#homeLogoImageBlock img').attr("src", data);
+                    }
+                }
+            });
+        }
+        $('.sprite-social-facebook,.sprite-social-twitter,.sprite-social-linkedin,.sprite-social-google,.sprite-social-youtube').live('click', function () {
+            var output = $(this).attr('data-value');
+            output = checkUrlInput(output);
+            window.open(output);
+        });
+
+        function checkUrlInput(output) {
+            var httpPreFix = "http://";
+            var httpsPreFix = "https://";
+            if (output.indexOf(httpPreFix) == -1 && output.indexOf(httpsPreFix) == -1) {
+                output = httpPreFix + output;
+            }
+
+            return output;
+        }
+
+        var currentPage = window.location.pathname;
+        $('#menu ul li a[href="' + currentPage + '"]').addClass("linkHolder");
+
+
+    });
+
+    $(function () {
+        $('.feat-content ul li').each(function () {
+            var $li = $(this);
+            var $item = $(this).find('.feat-details-box img, .feat-details-box-hover a, .feat-details-box-hover');
+
+
+                $item.hover(function () {
+                    $li.find('.feat-details-box-hover').addClass('in');
+                });
+                $li.mouseout(function () {
+                    $li.find('.feat-details-box-hover').removeClass('in');
+                });
+
+        });
+    });
+</script>
+
+<div id="Wrap">
+<div id="snow">
+<div id="mainbody" style="margin:0 auto;width:960px;background-color:">
+    <div id="header">
+    <div class="sectionLogo">
+        <a href="/">
+            <div>
+<div id="homeLogoImageBlock" class="editableBlock" title="Home Logo" style="width:450px;height:90px;min-height:50px;" data-editortype="LogoImageEditor" data-editorheight='90'>
+            <img src="http://dealercenterdws.blob.core.windows.net/dealerimages/f68d1ff3-6483-46c3-a82a-4fc8a6792064.png" alt="dealerLogo" border="0" onerror="this.onerror=null;this.src='/Content/images/default-logo.png'" />
+</div> 
+
+<script>
+    $("#homeLogoImageBlock").find("img").each(function () {
+        try {
+            if ($(this).attr("id") === undefined) {
+                var src = $(this).attr("src");
+                var ary = src.split("/");
+                var newPath = ary[ary.length - 1];
+                if (newPath.indexOf(".") != -1) {
+                    newPath = newPath.split(".")[0]
+                } else {
+                    if (newPath.indexOf("?") != -1) {
+                        newPath = newPath.split("?")[0]
+                    }
+                }
+                $(this).attr("id", "img-" + newPath);
+            }
+        } catch (err) { }
+    });
+</script></div>
+        </a>
+    </div>
+    <div class="sectionRight">        
+        
+      
+
+        <div class="dealer-info">
+            <div class="dealer-address"><strong><span class="colorWhite">Showroom:</span></strong>
+            <div class="headerInf">
+                <p>
+103 Highway 125<br />
+Oak City, NC 27857
+</p>
+
+                    252-798-0260
+                </div>
+                <div class="clearfix"></div>
+                <strong><a href="mailto:jones_boothcars@yahoo.com">jones_boothcars@yahoo.com</a></strong>
+              </div>
+        </div>
+                
+    </div>
+    <div class="clearfix"></div>
+         
+    </div>
+    <div class="socContainer">
+     <div id="socialContainer">
+            <ul>
+                    <li class="sprite-social-youtube" data-value="https://www.youtube.com/"></li>
+                    <li class="sprite-social-google" data-value="&lt;script type=&quot;text/javascript&quot;&gt;   (function() {     var po = document.createElement(&quot;script&quot;); po.type = &quot;text/javascript&quot;; po.async = true;     po.src = &quot;https://apis.google.com/js/plusone.js?publisherid=117861964132234836837&quot;;     var s = document.getElementsByTagName(&quot;script&quot;)[0]; s.parentNode.insertBefore(po, s);   })(); &lt;/script&gt;"></li>
+                    <li class="sprite-social-linkedin" data-value="http://www.linkedin.com/pub/robert-booth/63/230/a08/"></li>
+                    <li class="sprite-social-twitter" data-value="https://twitter.com/jb_carsales"></li>
+                    <li class="sprite-social-facebook" data-value="http://www.facebook.com/jbcarsales" ></li>
+            </ul>
+        </div>
+        </div>
+    
+
+<script type="text/javascript">
+    $(function () {
+        if ('HIC.Nowcom.DealerWebSites.Models.ViewModels.PublicSite.IndexModel' == "edit") {
+            $("#menu").find("ul").find("li").each(function () {
+                var path = $(this).find("a").attr("href") + "?mode=edit";
+                $(this).find("a").attr("href", path)
+            });
+        }
+    });   
+</script>
+<div id="menu">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/Inventory">Inventory</a></li>
+        <li><a href="/CreditApplication">Apply Online</a></li>
+        <li><a href="/DrivingDirections">Driving Directions</a></li>
+        <li><a href="/AboutUs">About Us</a></li>
+    </ul>
+</div>
+
+
+    <div class="mainContent">
+    <div class="galleryOverlay">
+    </div>
+    <div class="gallery">
+        
+<div id="homeCarouselBlockTemplate3" title="Carousel" class="editableBlock" style="width:960px;height:240px;min-height:50px" data-editortype="CarouselEditor" imageHeight="240" imageWidth="960" overlayUrl="" xImageCoordinate="0" yImageCoordinate="0" data-editorheight='240'>
+        <div style="display: none;">
+            <ul class='draggableImage' style='width: 152px;' transition='random' ><li class='draggableImage' effectName ='brightness' effectValue='11' effectType='interactive'><img style="margin: 56.25px 0px;" class="draggableImage" src="http://dealercenterdws.blob.core.windows.net/dealerimages/36d788f3-0bf3-49d9-8518-48088fad0e3f" height="37.5px" width="150px"></li><li class='draggableImage' effectName ='brightness' effectValue='3' effectType='interactive'><img style="margin: 56.25px 0px;" class="draggableImage" src="http://dealercenterdws.blob.core.windows.net/dealerimages/f491d6a2-5225-4cec-ad78-724ae492d292" height="37.5px" width="150px"></li><li class='draggableImage' effectName ='brightness' effectValue='18' effectType='interactive'><img style="margin: 56.25px 0px;" class="draggableImage" src="http://dealercenterdws.blob.core.windows.net/dealerimages/33ce0b30-4fda-430e-a05f-c03f848adf88" height="37.5px" width="150px"></li><li class='draggableImage' effectName ='brightness' effectValue='10' effectType='interactive'><img style="margin: 56.25px 0px;" class="draggableImage" src="http://dealercenterdws.blob.core.windows.net/dealerimages/d3d5a505-557d-44cc-969d-99a2e88a3698" height="37.5px" width="150px"></li><li class='draggableImage' effectName ='brightness' effectValue='15' effectType='interactive'><img style="margin: 56.25px 0px;" class="draggableImage" src="http://dealercenterdws.blob.core.windows.net/dealerimages/8db8870b-a068-4834-9ed4-00d3be631419" height="37.5px" width="150px"></li><li class='draggableImage' effectName ='brightness' effectValue='8' effectType='interactive'><img style="margin: 56.25px 0px;" class="draggableImage" src="http://dealercenterdws.blob.core.windows.net/dealerimages/7eb52e35-cb28-42b0-af37-a2475ee8fb6a" height="37.5px" width="150px"></li><li class='draggableImage' effectName ='brightness' effectValue='0' effectType='interactive'><img style="margin: 56.25px 0px;" class="draggableImage" src="http://dealercenterdws.blob.core.windows.net/dealerimages/c2bc27aa-f1b6-47f7-bd71-d092f06ff3d6" height="37.5px" width="150px"></li><li class='draggableImage' effectName ='0' effectValue='0' effectType='original'><img style="margin: 56.25px 0px;" class="draggableImage" src="http://dealercenterdws.blob.core.windows.net/dealerimages/e739f407-ca28-4528-87e0-99118a038c2a" height="37.5px" width="150px"></li></ul>
+        </div>
+        <div id="homeCarouselBlockTemplate3Preview" style="min-height:240px">
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var htmlCarousel = "";
+                var origHeight = '240';
+                var origWidth = '960';
+                var effect = 'random';
+
+                var BrowserDetect = {
+                    init: function () {
+                        this.browser = this.searchString(this.dataBrowser) || "An unknown browser";
+                        this.version = this.searchVersion(navigator.userAgent)
+			                    || this.searchVersion(navigator.appVersion)
+			                    || "an unknown version";
+                        this.OS = this.searchString(this.dataOS) || "an unknown OS";
+                    },
+                    searchString: function (data) {
+                        for (var i = 0; i < data.length; i++) {
+                            var dataString = data[i].string;
+                            var dataProp = data[i].prop;
+                            this.versionSearchString = data[i].versionSearch || data[i].identity;
+                            if (dataString) {
+                                if (dataString.indexOf(data[i].subString) != -1)
+                                    return data[i].identity;
+                            }
+                            else if (dataProp)
+                                return data[i].identity;
+                        }
+                    },
+
+
+                    searchVersion: function (dataString) {
+                        var index = dataString.indexOf(this.versionSearchString);
+                        if (index == -1) return;
+                        return parseFloat(dataString.substring(index + this.versionSearchString.length + 1));
+                    },
+
+
+                    dataBrowser: [
+		                    {
+		                        string: navigator.userAgent,
+		                        subString: "Chrome",
+		                        identity: "Chrome"
+		                    },
+		                    { string: navigator.userAgent,
+		                        subString: "OmniWeb",
+		                        versionSearch: "OmniWeb/",
+		                        identity: "OmniWeb"
+		                    },
+		                    {
+		                        string: navigator.vendor,
+		                        subString: "Apple",
+		                        identity: "Safari",
+		                        versionSearch: "Version"
+		                    },
+		                    {
+		                        prop: window.opera,
+		                        identity: "Opera",
+		                        versionSearch: "Version"
+		                    },
+		                    {
+		                        string: navigator.vendor,
+		                        subString: "iCab",
+		                        identity: "iCab"
+		                    },
+		                    {
+		                        string: navigator.vendor,
+		                        subString: "KDE",
+		                        identity: "Konqueror"
+		                    },
+		                    {
+		                        string: navigator.userAgent,
+		                        subString: "Firefox",
+		                        identity: "Firefox"
+		                    },
+		                    {
+		                        string: navigator.vendor,
+		                        subString: "Camino",
+		                        identity: "Camino"
+		                    },
+		                    {		// for newer Netscapes (6+)
+		                        string: navigator.userAgent,
+		                        subString: "Netscape",
+		                        identity: "Netscape"
+		                    },
+		                    {
+		                        string: navigator.userAgent,
+		                        subString: "MSIE",
+		                        identity: "Explorer",
+		                        versionSearch: "MSIE"
+		                    },
+		                    {
+		                        string: navigator.userAgent,
+		                        subString: "Gecko",
+		                        identity: "Mozilla",
+		                        versionSearch: "rv"
+		                    },
+		                    { 		// for older Netscapes (4-)
+		                        string: navigator.userAgent,
+		                        subString: "Mozilla",
+		                        identity: "Netscape",
+		                        versionSearch: "Mozilla"
+		                    }],
+                    dataOS: [
+		                    {
+		                        string: navigator.platform,
+		                        subString: "Win",
+		                        identity: "Windows"
+		                    },
+		                    {
+		                        string: navigator.platform,
+		                        subString: "Mac",
+		                        identity: "Mac"
+
+		                    },
+		                    {
+		                        string: navigator.userAgent,
+		                        subString: "iPhone",
+		                        identity: "iPhone/iPod"
+		                    },
+		                    {
+		                        string: navigator.platform,
+		                        subString: "Linux",
+		                        identity: "Linux"
+		                    }
+	                    ]
+                };
+
+                BrowserDetect.init();
+
+                $("img[class*='draggableImage']").each(function () {
+                    var srcImg = $(this).attr("src");
+
+
+                    if (srcImg.indexOf("img.youtube") != -1) {
+                        var mySplitResult = srcImg.split("/");
+                        var videoLink = mySplitResult[4];
+                        //$("#homeCarouselBlockTemplate3Preview").append("<div data-src='" + srcImg + "' data-thumb='" + srcImg + "'><div><object type='application/x-shockwave-flash' id='" + videoLink + "' style='width:" + origWidth + "px;height:" + origHeight + "px;' ><param name='movie' value='http://www.youtube.com/v/" + videoLink + "&amp;feature=fvst?rel=0&amp;amp;showsearch=0&amp;amp;version=3&amp;amp;showinfo=0&amp;amp;modestbranding=1;wmode=opaque;autoplay=1;enablejsapi=1;playerapiid=" + videoLink + "'><param name='allowFullScreen' value='false'><param name='allowscriptaccess' value='always'><param name='wmode' value='opaque'><embed wmode='opaque' src='http://www.youtube.com/v/" + videoLink + "&amp;feature=fvst?rel=0&amp;amp;showsearch=0&amp;amp;version=3&amp;amp;showinfo=0&amp;amp;modestbranding=1;wmode=opaque;autoplay=1;enablejsapi=1;playerapiid=" + videoLink + "' type='application/x-shockwave-flash' allowscriptaccess='always' allowfullscreen='true' width='" + origWidth + "px' height='" + origHeight + "px'></object></div></div>");
+                        if (BrowserDetect.browser == BrowserDetect.dataBrowser[6].identity) {
+
+                            $("#homeCarouselBlockTemplate3Preview").append("<div data-src='" + srcImg + "' data-thumb='" + srcImg + "'><div><object type='application/x-shockwave-flash' id='" + videoLink + "' width='" + origWidth + "' height='" + origHeight + "' data='http://www.youtube.com/v/" + videoLink + "&amp;feature=fvst?rel=0&amp;amp;showsearch=0&amp;amp;version=3&amp;amp;showinfo=0&amp;amp;modestbranding=1;wmode=opaque;autoplay=1;enablejsapi=1;playerapiid=" + videoLink + "'>" +
+                                                                                "<param name='movie'" +
+                                                                                "value='http://www.youtube.com/v/" + videoLink + "&amp;feature=fvst?rel=0&amp;amp;showsearch=0&amp;amp;version=3&amp;amp;showinfo=0&amp;amp;modestbranding=1;wmode=opaque;autoplay=1;enablejsapi=1;playerapiid=" + videoLink + "'></param>" +
+                                                                                "<param name='allowScriptAccess' value='always'></param>" +
+                                                                                "<param name='wmode' value='opaque'>" +
+                                                                                "<embed wmode='opaque' src='http://www.youtube.com/v/" + videoLink + "&amp;feature=fvst?rel=0&amp;amp;showsearch=0&amp;amp;version=3&amp;amp;showinfo=0&amp;amp;modestbranding=1;wmode=opaque;autoplay=1;enablejsapi=1;playerapiid=" + videoLink + "'" +
+                                                                                "type='application/x-shockwave-flash'" +
+                                                                                "allowscriptaccess='always'" +
+                                                                                "width='" + origWidth + "' height='" + origHeight + "'></embed>" +
+                                                                                "</object></div></div>");
+                        } else {
+
+                            $("#homeCarouselBlockTemplate3Preview").append("<div data-src='" + srcImg + "' data-thumb='" + srcImg + "'><div><object type='application/x-shockwave-flash' id='" + videoLink + "' width='" + origWidth + "' height='" + origHeight + "'>" +
+                                                                                "<param name='movie'" +
+                                                                                "value='http://www.youtube.com/v/" + videoLink + "&amp;feature=fvst?rel=0&amp;amp;showsearch=0&amp;amp;version=3&amp;amp;showinfo=0&amp;amp;modestbranding=1;wmode=opaque;autoplay=1;enablejsapi=1;playerapiid=" + videoLink + "'></param>" +
+                                                                                "<param name='allowScriptAccess' value='always'></param>" +
+                                                                                "<param name='wmode' value='opaque'>" +
+                                                                                "<embed wmode='opaque' src='http://www.youtube.com/v/" + videoLink + "&amp;feature=fvst?rel=0&amp;amp;showsearch=0&amp;amp;version=3&amp;amp;showinfo=0&amp;amp;modestbranding=1;wmode=opaque;autoplay=1;enablejsapi=1;playerapiid=" + videoLink + "'" +
+                                                                                "type='application/x-shockwave-flash'" +
+                                                                                "allowscriptaccess='always'" +
+                                                                                "width='" + origWidth + "' height='" + origHeight + "'></embed>" +
+                                                                                "</object></div></div>");
+                        }
+                    } else {
+                        var draggableContents = "";
+                        $(this).parent().find(".drag").each(function () {
+                            $(this).wrap("<div id='wrapdiv' style='background: #550055'></div>");
+                            var htmlTextEditorContent = $("#wrapdiv").html(); $(this).unwrap();
+                            draggableContents = draggableContents + htmlTextEditorContent;
+                        });
+
+                        $("#homeCarouselBlockTemplate3Preview").append("<div data-src='" + srcImg + "' data-thumb='" + srcImg + "'>" + draggableContents + "</div>");
+                    }
+
+                });
+
+                $("#homeCarouselBlockTemplate3").find("ul").remove();
+
+                $("#homeCarouselBlockTemplate3Preview").camera({ height: origHeight, width: origWidth, fx: effect, easing: 'easeInBack', onEndTransition: function () {
+
+                    try { if (ytplayer) { ytplayer.stopVideo(); } } catch (err) { }
+                    if ($("#homeCarouselBlockTemplate3Preview").find('.cameraContents .cameracurrent').find("object").length) {
+                        $("#homeCarouselBlockTemplate3Preview").find('.cameraContents .cameracurrent').html($("#homeCarouselBlockTemplate3Preview").find('.cameraContents .cameracurrent').html());
+                        $("#homeCarouselBlockTemplate3Preview").cameraPause();
+                    } else {
+                        $("#homeCarouselBlockTemplate3Preview").cameraResume();
+                    }
+                    try {
+                        if ($("#homeCarouselBlockTemplate3Preview").find('.cameraContents .cameracurrent').find(".drag").length) {
+                            $("#homeCarouselBlockTemplate3Preview").find('.cameraContents .cameracurrent').find(".drag").each(function () {
+
+                                var dragDiv = $(this);
+                                if (dragDiv.attr("isresized") === undefined) {
+                                    var setIntDrag = setInterval(function () {
+                                        if (dragDiv.height() != 0) {
+
+                                            var containerDragHeight = dragDiv.height();
+                                            var containerDragWidth = dragDiv.width();
+
+                                            dragDiv.find(".draggableContent").find("div").each(function () {
+                                                var percentageHeightDiv = (parseFloat($(this).attr("percentageheight")) / 100) * parseFloat(containerDragHeight - 10);
+                                                var percentageWidthDiv = (parseFloat($(this).attr("percentagewidth")) / 100) * parseFloat(containerDragWidth - 10);
+                                                $(this).css({ "height": (percentageHeightDiv + 1) + "px", "min-height": (percentageHeightDiv + 1) + "px", "line-height": (percentageHeightDiv + 1) + "px" });
+                                                $(this).css({ "width": (percentageWidthDiv + 2) + "px", "min-width": (percentageWidthDiv + 2) + "px" });
+                                            });
+
+                                            dragDiv.find(".draggableContent").find("font").removeAttr("size");
+                                            $("#homeCarouselBlockTemplate3Preview").find('.cameraContents .cameracurrent').find(".drag").find(".draggableContent").children("div").find("div").textfill({ maxFontPixels: 36 });
+
+                                            dragDiv.find(".draggableContent").children().each(function () {
+                                                $(this).find("font").each(function () {
+                                                    var colorElement = ($(this).attr("color") === undefined) ? "#ffffff" : $(this).attr("color");
+                                                    if ($(this).find("span").length) {
+                                                        $(this).find("span").attr("fontcolor", colorElement);
+                                                    } else {
+                                                        $(this).parents("span:first").attr("fontcolor", colorElement);
+                                                    }
+                                                });
+                                                $(this).find("font").replaceWith(function () {
+                                                    return $(this).contents();
+                                                });
+                                                $(this).find("span").each(function () {
+                                                    var newFntSize = $(this).css("font-size");
+                                                    var childHtml = $(this).html();
+                                                    $(this).html("<font style='font-size:" + newFntSize + ";' color='" + $(this).attr("fontcolor") + "'>" + childHtml + "</font>");
+
+                                                    var textalignelem = "left";
+                                                    $(this).parents("div").each(function () {
+                                                        if ($(this).attr("class") != "drag" && $(this).attr("class") != "draggableContent") {
+                                                            if ($(this).css("text-align") !== undefined) {
+                                                                textalignelem = $(this).css("text-align");
+                                                                return false;
+                                                            }
+                                                        }
+                                                    });
+                                                    $(this).find("font").first().attr("textalign", textalignelem);
+                                                });
+
+
+
+                                                $(this).find("span").replaceWith(function () {
+                                                    return $(this).contents();
+                                                });
+                                                $(this).find("div").replaceWith(function () {
+                                                    return $(this).contents();
+                                                });
+
+                                                $(this).find("font").each(function () {
+                                                    $(this).html('<div class="textFillHandler" style="text-align:' + $(this).attr("textalign") + ';"><span>' + $(this).html() + '</span></div>');
+                                                });
+
+                                                $(this).find("font").removeAttr("textalign");
+
+                                                var isDiv = $(this).is("div");
+                                                if (isDiv) {
+                                                    $(this).css({ "height": "", "min-height": "", "line-height": "", "width": "", "min-width": "" });
+                                                    var textAlignOuter = ($(this).css("text-align") === undefined) ? "left" : $(this).css("text-align");
+                                                    $(this).find("font").wrap(function () {
+                                                        return '<div style="text-align:' + textAlignOuter + ';"></div>';
+                                                    });
+                                                } else {
+                                                    var textAlignOuter = ($(this).find("div:first").css("text-align") === undefined) ? "left" : $(this).find("div:first").css("text-align");
+                                                    $(this).wrap(function () {
+                                                        return '<div style="text-align:' + textAlignOuter + ';"></div>';
+                                                    });
+                                                }
+
+
+                                                $(this).replaceWith(function () {
+                                                    return $(this).contents();
+                                                });
+
+
+                                            });
+
+                                            if ($.browser.msie && $.browser.version < 9) {
+                                                dragDiv.find("p").css("margin", "0px");
+                                            }
+
+                                            $("#homeCarouselBlockTemplate3Preview").find('.cameraContents .cameracurrent').find(".drag").attr("isresized", "true");
+                                            window.clearInterval(setIntDrag);
+                                        }
+                                    }, 1);
+                                }
+                            });
+                        }
+                    } catch (err) { }
+
+                    $("#homeCarouselBlockTemplate3Preview").find('.camera_target').find("img").each(function () {
+                        try {
+                            if ($(this).attr("id") === undefined) {
+                                var src = $(this).attr("src");
+                                var ary = src.split("/");
+                                var newPath = ary[ary.length - 1];
+                                if (newPath.indexOf(".") != -1) {
+                                    newPath = newPath.split(".")[0]
+                                } else {
+                                    if (newPath.indexOf("?") != -1) {
+                                        newPath = newPath.split("?")[0]
+                                    }
+                                }
+                                $(this).attr("id", "img-" + newPath);
+                            }
+                        } catch (err) { }
+                    });
+                }
+                });
+
+
+                if ($("#homeCarouselBlockTemplate3Preview").find(".camera_pag_ul").html() == "") {
+                    $(".camera_loader").remove();
+
+                    $("#homeCarouselBlockTemplate3").html("");
+                    if ("Template3" == "Template4") {
+                        $("#homeCarouselBlockTemplate3").append("<img src='/Content/templates/Template4/1/Aluminum/slide2.png' height='240' width='960' id='img-homeCarouselBlockTemplate3' />");
+                    }
+                    else {
+                        $("#homeCarouselBlockTemplate3").append("<img src='/Content/images/defaultImgCarousel.jpg' height='240' width='960' id='img-homeCarouselBlockTemplate3' />");
+                    }
+                } else {
+                    if ($("#homeCarouselBlockTemplate3Preview").find(".camera_pag_ul").find("li").length == 1) {
+                        $("#homeCarouselBlockTemplate3Preview").find(".camera_loader, .camera_stop, .camera_play, .camera_prev, .camera_next, .camera_pie, .camera_commands, .camera_bar").remove();
+                        $("#homeCarouselBlockTemplate3Preview").cameraPause();
+                        $("#homeCarouselBlockTemplate3Preview").find(".camera_pag_ul").html("");
+                    }
+                }
+
+                if ($.browser.msie && $.browser.version < 8) {
+                    $(".camera_pag_ul").css("display", "inline");
+                    $(".camera_pag_ul li").css("display", "inline");
+                    $(".camera_pag_ul").parent().css("text-align", "center");
+                    $(".camera_pag_ul").parent().css("padding-top", "20px");
+                    if ('Template3' == "Template3") {
+                        $(".camera_pag_ul").parent().css("position", "static");
+                        $(".camera_pag_ul").parent().css("padding-top", "65px");
+                    }
+                }
+
+                if ('Template3' == "Template4") {
+                    $(".camera_wrap").css("background", "none");
+                    $(".gallery").css("background", "none");
+                }
+                if ('Template3' == "Template3") {
+                    $(".camera_pag").css({ position: "absolute", left: "410px", top: "262px" });
+                    $(".camera_wrap").css({ position: "relative" });
+                }
+
+                if ($.browser.msie && $.browser.version <= 7) {
+                    $(".cameraContents").css("position", "absolute");
+                    if ('Template3' == "Template3") {
+                        $(".camera_pag_ul").parent().css("position", "static");
+                        $(".camera_pag_ul").parent().css("padding-top", "47px");
+                    }
+                }
+
+                if ($("#homeCarouselBlockTemplate3Preview").find(".camera_loader").length > 0) {
+                    $("#homeCarouselBlockTemplate3Preview").find(".camera_pag").css("display", "none");
+                    $("#homeCarouselBlockTemplate3Preview").find(".camera_fakehover").css("height", origHeight + "px");
+                    elPager = setInterval(loadPaging, 1000);
+                }
+
+            });
+            function onYouTubePlayerReady(playerId) {
+                try { if (ytplayer) { ytplayer.stopVideo(); } } catch (err) { }
+                $("#homeCarouselBlockTemplate3Preview").cameraPause();
+                ytplayer = document.getElementById(playerId);
+                ytplayer.addEventListener("onStateChange", "onytplayerStateChange");
+                ytplayer.addEventListener("onError", "onPlayerError");
+
+                setTimeout(function () {
+                    $("#homeCarouselBlockTemplate3Preview").cameraPause();
+                }, 1000);
+            }
+
+            function onytplayerStateChange(newState) {
+                if (newState == "0") {
+                    $("#homeCarouselBlockTemplate3Preview").cameraResume();
+                    $("#homeCarouselBlockTemplate3Preview").cameraPlay();
+                }
+            }
+
+            // This function is called when an error is thrown by the player
+            function onPlayerError(errorCode) {
+                alert("An error occured of type:" + errorCode);
+            }
+
+            function play() {
+                if (ytplayer) {
+                    ytplayer.playVideo();
+                }
+            }
+
+            var elPager = null;
+            function loadPaging() {
+                if ($("#homeCarouselBlockTemplate3Preview").find(".camera_loader").css("display") == "none") {
+                    $("#homeCarouselBlockTemplate3Preview").find(".camera_pag").css("display", "");
+                    window.clearInterval(elPager);
+                }
+            }
+            
+        </script>
+</div>
+    </div>
+    <div id="sectionHome">
+        <div id="sectionHome-left">
+            <div class="home-content">
+                <div class="editableArea">
+                    <div id="imgWrapRight">
+                        
+<div id="homeSingleImageBlock1Template3" title="Introduction Image" class="editableBlock" style="width:241px;height:167px;min-height:50px" data-editortype="SingleImageEditor" data-editorheight='167' data-editorwidth='241'>
+                <img src="http://dealercenterdws.blob.core.windows.net/dealerimages/f995e0e6-366a-4a38-bcbb-7dc34194c379" width="241" height="167"/> 
+</div> 
+
+<script>
+    $(document).ready(function () {
+        if ("False" == "True") {
+            var imgSrc = $("#" + "homeSingleImageBlock1Template3").find("img").attr("src");
+            var imgExt;
+            if (imgSrc.indexOf(".jpg") != -1) {
+                var newImgStr = imgSrc.replace(".jpg", "");
+                $("#" + "homeSingleImageBlock1Template3").find("img").attr("src", newImgStr + "_mobile" + ".jpg");
+                $("#" + "homeSingleImageBlock1Template3").find("img").attr("onerror", "this.src='" + imgSrc + "';")
+            } else {
+                $("#" + "homeSingleImageBlock1Template3").find("img").attr("src", imgSrc + "_mobile");
+                $("#" + "homeSingleImageBlock1Template3").find("img").attr("onerror", "this.src='" + imgSrc + "';")
+            }
+        }
+    });
+
+    $("#homeSingleImageBlock1Template3").find("img").each(function () {
+        try {
+            if ($(this).attr("id") === undefined) {
+                var src = $(this).attr("src");
+                var ary = src.split("/");
+                var newPath = ary[ary.length - 1];
+                if (newPath.indexOf(".") != -1) {
+                    newPath = newPath.split(".")[0]
+                } else {
+                    if (newPath.indexOf("?") != -1) {
+                        newPath = newPath.split("?")[0]
+                    }
+                }
+                $(this).attr("id", "img-" + newPath);
+            }
+        } catch (err) { }
+    });
+</script>
+                    </div>
+                    
+<div id="homeContentBlockTemplate3Text1" title="Introduction Text" class="editableBlock" style=" " data-editortype="HtmlEditor">
+            <?xml version="1.0" encoding="utf-16"?><p><font face="verdana">JB Car Sales is dedicated in providing the ultimate automobile buying experience. We are owned and operated by two young ambitious guys who have extensive relationships in the dealer community.   Added with our dedication to be the best enables JB Car Sales to pass along huge savings on the highest quality vehicles of your choice. In addition, we offer a full array of financing options to meet your needs.</font></p>
+</div> 
+                </div>
+                <div class="clearfix">
+                </div>
+            </div>
+            <div class="space">
+            </div>
+            <div class="contentBottom">
+                <div class="videoSection">
+                    
+<div id="homeSingleImageBlock2Template3" title="Introduction Image2" class="editableBlock" style="width:340px;height:192px;min-height:50px" data-editortype="SingleImageEditor" data-editorheight='192' data-editorwidth='340'>
+                <img src="http://dealercenterdws.blob.core.windows.net/dealerimages/b8a9574d-a00d-42df-9f4f-93052a848a08" width="340" height="192"/> 
+</div> 
+
+<script>
+    $(document).ready(function () {
+        if ("False" == "True") {
+            var imgSrc = $("#" + "homeSingleImageBlock2Template3").find("img").attr("src");
+            var imgExt;
+            if (imgSrc.indexOf(".jpg") != -1) {
+                var newImgStr = imgSrc.replace(".jpg", "");
+                $("#" + "homeSingleImageBlock2Template3").find("img").attr("src", newImgStr + "_mobile" + ".jpg");
+                $("#" + "homeSingleImageBlock2Template3").find("img").attr("onerror", "this.src='" + imgSrc + "';")
+            } else {
+                $("#" + "homeSingleImageBlock2Template3").find("img").attr("src", imgSrc + "_mobile");
+                $("#" + "homeSingleImageBlock2Template3").find("img").attr("onerror", "this.src='" + imgSrc + "';")
+            }
+        }
+    });
+
+    $("#homeSingleImageBlock2Template3").find("img").each(function () {
+        try {
+            if ($(this).attr("id") === undefined) {
+                var src = $(this).attr("src");
+                var ary = src.split("/");
+                var newPath = ary[ary.length - 1];
+                if (newPath.indexOf(".") != -1) {
+                    newPath = newPath.split(".")[0]
+                } else {
+                    if (newPath.indexOf("?") != -1) {
+                        newPath = newPath.split("?")[0]
+                    }
+                }
+                $(this).attr("id", "img-" + newPath);
+            }
+        } catch (err) { }
+    });
+</script>
+                </div>
+                <div class="rightSection">
+                    
+<div id="homeContentBlockTemplate3Text2" title="Introduction Text2" class="editableBlock" style=" " data-editortype="HtmlEditor">
+            <?xml version="1.0" encoding="utf-16"?>
+
+
+<span style="line-height: 115%; font-family: "Arial","sans-serif"; font-size: 9pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font face="verdana">At our site, you can take advantage of several of our online services
+from the comfort of your home. Remember, if you need to talk to us, we are only
+a phone call away. Our business office is available to help with all your
+automobile needs. Feel free to come by our office any time to meet us in
+person. We invite you to come meet us and enjoy a pressure free car buying
+experience.</font> </span>
+</div> 
+                    <div class="clearfix">
+                    </div>
+                </div>
+                <div class="clearfix">
+                </div>
+            </div>
+        </div>
+        <div id="sectionHome-right">
+            <div class="feat-head">
+                <h3>
+                    Featured Vehicles</h3>
+            </div>
+            <div class="feat-content" id="div-featcar">
+                <ul>
+                </ul>
+                <div class="clearfix">
+                </div>
+                <div class="store-hours">
+                    <h3>Dealership Hours</h3>
+                    <span class="store-icon"></span>
+                    <div class="store-hrs-content">
+                                <span>Monday to Friday</span><br />
+                                <span>8:00 AM to 6:00 PM</span><br /><br />
+                                <span>Saturday</span><br />
+                                <span>8:00 AM to 3:00 PM</span><br /><br />
+                    </div>
+                </div>
+                <div class="clearfix">
+                </div>
+            </div>
+        </div>
+        <div class="clearfix">
+        </div>
+    </div>
+    <div class="clearfix">
+    </div>
+</div>
+<br class="clearfix" />
+
+    <script type="text/javascript">
+    $(document).ready(function () {
+        if ('HIC.Nowcom.DealerWebSites.Models.ViewModels.PublicSite.IndexModel' == "edit") {
+            $("#footerNav").find("li").each(function () {
+                var path = $(this).find("a").attr("href") + "?mode=edit";
+                $(this).find("a").attr("href", path)
+            });
+        }
+
+   
+
+        function checkUrlInput(output) {
+            var httpPreFix = "http://";
+            var httpsPreFix = "https://";
+            if (output.indexOf(httpPreFix) == -1 && output.indexOf(httpsPreFix) == -1) {
+                output = httpPreFix + output;
+            }
+
+            return output;
+        }
+     
+    });
+</script>    
+</div>
+
+<div class="clearfix"></div>
+<div class="footer-wrap">
+    <div class="footer">
+        <div class="footerLeft">  
+        <ul class="footerUL">
+            <li><a href="/">Home</a><span class="separator">|</span></li>
+            <li><a href="/Inventory">Inventory</a><span class="separator">|</span></li>
+            <li><a href="/CreditApplication">Apply Online</a><span class="separator">|</span></li>
+            <li><a href="/DrivingDirections">Driving Directions</a><span class="separator">|</span></li>
+            <li><a href="/AboutUs">About Us</a><span class="separator">|</span></li>
+            
+            <li><a href="/PrivacyPolicy">Privacy Policy</a></li>
+        </ul>   
+        </div>
+        <div class="clearfix"></div>
+        <div class="copyright">
+            JB Car Sales
+            Copyright © 2014
+        </div>
+  
+    </div>
+</div>
+</div>
+</div>
+    <div id="hover_border" style="float: right;"></div>
+    
+	<div id="page-image-editor-content" style="margin-left:10px;margin-right:10px;">		
+        <div class="site-page-id" style="display:none">test</div>
+		<div id='dialog-content-main' style="margin-top:35px;overflow:hidden;">
+            <iframe src="" frameBorder="0" style="overflow: auto;border:none;" height="100%" width="99%"></iframe> 
+        </div>	
+		<div class="dialog-button-block" style="margin-left:0px;">
+			<a class='dwsButton' id='dwsButton-cancel' style='float:right;'>CANCEL</a>                
+            <a class='dwsButton' id='dwsButton-close' style='float:right;'>CLOSE</a>
+            <a class='dwsButton' id='dwsButton-select' style='float:right;'>SELECT</a>
+            <a class='dwsButton' id='dwsButton-save' style='float:right;'>SAVE</a>
+            <a class='dwsButton' id='dwsButton-chooseImage' style='float:left;'>CHOOSE IMAGE</a>
+            <a class='dwsButton' id='dwsButton-ok' style='float:right;'>OK</a>
+		</div>
+	</div>	    
+        
+	<div id="page-carousel-editor-content" style="margin-left:10px;margin-right:10px;">		
+        <div class="site-page-id" style="display:none">test</div>
+		<div id='dialog-content-main-carousel' style="margin-top:35px;overflow:hidden;">
+            <iframe src="" frameBorder="0" style="overflow: auto;border:none;" height="100%" width="99%"></iframe> 
+        </div>	
+		<div class="dialog-button-block" style="margin-left:0px;">
+			    
+		</div>
+	</div>	    
+        
+	<div id="page-text-video-editor-content" style="margin-left:10px;margin-right:10px;">		
+        <div class="site-page-id" style="display:none">test</div>
+		<div id='dialog-content-main-text-video' style="margin-top:35px;overflow:hidden;">
+            <iframe src="" frameBorder="0" style="overflow: auto;border:none;" height="100%" width="99%"></iframe> 
+        </div>	
+		<div class="dialog-button-block" style="margin-left:0px;">
+			    
+		</div>
+	</div>	   
+    
+    <div id="social-links-editor-content">		
+        <div class="site-page-id" style="display:none">test</div>
+		<div id='dialog-content-main-social-links' style="margin-top:10px;overflow:hidden;">
+            <iframe src="" frameBorder="0" style="overflow: auto;border:none;" height="100%" width="99%"></iframe> 
+        </div>			
+	</div>	 
+            
+    <div id="carouselSetUp"></div>
+    <input type=hidden /> 
+         
+    <div id="page-type-chooser" style="margin-left:10px;margin-right:10px;display:none;">		        
+		<div id='dialog-type-chooser' style="margin-top:35px;overflow:hidden;height: 150px;"><br/>               
+             <input type="radio" name="contentType" id="typeImage" value="image" / style="visibility:hidden;">
+             <input type="radio" name="contentType" id="typeVideo" value="video" / style="visibility:hidden;">
+             
+             <table style="margin: auto;margin-top: -14px;">
+                <tr>
+                    <td style="padding: 6px;">
+                        <div class="chooser-icon" style="background-image:url(/Content/images/chooserIcons2.png);background-position: 0 0;width:85px;height:76px;cursor:pointer;" isselected="false" ctype="image" title="Image">
+                        
+                        </div>
+                    </td>
+                    <td style="width:60px;"></td>
+                    <td style="padding: 6px;">
+                        <div class="chooser-icon" style="background-image:url(/Content/images/chooserIcons2.png);background-position: 85px 0px;width:85px;height:76px;cursor:pointer;" isselected="false" ctype="video" title="Video">
+                        
+                        </div>
+                    </td>
+                </tr>
+             </table>
+        </div>	
+		<div id="dialog-button-type-chooser" style="margin-left:0px;">
+			<a class='dwsButton' id='type-chooser-btnCancel' style='float:right;width:60px;'>CANCEL</a>                            
+            <a class='dwsButton' id='type-chooser-btnOK' style='float:right;width:60px;'>OK</a>
+		</div>
+	</div>
+
+    <div id="watch-video" style="margin-left:10px;margin-right:10px;display:none;">		        
+		<div id='dialog-watch-video' style="margin-top:35px;overflow:hidden;height: 150px;"><br/>               
+             <iframe src="" frameBorder="0" style="overflow: auto;border:none;" height="100%" width="99%"></iframe> 
+        </div>	
+		<div id="dialog-button-watch-video" style="margin-left:0px;">
+			<a class='dwsButton' id='watch-video-btnCancel' style='float:right;width:60px;'>CLOSE</a>                                        
+		</div>
+	</div>
+</body>
+</html>
+

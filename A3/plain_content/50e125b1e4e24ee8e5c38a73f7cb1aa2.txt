@@ -1,0 +1,8 @@
+   #[1]Acne Support - Atom [2]Acne Support - RSS
+
+
+
+References
+
+   1. http://acne-support.blogspot.com/feeds/posts/default
+   2. http://acne-support.blogspot.com/feeds/posts/default?alt=rss

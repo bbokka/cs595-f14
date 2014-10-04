@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js ie lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js ie lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js ie lt-ie10 lt-ie9"><![endif]-->
+<!--[if IE 9]><html class="no-js ie lt-ie10"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" class="no-js">
+<!--<![endif]-->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwAPVlJTGwEEU1FbBAU="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,o){t&&t(e,n,o),o||(o={});for(var a=i(e),s=a.length,c=o[r]||(o[r]={}),f=0;s>f;f++)a[f].apply(c,n);return c}function o(t,e){s[t]=i(t).concat(e)}function i(t){return s[t]||[]}function a(){return n(e)}var s={};return{on:o,emit:e,create:a,listeners:i,_events:s}}var r="nr@context";e.exports=n()},{}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(5),i=t(3),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(f){"stack"in f&&(t(6),t(4),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:4,2:7,3:"QJf3ax",4:5,5:15,6:6,handle:"D5DuLP",loader:"G9z0Bl"}],4:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(2),t(1).create()),i=t(3)(o);if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var a=document;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&n(a);for(var s=XMLHttpRequest.prototype;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=i(e,"fn-",null,e.name||"anonymous"):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:"QJf3ax",2:15,3:16}],5:[function(t,e){var n=(t(3),t(1).create()),r=t(2)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:"QJf3ax",2:16,3:15}],6:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(3),t(1).create()),o=t(2)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:"QJf3ax",2:16,3:15}],7:[function(t,e){function n(){c.inPlace(this,d,"fn-")}function r(t,e){c.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}var i=t(2).create(),a=t(1),s=t(3),c=s(i),f=s(a),u=window.XMLHttpRequest,d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=i,window.XMLHttpRequest=function(t){var e=new u(t);try{i.emit("new-xhr",[],e),f.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{i.emit("internal-error",r)}catch(o){}}return e},window.XMLHttpRequest.prototype=u.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),i.on("send-xhr-start",r),i.on("open-xhr-start",r)},{1:4,2:"QJf3ax",3:16}],8:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=e(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(1),a=t(3),s=["load","error","abort","timeout"],c=s.length,f=t(2);t(5),t(4),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=e(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",e)}catch(r){}}};for(var u=0;c>u;u++)n.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:9,2:12,3:"QJf3ax",4:7,5:4,handle:"D5DuLP",loader:"G9z0Bl"}],9:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t(1).create(),o={};e.exports=n,n.ee=r,r.q=o},{1:"QJf3ax"}],12:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){p.proto="https"===d.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=p.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,c=s.document,f="addEventListener",u="attachEvent",d=(""+location).split("?")[0],p=e.exports={offset:i(),origin:d,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),s[f]("load",n,!1)):(c[u]("onreadystatechange",r),s[u]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],15:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],16:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t(1),o=t(2),i="nr@wrapper";e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,f,u;try{i=this,n=o(arguments),f=r&&r(n,i)||{}}catch(d){c([d,"",[n,i,a],f])}s(e+"start",[n,i,a],f);try{return u=t.apply(i,n)}catch(p){throw s(e+"err",[n,i,p],f),p}finally{s(e+"end",[n,i,u],f)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,nrWrapper)}function a(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s,t))}function s(e,n,r){try{t.emit(e,n,r)}catch(o){c([o,e,n,r])}}function c(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=a,e.flag=i,e}},{1:"QJf3ax",2:15}]},{},["G9z0Bl",3,8]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Channel Seven Perth</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/spring.reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/spring.form.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/spring.slideshow.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/7perth.201005.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="/css/spring.print.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/scriptaculous/1.9/scriptaculous.js"></script>
+    <script src="//d3myocbokm9x9s.cloudfront.net/js/jquery.1.11.1.min.js"></script>
+    <script type="text/javascript">$.noConflict();</script>
+    <script src="/js/modernizr.custom.2.7.1.js"></script>
+    <script src="/js/yepnope.ie-prefix.js"></script>
+  </head>
+  <body>
+    <div id="canvas">
+      <div id="container">
+        <div id="banner">
+          <p id="weeklybanner">
+            <img alt="40.jpg" src="//d3ap01d8sfcfal.cloudfront.net/cache/host/7perth.com.au/version/660fc643b7ba8af332d305cfe32eea99/path/:upload:template:7perth:banners:00.jpg/quality/100/width/782/height/223/crop/1/name/00.jpg" />
+          </p>
+          <h1>Welcome</h1>
+          <div class="slideshow" id="crossfader-container">
+            <ul id="crossfader" class="crossfade random">
+              <li id="idp406649968" class="p1 first">
+                <a class="loadimage" title="" href="//d3ap01d8sfcfal.cloudfront.net/cache/host/7perth.com.au/version/97b721979342f63281f193505e0bc709/path/:upload:assets:header:basil-2013-hi-res.jpg/width/169/height/223/crop/1/quality/100/name/basil-2013-hi-res.jpg">basil-2013-hi-res.jpg</a>
+              </li>
+              <li id="idp406646624" style="display: none;" class="p2 secondary">
+                <a class="loadimage" title="" href="//d3ap01d8sfcfal.cloudfront.net/cache/host/7perth.com.au/version/f21b96903a518f5365ffa05ab5bfcc98/path/:upload:assets:header:rick-2013-hi-res.jpg/width/169/height/223/crop/1/quality/100/name/rick-2013-hi-res.jpg">rick-2013-hi-res.jpg</a>
+              </li>
+              <li id="idp406525760" style="display: none;" class="p3 secondary">
+                <a class="loadimage" title="" href="//d3ap01d8sfcfal.cloudfront.net/cache/host/7perth.com.au/version/e795bc02dddb160b7afb40f083b97496/path/:upload:assets:header:angela-tsun-2013.jpg/width/169/height/223/crop/1/quality/100/name/angela-tsun-2013.jpg">angela-tsun-2013.jpg</a>
+              </li>
+              <li id="idp406494496" style="display: none;" class="p4 secondary">
+                <a class="loadimage" title="" href="//d3ap01d8sfcfal.cloudfront.net/cache/host/7perth.com.au/version/b6bb8cd4e5cacb7ea6d887ad752afccc/path/:upload:assets:header:monika.jpg/width/169/height/223/crop/1/quality/100/name/monika.jpg">monika.jpg</a>
+              </li>
+              <li id="idp406631952" style="display: none;" class="p5 secondary">
+                <a class="loadimage" title="" href="//d3ap01d8sfcfal.cloudfront.net/cache/host/7perth.com.au/version/39a9f3c42d118daae66246235d6b942e/path/:upload:assets:header:sue-2013-hi-res-2.jpg/width/169/height/223/crop/1/quality/100/name/sue-2013-hi-res-2.jpg">sue-2013-hi-res-2.jpg</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <form action="//7perth.springcms.com.au/utils/redirect" id="search" method="post">
+          <p class="hide">
+            <input name="url" type="hidden" value="//7perth.com.au/view/search/query" />
+            <input type="hidden" name="querypath" value="true" />
+          </p>
+          <p>
+            <label for="xml" class="label">Search:</label>
+            <input id="xml" name="xml" class="field" type="text" title="Enter search term" />
+            <input class="button" type="submit" value="Go" />
+          </p>
+        </form>
+        <div id="main">
+          <div id="content">
+            <div class="row row1 layout6" data-column-count="2">
+              <div class="column column1 one">
+                <ul class="test1 navigation depth-0" id="navlist">
+                  <li class="selected isfolder d1 p1 first p1" rel="selected">
+                    <a id="folder-2" class="folder pages" href="/view/2">Home</a>
+                  </li>
+                  <li class="isfolder d1 p2 p2" rel="selected">
+                    <a id="folder-about" class="folder pages" href="/view/about">About Seven Perth</a>
+                  </li>
+                  <li class="isfolder d1 p3 p3" rel="selected">
+                    <a id="folder-seven-news" class="folder pages expandable" href="/view/seven-news">Seven News</a>
+                  </li>
+                  <li class="isfolder d1 p4 p4" rel="selected">
+                    <a id="folder-7-viewer-vision" class="folder pages" href="/view/7-viewer-vision" title="7 Viewer Vision">7 Viewer Vision</a>
+                  </li>
+                  <li class="isfolder d1 p6 p5" rel="selected">
+                    <a id="folder-today-tonight" class="folder pages expandable" href="/view/today-tonight">Today Tonight</a>
+                  </li>
+                  <li class="isfolder d1 p7 p6" rel="selected">
+                    <a id="folder-contact" class="folder pages" href="/view/contact">Contact Seven Perth</a>
+                  </li>
+                  <li class="isfolder d1 p8 p7" rel="selected">
+                    <a id="folder-station-events" class="folder pages expandable" href="/view/station-events">Station Events</a>
+                  </li>
+                  <li class="isfolder d1 p9 p8" rel="selected">
+                    <a id="folder-station-personalities" class="folder pages expandable" href="/view/station-personalities">Station Personalities</a>
+                  </li>
+                  <li class="isfolder d1 p10 p9" rel="selected">
+                    <a id="folder-best-of-the-burbs" class="folder pages" href="/view/best-of-the-burbs">Best of The Burbs</a>
+                  </li>
+                  <li class="isfolder d1 p11 p10" rel="selected">
+                    <a id="folder-lotto-results" class="folder pages" href="/view/lotto-results">Lotto Results</a>
+                  </li>
+                  <li class="isfolder d1 p12 p11" rel="selected">
+                    <a id="folder-terms-and-conditions" class="folder pages" href="/view/terms-and-conditions">Terms &amp; Conditions</a>
+                  </li>
+                  <li class="isfolder d1 p13 p12" rel="selected">
+                    <a id="folder-2014020585940" class="folder pages" href="/view/2014020585940" title="Privacy Policy ">Privacy Policy</a>
+                  </li>
+                  <li class="isfolder d1 p14 p13" rel="selected">
+                    <a id="folder-terms-of-use" class="folder pages" href="/view/terms-of-use">Terms of Use</a>
+                  </li>
+                  <li class="isfolder d1 p18 last p14 last" rel="selected">
+                    <a id="folder-media-releases" class="folder pages" href="/view/media-releases">Media Releases</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="column column2 two">
+                <h1>Welcome to Channel Seven Perth</h1>
+                <h2>Channel Seven Perth is located in Perth, <a rel="external" href="http://www.westernaustralia.com/en/">Western Australia.</a></h2>
+                <p>We are Perth's favourite commercial TV station. Welcome to our site, where we endeavour to give you extra value to our on-air presence in the Perth community.</p>
+                <hr />
+                <table class="left">
+                  <tbody>
+                    <tr class="odd c2 p1">
+                      <td class="c1 p1">
+                        <a href="http://www.7perth.com.au/viewervision">
+                    <img src="/upload/assets/home-page-button.png" height="159" width="300" alt="Viewer Vision Homepage button" />
+                  </a>
+                      </td>
+                      <td class="c2 p2">
+                        <h1>Be a part of the 7 News team</h1>
+                        <h2>Send your news vision to us <a href="http://www.7perth.com.au/viewervision">click here</a></h2>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h2 style="text-align: left;"></h2>
+                <h2 style="text-align: left;"></h2>
+                <hr />
+                <p>
+            <a rel="external" href="http://au.news.yahoo.com/thewest/video/perth" title="Today's News Stories">
+              <img src="/upload/pages/2/seven-news-web-banner.jpg" title="Today's News Stories" height="209" width="678" alt="Seven News Team" />
+            </a>
+          </p>
+                <p><strong>Seven News Perth</strong> is constantly gathering News through its state, national and international bureaus.</p>
+                <p>With bulletins at 11:30am, 4:30pm and 6.00pm, Seven News gives you the complete picture of what is happening.</p>
+                <hr />
+                <p>
+            <strong><img src="/upload/pages/2/today-tonight-web-banner.jpg" title="Today Tonight hosted by Monika Kos" height="205" width="680" alt="Today Tonight hosted by Monika Kos" /></strong>
+          </p>
+                <p><strong>Perth's Today Tonight</strong> is written and produced in Western Australia. Presented by <strong>Monika Kos</strong>, it highlights local and interstate current affair stories.</p>
+                <hr />
+                <p>
+            <a rel="external" href="http://au.tv.yahoo.com./tv-guide" title="TV Guide">
+              <img src="/upload/pages/2/120x127-155x164-tv-man-for-web-page.jpg" style="margin:0 8px 0 0; float: left;" class="left" />
+            </a>
+            <a rel="external" href="http://au.tv.yahoo.com/tv-guide" title="TV Guide">
+              <strong>Online TV Guide</strong>
+            </a>
+          </p>
+                <p>To keep our viewing audence up-to-date with <strong>What's on Seven</strong><br />
+use the <a rel="external" href="http://au.tv.yahoo.com/tv-guide" title="TV Guide">on-line TV Guide</a>.</p>
+                <hr />
+                <p>
+            <a rel="external" href="http://telethon7perth.com.au/">
+              <strong><img src="/upload/pages/2/290x88-300x91-logotype-telethon-08.jpg" style="margin:0 10px 0 0; float: left;" class="left" alt="Telethon" />Telethon</strong>
+            </a>
+          </p>
+                <p>Telethon commenced in 1968 and has now raised over $100 million for the kids of Western Australia. Community groups all over W.A. raise money all through the year for Telethon. Every year the money raised all comes together on the Telethon Weekend held at the Perth Convention and Exhibition Centre with 7 Network personalities flying in from all over Australia to participate along with Australia's best music artists.</p>
+                <p>To find out more on how to raise money for Telethon or to donate, please follow this link. <a rel="external" href="http://www.telethon7perth.com.au">Read more ...</a></p>
+                <hr />
+                <p>
+            <img src="/upload/pages/2/banner-furniture-bazaar.jpg" title="Furniture Bazaar $25,000 Giveaway" height="250" width="680" />
+          </p>
+                <p>
+            <a title="Terms &amp; Conditions Furniture Bazaar $25,000 Giveaway" href="/upload/pages/2/terms-and-conditions-furniture-bazaar.pdf?1412333052">Click here for terms and conditions.</a>
+          </p>
+                <hr />
+                <p>
+            <img src="/upload/pages/2/309x186-hiwa-logo-on-white.jpg" style="margin:0 8px 0 0; float: left;" class="left" alt="Home in WA" />
+          </p>
+                <p>
+            <strong>HOME in WA</strong>
+          </p>
+                <p>Celebrating 15 years and achieving 500 episodes in 2014.</p>
+                <p>Reaching an unprecedented milestone this year Channel Seven's <strong>HOME in WA</strong> TV series celebrates its 15<sup>th</sup> year on 7 - an outstanding 'local' success story since it began in the year 2000. Around August this year it will reach record 500 episodes that have been telecast across Perth metro but also throughout regional WA on GWN7.</p>
+                <p>Created by experienced Executive Producer Ron (Dingo) Reddingius and his skilled production team, HOME in WA is designed to entertain and inform viewers about what's new for our homes. New products, builders, land estates, services, furnishings and finishes for our homes. Information and features for those who intend to invest build or renovate property in Western Australia. It is successful because it showcases 'local' services and builders in WA. To see the programme and go to the HOME in WA website <strong><a rel="external" href="http://www.homeinwa.com.au/">click here</a></strong>.</p>
+                <p>The recently re-designed HOME in WA website provides additional resource with all the stories posted as videos clips plus it contains contact information for hundreds upon hundreds of businesses and products if you are building or improving your home.</p>
+                <p>Join HOME in WA, Saturdays at 4.30pm. If you'd like more information regarding the programme or participation in the longest running and most successful 'home' TV series in WA, give Ron a call on 0417 279 103.</p>
+                <hr />
+                <p>
+            <strong><img src="/upload/pages/2/300x169-thewest-realestate-web.png" style="margin:10px 10px 10px 0; float: left;" class="left" />The West Real Estate</strong>
+          </p>
+                <p>The West Real Estate Program seeks and shares advice on buying, selling, investing, decorating and enhancing your home and property. Join Peter Rowsthorn, Dan Paris and the rest of the team as we seek advice from local real estate professionals and explore some wonderful companies and products.</p>
+                <p>To visit The West Real Estate website <a rel="external" href="http://www.thewestrealestateprogram.com.au">click here</a>.</p>
+                <hr />
+                <p>
+            <strong><img src="/upload/pages/2/zoom-tv.jpg" style="margin:10px 10px 10px 0; float: left;" class="left" title="Zoom TV" height="192" width="300" alt="Zoom TV" />Zoom TV</strong>
+          </p>
+                <p>If you love cars, boats or planes then you'll love Zoom TV on 7 Mate. Aaron Pitt and the rest of the Zoom team explore all things that fly, drive and float - taking you along for the experience.</p>
+                <p>To visit the Zoom TV website <a rel="external" href="http://www.zoomtv.com.au">click here</a>.</p>
+                <hr id="null" />
+                <table>
+                  <tbody>
+                    <tr class="odd c2 p1">
+                      <td class="c0 p1"></td>
+                      <td class="c0 p2"></td>
+                    </tr>
+                    <tr class="even c2 p2">
+                      <td class="c0 p1"></td>
+                      <td class="c0 p2"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="footer">
+          <p>Copyright © 2010 Channel 7 Perth</p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="/js/system.crossfade.4.2b3.js"></script>
+<!--Google Analytics-->
+    <script src="/js/system.plugins.js?1412333052"></script>
+<!--Post Load-->
+    <script src="//d3myocbokm9x9s.cloudfront.net/js/system.externallinks.js"></script>
+<!--User Scripts-->
+    <script type="text/javascript" src="/javascript.js?file=crossfade.setup&amp;a=autoLoad:false"></script>
+    <script type="text/javascript" src="/javascript.js?file=crossfade&amp;a=cf1&amp;b=crossfader&amp;c=aW50ZXJ2YWw6MTYuMCxkdXJhdGlvbjoyLGF1dG9TdGFydDp0cnVlLHNldFNpemU6dHJ1ZQ=="></script>
+    <script type="text/javascript" src="/javascript.js/file/ga/a/UA-67116-17"></script>
+<!--System Analytics-->
+    <script src="/javascript.js/file/gauges/a/4f0fe5b2f5a1f538d4000004"></script>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-4.newrelic.com","licenseKey":"ed3c0a5124","applicationID":"2470934","transactionName":"ZVdQMkUDXkNUUkdQX1wdcRNEFl9dGkJKSkRXXx0QXgdHHkVZQw==","queueTime":0,"applicationTime":25,"ttGuid":"","agentToken":"","atts":"SRBTRA0ZTU0=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-454.min.js"}</script></body>
+</html>

@@ -1,0 +1,11 @@
+                               Moved Permanently
+
+   The document has moved [1]here.
+     __________________________________________________________________
+
+
+    Apache/2.4.7 (Ubuntu) Server at hooper.com Port 80
+
+References
+
+   1. http://www.hooper.com/

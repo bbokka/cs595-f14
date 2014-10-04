@@ -1,0 +1,12 @@
+\begin{thebibliography}{1}
+
+\bibitem{page}
+pagerank.
+\newblock http://www.prchecker.info/check\_page\_rank.php.
+
+\bibitem{shell}
+shellscript.
+\newblock
+  http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/.
+
+\end{thebibliography}

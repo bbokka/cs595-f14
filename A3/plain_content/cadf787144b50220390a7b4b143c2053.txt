@@ -1,0 +1,31 @@
+                                  Dymaxion.org
+
+   [1][cuboctahedron-inverse-200x200.png]
+
+Dymaxion.org
+
+   Dymaxion.org is me, [2]Eleanor Saitta.  You can also find me as
+   [3]@dymaxion and as ella at dymaxion dot org.  My PGP key is [4]here.
+
+     * [5]Talks
+     * [6]Essays
+     * [7]Art
+     * [8]Photos
+     * [9]Trike Threat Modeling Work
+     * [10]Short Bio
+     * [11]CV & [12]Resume
+
+References
+
+   1. http://dymaxion.org/
+   2. http://dymaxion.org/me.html
+   3. https://twitter.com/dymaxion
+   4. http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x46BA7C88D83B380EF729613C430904D9190CD30A
+   5. http://dymaxion.org/talks/
+   6. http://dymaxion.org/essays/
+   7. http://dymaxion.org/art/
+   8. http://www.flickr.com/photos/cuboctahedron/
+   9. http://octotrike.org/
+  10. http://dymaxion.org/me.html
+  11. http://dymaxion.org/work/saitta-cv-a4.pdf
+  12. http://dymaxion.org/work/saitta-resume-a4.pdf

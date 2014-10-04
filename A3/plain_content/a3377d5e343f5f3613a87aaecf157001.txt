@@ -1,0 +1,49 @@
+[1]Blogger
+
+You're about to be redirected
+
+   The blog that used to be here is now at
+   http://www.velveteeninternet.com/.
+
+   Do you wish to be redirected?
+
+   This blog is not hosted by Blogger and has not been checked for spam,
+   viruses and other forms of malware.
+   [2]Yes [3]No
+
+Help
+
+     * [4]Help Center
+     * [5]Help Forum
+     * [6]Video Tutorials
+
+Community
+
+     * [7]Blogger Buzz
+     * [8]+Blogger
+
+Developers
+
+     * [9]Blogger API
+     * [10]Developer Forum
+
+   Copyright © 1999 – 2014 Google
+     * [11]Terms of Service
+     * [12]Privacy
+     * [13]Content Policy
+
+References
+
+   1. file:///
+   2. http://www.velveteeninternet.com/
+   3. http://www.blogger.com/
+   4. http://support.google.com/blogger/
+   5. http://www.blogger.com/go/discuss
+   6. http://youtube.com/BloggerHelp
+   7. http://buzz.blogger.com/
+   8. https://plus.google.com/+Blogger/
+   9. https://developers.google.com/blogger/
+  10. https://groups.google.com/forum/#!forum/bloggerdev
+  11. file:///go/terms
+  12. file:///go/privacy
+  13. file:///go/contentpolicy

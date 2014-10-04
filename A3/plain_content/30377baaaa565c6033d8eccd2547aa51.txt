@@ -1,0 +1,47 @@
+   #[1]Cargo feed
+
+   Running on [2]Cargo
+
+   [3][header.jpg]
+
+   [loadingAnim.gif]
+
+   [4]Illustration
+   [5]Comics
+   [6]Print
+   [7]MAJOR SLUG 2
+   [8]About
+   [9]Tumblr
+
+   [loadingAnim.gif]
+   [prt_1373694279.jpg]
+   [10]Editorial, [11]Book, [12]Personal
+   [loadingAnim.gif]
+   [prt_1373864142.jpg]
+   [13]Sequential Work
+   [loadingAnim.gif]
+   [prt_1373695387.jpg]
+   [14]Designs for Preeents
+
+References
+
+   Visible links
+   1. http://derrickdent.com/rss/
+   2. http://cargocollective.com/
+   3. http://www.derrickdent.com/
+   4. http://derrickdent.com/Illustration
+   5. http://derrickdent.com/Comics
+   6. http://derrickdent.com/Print
+   7. http://derrickdent.com/MAJOR-SLUG-2
+   8. http://www.derrickdent.com/About
+   9. http://derrickdent.tumblr.com/
+  10. http://www.derrickdent.com/filter/Editorial
+  11. http://www.derrickdent.com/filter/Book
+  12. http://www.derrickdent.com/filter/Personal
+  13. http://www.derrickdent.com/filter/Sequential-Work
+  14. http://www.derrickdent.com/filter/Designs-for-Preeents
+
+   Hidden links:
+  16. http://derrickdent.com/Illustration
+  17. http://derrickdent.com/Comics
+  18. http://derrickdent.com/Print

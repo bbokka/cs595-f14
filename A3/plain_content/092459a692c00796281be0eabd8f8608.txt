@@ -1,0 +1,23 @@
+     * [1]TOP
+     * [2]INFO
+     * [3]CONTACT
+     * [4]BLOG
+     * [5]ABOUT
+
+ページ・ケーロゴ
+
+   [chukan_09.png]
+    contactimage
+       こちらはPage.k <ページ・ケー> のWebサイトです。岡山県倉敷市を拠点にホームページ・既存サイト・ブログやショップサイトのカス
+       タマイズ編集・製作等、パソコンに関する業務を主に行っています。
+       身近さをモットーに個人で出来るサイト運営のお手伝い、 その他パソコンに関することなどお気軽にご相談下さい。
+       どうぞよろしくお願いします。
+       copyright（C） 2009 Page.k All rights reserved
+
+References
+
+   1. http://pgk.tender.mepage.jp/
+   2. file:///home/bbokka/cs594/Assignment/programs/html_content/092459a692c00796281be0eabd8f8608.htm#mouse
+   3. http://pgk.tender.mepage.jp/mail/mail.html
+   4. http://page-kmk.at.webry.info/
+   5. http://pgk.tender.mepage.jp/

@@ -1,0 +1,401 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="lawyers Canberra,legal advice,property law,commercial law,litigation,debt recovery,unfair dismissal,experts,SME,governance,commercial" />
+<link rel="canonical" href="http://www.meyervandenberg.com.au/" />
+<meta name="revisit-after" content="1 day" />
+    <title>Canberra Legal ACT - Meyer Vandenberg Lawyers | Meyer Vandenberg Lawyers</title>
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/downloaded/date/date.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/downloaded/cck/theme/content-module.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/downloaded/ckeditor/ckeditor.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/downloaded/filefield/filefield.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="/misc/farbtastic/farbtastic.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/downloaded/calendar/calendar.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/downloaded/cck/modules/fieldgroup/fieldgroup.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/downloaded/views/css/views.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/themes/meyervand/css/base.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/themes/meyervand/css/sidebar.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/themes/meyervand/css/team.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/themes/meyervand/css/aportal.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/themes/meyervand/css/events.css?A" />
+    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css' />
+    <link href='/sites/default/themes/meyervand/css/ui/custom.css' rel='stylesheet' type='text/css' />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/sites/default/themes/meyervand/js/jquery.infinite-carousel.js"></script>
+    <script type="text/javascript" src="/sites/default/themes/meyervand/js/easing.js"></script>
+    <script type="text/javascript" src="/sites/default/themes/meyervand/js/cycle.js"></script>
+    <script type="text/javascript" src="/sites/default/themes/meyervand/js/ui.js"></script>
+    <script type="text/javascript" src="/sites/all/modules/custom/aportal/scripts.js"></script>
+    <!--[if IE 7]><link rel="stylesheet" type="text/css" href="/sites/default/themes/meyervand/css/ie7.css" media="all"/><![endif]-->
+    <!--[if IE 8]><link rel="stylesheet" type="text/css" href="/sites/default/themes/meyervand/css/ie8.css" media="all"/><![endif]-->
+    <script type="text/javascript">
+    var intervalId;
+    var played = false;
+    var interval = 8000;
+    $(function() {
+      $('#gallery').carousel('#gallery-prev', '#gallery-next');
+
+      $('#tmtabs').tabs();
+
+      $('#leadbox').cycle({
+        fx: 'scrollHorz',
+        prev: '#leadprev',
+        next: '#leadnext',
+        easing: 'easeOutQuad',
+        timeout: 0
+      });
+
+      $('#assocbox').cycle({
+        fx: 'scrollHorz',
+        prev: '#assocprev',
+        next: '#assocnext',
+        easing: 'easeOutQuad',
+        timeout: 0
+      });
+
+      $('#twitter-box').cycle({
+        fx: 'scrollHorz',
+        easing: 'easeOutQuad',
+        timeout: 5000
+      });
+
+      //The auto-scrolling function
+
+      //Launch the scroll every 2 seconds
+
+      playit(interval);
+
+
+      //On user click deactivate auto-scrolling
+      $('#pause').live('click',
+       function(event){
+        if(event.originalEvent){
+         window.clearInterval(intervalId);
+         played = false;
+        }
+        $(this).attr('id','play');
+       }
+      );
+
+      $('#play').live('click',
+       function(event){
+        if(event.originalEvent){
+         playit(interval);
+        }
+        $(this).attr('id','pause');
+       }
+      );
+
+      $('.side-link').mouseover(function(){
+        var ht = $(this).height();
+        //var hthalf = Math.ceil(ht/2);
+        $(this).css({
+          backgroundPosition: '0px -'+ht+'px'
+        });
+      }).mouseout(function(){
+        $(this).css({
+          backgroundPosition: '0px 0px'
+        });
+      });
+
+      $('#cn-login').focus(function(){
+        if($(this).val() == $(this).data('placeholder')){
+          $(this).val('');
+        }
+      }).blur(function(){
+        if($(this).val() == ''){
+          $(this).val($(this).data('placeholder'));
+        }
+      });
+      $('#cn-place').focus(function(){
+        $(this).hide();
+        $('#cn-pword').show().focus();
+      });
+      $('#cn-pword').blur(function(){
+        if($(this).val() == ''){
+          $(this).hide();
+          $('#cn-place').show();
+        }
+      });
+      adjust_body_ht();
+      setmask();
+    });
+
+    function adjust_body_ht(){
+      var sideh = $('#sidebar').height();
+      var bodyh = $('.content-wrapper .content', '#main-content').height();
+      if(sideh > bodyh){
+        $('.content-wrapper .content', '#main-content').height(sideh);
+      }
+    }
+
+    function slide(){
+      $('#gallery-next').click();
+    }
+
+    function playit(sec){
+      if(!played){
+        intervalId = window.setInterval(slide, sec);
+        played = true;
+      }
+    }
+
+    function setmask(){
+      var winw = $(window).width();
+      var imgw = 893;
+      var maskw = Math.ceil((winw-imgw)/2);
+      var mtop = '165px';
+      if($('#toolbar-toolbar').length) mtop = '195px';
+      $('#leftmask').css({
+        left: '0px',
+        top: mtop,
+        width: maskw+'px'
+      });
+      $('#rightmask').css({
+        right: '0px',
+        top: mtop,
+        width: maskw+'px'
+      });
+    }
+    </script>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-28949325-1']);
+      _gaq.push(['_setDomainName', '.meyervandenberg.com.au']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+  </head>
+
+    <body class="front">
+          <div id="leftmask"></div>
+      <div id="rightmask"></div>
+        <div style="display: none;"></div>
+
+     <div id="wrapper1">
+      <div id="wrapper2">
+
+        <div id="header">
+          <h1><a href="/">Meyer Vandenberg Lawyers</a></h1>
+        </div>
+        <div id="main-nav-wrapper">
+          <div class="nav-holder">
+            <ul id="main-nav">
+              <li><a href="/" class="active">HOME</a></li>
+              <li>|</li>
+              <li><a href="/the-firm" >THE FIRM</a>
+                <div class="drop">
+                  
+  <ul>
+              <li ><a href="/firm/our-culture">Our Culture</a></li>
+          <li ><a href="/firm/mv-difference">The MV Difference</a></li>
+      </ul>
+                    <span class="arrow">&nbsp;</span>
+                </div>
+              </li>
+              <li>|</li>
+              <li><a href="/community" >COMMUNITY</a>
+                <div class="drop">
+                  
+  <ul>
+              <li ><a href="/community/our-mvironment">Our MVironment</a></li>
+          <li ><a href="/community/pro-bono-services">Pro Bono Services</a></li>
+          <li ><a href="/community/reports">Reports</a></li>
+          <li ><a href="/community/supporting-our-community">Supporting Our Community</a></li>
+      </ul>
+                    <span class="arrow">&nbsp;</span>
+                </div>
+              </li>
+              <li>|</li>
+              <li><a href="/expertise" >EXPERTISE</a>
+                <div class="drop">
+                  
+  <ul>
+              <li ><a href="/expertise/banking">Banking</a></li>
+          <li ><a href="/expertise/building-and-construction">Building and Construction</a></li>
+          <li ><a href="/expertise/corporate-and-commercial">Corporate and Commercial</a></li>
+          <li ><a href="/expertise/dispute-resolution">Dispute Resolution</a></li>
+          <li ><a href="/expertise/employment-industrial-relations-and-safety">Employment, Industrial Relations and Safety</a></li>
+          <li ><a href="/expertise/government-advisory">Government Advisory</a></li>
+          <li ><a href="/expertise/private-client-services">Private Client Services</a></li>
+          <li ><a href="/expertise/property">Property</a></li>
+      </ul>
+                    <span class="arrow">&nbsp;</span>
+                </div>
+              </li>
+              <li>|</li>
+              <li><a href="/our-team" >OUR TEAM</a></li>
+              <li>|</li>
+              <li><a href="/careers" >CAREERS</a>
+                <div class="drop">
+                  
+  <ul>
+                <li><a href="/careers/application-portal">Application Portal</a></li>
+              <li ><a href="/careers/current-opportunities">Current Opportunities</a></li>
+          <li ><a href="/careers/message-our-managing-partner">Message from our Managing Partner</a></li>
+          <li ><a href="/careers/what-mv-people-say">What MV People Say</a></li>
+          <li ><a href="/workplacediversityandinclusion">Workplace Diversity & Inclusion</a></li>
+      </ul>
+                    <span class="arrow">&nbsp;</span>
+                </div>
+
+              </li>
+              <li>|</li>
+              <li><a href="/media-and-events" >MEDIA & EVENTS</a>
+                <div class="drop">
+                  
+  <ul>
+              <li ><a href="/mv-circuit">MV 'On the Circuit'</a></li>
+      </ul>
+                    <span class="arrow">&nbsp;</span>
+                </div>
+              </li>
+              <li>|</li>
+              <li><a href="/contact-us" >CONTACT US</a></li>
+            </ul>
+          </div>
+        </div>
+
+                        <div id="gallery-wrapper">
+          <a id="gallery-prev" href="#"></a>
+          <a id="pause" href="#"></a>
+          <a id="gallery-next" href="#"></a>
+          <div id="gallery">
+            <div>
+                            <img src="/sites/default/themes/meyervand/images/we-know-business.jpg" alt="Myer Vandenberg Lawyers"/>
+                            <img src="/sites/default/themes/meyervand/images/first-gallery-image.jpg" alt="Myer Vandenberg Lawyers"/>
+                            <img src="/sites/default/themes/meyervand/images/first-gallery-image-2.jpg" alt="Myer Vandenberg Lawyers"/>
+                            <img src="/sites/default/themes/meyervand/images/first-gallery-image-3.jpg" alt="Myer Vandenberg Lawyers"/>
+                          </div>
+          </div>
+        </div>
+                <div id="main-content">
+
+
+                    <div id="front-content-wrapper">
+  <div id="edit-buttons">
+                </div>  <div class="text-box">
+    <h2>
+	The Firm</h2>
+<p>Meyer Vandenberg is a dynamic Australian commercial law firm based in Canberra. Recognised for providing quality service, we undertake work for clients at local and national levels, as well as internationally through our membership of the ALFA International Legal Network.</p>
+<p><em><a href="/the-firm">Read more &raquo;</a></em></p>
+    <div style="padding-top:20px; margin-top: 20px; border-top:1px solid #ccc;">
+      <a style="float:left;" href="/alfa-international"><img src="/sites/default/themes/meyervand/images/alfa-logo.jpg" /></a>
+      <span style="border-left:1px #ccc solid; float:left;display:block;width:100px;padding-left:5px;margin-left:5px;font-size:11px;line-height:1.7em;">Member Firm for the ACT - <a href="/alfa-international">find out more</a></span>
+      <div style="clear:both;"></div>
+    </div>
+    <div class="linkedin-div">
+      Follow MeyerVandenberg on LinkedIn<br/>
+      <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+      <script type="IN/FollowCompany" data-id="2961767" data-counter="none"></script>
+    </div>
+  </div>  
+  <div class="text-box">
+    <h2>
+	New Privacy Laws</h2>
+<p>By now, your organisation or agency should comply with the new Privacy Laws: <a href="http://www.meyervandenberg.com.au/sites/default/files/MV_PrivacyActChanges_ComplyingWithNewLaws_v4.pdf">&ldquo;Privacy Act Changes &ndash; complying with the new laws&rdquo;</a>.&nbsp; <a href="mailto:Geoff.Adams@meyervandenberg.com.au?subject=Website%20-%20Privacy%20Laws">Email</a> us for further details.</p>
+    <div class="social-box" >
+            <p><a href="http://twitter.com/MeyerVandenberg" target="_blank">Follow #MeyerVandenberg on Twitter</a>
+      <div id="twitter-box">
+      <div id="tw-div-1" class="tw-div">
+        <p> MV #Retirement: Many are unaware that retirement villages can offer supported living and respite care too <a href="http://t.co/RRYQct8gE5" target="_blank">http://t.co/RRYQct8gE5</a></p>
+        <p class="date">
+          <a href="http://twitter.com/MeyerVandenberg" target="_blank">
+            Oct 3          </a>
+        </p>
+      </div>
+      <div id="tw-div-2" class="tw-div">
+        <p> MV Property: @ldacanberra auction of 4 #development opportunities in #Lawson on 29 Oct
+<a href="http://t.co/WCQ0YGraP4" target="_blank">http://t.co/WCQ0YGraP4</a></p>
+        <p class="date">
+          <a href="http://twitter.com/MeyerVandenberg" target="_blank">
+            Oct 3          </a>
+        </p>
+      </div>
+      <div id="tw-div-3" class="tw-div">
+        <p> MV #Aged Care: did you know that Mission based and #NFP aged care organisations deliver about 65% of aged care services  in Aust?...</p>
+        <p class="date">
+          <a href="http://twitter.com/MeyerVandenberg" target="_blank">
+            Oct 2          </a>
+        </p>
+      </div>
+      </div>
+      <a href="https://twitter.com/MeyerVandenberg" class="twitter-follow-button" data-show-count="false">Follow @MeyerVandenberg</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      <img class="twitter-icon" src="/sites/default/themes/meyervand/images/twitter-bird-light.png" alt="Meyer Vandenberg Twitter" />
+    </div>
+    <div class="social-box fb">
+      <p>Like MeyerVandenberg on Facebook
+    <iframe class="fb-like" src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2FMVLawyers&amp;send=false&amp;layout=button_count&amp;width=50&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=182067658586170" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:51px; height:21px;" allowTransparency="true"></iframe>
+    </p>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>          
+          <div id="sidebar">
+
+
+            
+            <ul class="nav">
+
+                          <li class="side-link" id="side-ourteam">
+                <a href="/our-team">Our Team</a>
+              </li>
+              <li class="side-link" id="side-media">
+                <a href="/media-and-events">Media &amp; Events</a>
+              </li>
+              <li class="side-link" id="side-careers">
+                <a href="/careers">Careers</a>
+              </li>
+                        </ul>
+
+            <form method="post" action="http://203.12.165.153/jsp/Client/Login.jsp" id="clinet-login">
+              <h2>CLIENT PORTAL</h2>
+                              <input id="cn-login" name="login" class="text" value="LOGIN" data-placeholder="LOGIN" />
+                <input id="cn-pword" style="display:none;" name="password" type="password" class="text" />
+                <input id="cn-place" name="place" type="text" class="text" value="PASSWORD" />
+                <input type="submit" class="submit" value="" />
+                <div class="clear"></div>
+                          </form>
+
+            <div class="clear"></div>
+
+                        <!--<div class="subscribe-image">
+              <a href="/subscribe"><img src="/sites/default/themes/meyervand/images/btn-subscribe.png" alt="Subscribe" title="Subscribe" /></a>
+            </div>            -->
+                        <div class="clear"></div>
+          </div>
+          <div class="clear"></div>
+                  </div>
+
+
+        <div id="footer">
+          <div id="footer-info">
+            <a href="/contact-us" style="color:#404041">Level 3, 1 Farrell Place, Canberra City ACT 2601 Australia  |  T +61 2 6279 4444  |  F +61 2 6279 4455</a>
+          </div>
+          <ul id="footer-links">
+            <li><a href="/privacy-copyright-and-content-disclaimer">Privacy, Copyright and Content Disclaimer</a></li>
+            <li><a href="/sitemap">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="footer-pic">
+
+    </div>
+  <!-- Layout -->
+    </body>
+</html>

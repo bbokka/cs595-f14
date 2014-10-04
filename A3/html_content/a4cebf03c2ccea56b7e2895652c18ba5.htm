@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>The Yum Yum Tree</title>
+<meta http-equiv="Content-Type" content="text/html;">
+<script type="text/javascript" class="cushycms">
+
+    var image_index = 0;
+    var image_list = new Array();
+    image_list[image_index++] = new imageItem("flirt/enter1.gif");
+    image_list[image_index++] = new imageItem("flirt/enter2.gif");
+    image_list[image_index++] = new imageItem("flirt/enter3.gif");
+    image_list[image_index++] = new imageItem("flirt/enter4.gif");
+    image_list[image_index++] = new imageItem("flirt/enter5.gif");
+    image_list[image_index++] = new imageItem("flirt/enter6.gif");
+    image_list[image_index++] = new imageItem("flirt/enter7.gif");
+    var number_of_image = image_list.length;
+
+
+    function imageItem(image_location) {
+        this.image_item = new Image();
+        this.image_item.src = image_location;
+	}
+
+    function get_ImageItemLocation(imageObj) {
+        return (imageObj.image_item.src)
+    }
+
+    function generate(x, y) {
+        var range = y - x + 1;
+        return Math.floor(Math.random() * range) + x;
+	}
+
+    function getImage() {
+        var image_index = generate(0, 6);
+        document.gImage.src = get_ImageItemLocation(image_list[image_index]);
+    }
+
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4587237-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</head>
+<body bgcolor="#211919" onLoad="getImage();">
+<center>
+<br><br><br><br><br>
+<a href="overview.asp"><img border=0 id="gImage" name="gImage" src="flirt/black.gif" border=0></a>
+</body>
+</html>

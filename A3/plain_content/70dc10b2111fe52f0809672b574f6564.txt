@@ -1,0 +1,101 @@
+   [1]1
+   [2]Log in arrow-right
+
+   hayley bates
+
+   Hayley Bates signed up, you should too!
+
+The Sponsorship Marketplace
+
+   IZEA connects social media content creators with the world's biggest
+   brands.
+   Creators get paid to blog, tweet, take photos and videos. Brands engage
+   and activate leading social creators.
+
+   IFRAME:
+   [3]//www.youtube.com/embed/Ze3zkPxmOBs?list=PLrA2uPvinhdVgv2NxLEH-XFWmk
+   y0iMvPy
+
+Sign up as an Advertiser or Creator by connecting:
+
+   [4]facebook Facebook [5]googleplus Google+
+
+Or fill out the fields below:
+
+   Email
+   __________________________________________________
+   Password
+   __________________________________________________
+   Password Confirmation
+   __________________________________________________
+   Sign Up
+
+   By clicking Sign Up, you are accepting our [6]Terms & Conditions and
+   have read our [7]Privacy Policy.
+
+                  Advertiser Helpline 1.877.525.IZEA ext.3
+                      [8]Corporate Site | [9]Investors
+
+Select Your Account Type.
+
+   Easier than picking out what you wore today. You look nice, though.
+   bubbles
+
+Creator
+
+   If you have a substantial social media following and you’d like to earn
+   money by creating content about products and services, you’re a
+   creator.
+   [10]Select
+   user
+
+Advertiser
+
+   If you represent a business that wants to generate buzz about your
+   products and services via social media, you’re an advertiser.
+   [11]Select
+   hayley bates
+
+   Hayley Bates signed up, you should too!
+
+Tell Us More About You.
+
+   None of that “long walks on the beach” stuff. Just the basics.
+   * Name
+   __________________________________________________
+   This is a Brand. [12]More info
+   [ ]
+   * Email
+   __________________________________________________
+   Postal Code
+   __________________________________________________
+   Password
+   __________________________________________________
+   Password Confirmation
+   __________________________________________________
+   Gender
+   [Not Specified]
+   Birthday [Month] [Day] [Year]
+   Sign Up
+
+   ©2014 IZEA, Inc. - U.S. Patent Pending 61/830,391
+   beta v0.1.33.3
+   [13]Terms & Conditions | [14]Privacy Policy
+   [tp?act=1&cid=4349zv38261&script=no]
+
+References
+
+   1. file:///
+   2. file:///user/login
+   3. file://www.youtube.com/embed/Ze3zkPxmOBs?list=PLrA2uPvinhdVgv2NxLEH-XFWmky0iMvPy
+   4. https://izeaexchange.com/connecting?connection=Facebook&partner_id=1&return_url=https://izea.com/user/sign_up?connected=facebook&user_id=0
+   5. https://izeaexchange.com/connecting?connection=GPlus&partner_id=1&return_url=https://izea.com/user/sign_up?connected=googleplus&user_id=0
+   6. file:///terms_and_conditions
+   7. file:///privacy_policy
+   8. http://corp.izea.com/
+   9. http://corp.izea.com/investors/
+  10. file:///home/bbokka/cs594/Assignment/programs/html_content/70dc10b2111fe52f0809672b574f6564.htm
+  11. file:///home/bbokka/cs594/Assignment/programs/html_content/70dc10b2111fe52f0809672b574f6564.htm
+  12. https://izea.zendesk.com/hc/en-us/articles/202024664
+  13. file:///terms_and_conditions
+  14. file:///privacy_policy

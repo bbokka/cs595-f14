@@ -1,0 +1,79 @@
+                     Jenn Schiffer engineer, artist, writer
+
+   [me.gif]
+
+   Hi, I'm Jenn, aka jennmoneydollars. I'm a web developer who lives in
+   New Jersey on purpose and works full-time as an open web engineer at
+   [1]Bocoup. When I'm not building open web apps with the coolest web
+   developers and clients in the game, I'm making art with code, telling
+   jokes, and getting yelled at on the Internet.
+
+   In a past life, I was a senior front-end developer at the [2]NBA and,
+   before that, taught and evaluated computer science education at
+   Montclair State University – where I got my BS and MS in Computer
+   Science. I'm the organizer of [3]JerseyScript, a front-end developer
+   meetup based in New Jersey – one of several ventures I'm involved in to
+   attract and retain more people in the web development community.
+
+   Lately I've been focusing on making [4]8-bit art using code, teaching
+   others how to use art to get people interested in programming, keeping
+   90s alt rock alive, and [5]trying to help my peers take themselves a
+   little less seriously.
+
+   If you're not a recruiter and want to say hi, I'm most responsive [6]on
+   twitter, and you can email me at [7]jenn@dotbiz.info or message
+   jennmoneydollars on Freenode.
+
+current projects
+
+     * [8]make8bitart.com an open source in-browser pixel art app
+     * [9]var t; learning about art, using javascript
+     * [10]negativity sandwiches my personal blog
+     * [11]css perverts satire about web development, best tutorials
+       online A+++
+     * [12]#jerseyscript the front-end dev meetup I organize
+
+other work & junk of mine
+
+     * [13]official doritos™ street team my tumblr
+     * [14]github.com/jennschiffer my open source code lies here
+     * [15]codepen.io/jennschiffer i mess around with css and js here
+     * [16]madeby.jennschiffer.com my out-of-date portfolio
+     * [17]saidby.jennschiffer.com where my talk slides are at
+
+jennmoneydollars webring
+
+     * [18]totally legit corporation
+     * [19]turnt.biz
+     * [20]miketaylr
+     * [21]gf3
+     * [22]rachelisaweso.me
+
+   © 2014 jenn schiffer
+
+   Performancing Metrics
+
+References
+
+   1. http://bocoup.com/
+   2. http://stats.nba.com/
+   3. http://jerseyscript.github.io/
+   4. http://make8bitart.com/
+   5. https://medium.com/@jennschiffer/latest
+   6. http://twitter.com/jennschiffer
+   7. mailto:jenn@dotbiz.info
+   8. http://make8bitart.com/
+   9. http://vart.institute/
+  10. http://sandwich.technology/
+  11. http://medium.com/cool-code-pal
+  12. http://meetup.com/jerseyscript
+  13. http://jennschiffer.tumblr.com/
+  14. http://github.com/jennschiffer
+  15. http://codepen.io/jennschiffer
+  16. http://madeby.jennschiffer.com/
+  17. http://saidby.jennschiffer.com/
+  18. http://totallylegit.biz/
+  19. http://turnt.biz/
+  20. http://miketaylr.com/
+  21. http://butt.zone/
+  22. http://rachelisaweso.me/

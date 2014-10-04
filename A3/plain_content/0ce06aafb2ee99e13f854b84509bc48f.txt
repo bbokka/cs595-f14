@@ -1,0 +1,47 @@
+     * [1]ENG
+     * [2]中文
+     * [3]FR
+     *
+     *
+     *
+     *
+     *
+
+   UBU - Landing Page
+
+   Understand. Be Understood.
+
+   Language solutions for a better travel experience.
+     * [4][ubu_tourism_operator_button_en.png]
+     * [5][ubu_travel_agent_button_en.png]
+     * [6][ubu_tourist_button_en.png]
+
+     * [7][ubu_tourism_operator_button_en.png]
+     * [8][ubu_travel_agent_button_en.png]
+     * [9][ubu_tourist_button_en.png]
+
+   This website is administrated by [10]UCB Consulting - Website Design
+   and Development Shanghai. Ultimahub is a specialist agency in web site
+   design, social media marketing, web applications, search engine
+   optimization (SEO) and online marketing.
+
+References
+
+   Visible links
+   1. file:///home/bbokka/cs594/Assignment/programs/html_content/0ce06aafb2ee99e13f854b84509bc48f.htm
+   2. file:///home/bbokka/cs594/Assignment/programs/html_content/0ce06aafb2ee99e13f854b84509bc48f.htm
+   3. file:///home/bbokka/cs594/Assignment/programs/html_content/0ce06aafb2ee99e13f854b84509bc48f.htm
+   4. file:///tourism-operator/en/
+   5. file:///travel-agent/en/
+   6. file:///tourist/en/
+   7. file:///tourism-operator/en/
+   8. file:///travel-agent/en/
+   9. file:///tourist/en/
+  10. http://www.ucbchinaconsulting.com/
+
+   Hidden links:
+  12. http://weibo.com/ubutravel
+  13. http://www.facebook.com/ubutravel
+  14. https://twitter.com/UBUtravel
+  15. https://plus.google.com/u/0/b/111470244012727190581/111470244012727190581/posts
+  16. https://www.youtube.com/channel/UCcPG2pfE1wFy8i2mfw7SAAA/feed

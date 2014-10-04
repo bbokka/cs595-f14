@@ -1,0 +1,6 @@
+Shell script commands:
+
+cat *.txt | grep -c food                               ---> To know total count of the keyword in all files.
+./findKeyword.sh plain_content | sort -rn | head -n 10 ---> To sort in reverse order and take the top of sorted list.
+
+

@@ -1,0 +1,96 @@
+   #[1]RSS 2.0 [2]Atom 1.0
+
+   [3]Login
+   [4]Close
+
+   Username
+   __________________
+
+   Password
+   __________________
+
+   [ ] Remember Me
+
+   Submit
+
+     * [5]Forgot your password?
+     * [6]Forgot your username?
+
+   ____________________
+   [7]
+   Hockey Radio
+     * [8]Home
+     * [9]On-Air Talent
+     * [10]Contact Us
+
+       Friday October03
+       21:52:19
+
+Like Our Facebook Page
+
+       IFRAME:
+       [11]http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fw
+       ww.facebook.com%2F%23%21%2Fpages%2FHockey-Primetime%2F282600024946&
+       width=275&colorscheme=dark&show_faces=true&stream=false&header=fals
+       e&height=300
+
+       [12]Jeff Beukeboom
+           [13]Jeff Beukeboom weighs in on NHL player safety
+          Almost 15 years after his career was ended prematurely due to
+       concussion issues,
+          Jeff Beukeboom sits down with Dan Marrazza to discuss his take
+       on player safety
+
+Live On Twitter
+       [14]Tweets by @HockeyPrimetime
+          + [15]9.95$ VMware Fusion 3 MAC cheap oem
+          + [16]Buy MacJournal 5 MAC (en)
+          + [17]Buy Autodesk AutoCAD Map 3D 2012 (64-bit) (en)
+          + [18]Discount - Lynda.com - Perl 5 Essential Training
+          + [19]Discount - Microsoft Office 2007 Home and Student
+          + [20]Discount - Microsoft Windows 7 Enterprise with SP1 (32 bit
+            & 64 bit)
+          + [21]Buy OEM ZoneAlarm Extreme Security 2010
+          + [22]Buy Cheap Autodesk Inventor 2014 (32-bit & 64-bit)
+          + [23]Buy OEM Alien Skin Eye Candy 7 MAC
+          + [24]Buy Cheap Alien Skin Bokeh 2 MAC
+          + [25]Buy Cyberlink Power2Go 6 (en)
+
+
+            [26]@HockeyPrimetime
+
+
+            © 2007-2012 Primetime Radio Incorporated All Rights Reserved
+
+References
+
+   Visible links
+   1. http://www.hockeyprimetime.com/feed/rss
+   2. http://www.hockeyprimetime.com/feed/atom
+   3. file:///home/bbokka/cs594/Assignment/programs/html_content/e29053c26bb8913a8166d56425c027ff.htm
+   4. file:///home/bbokka/cs594/Assignment/programs/html_content/e29053c26bb8913a8166d56425c027ff.htm
+   5. http://www.hockeyprimetime.com/lost-password/
+   6. http://www.hockeyprimetime.com/lost-user-name/
+   7. http://www.hockeyprimetime.com/news/headlines/hpt-radio-live-streaming
+   8. http://www.hockeyprimetime.com/
+   9. http://www.hockeyprimetime.com/hosts
+  10. http://www.hockeyprimetime.com/index.php?option=com_contact&view=contact&id=1&Itemid=148
+  11. http://www.facebook.com/plugins/likebox.php?href=http://www.facebook.com/#!/pages/Hockey-Primetime/282600024946&width=275&colorscheme=dark&show_faces=true&stream=false&header=false&height=300
+  12. http://www.hockeyprimetime.com/news/features/beukeboom-weighs-in-on-nhl-player-safety
+  13. http://www.hockeyprimetime.com/news/features/beukeboom-weighs-in-on-nhl-player-safety
+  14. https://twitter.com/HockeyPrimetime
+  15. http://www.galerialareal.net/9-95-vmware-fusion-3-mac-cheap-oem/
+  16. http://www.hockeyprimetime.com/buy-macjournal-5-mac-en/
+  17. http://www.galerialareal.net/buy-autodesk-autocad-map-3d-2012-64-bit-en/
+  18. http://www.musicogomis.es/discount-lynda-com-perl-5-essential-training/
+  19. http://www.scriptamanent.gr/discount-microsoft-office-2007-home-and-student/
+  20. http://www.cinemaclassico.com/administrator/discount-microsoft-windows-7-enterprise-with-sp1-32-bit-64-bit/
+  21. http://www.literaturnetz.com/buy-oem-zonealarm-extreme-security-2010/
+  22. http://www.scriptamanent.gr/buy-cheap-autodesk-inventor-2014-32-bit-64-bit/
+  23. http://www.rcreader.com/buy-oem-alien-skin-eye-candy-7-mac/
+  24. http://www.ooesk.at/buy-cheap-alien-skin-bokeh-2-mac/
+  25. http://www.reade.com/buy-cyberlink-power2go-6-en/
+  26. http://www.twitter.com/hockeyprimetime
+
+   Hidden links:
+  28. http://www.hockeyprimetime.com/

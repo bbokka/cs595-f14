@@ -1,0 +1,4 @@
+                                   302 Found
+
+   The resource was found at https://www.pheed.com/Standish913; you should
+   be redirected automatically.

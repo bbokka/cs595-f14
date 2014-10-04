@@ -1,0 +1,19 @@
+
+     * [1]Home
+     * [2]Shop
+     * [3]Lookbook
+     * [4]Previous Items
+     * [5]About
+     * [6]Contact
+
+   [7]View on Mobile
+
+References
+
+   1. file:///home/bbokka/cs594/Assignment/programs/html_content/home.html
+   2. http://klan-life-clothing.myshopify.com/
+   3. file:///home/bbokka/cs594/Assignment/programs/html_content/shop.html
+   4. file:///home/bbokka/cs594/Assignment/programs/html_content/previous-items.html
+   5. file:///home/bbokka/cs594/Assignment/programs/html_content/about.html
+   6. file:///home/bbokka/cs594/Assignment/programs/html_content/contact.html
+   7. file:///home/bbokka/cs594/Assignment/programs/html_content/a35025582869ccb228299094234aed70.htm

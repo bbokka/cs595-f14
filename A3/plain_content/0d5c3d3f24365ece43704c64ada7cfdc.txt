@@ -1,0 +1,74 @@
+   [1][itsmyurls_logo.png]
+     *
+     * [2]Log in
+     *
+     * [3]Sign Up
+
+   ____________________
+
+Alice optiiali
+
+   [4]ItsMyURLs.com/optiiali
+   [optiiali.png]
+     * [5]Links
+     * [6]User Info
+     * [7]Get Your Own Profile
+
+Alice optiiali
+
+   [8]ItsMyURLs.com/optiiali
+
+Links
+
+   [9][favicons?domain=twitter.com] Twitter
+   [10][favicons?domain=0hhd0llface.tumblr.com] Tumblr
+   [11][favicons?domain=www.twitch.tv] Twitch
+   [12][favicons?domain=www.youtube.com] Youtube
+
+User Info
+     __________________________________________________________________
+
+Location
+
+   US
+
+About
+
+   I'm really a dog.
+
+Scan
+
+   [optiiali.png]
+
+   [13]Download
+
+Share
+
+   [14]Tweet
+     __________________________________________________________________
+
+   © 2014 ItsMyURLs | [15]Contact ItsMyURLs | [16]Investor Relations |
+   [17]Advertise |
+
+   IFRAME: [18]http://itsmyurls.com/links/widget?style=icons
+
+References
+
+   1. file:///
+   2. file:///login
+   3. file:///signup
+   4. http://itsmyurls.com/optiiali
+   5. file:///home/bbokka/cs594/Assignment/programs/html_content/0d5c3d3f24365ece43704c64ada7cfdc.htm#links
+   6. file:///home/bbokka/cs594/Assignment/programs/html_content/0d5c3d3f24365ece43704c64ada7cfdc.htm#profile_userbio
+   7. file:///signup
+   8. http://itsmyurls.com/optiiali
+   9. http://itsmyurls.com/outbound/512c8fffb7e3a77890262d6e
+  10. http://itsmyurls.com/outbound/512c8faab7e3a77890262d61
+  11. http://itsmyurls.com/outbound/512c8fd6b7e3a77890262d69
+  12. http://itsmyurls.com/outbound/512c8f63b7e3a77890262d5c
+  13. http://itsmyurls_qrs.s3.amazonaws.com/optiiali.png
+  14. https://twitter.com/share
+  15. mailto:itsmyurls@gmail.com?subject=ItsMyURLs Contact Request
+  16. mailto:itsmyurls@gmail.com?subject=Investor Relations
+  17. mailto:itsmyurls@gmail.com?subject=Advertisement Contact Request
+  18. http://itsmyurls.com/links/widget?style=icons

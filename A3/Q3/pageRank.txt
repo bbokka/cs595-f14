@@ -1,0 +1,12 @@
+page_rank             URIs
+
+N/A                 http://ifoodi.blogspot.com
+3                   http://turtlestravel.com
+4                   http://howchow.blogspot.com
+2                   http://thescienceofeating.com
+7                   http://www.cookinglight.com
+3                   http://foodnex.tumblr.com
+N/A                 http://baconforthesoul.wordpress.com
+N/A                 http://rockinrina.tumblr.com
+1                   http://thedaintypig.com
+1                   http://oxymoron101.wordpress.com

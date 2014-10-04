@@ -1,0 +1,39 @@
+   #[1]alternate [2]alternate
+
+     * ____________________ (BUTTON)
+     * [3]Archive
+
+[4]moved to poery.tumblr
+
+   [impixu?T=1412373317&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbHV0ZWFu
+   ZmluaS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQ
+   iOjF9&U=KNNELFNECA&K=edd7e9a54dabb940b2639e1343f034e083cd32a5188e755dd2
+   d291602caff3c0&R=]
+
+   IFRAME:
+   [5]https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe666
+   9cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fluteanfini.tumblr.com%2F&la
+   ng=en_US&name=luteanfini&avatar=http%3A%2F%2Fassets.tumblr.com%2Fimages
+   %2Fdefault_avatar%2Fsphere_closed_64.png&title=moved+to+poery.tumblr&ur
+   l=http%3A%2F%2Fluteanfini.tumblr.com%2F&page_slide=slide
+
+   IFRAME:
+   [6]https://www.tumblr.com/assets/html/iframe/teaser.html?_v=156b0620bba
+   89e0c441937123f6317e1#src=http%3A%2F%2Fluteanfini.tumblr.com%2F&lang=en
+   _US&name=luteanfini&avatar=http%3A%2F%2Fassets.tumblr.com%2Fimages%2Fde
+   fault_avatar%2Fsphere_closed_64.png&title=moved+to+poery.tumblr&url=htt
+   p%3A%2F%2Fluteanfini.tumblr.com%2F&page_slide=slide
+
+References
+
+   Visible links
+   1. http://luteanfini.tumblr.com/rss
+   2. android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=luteanfini
+   3. file:///archive
+   4. file:///
+   5. https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http://luteanfini.tumblr.com/&lang=en_US&name=luteanfini&avatar=http://assets.tumblr.com/images/default_avatar/sphere_closed_64.png&title=moved+to+poery.tumblr&url=http://luteanfini.tumblr.com/&page_slide=slide
+   6. https://www.tumblr.com/assets/html/iframe/teaser.html?_v=156b0620bba89e0c441937123f6317e1#src=http://luteanfini.tumblr.com/&lang=en_US&name=luteanfini&avatar=http://assets.tumblr.com/images/default_avatar/sphere_closed_64.png&title=moved+to+poery.tumblr&url=http://luteanfini.tumblr.com/&page_slide=slide
+
+   Hidden links:
+   8. file://localhost/
+   9. file://localhost/

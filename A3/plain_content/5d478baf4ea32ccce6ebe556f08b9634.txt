@@ -1,0 +1,9 @@
+   #[1]Everything About Life - Atom [2]Everything About Life - RSS
+   [3]publisher
+
+
+References
+
+   1. http://dynameekinfo.blogspot.com/feeds/posts/default
+   2. http://dynameekinfo.blogspot.com/feeds/posts/default?alt=rss
+   3. https://plus.google.com/116273751046766635724

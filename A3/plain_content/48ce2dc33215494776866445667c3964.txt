@@ -1,0 +1,66 @@
+   [clear.gif]
+
+
+
+
+    [BUTTON Input] (not implemented)__________
+   [BUTTON Input] (not implemented)_____________
+    [BUTTON Input] (not implemented)___________
+   [BUTTON Input] (not implemented)____________
+     [BUTTON Input] (not implemented)_________
+     [1]SecurityMetrics Credit Card Safe
+
+
+                      Pap erChase^ ®
+                          The Power of MEDLINE and More
+
+   The first [2]MEDLINE service designed for both health professionals and
+                             the general public.
+
+                  [3]Enter PaperChase         [4]Free Trial
+
+                     Look for these PaperChase features:
+
+     * You search over 15,000,000 references -- everything in the National
+       Library of Medicine's [5]MEDLINE and [6]OLDMEDLINE databases of
+       references to the Biomedical Literature.
+     * We show you the best articles first.
+     * We use time tested algorithms together with Advanced Semantic
+       Methodology from [7]Unveil Technologies, Inc., to map your search
+       terms to the index terms (MeSH) used by the National Library of
+       Medicine.
+     * Our interactive searching lets you refine and combine previous
+       search statements without starting over.
+     * [8]Verify a Reference Use this Free feature to look up a specific
+       reference or check the accuracy of a citation.
+     * Working in conjunction with the National Library of Medicine, we
+       now feature on-line full-text of many articles. For your
+       convenience, the full-text document link is made available for
+       immediate download, often directly from the publisher.
+     * We deliver your choice of full text articles by fax, courier, or
+       first class mail.
+     * Minimal graphics and fast-loading screens give you speedy search
+       results.
+
+   [clear.gif]
+
+                                 PaperChase
+                         P.O. Box 54, Hood,VA 22723
+                       800-722-2075       781-325-6086
+                              Fax: 540-948-4841
+                      email: [9]support@paperchase.com
+
+                  [10]For PaperChase via Telnet, click here
+
+References
+
+   1. https://www.securitymetrics.com/site_certificate.adp?s=68.162.251.202&i=64765
+   2. file:///home/bbokka/cs594/Assignment/programs/html_content/database.htm
+   3. file:///home/bbokka/cs594/Assignment/programs/html_content/start.htm
+   4. file:///scripts/mgwms32.dll?MGWCHD=p&USER=Free,Trial
+   5. file:///home/bbokka/cs594/Assignment/programs/html_content/database.htm
+   6. file:///home/bbokka/cs594/Assignment/programs/html_content/database.htm#OLDMEDLINE
+   7. http://www.unveil.com/
+   8. file:///home/bbokka/cs594/Assignment/programs/html_content/verify.htm
+   9. mailto:support@paperchase.com
+  10. telnet://pch.paperchase.com/

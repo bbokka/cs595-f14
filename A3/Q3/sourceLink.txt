@@ -1,0 +1,3 @@
+ source to get the page rank of the URIs
+
+ http://www.prchecker.info/check_page_rank.php

@@ -1,0 +1,240 @@
+   [1][logo_grand.png]
+   [2][riewt.png]
+   [3][rsst.png]
+   [4][fbt.png]
+   [5][twittert.png]
+   [6][l_logot.png]
+   [7][gplus-32t.png]
+   [8][btnpnt.png]
+     * [9]MAIN
+          + [10]Cinnamon Grand Colombo
+          + [11]Cinnamon Lakeside Colombo
+          + [12]Cinnamon Red Colombo
+          + [13]Bentota Beach Hotel
+          + [14]Cinnamon Lodge Habarana
+          + [15]Cinnamon Bey Beruwala
+          + [16]Cinnamon Citadel Kandy
+          + [17]Cinnamon Wild Yala
+          + [18]Chaaya Village Habarana
+          + [19]Chaaya Blu Trincomalee
+          + [20]Chaaya Tranz Hikkaduwa
+          + [21]Chaaya Island Dhonveli
+          + [22]Chaaya Lagoon Hakuraa Huraa
+          + [23]Chaaya Reef Ellaidhoo
+     * [24]HOME
+     * [25]ROOMS
+          + [26]Cinnamon Deluxe Rooms
+          + [27]Executive Rooms
+          + [28]Executive Suites
+          + [29]Presidential Suite
+          + [30]In-room Amenities
+     * [31]FACILITIES
+          + [32]Angsana Spa
+          + [33]Business Centre
+          + [34]Cinnamon Lounge
+          + [35]Crescat Shopping Centre
+          + [36]Crew Lounge
+          + [37]Gymnasium
+          + [38]Hospitality Lounge
+          + [39]Kids Playroom
+          + [40]Sports
+          + [41]Swimming Pools
+          + [42]Wheelchair Access
+     * [43]DINING
+          + [44]Lagoon
+          + [45]Echo
+          + [46]The London Grill
+          + [47]Chutneys
+          + [48]Taprobane
+          + [49]Nuga Gama
+          + [50]Cheers Pub
+          + [51]Tao
+          + [52]Breeze Bar
+          + [53]Coffee Stop
+          + [54]Tea Lounge
+          + [55]The Cafe
+          + [56]Cheers Kids Club
+          + [57]Noodles
+     * [58]EVENTS & MEETINGS
+          + [59]Aspen Room
+          + [60]Atrium
+          + [61]Cedar Room
+          + [62]Ebony Room
+          + [63]Ivy Room
+          + [64]Oak Room
+          + [65]Satin Room
+          + [66]Sequel
+     * [67]PACKAGES & SERVICES
+          + [68]Conference Equipment Rate Card
+          + [69]Deluxe Meeting Package
+          + [70]Indian Conferences & Events
+          + [71]Standard Meeting Package
+          + [72]VIP Meeting Package
+          + [73]Wedding Services
+          + [74]Conference Services
+     * [75]GALLERY
+     * [76]NEWS
+     * [77]CAREERS
+     * [78]CONTACT US
+
+   Local Time
+   Reserve your stay
+   [Cinnamon Grand Colombo]
+   Check In ____________________
+   Check Out ____________________
+   Nights: [1_]
+   Adults: [1] Children: [0]
+   Submit
+   Special Offers
+   Cinnamon Grand Colombo
+   Bed & Breakfast Special
+   Cinnamon Grand Colombo
+   Grand Discount Offer
+   [79]More offers
+   [80][TAexcellence.jpg]
+   [81][TAtravellers.jpg]
+
+   Welcome
+   to Cinnamon Grand Colombo
+   Welcome to a place where senses are delighted and desires indulged. A
+   place of colours, sounds and unexpected pleasures. A place where you
+   pick the pace and you choose the mood. If you're looking to explore the
+   city or escape it, Cinnamon Grand is your perfect haven. We're in the
+   heart of Colombo's business, shopping and entertainment centre, just 35
+   kms from the airport.
+   Our rooms are luxurious and our restaurants serve up an eclectic mix of
+   fine cuisine. We have spaces for relaxing and spaces for discovering.
+   We have rooms for meetings and rooms for avoiding meetings. And if you
+   like to mix business and pleasure, we have all the facilities you need.
+
+   [82][environ_mentalgrand.jpg]
+     __________________________________________________________________
+
+   [83][earthchamp.jpg]
+     __________________________________________________________________
+
+   [84][Logo-for-Webnoodles.jpg]
+
+   Latest News
+   Sunday Carvery at Cheers, Cinnamon Grand
+   Leisurely Sundays are best spent at Cinnamon Grand Colombo’s cosy
+   hangout....
+   New Mediterranean menu at Echo, Cinnamon Grand
+   Cinnamon Grand’s signature Italian restaurant, Echo has introduced a
+   special Mediterranean menu....
+   Cinnamon Grand's launches its new restaurant 'Noodles'
+   Cinnamon Grand Colombo launched its latest dining experience 'Noodles'
+   last Friday....
+   Virtual Tour : Cinnamon Grand Colombo
+
+   IFRAME:
+   [85]http://www.cinnamonhotels.com/virtual/Homepage-Virtual/Grand-Homepa
+   ge-Virtual/Grand-Homepage-Virtual.html
+
+   [86]The Cinnamon Story | [87]JKH Group | [88]Privacy Policy
+   © Cinnamon Hotels & Resorts 2014 by: [89]230 Interactive
+
+   IFRAME: [90]//www.googletagmanager.com/ns.html?id=GTM-NTLDTH
+
+References
+
+   Visible links
+   1. file:///home/bbokka/cs594/Assignment/programs/html_content/hotel.php?hotel=3251
+   2. http://www.tripadvisor.com/Hotel_Review-g293962-d597086-Reviews-Cinnamon_Grand_Colombo-Colombo.html
+   3. http://cinnamongrand-blog.tumblr.com/
+   4. http://www.facebook.com/CinnamonGrandC
+   5. http://www.twitter.com/CinnamonGrandC
+   6. http://www.linkedin.com/company/cinnamon-grand-colombo
+   7. http://gplus.to/CinnamonGrandC
+   8. https://www.pinterest.com/cinnamongrandc
+   9. file:///home/bbokka/cs594/Assignment/programs/html_content/index.php
+  10. file:///home/bbokka/cs594/Assignment/programs/html_content/hotel.php?hotel=3251
+  11. file:///home/bbokka/cs594/Assignment/programs/html_content/hotel.php?hotel=3252
+  12. file:///home/bbokka/cs594/Assignment/programs/html_content/CinnamonRED.php
+  13. file:///home/bbokka/cs594/Assignment/programs/html_content/hotelr.php?hotel=3266
+  14. file:///home/bbokka/cs594/Assignment/programs/html_content/hotel.php?hotel=3253
+  15. file:///home/bbokka/cs594/Assignment/programs/html_content/hotel.php?hotel=3255
+  16. file:///home/bbokka/cs594/Assignment/programs/html_content/hotel.php?hotel=3256
+  17. file:///home/bbokka/cs594/Assignment/programs/html_content/hotel.php?hotel=3259
+  18. file:///home/bbokka/cs594/Assignment/programs/html_content/hotel.php?hotel=3260
+  19. file:///home/bbokka/cs594/Assignment/programs/html_content/hotel.php?hotel=3261
+  20. file:///home/bbokka/cs594/Assignment/programs/html_content/hotel.php?hotel=3262
+  21. file:///home/bbokka/cs594/Assignment/programs/html_content/hotelr.php?hotel=3263
+  22. file:///home/bbokka/cs594/Assignment/programs/html_content/hotelr.php?hotel=3264
+  23. file:///home/bbokka/cs594/Assignment/programs/html_content/hotelr.php?hotel=3265
+  24. file:///home/bbokka/cs594/Assignment/programs/html_content/hotel.php?hotel=3251
+  25. file:///home/bbokka/cs594/Assignment/programs/html_content/5a442cf76398b0d01dfc195237290728.htm
+  26. file:///home/bbokka/cs594/Assignment/programs/html_content/room.php?hotel=3251&room=1017
+  27. file:///home/bbokka/cs594/Assignment/programs/html_content/room.php?hotel=3251&room=1000
+  28. file:///home/bbokka/cs594/Assignment/programs/html_content/room.php?hotel=3251&room=1001
+  29. file:///home/bbokka/cs594/Assignment/programs/html_content/room.php?hotel=3251&room=1002
+  30. file:///home/bbokka/cs594/Assignment/programs/html_content/room.php?hotel=3251&room=997
+  31. file:///home/bbokka/cs594/Assignment/programs/html_content/5a442cf76398b0d01dfc195237290728.htm
+  32. file:///home/bbokka/cs594/Assignment/programs/html_content/facilities.php?hotel=3251&faci=6428
+  33. file:///home/bbokka/cs594/Assignment/programs/html_content/facilities.php?hotel=3251&faci=6422
+  34. file:///home/bbokka/cs594/Assignment/programs/html_content/facilities.php?hotel=3251&faci=6421
+  35. file:///home/bbokka/cs594/Assignment/programs/html_content/facilities.php?hotel=3251&faci=6433
+  36. file:///home/bbokka/cs594/Assignment/programs/html_content/facilities.php?hotel=3251&faci=6424
+  37. file:///home/bbokka/cs594/Assignment/programs/html_content/facilities.php?hotel=3251&faci=6430
+  38. file:///home/bbokka/cs594/Assignment/programs/html_content/facilities.php?hotel=3251&faci=6423
+  39. file:///home/bbokka/cs594/Assignment/programs/html_content/facilities.php?hotel=3251&faci=6427
+  40. file:///home/bbokka/cs594/Assignment/programs/html_content/facilities.php?hotel=3251&faci=6431
+  41. file:///home/bbokka/cs594/Assignment/programs/html_content/facilities.php?hotel=3251&faci=6429
+  42. file:///home/bbokka/cs594/Assignment/programs/html_content/facilities.php?hotel=3251&faci=6426
+  43. file:///home/bbokka/cs594/Assignment/programs/html_content/5a442cf76398b0d01dfc195237290728.htm
+  44. file:///home/bbokka/cs594/Assignment/programs/html_content/dining.php?hotel=3251&dine=7363
+  45. file:///home/bbokka/cs594/Assignment/programs/html_content/dining.php?hotel=3251&dine=7368
+  46. file:///home/bbokka/cs594/Assignment/programs/html_content/dining.php?hotel=3251&dine=7366
+  47. file:///home/bbokka/cs594/Assignment/programs/html_content/dining.php?hotel=3251&dine=7393
+  48. file:///home/bbokka/cs594/Assignment/programs/html_content/dining.php?hotel=3251&dine=7360
+  49. file:///home/bbokka/cs594/Assignment/programs/html_content/dining.php?hotel=3251&dine=7396
+  50. file:///home/bbokka/cs594/Assignment/programs/html_content/dining.php?hotel=3251&dine=7370
+  51. file:///home/bbokka/cs594/Assignment/programs/html_content/dining.php?hotel=3251&dine=7364
+  52. file:///home/bbokka/cs594/Assignment/programs/html_content/dining.php?hotel=3251&dine=7365
+  53. file:///home/bbokka/cs594/Assignment/programs/html_content/dining.php?hotel=3251&dine=7362
+  54. file:///home/bbokka/cs594/Assignment/programs/html_content/dining.php?hotel=3251&dine=7361
+  55. file:///home/bbokka/cs594/Assignment/programs/html_content/dining.php?hotel=3251&dine=7369
+  56. file:///home/bbokka/cs594/Assignment/programs/html_content/dining.php?hotel=3251&dine=7371
+  57. file:///home/bbokka/cs594/Assignment/programs/html_content/dining.php?hotel=3251&dine=7440
+  58. file:///home/bbokka/cs594/Assignment/programs/html_content/5a442cf76398b0d01dfc195237290728.htm
+  59. file:///home/bbokka/cs594/Assignment/programs/html_content/space.php?hotel=3251&space=5906
+  60. file:///home/bbokka/cs594/Assignment/programs/html_content/space.php?hotel=3251&space=5902
+  61. file:///home/bbokka/cs594/Assignment/programs/html_content/space.php?hotel=3251&space=5904
+  62. file:///home/bbokka/cs594/Assignment/programs/html_content/space.php?hotel=3251&space=5905
+  63. file:///home/bbokka/cs594/Assignment/programs/html_content/space.php?hotel=3251&space=5903
+  64. file:///home/bbokka/cs594/Assignment/programs/html_content/space.php?hotel=3251&space=5901
+  65. file:///home/bbokka/cs594/Assignment/programs/html_content/space.php?hotel=3251&space=5907
+  66. file:///home/bbokka/cs594/Assignment/programs/html_content/space.php?hotel=3251&space=5922
+  67. file:///home/bbokka/cs594/Assignment/programs/html_content/5a442cf76398b0d01dfc195237290728.htm
+  68. file:///home/bbokka/cs594/Assignment/programs/html_content/package.php?hotel=3251&pack=806
+  69. file:///home/bbokka/cs594/Assignment/programs/html_content/package.php?hotel=3251&pack=804
+  70. file:///home/bbokka/cs594/Assignment/programs/html_content/package.php?hotel=3251&pack=807
+  71. file:///home/bbokka/cs594/Assignment/programs/html_content/package.php?hotel=3251&pack=803
+  72. file:///home/bbokka/cs594/Assignment/programs/html_content/package.php?hotel=3251&pack=805
+  73. file:///home/bbokka/cs594/Assignment/programs/html_content/package.php?hotel=3251&pack=815
+  74. file:///home/bbokka/cs594/Assignment/programs/html_content/package.php?hotel=3251&pack=816
+  75. file:///home/bbokka/cs594/Assignment/programs/html_content/index_grand_gallery.php?hotel=3251
+  76. file:///home/bbokka/cs594/Assignment/programs/html_content/index_grand_news.php?hotel=3251
+  77. file:///home/bbokka/cs594/Assignment/programs/html_content/grandcareers.php?hotel=3251
+  78. file:///home/bbokka/cs594/Assignment/programs/html_content/index_grand_contact.php?hotel=3251
+  79. file:///home/bbokka/cs594/Assignment/programs/html_content/5a442cf76398b0d01dfc195237290728.htm
+  80. http://www.tripadvisor.com.au/Hotel_Review-g293962-d597086-Reviews-Cinnamon_Grand_Colombo-Colombo.html
+  81. http://www.tripadvisor.co.uk/Hotel_Review-g293962-d597086-Reviews-Cinnamon_Grand_Colombo-Colombo.html
+  82. file:///home/bbokka/cs594/Assignment/programs/pdf/En_policy_grand.pdf
+  83. https://www.youtube.com/watch?v=hyzmv8Q0D2A
+  84. http://www.cinnamonhotels.com/dining.php?hotel=3251&dine=7440
+  85. http://www.cinnamonhotels.com/virtual/Homepage-Virtual/Grand-Homepage-Virtual/Grand-Homepage-Virtual.html
+  86. file:///home/bbokka/cs594/Assignment/programs/index_story.php
+  87. http://www.keells.com/
+  88. file:///home/bbokka/cs594/Assignment/programs/index_policy.php
+  89. http://www.230i.com/
+  90. file://www.googletagmanager.com/ns.html?id=GTM-NTLDTH
+
+   Hidden links:
+  92. http://time.is/Sri_Lanka
+  93. file://localhost/home/bbokka/cs594/Assignment/programs/html_content/5a442cf76398b0d01dfc195237290728.htm
+  94. https://booking.ihotelier.com/istay/istay.jsp?hotelid=8480&rateplanid=1185292&__utma=1.1760593925.1355322252.1355322252.1355322252.1&__utmb=1.4.10.1355322252&__utmc=1&__utmx=-&__utmz=1.1355322252.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)&__utmv=-&__utmk=117545993
+  95. https://booking.ihotelier.com/istay/istay.jsp?hotelid=8480&rateplanid=1228402&__utma=1.1760593925.1355322252.1355322252.1355322252.1&__utmb=1.4.10.1355322252&__utmc=1&__utmx=-&__utmz=1.1355322252.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)&__utmv=-&__utmk=117545993
+  96. file://localhost/home/bbokka/cs594/Assignment/programs/html_content/index_news.php
+  97. file://localhost/home/bbokka/cs594/Assignment/programs/html_content/index_news.php
+  98. file://localhost/home/bbokka/cs594/Assignment/programs/html_content/index_news.php

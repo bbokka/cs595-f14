@@ -1,0 +1,28 @@
+   [1]Google+
+
+     Bienvenido A | COROURBANO.COM | Presione Entrar Para Ingresar A la
+                                   Pagina
+
+                              [2][intro-CU.gif]
+
+                            [3]Follow @COROURBANO
+
+                                   IFRAME:
+   [4]//www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%
+   2Fcorourbano&width=300&layout=standard&action=like&show_faces=true&shar
+                   e=true&height=80&appId=150440721716704
+
+                               [5][entrar.jpg]
+            [6]Musica Urbana | [7]FanPage | [8]Instagram | [9]MP3
+
+References
+
+   1. https://plus.google.com/+Corourbano
+   2. http://corourbano.com/
+   3. https://twitter.com/COROURBANO
+   4. file://www.facebook.com/plugins/like.php?href=https://facebook.com/corourbano&width=300&layout=standard&action=like&show_faces=true&share=true&height=80&appId=150440721716704
+   5. file:///home/bbokka/cs594/Assignment/programs/html_content/w/index.php
+   6. http://corourbano.com/
+   7. http://facebook.com/corourbano
+   8. http://instagram.com/corourbano
+   9. http://corourbano.com/

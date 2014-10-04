@@ -1,0 +1,56 @@
+   IFRAME: [1]//www.googletagmanager.com/ns.html?id=GTM-PNLXQC
+
+   [2]Paper.li Menu
+
+The Perth Daily
+
+   The Perth Daily, by Perth Today: To advertise with Perth today, please
+   email Perth today at advertising@fivesmoothstones.com.au
+
+   Please enable Javascript to correctly display the contents on Paper.li
+     * [3]About Paper.li
+     * [4]Jobs
+     * [5]Blog
+     * [6]Help
+     * [7]Stop mentions
+     * [8]Terms
+     * [9]Privacy
+     *
+     *
+     *
+     *
+
+     * [10]EN
+     * [11]DE
+     * [12]FR
+     * [13]ES
+     * [14]PT
+     * [15]日本語
+
+   © SmallRivers 2014
+
+References
+
+   Visible links
+   1. file://www.googletagmanager.com/ns.html?id=GTM-PNLXQC
+   2. file:///home/bbokka/cs594/Assignment/programs/html_content/1695c0e96624c2cbf2c686c27a588d3a.htm
+   3. file:///introduction.html
+   4. file:///jobs.html
+   5. http://blog.paper.li/
+   6. http://support.paper.li/
+   7. file:///stop-mentions.html
+   8. file:///terms.html
+   9. file:///privacy.html
+  10. file:///Perth_Today?lang=en
+  11. file:///Perth_Today?lang=de
+  12. file:///Perth_Today?lang=fr
+  13. file:///Perth_Today?lang=es
+  14. file:///Perth_Today?lang=pt
+  15. file:///Perth_Today?lang=ja
+
+   Hidden links:
+  17. file://localhost/home/bbokka/cs594/Assignment/programs/html_content/1695c0e96624c2cbf2c686c27a588d3a.htm
+  18. http://twitter.com/paper_li
+  19. http://www.facebook.com/pages/Paperli/199618576802286
+  20. http://plus.google.com/u/0/113796188089361585143
+  21. http://blog.paper.li/feeds/posts/default?alt=rss

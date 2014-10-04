@@ -1,0 +1,78 @@
+   David Huffman General Contractor, Inc.
+
+   Serving Staunton, Waynesboro and Augusta County, Va.
+
+                                                       1234 Middlebrook Ave.
+                                                       Staunton. Va. 24401
+                                                       Office: 540-886-3355
+                                                       Email: [1]dhgci@msn.com
+     * [2]Home
+     * [3]Residential
+          + [4]The Churchville
+          + [5]The Fisherville
+          + [6]The Greenville
+          + [7]The Middlebrook
+          + [8]The New Hope
+          + [9]The Staunton
+          + [10]The Swoope
+     * [11]Multi-family
+     * [12]Commercial
+     * [13]Services
+     * [14]Contact Us
+     * [15]Home loans & your credit
+
+   The Brookwood Home David Huffman General Contractor, Inc is a licensed
+   Class A general contractor in the City of Staunton, Virginia. David
+   Huffman General Contractor, Inc. offers new homes in the Staunton,
+   Waynesboro and Augusta County area. He also will do remodeling work of
+   existing homes as well as new and remodeling of commercial buildings to
+   fit his clients needs.
+
+   The Churchville Home David Huffman General Contractor, Inc. can build
+   homes suitable to the financial needs of the first time home buyer to
+   the elegant needs of the second and third time home buyers. You can
+   choose from his many plans or bring your own plan to him and he can
+   build that home. You may only have a sketch of the plan you want, do
+   not worry we can convert your sketch into a working house plan and then
+   give you the cost to build your dream home.
+
+   Feel free to contact him about any of the homes or services you may be
+   interested in.
+
+   Best viewed in Internet Explorer 7 or later, Firefox or Opera
+
+   [16]Home | [17]Contact | [18]Employment | [19]FAQ | [20]Information
+   Links | [21]Residential | [22]Multi-family | [23]Commercial|
+
+   [24]Services | [25]Site Map
+
+   Copyright © 2009 David Huffman General Contractor, Inc. All Rights
+   Reserved.
+
+References
+
+   1. mailto:dhgci@msn.com
+   2. file:///home/bbokka/cs594/Assignment/programs/html_content/default.htm
+   3. file:///home/bbokka/cs594/Assignment/programs/html_content/residential/residential.htm
+   4. file:///home/bbokka/cs594/Assignment/programs/html_content/residential/Churchville/Churchville.htm
+   5. file:///home/bbokka/cs594/Assignment/programs/html_content/residential/Fisherville/Fisherville.htm
+   6. file:///home/bbokka/cs594/Assignment/programs/html_content/residential/Greenville/Greenville.htm
+   7. file:///home/bbokka/cs594/Assignment/programs/html_content/residential/Middlebrook/Middlebrook.htm
+   8. file:///home/bbokka/cs594/Assignment/programs/html_content/residential/Newhope/newhope.htm
+   9. file:///home/bbokka/cs594/Assignment/programs/html_content/residential/Staunton/Staunton.htm
+  10. file:///home/bbokka/cs594/Assignment/programs/html_content/residential/Swoope/Swoope.htm
+  11. file:///home/bbokka/cs594/Assignment/programs/html_content/Multi/Multi-family.htm
+  12. file:///home/bbokka/cs594/Assignment/programs/html_content/commercial/Commercial.htm
+  13. file:///home/bbokka/cs594/Assignment/programs/html_content/services/services.htm
+  14. file:///home/bbokka/cs594/Assignment/programs/html_content/contact/contact.htm
+  15. file:///home/bbokka/cs594/Assignment/programs/html_content/loanscredit.htm
+  16. file:///home/bbokka/cs594/Assignment/programs/html_content/default.htm
+  17. file:///home/bbokka/cs594/Assignment/programs/html_content/contact/contact.htm
+  18. file:///home/bbokka/cs594/Assignment/programs/html_content/employment/employment.htm
+  19. file:///home/bbokka/cs594/Assignment/programs/html_content/faq/faq.htm
+  20. file:///home/bbokka/cs594/Assignment/programs/html_content/information_links/information_links.htm
+  21. file:///home/bbokka/cs594/Assignment/programs/html_content/residential/residential.htm
+  22. file:///home/bbokka/cs594/Assignment/programs/html_content/Multi/Multi-family.htm
+  23. file:///home/bbokka/cs594/Assignment/programs/html_content/commercial/Commercial.htm
+  24. file:///home/bbokka/cs594/Assignment/programs/html_content/services/services.htm
+  25. file:///home/bbokka/cs594/Assignment/programs/html_content/site_map/site_map.htm

@@ -1,0 +1,303 @@
+   #[1]alternate
+
+[2]admung
+
+   [3]twitch  /  [4]hitbox  /  [5]devlog  /  [6]twitter  /  [7]whale
+   cakes  /   [8]askbox
+
+   [9]Oct 2, 2014
+   10,559 notes
+
+   IFRAME:
+   [10]http://admung.com/post/99037702820/photoset_iframe/admung/tumblr_nc
+   uj9aat0o1qcwuqf/500/false
+
+   [11]chickensnack:
+
+     reposting this comic i drew 6 years ago in honor of new broters eve
+
+     featuring the birth of everyone’s favorite meme
+
+   [12]Jul 21, 2014
+   1 note
+
+   IFRAME:
+   [13]https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.co
+   m%2Ftracks%2F159740977&visual=true&liking=false&sharing=false&auto_play
+   =false&show_comments=false&continuous_play=false&origin=tumblr
+
+   friends.wav
+   [14]Jul 2, 2014
+   7 notes
+
+[15]Streaming game development [code & art]
+
+   [16]admungdev:
+
+     We’re streaming some game development today! Check out the sweet
+     pixel art by [17]blabberf!
+
+   We’re doing some more streaming right now!
+   [18]Jun 17, 2014
+   3 notes
+
+[19]Streaming game development [art & code!]
+
+     Streaming game development [art & code!]
+
+   [20]blabberf is here to stream some art with me (for a while anyways)
+   [21]Jun 3, 2014
+   1 note
+
+   IFRAME:
+   [22]https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.co
+   m%2Ftracks%2F152578918&visual=true&liking=false&sharing=false&auto_play
+   =false&show_comments=false&continuous_play=false&origin=tumblr
+
+   Here’s a rough mashup of a request I got: MGMT’s Kids vs Atlas Genius’
+   Trojans.
+   [23]May 24, 2014
+   62 notes
+   [24]blabberf: Here are a few of the different diving suits you’ll be
+   able to find and utilize! Luckily you play as a skilled enough diver to
+   change suits at over 11,000 psi. On a side note, admung has fixed level
+   generation and progress on the game is going smoothly!
+
+   [25]blabberf:
+
+     Here are a few of the different diving suits you’ll be able to find
+     and utilize! Luckily you play as a skilled enough diver to change
+     suits at over 11,000 psi.
+
+     On a side note, [26]admung has fixed level generation and progress
+     on the game is going smoothly!
+
+   [27]May 12, 2014
+   2 notes
+
+   IFRAME:
+   [28]https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.co
+   m%2Ftracks%2F149125081&visual=true&liking=false&sharing=false&auto_play
+   =false&show_comments=false&continuous_play=false&origin=tumblr
+
+   We Found A Sky Full of Love (Coldplay x Rihanna)
+
+   I used this is an opportunity to cool down a little while studying for
+   finals. Hope you like it!
+   [29]Apr 24, 2014
+   4 notes
+
+[30]How to hide posts, reblogs, and users from your Dashboard (using Adblock
+Plus)
+
+   Tumblr doesn’t have any built-in support for keeping reblogs and
+   clutter out of your Dashboard, so I decided to work some in! It works
+   throughout the Dashboard, and even in searches!
+
+   I wanted to keep from writing another extension for users to install,
+   and I didn’t want to use anything bulky, so I set it up using Adblock
+   Plus custom filters. It’s probably possible using other page modifying
+   plugins, so you can just leave me an ask if you want me to try porting
+   it to something else.
+
+   Read more for a few pre-built filters, and instructions on writing your
+   own!
+
+   [31]Read More
+
+   (Source: [32]admung.com)
+   [33]Apr 12, 2014
+   2 notes
+
+[34]Let's stream some games + demos!
+
+   Currently streaming some old games, demos and ideas of yore.
+   [35]Apr 12, 2014
+   1 note
+
+[36]playing AM2R (Another Metroid 2 Remake) Demo 1.3
+
+   I’m streaming AM2R right now. It’s pretty fun, and easily on par or
+   better than any of the recent 2D Metroids.
+   [37]Apr 8, 2014
+   26 notes
+
+   [38]fruitdev:
+
+     Just me trying out Open Broadcaster Software. Nothing fancy to show,
+     it’s not even a talkie, but hopefully it works miles better than
+     gifs. So happy I found OBS, it’s easy to use and works like a charm,
+     no hassle.
+
+     I swear I’ll try to dev harder in the time to come, been busy
+     working and being stuck in nodev limbo.
+
+   It’s like a mix of Sonic and Metroid. Looking forward to more of this!
+   [39]Apr 7, 2014
+   8 notes
+
+   IFRAME:
+   [40]https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.co
+   m%2Ftracks%2F143482966&visual=true&liking=false&sharing=false&auto_play
+   =false&show_comments=false&continuous_play=false&origin=tumblr
+
+   [41]admungdev:
+
+     Here’s another preview of a song I’m working on for our game. Let me
+     know what you think! [42]blabberf is working on some jams, too!
+
+   [43]Mar 25, 2014
+   813 notes
+
+   IFRAME: [44]https://www.youtube.com/embed/ZfISI9biqvw?feature=oembed
+
+   [45]konjakonjak:
+
+     Video of a boss that appears some way into The Iconoclasts. Was
+     about time I made some video, really… Too afraid of showing things.
+     :\
+
+   (via [46]jewelots)
+   [47]Mar 25, 2014
+   5 notes
+
+[48]I'm streaming gamedev right now!
+
+   [49]admungdev:
+
+     I’m streaming some gamedev right now! Check it out on hitbox:
+     [50]http://hitbox.tv/admung or on Twitch:
+     [51]http://twitch.tv/admung
+
+   [52]Mar 24, 2014
+   4 notes
+
+[53]we're streaming game development
+
+   [54]admungdev:
+
+     I’m streaming some gamedev with [55]blabberf! You can catch us on
+     [56]Twitch or [57]Hitbox!
+
+   Navigate
+   [58]« To the past Page 1 of 12
+   About
+   game developer, computer engineering student, and twitter abuser
+   [59]Subscribe via RSS.
+     * [60]Tumblr
+     * Theme by [61]Simen
+
+   ____________________
+
+   [impixu?T=1412372990&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYWRtdW5n
+   LmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=MAAB
+   JJGALD&K=d6c971c8d5c71b386e8045cedd87594b0b82cec8da62dd7474028848ac4e86
+   77&R=]
+   [impixu?T=1412372990&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2FkbXVu
+   Zy5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9
+   naWQiOiI1NzQyMDE2Iiwicm9vdF9wb3N0aWQiOiI5OTAyMDM2Nzg3NiIsInBvc3RpZCI6Ij
+   k5MDM3NzAyODIwIiwiYmxvZ2lkIjoiNDQ4NTcwNTMiLCJzb3VyY2UiOjMzfSx7InBvc3RpZ
+   CI6IjkyNDk5MTgwMTYwIiwiYmxvZ2lkIjoiNDQ4NTcwNTMiLCJzb3VyY2UiOjMzfSx7InJv
+   b3RfYmxvZ2lkIjoiNTkyNDA5NDciLCJyb290X3Bvc3RpZCI6IjkwNTA2OTM4NDY0IiwicG9
+   zdGlkIjoiOTA2MDgwMjQ3ODAiLCJibG9naWQiOiI0NDg1NzA1MyIsInNvdXJjZSI6MzN9LH
+   sicG9zdGlkIjoiODkxMTQ0NTg3MjAiLCJibG9naWQiOiI0NDg1NzA1MyIsInNvdXJjZSI6M
+   zN9LHsicG9zdGlkIjoiODc2ODQ5MzkxMDAiLCJibG9naWQiOiI0NDg1NzA1MyIsInNvdXJj
+   ZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2MTQyNzQ3MSIsInJvb3RfcG9zdGlkIjoiODY3Mzg
+   wMzEzMDIiLCJwb3N0aWQiOiI4NjczODM0NjEyNSIsImJsb2dpZCI6IjQ0ODU3MDUzIiwic2
+   91cmNlIjozM30seyJwb3N0aWQiOiI4NTU2ODMxMDQ3NSIsImJsb2dpZCI6IjQ0ODU3MDUzI
+   iwic291cmNlIjozM30seyJwb3N0aWQiOiI4Mzc5NzU2NzUwNSIsImJsb2dpZCI6IjQ0ODU3
+   MDUzIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4MjU0ODIwMzY5OSIsImJsb2dpZCI6IjQ
+   0ODU3MDUzIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4MjUzODI0NDAwMiIsImJsb2dpZC
+   I6IjQ0ODU3MDUzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0NjU1OTY4OSIsI
+   nJvb3RfcG9zdGlkIjoiODIxMzE1NDIwOTMiLCJwb3N0aWQiOiI4MjE0OTczMDgzOCIsImJs
+   b2dpZCI6IjQ0ODU3MDUzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjU5MjQwOTQ
+   3Iiwicm9vdF9wb3N0aWQiOiI4MTk3NDU2Nzk3NSIsInBvc3RpZCI6IjgyMDU1NzY2Mzc1Ii
+   wiYmxvZ2lkIjoiNDQ4NTcwNTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzY3O
+   Tc3ODIiLCJyb290X3Bvc3RpZCI6IjgwNjc4Mzk1NTE0IiwicG9zdGlkIjoiODA3NTc0NTgx
+   MDYiLCJibG9naWQiOiI0NDg1NzA1MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI
+   1OTI0MDk0NyIsInJvb3RfcG9zdGlkIjo4MDc1MDMwMjY5MSwicG9zdGlkIjoiODA3NTAzNT
+   M5NjUiLCJibG9naWQiOiI0NDg1NzA1MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiO
+   iI1OTI0MDk0NyIsInJvb3RfcG9zdGlkIjo4MDYzNTQ3Nzk2NSwicG9zdGlkIjoiODA2MzU1
+   MTQ2OTUiLCJibG9naWQiOiI0NDg1NzA1MyIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF
+   9&U=OPECFPEBKO&K=5557f1c19677a8b61fce42eb22f30e480fbc73922ca622164cfc50
+   0e8a2bdd24&R=]
+
+   IFRAME:
+   [62]https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe66
+   69cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fadmung.com%2F&lang=en_US&n
+   ame=admung&brag=false&avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_
+   697427e64086_64.png&title=admung&url=http%3A%2F%2Fadmung.com%2F&page_sl
+   ide=slide
+
+   IFRAME:
+   [63]https://www.tumblr.com/assets/html/iframe/teaser.html?_v=156b0620bb
+   a89e0c441937123f6317e1#src=http%3A%2F%2Fadmung.com%2F&lang=en_US&name=a
+   dmung&brag=false&avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_69742
+   7e64086_64.png&title=admung&url=http%3A%2F%2Fadmung.com%2F&page_slide=s
+   lide
+
+References
+
+   1. android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=admung
+   2. file:///
+   3. file:///twitch
+   4. file:///hitbox
+   5. file:///dev
+   6. file:///twitter
+   7. file:///whalecakes
+   8. file:///ask
+   9. http://admung.com/post/99037702820/chickensnack-reposting-this-comic-i-drew-6
+  10. http://admung.com/post/99037702820/photoset_iframe/admung/tumblr_ncuj9aat0o1qcwuqf/500/false
+  11. http://chickensnack.tumblr.com/post/99020367876/reposting-this-comic-i-drew-6-years-ago-in-honor
+  12. http://admung.com/post/92499180160/friends-wav
+  13. https://w.soundcloud.com/player/?url=http://api.soundcloud.com/tracks/159740977&visual=true&liking=false&sharing=false&auto_play=false&show_comments=false&continuous_play=false&origin=tumblr
+  14. http://admung.com/post/90608024780/streaming-game-development-code-art
+  15. http://twitch.tv/admung
+  16. http://dev.admung.com/post/90506938464/streaming-game-development-code-art
+  17. http://tmblr.co/mJ3kpttLJyAkZcHgZmui7Dw
+  18. http://admung.com/post/89114458720/streaming-game-development-art-code
+  19. http://www.twitch.tv/admung
+  20. http://tmblr.co/mJ3kpttLJyAkZcHgZmui7Dw
+  21. http://admung.com/post/87684939100/heres-a-rough-mashup-of-a-request-i-got-mgmts
+  22. https://w.soundcloud.com/player/?url=http://api.soundcloud.com/tracks/152578918&visual=true&liking=false&sharing=false&auto_play=false&show_comments=false&continuous_play=false&origin=tumblr
+  23. http://admung.com/post/86738346125/blabberf-here-are-a-few-of-the-different-diving
+  24. http://admung.com/image/86738346125
+  25. http://blabberf.whalecakes.com/post/86738031302/here-are-a-few-of-the-different-diving-suits
+  26. http://tmblr.co/m4WYWedHe8PK0wyvIHPDw5Q
+  27. http://admung.com/post/85568310475/we-found-a-sky-full-of-love-coldplay-x-rihanna
+  28. https://w.soundcloud.com/player/?url=http://api.soundcloud.com/tracks/149125081&visual=true&liking=false&sharing=false&auto_play=false&show_comments=false&continuous_play=false&origin=tumblr
+  29. http://admung.com/post/83797567505/hiding-on-tumblr
+  30. http://admung.com/post/83797567505/hiding-on-tumblr
+  31. http://admung.com/post/83797567505/hiding-on-tumblr
+  32. http://admung.com/
+  33. http://admung.com/post/82548203699/lets-stream-some-games-demos
+  34. http://www.twitch.tv/admung
+  35. http://admung.com/post/82538244002/playing-am2r-another-metroid-2-remake-demo-1-3
+  36. http://www.twitch.tv/admung
+  37. http://admung.com/post/82149730838/fruitdev-just-me-trying-out-open-broadcaster
+  38. http://fruitdev.tumblr.com/post/82131542093/just-me-trying-out-open-broadcaster-software
+  39. http://admung.com/post/82055766375/admungdev-heres-another-preview-of-a-song-im
+  40. https://w.soundcloud.com/player/?url=http://api.soundcloud.com/tracks/143482966&visual=true&liking=false&sharing=false&auto_play=false&show_comments=false&continuous_play=false&origin=tumblr
+  41. http://dev.admung.com/post/81974567975/heres-another-preview-of-a-song-im-working-on
+  42. http://tmblr.co/mJ3kpttLJyAkZcHgZmui7Dw
+  43. http://admung.com/post/80757458106/konjakonjak-video-of-a-boss-that-appears-some
+  44. https://www.youtube.com/embed/ZfISI9biqvw?feature=oembed
+  45. http://konjakonjak.tumblr.com/post/80678395514/video-of-a-boss-that-appears-some-way-into-the
+  46. http://jewelots.tumblr.com/post/80755136433/konjakonjak-video-of-a-boss-that-appears-some
+  47. http://admung.com/post/80750353965/im-streaming-gamedev-right-now
+  48. http://twitch.tv/admung
+  49. http://dev.admung.com/post/80750302691/im-streaming-gamedev-right-now
+  50. http://hitbox.tv/admung
+  51. http://twitch.tv/admung
+  52. http://admung.com/post/80635514695/were-streaming-game-development
+  53. http://twitch.tv/admung
+  54. http://dev.admung.com/post/80635477965/were-streaming-game-development
+  55. http://tmblr.co/mJ3kpttLJyAkZcHgZmui7Dw
+  56. http://twitch.tv/admung
+  57. http://hitbox.tv/admung
+  58. file:///page/2
+  59. http://admung.com/rss
+  60. http://tumblr.com/
+  61. http://dailymeh.tumblr.com/
+  62. https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http://admung.com/&lang=en_US&name=admung&brag=false&avatar=http://31.media.tumblr.com/avatar_697427e64086_64.png&title=admung&url=http://admung.com/&page_slide=slide
+  63. https://www.tumblr.com/assets/html/iframe/teaser.html?_v=156b0620bba89e0c441937123f6317e1#src=http://admung.com/&lang=en_US&name=admung&brag=false&avatar=http://31.media.tumblr.com/avatar_697427e64086_64.png&title=admung&url=http://admung.com/&page_slide=slide

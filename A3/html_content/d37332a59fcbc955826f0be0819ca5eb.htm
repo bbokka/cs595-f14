@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#"> 
+    <link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_697427e64086_128.png" />
+    <meta name="description" content="game developer, computer engineering student, and twitter abuser" />
+    <title>admung</title>
+    <!-- Default values -->
+    <meta name="text:Header slogan" content="is a tumblelog." />
+    <meta name="color:Background" content="#FFFFFF"/>
+    <meta name="color:Link" content="#346B9A"/>
+    <meta name="color:Link hover" content="#9A6934"/>
+    <meta name="font:Body" content="Georgia, serif"/>
+    <meta name="font:Date" content="Helvetica, Arial, sans-serif"/>
+    <meta name="if:Show notes" content="0">
+    <meta name="if:Show album art on audio posts" content="1" />
+    <meta name="text:Disqus Shortname" content="" />
+    <meta name="if:Show comment count on frontpage" content="0" />
+
+    <style>
+    /* General styling */
+    body {
+      padding: 0; margin: 0;
+      background: #FFFFFF;
+      font: 14px/20px 'Clearface FS', serif;
+    }
+    h1 { width: 540px; margin: 0 auto; }
+    h1 a, h1 {
+      color: #000; line-height: 1.2;
+      text-decoration: none;
+      font-family: Georgia, serif;
+      font-size: 19px;
+      font-weight: normal;
+    }
+      h1 a:hover { color: inherit; }
+    h2 { margin-top: 0; font-size: 16px; }
+    /* "fake smallcaps" */
+    h3 { font-size: 12px; text-transform: uppercase; letter-spacing: 2px; }
+    object { margin-bottom: 1em; margin-top: 0.5em; }
+    sup { line-height: 1; }
+    p, pre { margin-top: 0; padding-top: 0; }
+    img { display: block; margin-bottom: 20px; margin-top: 5px; }
+    a { color: #9a3434; text-decoration: none; } 
+      a:hover { color: #aa6161; }
+      a img { outline: 0; border: none; }
+    blockquote { 
+      width: 470px; 
+      margin-left: 0; 
+      padding-left: 30px; 
+      padding-right: 45px;
+      color: #222;
+      /* This is the quote mark in the left corner (also, the only image
+      in this theme). Remove if you don't want it. */
+      background: url(http://static.tumblr.com/sajzoro/2pUkqr1t1/aster.png) 
+        top left no-repeat, url(http://static.tumblr.com/f7bgn0y/EuFmzowdo/aster-flip.png) 
+        bottom right no-repeat; 
+      font-style: italic;
+      margin-top: 0; 
+    }
+      /* Make nested blockquotes behave. */
+      blockquote blockquote { margin-left: 0; }
+      /* ems in blockquotes look like normal text. Could be confusing; should work
+         fine unless there is a giant em block at the end of the blockquote, or
+         worse, making up the whole blockquote. Remove if you don't want to take
+         that risk, but instead suffer from a lack of distinguished emphasis in
+         blockquotes. */
+      blockquote em { font-style: normal; }
+      blockquote ul, blockquote ol { padding-left: 2em; }
+    ul, ol { padding-left: 0; }
+    
+    /* Specific elements. */
+    div#head {
+      padding: 60px;
+    }
+    div#main {
+      width: 800px;
+      margin: 0 auto;
+    }
+    a#past { float: left; } 
+    a#future { float: right; margin-right: 4px; } 
+    span#page { float: left; width: 300px; text-align: center; color: #666; }
+    div#last { margin-bottom: 2em; }
+    ul#bottom {
+      list-style: none; padding-top: 0; margin-top: 0; padding-left: 0; margin-left: 0;
+      width: 340px; float: left; margin-bottom: 2em;
+    }
+    ul#bottom li {
+      float: left; margin-right: 40px; padding-left: 0;
+    }
+    div#foot {
+      width: 540px; margin: 0 auto;
+      margin-bottom: 40px;
+    }
+    
+    /* Various repeated elements. */
+    span.permalink {
+      float: left; width: 110px;
+      margin-left:20px;
+      font-size: 12px;
+      font-family: 'Clearface FS', serif;
+    }
+    span.permalink a {
+      font-weight: bold;
+      text-decoration: none;
+    }
+    
+    div.realpost {
+      float: left;
+      width: 650px;
+      margin-bottom: 4em; padding-top: 0; margin-top: 0;
+    }
+    
+    div.realpost { margin-bottom: 6em; }
+    
+    
+    body#permalink-page div.realpost {
+      margin-bottom: 2em;
+    }
+    
+    div.realpost div { 
+      /* sorry, css gods */
+      width: 500px; 
+      padding-top: 0;
+    }
+    div.audio embed { margin-top: .3em; margin-bottom: 1em; }
+    img.album-art { float: right; padding-left: 2em; height: 100px; width: 100px; }
+    
+    div.chat ol {
+      list-style: none; margin-top: 0;
+    }
+      span.label { font-weight: bold; }
+    h2 { margin-top: 0; font-size: 16px; }
+    div.text h2 a { color: #000; }
+    /* In case you want to quote in quote post, we need to distinguish
+       *the* quote from any other blockquotes in the post. (No yo dawgs 
+       here. It might be useful.) */
+    blockquote.thequote { 
+      font-size: 1.25em; line-height: 1.3; color: #000;
+    }
+
+    div.text img {
+      max-width: 500px
+    }
+    div.text blockquote img {
+      max-width: 150px
+    }
+    
+    ol.notes {
+        font-size: 12px;
+        font-family: 'Clearface FS', serif;
+        list-style-type: none;
+        margin: 0 0 70px 130px;
+    }
+        ol.notes img {
+            display: none;
+        }
+    div.post div.question {
+      font-weight: bold;
+      margin-bottom: 1em;
+    }
+        
+    
+    
+    .search_query { font-weight: bold; }
+    
+    iframe
+{
+    padding-bottom:16px;
+}
+    </style> 
+  <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=admung" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/clearface/stylesheet.css?v=4"><link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="reblog,gamedev,rihanna,coldplay,code" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="admung" /><meta property="og:url" content="http://admung.com/?og=1" /><meta property="og:description" content="game developer, computer engineering student, and twitter abuser" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_697427e64086_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=admung" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=admung" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="admung" /><meta name="twitter:description" content="game developer, computer engineering student, and twitter abuser" /><meta name="twitter:creator" content="admung" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=admung&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=admung&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=admung&amp;referrer=twitter-cards" />
+
+</head> 
+  <body id="
+"> 
+  
+  <div id="head">
+    <h1><a href="/">admung <em></em></a></h1> 
+    
+        <div style="width: 540px; margin: 10px auto 0 auto; display: none; display: block;display: block;">
+            
+            <a href="/twitch">twitch</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/hitbox">hitbox</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/dev">devlog</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/twitter">twitter</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/whalecakes">whale cakes</a>&nbsp;&nbsp;/&nbsp;&nbsp;
+            
+            <a href="/ask">askbox</a>&nbsp;&nbsp;&nbsp;
+            
+        </div>
+  </div>
+    
+  <div id="main">
+    
+    
+    
+    
+    
+    
+    
+    <div class="post video">
+      
+      <span class="permalink">
+          <a href="http://admung.com/post/99037702820/chickensnack-reposting-this-comic-i-drew-6">Oct 2, 2014</a><br />
+          10,559 notes
+      </span>
+      
+      <div class="realpost"><div>
+      <div id="photoset_99037702820" class="html_photoset">    <iframe id="photoset_iframe_99037702820" class="photoset" scrolling="no" frameborder="0" height="3909" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://admung.com/post/99037702820/photoset_iframe/admung/tumblr_ncuj9aat0o1qcwuqf/500/false"></iframe></div>
+      <p><a class="tumblr_blog" href="http://chickensnack.tumblr.com/post/99020367876/reposting-this-comic-i-drew-6-years-ago-in-honor" target="_blank">chickensnack</a>:</p>
+<blockquote>
+<p>reposting this comic i drew 6 years ago in honor of new broters eve</p>
+<p>featuring the birth of everyone’s favorite meme</p>
+</blockquote>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post video">
+      
+      <span class="permalink">
+          <a href="http://admung.com/post/92499180160/friends-wav">Jul 21, 2014</a><br />
+          1 note
+      </span>
+      
+      <div class="realpost"><div>
+      <iframe src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F159740977&amp;visual=true&amp;liking=false&amp;sharing=false&amp;auto_play=false&amp;show_comments=false&amp;continuous_play=false&amp;origin=tumblr" frameborder="0" allowtransparency="true" class="soundcloud_audio_player" width="500" height="500"></iframe>
+      <p>friends.wav</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <div class="post link"> 
+      
+      <span class="permalink">
+          <a href="http://admung.com/post/90608024780/streaming-game-development-code-art">Jul 2, 2014</a><br />
+          7 notes
+      </span>
+      
+      <div class="realpost"><div>
+      <h2><a href="http://twitch.tv/admung">Streaming game development [code &amp; art]</a></h2> 
+      <p><a class="tumblr_blog" href="http://dev.admung.com/post/90506938464/streaming-game-development-code-art" target="_blank">admungdev</a>:</p>
+<blockquote>
+<p>We’re streaming some game development today! Check out the sweet pixel art by <a class="tumblelog" href="http://tmblr.co/mJ3kpttLJyAkZcHgZmui7Dw" target="_blank">blabberf</a>!</p>
+</blockquote>
+<p>We&#8217;re doing some more streaming right now!</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post link"> 
+      
+      <span class="permalink">
+          <a href="http://admung.com/post/89114458720/streaming-game-development-art-code">Jun 17, 2014</a><br />
+          3 notes
+      </span>
+      
+      <div class="realpost"><div>
+      <h2><a href="http://www.twitch.tv/admung">Streaming game development [art &amp; code!]</a></h2> 
+      <blockquote class="link_og_blockquote">Streaming game development [art &amp; code!]</blockquote>
+<p><a class="tumblelog" href="http://tmblr.co/mJ3kpttLJyAkZcHgZmui7Dw" target="_blank">blabberf</a> is here to stream some art with me (for a while anyways)</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post video">
+      
+      <span class="permalink">
+          <a href="http://admung.com/post/87684939100/heres-a-rough-mashup-of-a-request-i-got-mgmts">Jun 3, 2014</a><br />
+          1 note
+      </span>
+      
+      <div class="realpost"><div>
+      <iframe src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F152578918&amp;visual=true&amp;liking=false&amp;sharing=false&amp;auto_play=false&amp;show_comments=false&amp;continuous_play=false&amp;origin=tumblr" frameborder="0" allowtransparency="true" class="soundcloud_audio_player" width="500" height="500"></iframe>
+      <p>Here&#8217;s a rough mashup of a request I got: MGMT&#8217;s Kids vs Atlas Genius&#8217; Trojans.</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post photo">
+      
+      <span class="permalink">
+          <a href="http://admung.com/post/86738346125/blabberf-here-are-a-few-of-the-different-diving">May 24, 2014</a><br />
+          62 notes
+      </span>
+      
+      <div class="realpost"><div>
+        <a href="http://admung.com/image/86738346125">
+        <img src="http://40.media.tumblr.com/52ced191c56b143c18352350b899d295/tumblr_n63rfmVKzX1rzc0wmo1_500.png" alt="blabberf:
+
+Here are a few of the different diving suits you&rsquo;ll be able to find and utilize! Luckily you play as a skilled enough diver to change suits at over 11,000 psi.
+On a side note, admung has fixed level generation and progress on the game is going smoothly!"/>
+        </a>
+        <p><a href="http://blabberf.whalecakes.com/post/86738031302/here-are-a-few-of-the-different-diving-suits" class="tumblr_blog" target="_blank">blabberf</a>:</p>
+
+<blockquote><p>Here are a few of the different diving suits you’ll be able to find and utilize! Luckily you play as a skilled enough diver to change suits at over 11,000 psi.</p>
+<p>On a side note, <a class="tumblelog" href="http://tmblr.co/m4WYWedHe8PK0wyvIHPDw5Q" target="_blank">admung</a> has fixed level generation and progress on the game is going smoothly!</p></blockquote>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <div class="post video">
+      
+      <span class="permalink">
+          <a href="http://admung.com/post/85568310475/we-found-a-sky-full-of-love-coldplay-x-rihanna">May 12, 2014</a><br />
+          2 notes
+      </span>
+      
+      <div class="realpost"><div>
+      <iframe src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F149125081&amp;visual=true&amp;liking=false&amp;sharing=false&amp;auto_play=false&amp;show_comments=false&amp;continuous_play=false&amp;origin=tumblr" frameborder="0" allowtransparency="true" class="soundcloud_audio_player" width="500" height="500"></iframe>
+      <p><strong>We Found A Sky Full of Love (Coldplay x Rihanna)</strong></p>
+<p>I used this is an opportunity to cool down a little while studying for finals. Hope you like it!</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post text">
+      <span class="permalink">
+      
+          <a href="http://admung.com/post/83797567505/hiding-on-tumblr">Apr 24, 2014</a><br />
+          4 notes
+
+          <br />
+      </span>
+      <div class="realpost"><div>
+        <h2><a href="http://admung.com/post/83797567505/hiding-on-tumblr">How to hide posts, reblogs, and users from your Dashboard (using Adblock Plus)</a></h2>
+        
+<p>Tumblr doesn’t have any built-in support for keeping reblogs and clutter out of your Dashboard, so I decided to work some in! It works throughout the Dashboard, and even in searches!</p>
+<p>I wanted to keep from writing another extension for users to install, and I didn’t want to use anything bulky, so I set it up using <em>Adblock Plus custom filters</em>. It’s probably possible using other page modifying plugins, so you can just leave me an ask if you want me to try porting it to something else.</p>
+<p>Read more for a few pre-built filters, and instructions on writing your own!</p>
+<p></p>
+<p class="read_more_container"><a href="http://admung.com/post/83797567505/hiding-on-tumblr" class="read_more">Read More</a></p><p>(Source: <a href="http://admung.com/" title="admung.com">admung.com</a>)</p>
+      </div></div>
+    </div>
+    
+    
+    <div class="post link"> 
+      
+      <span class="permalink">
+          <a href="http://admung.com/post/82548203699/lets-stream-some-games-demos">Apr 12, 2014</a><br />
+          2 notes
+      </span>
+      
+      <div class="realpost"><div>
+      <h2><a href="http://www.twitch.tv/admung">Let&#039;s stream some games + demos!</a></h2> 
+      <p>Currently streaming some old games, demos and ideas of yore.</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post link"> 
+      
+      <span class="permalink">
+          <a href="http://admung.com/post/82538244002/playing-am2r-another-metroid-2-remake-demo-1-3">Apr 12, 2014</a><br />
+          1 note
+      </span>
+      
+      <div class="realpost"><div>
+      <h2><a href="http://www.twitch.tv/admung">playing AM2R (Another Metroid 2 Remake) Demo 1.3</a></h2> 
+      <p>I&#8217;m streaming AM2R right now. It&#8217;s pretty fun, and easily on par or better than any of the recent 2D Metroids.</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post video">
+      
+      <span class="permalink">
+          <a href="http://admung.com/post/82149730838/fruitdev-just-me-trying-out-open-broadcaster">Apr 8, 2014</a><br />
+          26 notes
+      </span>
+      
+      <div class="realpost"><div>
+      <div id="tumblr_video_container_82149730838" class="tumblr_video_container" style="width:500px;height:375px;"></div><script class="inline_embed" type="text/javascript">
+    (function(params){
+        var container = document.getElementById(params.container);
+        if (!container) return;
+        var iframe = document.createElement('iframe');
+        iframe.width = parseInt(params.width, 10) || 500;
+        iframe.height = parseInt(params.height, 10) || Math.floor(iframe.width*0.75); // 4x3
+        iframe.src = 'about:blank';
+        for (var attr in params.attr) {
+            if (params.attr.hasOwnProperty(attr)) {
+               iframe.setAttribute(attr, params.attr[attr]);
+            }
+        }
+        iframe.setAttribute('frameborder', '0');
+        iframe.setAttribute('scrolling', 'no');
+        iframe.setAttribute('webkitAllowFullScreen', '');
+        iframe.setAttribute('mozallowfullscreen', '');
+        iframe.setAttribute('allowFullScreen', '');
+        iframe.setAttribute('seamless', '');
+        iframe.setAttribute('style', 'display:block;background-color:transparent;overflow:hidden;');
+        container.appendChild(iframe);
+        iframe.onload = function() {
+            var newHeight = iframe.contentWindow.document.body.offsetHeight;
+            if (newHeight) iframe.height = newHeight;
+            if (typeof(params.onload) === 'function') params.onload();
+        };
+        var doc = iframe.contentWindow.document;
+        doc.open('text/html', 'replace');
+        doc.write([
+            '<!DOCTYPE html><html><head><title>Tumblr Video</title></head>',
+            '<body class="' + params.body_class + '">',
+            params.content,
+            '</body></html>'
+        ].join(''));
+        doc.close();
+    })({
+        attr  : {
+            'id'          : 'tumblr_video_iframe_82149730838',
+            'class'       : 'tumblr_video_iframe has_lightbox',
+            'data-origin' : 'admung.com',
+            'data-width'  : '500',
+            'data-height' : '375'
+        },
+        container   : 'tumblr_video_container_82149730838',
+        content     : '\x3clink rel=\x22stylesheet\x22 media=\x22screen\x22 href=\x22http://assets.tumblr.com/assets/styles/video.css?_v=ff005cc828522dbbd50120e1184bdfcd\x22\x3e\x3cscript src=\x22http://assets.tumblr.com/assets/scripts/spin.js?_v=5da39d93f7f0ee499e20291a39d10bee\x22\x3e\x3c/script\x3e\x3cscript src=\x22http://assets.tumblr.com/assets/scripts/video.js?_v=bd3c6c870b620a87285735d17d2dcf9f\x22\x3e\x3c/script\x3e\x3cscript src=\x22http://assets.tumblr.com/assets/scripts/vendor/video-js/video.js?_v=b7aca555c284f13d3d30732837a4b476\x22\x3e\x3c/script\x3e\x3cmeta name=\x22tumblr-form-key\x22 content=\x22\x22 id=\x22tumblr_form_key\x22 /\x3e\x3cvideo preload=\x22none\x22 id=\x22tumblr_video_player_82149730838\x22 class=\x22video-js tvp_video\x22 width=\x22500\x22 height=\x22375\x22 poster=\x22\x22\x3e\x3csource src=\x22http://admung.com/video_file/82149730838/tumblr_n3qgje4fte1t1qbmg\x22 type=\x22video/mp4\x22\x3e\x3c/video\x3e\x3cdiv class=\x22tumblr_lightbox_controls\x22\x3e\x3cspan class=\x22post_control close_button\x22\x3eClose\x3c/span\x3e\x3c/div\x3e\x3cscript type=\x22text/javascript\x22 \x3e    var __ = (function() {\x0a        var translation = {\x0a            \x22Cancel\x22            : \'Cancel\',\x0a            \x22Email\x22             : \'Email\',\x0a            \x22Send\x22              : \'Send\',\x0a            \x22Play\x22              : \'Play\',\x0a            \x22Pause\x22             : \'Pause\',\x0a            \x22Fullscreen\x22        : \'Fullscreen\',\x0a            \x22Share\x22             : \'Share\',\x0a            \x22Twitter\x22           : \'Twitter\',\x0a            \x22Facebook\x22          : \'Facebook\',\x0a            \x22Copy embed code\x22   : \'Copy embed code\',\x0a            \x22There was an error with this video.\x22 : \'There was an error with this video.\'        };\x0a        return function(string) {\x0a            return translation[string] || string;\x0a        };\x0a    })();\x0a\x0a    var tumblr_video = new TumblrVideo;\x0a\x0a    var load_video = function() {\x0a        tumblr_video.initialize({\x0a            id          : \'82149730838\',\x0a            posters     : [\x22http:\\/\\/media.tumblr.com\\/tumblr_n3qgje4fte1t1qbmg_frame1.jpg\x22,\x22http:\\/\\/media.tumblr.com\\/tumblr_n3qgje4fte1t1qbmg_frame2.jpg\x22,\x22http:\\/\\/media.tumblr.com\\/tumblr_n3qgje4fte1t1qbmg_frame3.jpg\x22,\x22http:\\/\\/media.tumblr.com\\/tumblr_n3qgje4fte1t1qbmg_frame4.jpg\x22,\x22http:\\/\\/media.tumblr.com\\/tumblr_n3qgje4fte1t1qbmg_frame5.jpg\x22],\x0a            retro_static: true,\x0a            duration    : \'92\',\x0a            post_title  : \'\',\x0a            post_url    : \'http://admung.com/post/82149730838/fruitdev-just-me-trying-out-open-broadcaster\',\x0a            video_url   : \'http://admung.com/video/82149730838\',\x0a            dimensions  : {\x22width\x22:960,\x22height\x22:720},\x0a            embed_code  : \'\x3ciframe src=\x22http://www.tumblr.com/video/admung/82149730838/500\x22 id=\x22tumblr_video_iframe_82149730838\x22 class=\x22tumblr_video_iframe\x22 width=\x22500\x22 height=\x22375\x22 style=\x22display:block;background-color:transparent;overflow:hidden;\x22 allowTransparency=\x22true\x22 frameborder=\x220\x22 scrolling=\x22no\x22 webkitAllowFullScreen mozallowfullscreen allowFullScreen\x3e\x3c/iframe\x3e\',\x0a\x0a            \x0a            origin_url  : \'http://admung.com/\',\x0a\x0a            \x0a            thumbnails  : {\x0a                url     : \'http://37.media.tumblr.com/previews/tumblr_n3qgje4fte1t1qbmg_filmstrip.jpg\',\x0a                width   : \'200\',\x0a                height  : \'150\',\x0a                total   : \'10\'            },\x0a            _autocycle  : true,  // Auto-cycles through posters, set to false for :hover only\x0a            _sharing    : false, // Enables sharing popover menu on hold 8/27/12\x0a            _lightbox   : false, // Disabled lightbox because it was horrible, also did not work in search 12/16/13\x0a            _dashboard  : false,\x0a            _dev        : false\x0a        });\x0a    };\x0a\x0a    load_video();\x0a\x3c/script\x3e\x0a',
+        width       : '500',
+        height      : '375',
+        body_class  : 'tumblr_video_iframe_body'
+    });
+    </script>
+      <p><a class="tumblr_blog" href="http://fruitdev.tumblr.com/post/82131542093/just-me-trying-out-open-broadcaster-software" target="_blank">fruitdev</a>:</p>
+<blockquote>
+<p>Just me trying out Open Broadcaster Software. Nothing fancy to show, it’s not even a talkie, but hopefully it works miles better than gifs. So happy I found OBS, it’s easy to use and works like a charm, no hassle.</p>
+<p>I swear I’ll try to dev harder in the time to come, been busy working and being stuck in nodev limbo.</p>
+</blockquote>
+<p>It&#8217;s like a mix of Sonic and Metroid. Looking forward to more of this!</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post video">
+      
+      <span class="permalink">
+          <a href="http://admung.com/post/82055766375/admungdev-heres-another-preview-of-a-song-im">Apr 7, 2014</a><br />
+          8 notes
+      </span>
+      
+      <div class="realpost"><div>
+      <iframe src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F143482966&amp;visual=true&amp;liking=false&amp;sharing=false&amp;auto_play=false&amp;show_comments=false&amp;continuous_play=false&amp;origin=tumblr" frameborder="0" allowtransparency="true" class="soundcloud_audio_player" width="500" height="500"></iframe>
+      <p><a class="tumblr_blog" href="http://dev.admung.com/post/81974567975/heres-another-preview-of-a-song-im-working-on" target="_blank">admungdev</a>:</p>
+<blockquote>
+<p>Here’s another preview of a song I’m working on for our game. Let me know what you think! <a class="tumblelog" href="http://tmblr.co/mJ3kpttLJyAkZcHgZmui7Dw" target="_blank">blabberf</a> is working on some jams, too!</p>
+</blockquote>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post video">
+      
+      <span class="permalink">
+          <a href="http://admung.com/post/80757458106/konjakonjak-video-of-a-boss-that-appears-some">Mar 25, 2014</a><br />
+          813 notes
+      </span>
+      
+      <div class="realpost"><div>
+      <iframe width="500" height="281" src="https://www.youtube.com/embed/ZfISI9biqvw?feature=oembed" frameborder="0" allowfullscreen></iframe>
+      <p><a class="tumblr_blog" href="http://konjakonjak.tumblr.com/post/80678395514/video-of-a-boss-that-appears-some-way-into-the" target="_blank">konjakonjak</a>:</p>
+<blockquote>
+<p><span>Video of a boss that appears some way into The Iconoclasts. Was about time I made some video, really… Too afraid of showing things. :\</span></p>
+</blockquote><p>(via <a href='http://jewelots.tumblr.com/post/80755136433/konjakonjak-video-of-a-boss-that-appears-some'>jewelots</a>)</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <div class="post link"> 
+      
+      <span class="permalink">
+          <a href="http://admung.com/post/80750353965/im-streaming-gamedev-right-now">Mar 25, 2014</a><br />
+          5 notes
+      </span>
+      
+      <div class="realpost"><div>
+      <h2><a href="http://twitch.tv/admung">I&#039;m streaming gamedev right now!</a></h2> 
+      <p><a class="tumblr_blog" href="http://dev.admung.com/post/80750302691/im-streaming-gamedev-right-now" target="_blank">admungdev</a>:</p>
+<blockquote>
+<p>I’m streaming some gamedev right now! Check it out on hitbox: <a href="http://hitbox.tv/admung" target="_blank">http://hitbox.tv/admung</a> or on Twitch: <a href="http://twitch.tv/admung" target="_blank">http://twitch.tv/admung</a></p>
+</blockquote>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post link"> 
+      
+      <span class="permalink">
+          <a href="http://admung.com/post/80635514695/were-streaming-game-development">Mar 24, 2014</a><br />
+          4 notes
+      </span>
+      
+      <div class="realpost"><div>
+      <h2><a href="http://twitch.tv/admung">we&#039;re streaming game development</a></h2> 
+      <p><a class="tumblr_blog" href="http://dev.admung.com/post/80635477965/were-streaming-game-development" target="_blank">admungdev</a>:</p>
+<blockquote>
+<p>I’m streaming some gamedev with <a class="tumblelog" href="http://tmblr.co/mJ3kpttLJyAkZcHgZmui7Dw" target="_blank">blabberf</a>! You can catch us on <a href="http://twitch.tv/admung" target="_blank">Twitch</a> or <a href="http://hitbox.tv/admung" target="_blank">Hitbox</a>!</p>
+</blockquote>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post">
+    <span class="permalink"><strong>Navigate</strong></span>
+      <div class="realpost"><div>
+      <a href="/page/2" id="past">&laquo; To the past</a>
+      <span id="page">Page 1 of 12</span>
+      
+      </div></div>
+    </div>
+    
+    
+    
+    <div class="post last" id="it">
+    <span class="permalink"><strong>About</strong></span>
+      <div class="realpost" id="last"><div>
+      game developer, computer engineering student, and twitter abuser
+      <a href="http://admung.com/rss">Subscribe via RSS</a>.
+      </div></div>
+    </div>
+    
+    <div id="foot"> 
+    <ul id="bottom">
+      <li><a href="http://tumblr.com/">Tumblr</a></li> 
+      <li>Theme by <a href="http://dailymeh.tumblr.com/">Simen</a></li>
+    </ul> 
+    <form action="/search" method="get"> 
+    <input type="text" name="q" value="Search" onclick="javascript:if (this.value == 'Search') this.value = '';"/> 
+    </form> 
+    </div>
+    
+  </div>
+  
+  
+  <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://admung.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412372990&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYWRtdW5nLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=MAABJJGALD&K=9308c398dab80efc8cddacd2bdacad68a0b870cb2ff8bbbc8fdadd248ac900a0&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412372990&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYWRtdW5nLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=MAABJJGALD&K=d6c971c8d5c71b386e8045cedd87594b0b82cec8da62dd7474028848ac4e8677&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412372990&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2FkbXVuZy5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI1NzQyMDE2Iiwicm9vdF9wb3N0aWQiOiI5OTAyMDM2Nzg3NiIsInBvc3RpZCI6Ijk5MDM3NzAyODIwIiwiYmxvZ2lkIjoiNDQ4NTcwNTMiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjkyNDk5MTgwMTYwIiwiYmxvZ2lkIjoiNDQ4NTcwNTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTkyNDA5NDciLCJyb290X3Bvc3RpZCI6IjkwNTA2OTM4NDY0IiwicG9zdGlkIjoiOTA2MDgwMjQ3ODAiLCJibG9naWQiOiI0NDg1NzA1MyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODkxMTQ0NTg3MjAiLCJibG9naWQiOiI0NDg1NzA1MyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODc2ODQ5MzkxMDAiLCJibG9naWQiOiI0NDg1NzA1MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2MTQyNzQ3MSIsInJvb3RfcG9zdGlkIjoiODY3MzgwMzEzMDIiLCJwb3N0aWQiOiI4NjczODM0NjEyNSIsImJsb2dpZCI6IjQ0ODU3MDUzIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4NTU2ODMxMDQ3NSIsImJsb2dpZCI6IjQ0ODU3MDUzIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4Mzc5NzU2NzUwNSIsImJsb2dpZCI6IjQ0ODU3MDUzIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4MjU0ODIwMzY5OSIsImJsb2dpZCI6IjQ0ODU3MDUzIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4MjUzODI0NDAwMiIsImJsb2dpZCI6IjQ0ODU3MDUzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0NjU1OTY4OSIsInJvb3RfcG9zdGlkIjoiODIxMzE1NDIwOTMiLCJwb3N0aWQiOiI4MjE0OTczMDgzOCIsImJsb2dpZCI6IjQ0ODU3MDUzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjU5MjQwOTQ3Iiwicm9vdF9wb3N0aWQiOiI4MTk3NDU2Nzk3NSIsInBvc3RpZCI6IjgyMDU1NzY2Mzc1IiwiYmxvZ2lkIjoiNDQ4NTcwNTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzY3OTc3ODIiLCJyb290X3Bvc3RpZCI6IjgwNjc4Mzk1NTE0IiwicG9zdGlkIjoiODA3NTc0NTgxMDYiLCJibG9naWQiOiI0NDg1NzA1MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI1OTI0MDk0NyIsInJvb3RfcG9zdGlkIjo4MDc1MDMwMjY5MSwicG9zdGlkIjoiODA3NTAzNTM5NjUiLCJibG9naWQiOiI0NDg1NzA1MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI1OTI0MDk0NyIsInJvb3RfcG9zdGlkIjo4MDYzNTQ3Nzk2NSwicG9zdGlkIjoiODA2MzU1MTQ2OTUiLCJibG9naWQiOiI0NDg1NzA1MyIsInNvdXJjZSI6MzN9XX0=&U=OPECFPEBKO&K=e66e87342b4363c230ae56efa3212eb1b7f9d43c550aeaf20b159511c4fa455b&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412372990&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2FkbXVuZy5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI1NzQyMDE2Iiwicm9vdF9wb3N0aWQiOiI5OTAyMDM2Nzg3NiIsInBvc3RpZCI6Ijk5MDM3NzAyODIwIiwiYmxvZ2lkIjoiNDQ4NTcwNTMiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjkyNDk5MTgwMTYwIiwiYmxvZ2lkIjoiNDQ4NTcwNTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTkyNDA5NDciLCJyb290X3Bvc3RpZCI6IjkwNTA2OTM4NDY0IiwicG9zdGlkIjoiOTA2MDgwMjQ3ODAiLCJibG9naWQiOiI0NDg1NzA1MyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODkxMTQ0NTg3MjAiLCJibG9naWQiOiI0NDg1NzA1MyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODc2ODQ5MzkxMDAiLCJibG9naWQiOiI0NDg1NzA1MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2MTQyNzQ3MSIsInJvb3RfcG9zdGlkIjoiODY3MzgwMzEzMDIiLCJwb3N0aWQiOiI4NjczODM0NjEyNSIsImJsb2dpZCI6IjQ0ODU3MDUzIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4NTU2ODMxMDQ3NSIsImJsb2dpZCI6IjQ0ODU3MDUzIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4Mzc5NzU2NzUwNSIsImJsb2dpZCI6IjQ0ODU3MDUzIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4MjU0ODIwMzY5OSIsImJsb2dpZCI6IjQ0ODU3MDUzIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4MjUzODI0NDAwMiIsImJsb2dpZCI6IjQ0ODU3MDUzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0NjU1OTY4OSIsInJvb3RfcG9zdGlkIjoiODIxMzE1NDIwOTMiLCJwb3N0aWQiOiI4MjE0OTczMDgzOCIsImJsb2dpZCI6IjQ0ODU3MDUzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjU5MjQwOTQ3Iiwicm9vdF9wb3N0aWQiOiI4MTk3NDU2Nzk3NSIsInBvc3RpZCI6IjgyMDU1NzY2Mzc1IiwiYmxvZ2lkIjoiNDQ4NTcwNTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzY3OTc3ODIiLCJyb290X3Bvc3RpZCI6IjgwNjc4Mzk1NTE0IiwicG9zdGlkIjoiODA3NTc0NTgxMDYiLCJibG9naWQiOiI0NDg1NzA1MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI1OTI0MDk0NyIsInJvb3RfcG9zdGlkIjo4MDc1MDMwMjY5MSwicG9zdGlkIjoiODA3NTAzNTM5NjUiLCJibG9naWQiOiI0NDg1NzA1MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI1OTI0MDk0NyIsInJvb3RfcG9zdGlkIjo4MDYzNTQ3Nzk2NSwicG9zdGlkIjoiODA2MzU1MTQ2OTUiLCJibG9naWQiOiI0NDg1NzA1MyIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=OPECFPEBKO&K=5557f1c19677a8b61fce42eb22f30e480fbc73922ca622164cfc500e8a2bdd24&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:44857053,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+                        if (d.getElementById('tumblr-cdx')) return;
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fadmung.com%2F&amp;lang=en_US&amp;name=admung&amp;brag=false&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_697427e64086_64.png&amp;title=admung&amp;url=http%3A%2F%2Fadmung.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=156b0620bba89e0c441937123f6317e1#src=http%3A%2F%2Fadmung.com%2F&amp;lang=en_US&amp;name=admung&amp;brag=false&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_697427e64086_64.png&amp;title=admung&amp;url=http%3A%2F%2Fadmung.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+   [1]Kelly McCormick
+   hair
+     * [2]Home
+     * [3]portfolio
+     * [4]Contact
+
+﻿
+
+   Hello my name is Kelly McCormick. Hairstylist. NJ/NY (on location)
+   Weddings, Proms, Sweet 16's and other events!
+   [5]Instagram
+
+    For appointments or for more info email me here!
+       Name *
+       ____________________ First
+       ____________________ Last
+       Email *
+       ____________________
+       Comment *
+
+       ____________________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+
+   ____________________
+   SubmitSubmit
+
+   Proudly powered by [6]Weebly
+
+   Quantcast
+
+References
+
+   1. file:///
+   2. file:///
+   3. file:///portfolio.html
+   4. file:///contact.html
+   5. http://instagram.com/kellymccormickhair?modal=true
+   6. file:///home/bbokka/cs594/Assignment/programs/html_content/_blank

@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Karatbars - Shop site</title>
+	<!-- include css file -->
+	<link href="userinterface/karatbarsShop.css" rel="stylesheet" type="text/css" />
+	<!-- include js file -->
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/validate_landing.js"></script>
+	<script type="text/javascript" src="js/jwplayer.js"></script>
+	<script type="text/javascript" src="js/jwplayer.html5.js"></script>
+	<script type="text/javascript">jwplayer.key="Jl/Zi+QpVgODn8cyybq3MifgC+mG+jZCkGmhUg==";</script>
+</head>
+<body>
+
+
+
+<div id="W3">
+	<div id="W3-1">
+		<div class="bgcontainer">
+			<div class="langdiv"><span class="spfrt"><span class="spflt"><link rel="stylesheet" type="text/css" href="userinterface/css/language.css" />
+<script language="javascript" type="text/javascript">
+	//Common Ajax Coding
+	function getXMLHTTP() 
+	{
+			var xmlhttp=false;	
+			try{
+				xmlhttp=new XMLHttpRequest();
+			}
+			catch(e)	{		
+				try{			
+					xmlhttp= new ActiveXObject("Microsoft.XMLHTTP");
+				}
+				catch(e){
+					try{
+					xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+					}
+					catch(e1){
+						xmlhttp=false;
+					}
+				}
+			}
+				
+			return xmlhttp;
+	}
+	function langchk(val)
+	{	
+		var strURL="index.php?action=act_langsession&lang="+val;
+		var req = getXMLHTTP();	
+				if (req)
+				 {
+					req.onreadystatechange = function()
+					{
+						if (req.readyState == 4) 
+						{
+							if (req.status == 200) 
+							{		
+								document.frmchange.submit();
+							}
+							else 
+							{
+								//alert("There was a problem while using XMLHTTP:\n" + req.statusText);	
+							}	
+						}
+					}			
+					req.open("GET", strURL, true);
+					req.send(null);
+					}
+	}
+</script>
+<form  name="frmchange" id="frmchange" method='post' action=''>
+	<ul id="navbar">
+		<li><a href="javascript:void(0)" >
+		<img src="http://www.karatbars.com/flag/de.png" border="0" align="absmiddle" style="padding-bottom:3px;"/>
+German			</a>
+		<ul>
+				<li><a href="javascript:void(0)" onclick="langchk('us1');"  >
+				<img src="http://www.karatbars.com/flag/us1.png" border="0" align="absmiddle" style="padding-bottom:3px;"/>
+				English</a></li>			
+		
+				<li><a href="javascript:void(0)" onclick="langchk('de');"  >
+				<img src="http://www.karatbars.com/flag/de.png" border="0" align="absmiddle" style="padding-bottom:3px;"/>
+				German</a></li>
+				<li><a href="javascript:void(0)" onclick="langchk('nw');"  >
+				<img src="http://www.karatbars.com/flag/nw.png" border="0" align="absmiddle" style="padding-bottom:3px;"/>
+				Norway</a></li>			
+				<li><a href="javascript:void(0)" onclick="langchk('slo');"  >
+				<img src="http://www.karatbars.com/flag/slo.png" border="0" align="absmiddle" style="padding-bottom:3px;"/>
+				Slo</a></li>			
+				<li><a href="javascript:void(0)" onclick="langchk('cz');"  >
+				<img src="http://www.karatbars.com/flag/cz.png" border="0" align="absmiddle" style="padding-bottom:3px;"/>
+				Czech</a></li>			
+				<li><a href="javascript:void(0)" onclick="langchk('dk');"  >
+				<img src="http://www.karatbars.com/flag/dk.png" border="0" align="absmiddle" style="padding-bottom:3px;"/>
+				Danish</a></li>			
+				<li><a href="javascript:void(0)" onclick="langchk('fr');"  >
+				<img src="http://www.karatbars.com/flag/fr.png" border="0" align="absmiddle" style="padding-bottom:3px;"/>
+				French</a></li>			
+				<li><a href="javascript:void(0)" onclick="langchk('hu');"  >
+				<img src="http://www.karatbars.com/flag/hu.png" border="0" align="absmiddle" style="padding-bottom:3px;"/>
+				Hu</a></li>			
+				<li><a href="javascript:void(0)" onclick="langchk('it');"  >
+				<img src="http://www.karatbars.com/flag/it.png" border="0" align="absmiddle" style="padding-bottom:3px;"/>
+				Italian</a></li>			
+				<li><a href="javascript:void(0)" onclick="langchk('es');"  >
+				<img src="http://www.karatbars.com/flag/es.png" border="0" align="absmiddle" style="padding-bottom:3px;"/>
+				Spanish</a></li>			
+				<li><a href="javascript:void(0)" onclick="langchk('sk');"  >
+				<img src="http://www.karatbars.com/flag/sk.png" border="0" align="absmiddle" style="padding-bottom:3px;"/>
+				Slovak</a></li>			
+				<li><a href="javascript:void(0)" onclick="langchk('fi');"  >
+				<img src="http://www.karatbars.com/flag/fi.png" border="0" align="absmiddle" style="padding-bottom:3px;"/>
+				Finnish</a></li>			
+				<li><a href="javascript:void(0)" onclick="langchk('nl');"  >
+				<img src="http://www.karatbars.com/flag/nl.png" border="0" align="absmiddle" style="padding-bottom:3px;"/>
+				Dutch</a></li>			
+				<li><a href="javascript:void(0)" onclick="langchk('se');"  >
+				<img src="http://www.karatbars.com/flag/se.png" border="0" align="absmiddle" style="padding-bottom:3px;"/>
+				Swedish</a></li>			
+				<li><a href="javascript:void(0)" onclick="langchk('hr');"  >
+				<img src="http://www.karatbars.com/flag/hr.png" border="0" align="absmiddle" style="padding-bottom:3px;"/>
+				Croatian</a></li>			
+		</ul>
+	</li>
+</ul>
+</form></span></span></div>
+			<div class="kblightimg">
+				<div  class="kblightcontent">
+					<div class="bgtext">Secure your future with Karatbars,<br/> because the future is happening now</div>
+				</div>
+								<div  class="videomain">
+					<div class="videolayout">
+						<div id="tvdiv">
+							<div class="tvimg">
+								<div style="margin:5px;height:220px;width:444px;">
+									<div id="myElement">Loading the player...</div>
+									<script type="text/javascript">
+										jwplayer("myElement").setup({
+											file: "../uploads/shoplandingpage-video/Karatbars-The_New_World_Currency.flv",
+											image: "../uploads/shoplandingpage-video/video_1.jpg",
+											width: '435',
+											height: '220'
+										});
+									</script>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="formlayout">
+						<div id="formdiv">
+							<div class="frmdivimg">
+								<div  class="frmmain">
+								<!-- Display error content start -->
+								<p align='center' style='padding:10px 0px;'><span class='mailerrortxt'></span></p>									<!-- Display error content end -->
+																		<p class="frmheader_cont">Tell Me More</p>
+									<form name="shoplanding" id="shoplanding" method="post"  action="index.php?action=landing_process">
+										<input type="hidden" name="landsubval" id="landsubval" value="1" />
+										<p  class="frminput_div">
+											<input type="text" name="shop_firstname" id="shop_firstname" value="" class="input_box"  /><br />First Name											<span id="shopfname_error" class="errortxt">&nbsp;</span>
+										</p>
+										<p class="frminput_div">
+											<input type="text" name="shop_lastname" id="shop_lastname" value="" class="input_box" /><br />Last Name											<span id="shoplname_error" class="errortxt">&nbsp;</span>
+										</p>
+										<p class="frminput_div">
+											<input type="text" name="shop_phoneno" id="shop_phoneno" value="" class="input_box" /><br /> Phone No </p>
+										<p class="frminput_div">
+											<input type="text" name="shop_email" id="shop_email" value="" class="input_box"  /><br />Email address											<span id="shopemail_error" class="errortxt">&nbsp;</span>
+										</p>
+										<p class="frminput_div">
+											<input type="submit" value="Submit" class="frmsubbtn" />
+										</p>
+									</form>
+																	</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div id="W5">
+						<div class="kbbottom_div">
+							<div class="kbbottom_maindiv">
+								<div class="kbbottom_left">"Pay Yourself First
+Because the Economy that Matters Most...
+is the One in Your Own Home"</div>
+								<div class="kbbottom_right">
+									<p class="kbbottom_rgtimg"><img src="userinterface/shopBilder/bonus-card_2.jpg" alt="" /></p>
+									<p class="kbbottom_rgtcont">Additionally you will receive our Bonouscard worth 100 </p>
+								</div>
+							</div>
+						</div>
+				</div>
+								<div id="W6"><a href="../index.php?page=imprint" target="_blank">Imprint</a></div>
+				<div id="W7">Copyright &copy; 2011 Karatbars International &trade; GmbH</div>
+			</div>
+		</div>
+		<div id="clear"></div>
+	</div>
+</div>
+</body>
+</html>
+	

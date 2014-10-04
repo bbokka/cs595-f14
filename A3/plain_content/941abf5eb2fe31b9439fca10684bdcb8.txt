@@ -1,0 +1,285 @@
+
+   [1]Sign in [2]Account Welcome, ! Find your [3]Stylist or [4]Hostess
+   Stylist: Shopping Trunkshow
+   /[5]HELP/[6]GIFT CARDS
+
+
+     * [7]United States
+     * [8]Canada
+     * [9]United Kingdom
+     * [10]Germany
+     * [11]France
+     * [12]Ireland
+
+   ____________________ (BUTTON) 
+   
+
+
+
+   ____________________ (BUTTON) GO
+
+   [13]Stella & Dot
+   Hello, dream job! [arrow.png]
+     * [14]Shop
+     * [15]Trunk Shows
+     * [16]Become a Stylist
+
+     [17][mobile-icon-bag.png]
+
+     * [18]what's new
+          + [19]New Arrivals
+          + [20]Bestsellers
+          + [21]Look Book
+     * [22]Jewelry
+          + [23]Necklaces
+          + [24]Charms and Engravables
+          + [25]Bracelets
+          + [26]Earrings
+          + [27]Rings
+          + [28]Girls Collection
+          + [29]Storage & Display
+     * [30]Bags & More
+          + [31]Bags
+          + [32]Wallets
+          + [33]Small Accessories
+          + [34]Tech Accessories
+          + [35]Scarves
+     * [36]Gifts
+     * [37]Boutiques
+          + [38]Versatility Shop
+          + [39]Statement Pieces
+          + [40]Under 50
+          + [41]As Seen On
+          + [42]Shop for a Cause
+     * [43]Sale
+     * [44]Video
+     * [45]Wishlist
+     * [46]Trunk Shows
+     * [47]Become a Stylist
+     * [48]Location
+          + [49]United States
+          + [50]Canada
+          + [51]United Kingdom
+          + [52]Germany
+          + [53]France
+          + [54]Ireland
+
+     * [55]Account
+          + [56]Stylist Lounge
+          + [57]Orders
+          + [58]Log Out
+     * [59]Wishlist
+     * [60]1 Item 0 Items
+
+   ____________________ (BUTTON) 
+
+   [61]$5.95 Flat Rate Shipping + Free Returns
+
+   SHOP NOW
+   Style Under $50 - Small wonders for WOW prices! Shop Now
+   [62]Style Under $50 - Small wonders for WOW prices! Shop Now
+
+   [63]Host It. Share style with friends and get so much more. (hint, hint
+   - FREE ACCESSORIES!) Learn More
+
+   LEARN MORE
+   [64]Have it all. Fashion, fun & flexibility. Start your career as a
+   Stella & Dot Stylist and get $450 in free accessories.
+
+   LEARN MORE
+
+   [65][calendar.png?2]
+
+   This week, swing by for a style event with our stunning new arrivals.
+
+   LEARN MORE AT AN EVENT NEAR YOU
+   [66]
+
+our MISSION
+
+   To give every woman the means to style her own life. On the surface, we
+   design irresistible, world-renowned accessories, but at our core, there
+   is something much greater at work. We have a vision of the world where
+   strong women live bold and joyful lives. Passion and friendship are
+   their greatest accessories. We provide the path to turn your potential
+   into reality. Join the journey, and discover the entrepreneur in you.
+   [67]SEE OUR STORY
+
+best SELLERS
+
+   [68]SHOP NOW
+
+   Hope Necklace
+
+   $39
+
+   Pave Triangle Cuff - Rose Gold
+
+   $34
+
+   Inspire Bracelet
+
+   $39
+
+   STRENGTH BRACELET
+
+   $39
+
+   Renegade Cluster Bracelet - Gold
+
+   $59
+
+   Arrison Stretch Bracelet - Gold
+
+   $34
+   [69]
+
+   as SEEN ON
+   See the celebrity coveted and editor adored styles
+   [70]
+
+   STYLE on the STREET
+   Give us your best #stelladotstyle
+
+   Stella & Dot designs an irresistible line of fashion jewelry and
+   fashion accessories that can be purchased exclusively at home jewelry
+   parties or online. Shop our collection of women's jewelry, including
+   fashion necklaces, fashion bracelets, fashion earrings and fashion
+   rings. Or, become a Stylist and have your own jewelry party selling
+   jewelry, handbags, and other accessories - it's like having your own
+   jewelry company!
+
+   Find your [71]Stylist or [72]Hostess Stylist: Shopping Trunkshow
+
+     * [73]Facebook
+     * [74]Pinterest
+     * [75]Instagram
+     * [76]Twitter
+     * [77]YouTube
+     * [78]Style Watch
+
+
+   Sign up to receive special offers.
+   ____________________ (BUTTON) Subscribe
+     * [79]Our Story
+     * [80]Blog
+     * [81]Press
+     * [82]Help
+     * ____________________ Copy
+       Share to:    [83]
+       Share Page
+
+
+     * [84]Contact Us
+     * [85]Shipping & Delivery
+     * [86]Returns
+     * [87]Affiliates
+     * [88]Careers
+     * [89]Privacy
+     * [90]Terms of Use
+
+   Copyright 2014 Stella & Dot / All rights reserved
+
+References
+
+   Visible links
+   1. https://shop.stelladot.com/style/b2c_en_us/customer/account/login?redirect=http://www.stelladot.com/sites/alishabroman
+   2. https://shop.stelladot.com/style/b2c_en_us/customer/account/login?redirect=http://www.stelladot.com/sites/alishabroman
+   3. file:///search/stylist
+   4. file:///search/hostess
+   5. file:///help
+   6. file:///home/bbokka/cs594/Assignment/programs/html_content/stella-dot-gift-card.html
+   7. file:///?lc=en_us
+   8. file:///?lc=en_ca
+   9. file:///?lc=en_gb
+  10. file:///?lc=de_de
+  11. file:///?lc=fr_fr
+  12. file:///?lc=en_eu
+  13. file:///
+  14. file:///
+  15. file:///trunkshow
+  16. file:///stylist
+  17. http://shop.stelladot.com/style/b2c_en_us/checkout/cart
+  18. file:///shop/en_us/whats-new/new-arrivals
+  19. file:///shop/en_us/whats-new/new-arrivals
+  20. file:///shop/en_us/whats-new/best-sellers
+  21. file:///shop/en_us/whats-new/look-book
+  22. file:///shop/en_us/jewelry
+  23. file:///shop/en_us/jewelry/necklaces/necklaces-all
+  24. file:///shop/en_us/jewelry/charms-engraving
+  25. file:///shop/en_us/jewelry/bracelets/bracelets-all
+  26. file:///shop/en_us/jewelry/earrings/earrings-all
+  27. file:///shop/en_us/jewelry/rings/rings-all
+  28. file:///shop/en_us/jewelry/girls/girls-all
+  29. file:///shop/en_us/jewelry/storage-and-display
+  30. file:///shop/en_us/accessories
+  31. file:///shop/en_us/accessories/designer-handbags-wallets
+  32. file:///shop/en_us/accessories/designer-wallets
+  33. file:///shop/en_us/accessories/travel-makeup-bags
+  34. file:///shop/en_us/accessories/designer-tech-cases
+  35. file:///shop/en_us/accessories/designer-scarves
+  36. file:///shop/en_us/gifts
+  37. file:///shop/en_us/featured-shops
+  38. file:///shop/en_us/featured-shops/versatility-shop
+  39. file:///shop/en_us/featured-shops/statement-pieces
+  40. file:///shop/en_us/featured-shops/50-under
+  41. file:///shop/en_us/fashion-celebrity-press
+  42. file:///shop/en_us/featured-shops/stelladot-foundation-shop
+  43. file:///shop/en_us/sale/sale-all
+  44. http://stylewatch.stelladot.com/content/videos
+  45. http://shop.stelladot.com/style/b2c_en_us/wishlist/
+  46. file:///trunkshow
+  47. file:///stylist
+  48. file:///home/bbokka/cs594/Assignment/programs/html_content/941abf5eb2fe31b9439fca10684bdcb8.htm
+  49. file:///?lc=en_us
+  50. file:///?lc=en_ca
+  51. file:///?lc=en_gb
+  52. file:///?lc=de_de
+  53. file:///?lc=fr_fr
+  54. file:///?lc=en_eu
+  55. http://shop.stelladot.com/style/b2c_en_us/customer/account/
+  56. http://lounge.stelladot.com/
+  57. http://shop.stelladot.com/style/b2c_en_us/sales/order/history/
+  58. http://shop.stelladot.com/style/b2c_en_us/customer/account/logout/
+  59. http://shop.stelladot.com/style/b2c_en_us/wishlist/
+  60. http://shop.stelladot.com/style/b2c_en_us/checkout/cart
+  61. file:///help/shipping-rates-us
+  62. file:///shop/en_us/featured-shops/50-under?icn=under_50&ici=mobile_hp_us
+  63. file:///trunkshow?icn=host&ici=learn_more_us
+  64. file:///stylist?icn=join&ici=learn_more_us
+  65. file:///events?icn=sd_event&ici=event_banner_us
+  66. file:///about?icn=our_mission&ici=about_us_us
+  67. file:///about?icn=our_mission&ici=about_us_us&autoplayvideo=1
+  68. file:///shop/en_us/whats-new/best-sellers?icn=best_sellers&ici=product_shop_now_us
+  69. file:///press?icn=march&ici=fashion_press_us
+  70. file:///content/instagram?icn=get_inspired&ici=style_on_the_street_us
+  71. file:///search/stylist
+  72. file:///search/hostess
+  73. http://www.facebook.com/stelladot
+  74. http://pinterest.com/stellaanddot
+  75. http://instagram.com/stelladot
+  76. http://twitter.com/stelladot
+  77. http://www.youtube.com/user/StellaDot
+  78. http://stylewatch.stelladot.com/
+  79. file:///about
+  80. http://stylewatch.stelladot.com/
+  81. file:///press
+  82. file:///help
+  83. file:///home/bbokka/cs594/Assignment/programs/html_content/941abf5eb2fe31b9439fca10684bdcb8.htm
+  84. file:///help
+  85. file:///help/shipping-rates-us
+  86. file:///help/returns
+  87. file:///affiliates
+  88. file:///about/careers
+  89. file:///help/privacy-policy
+  90. file:///terms-of-use
+
+   Hidden links:
+  92. file://localhost/profile
+  93. file://localhost/shop/en_us/featured-shops/50-under?icn=under_50&ici=hp_us
+  94. file://localhost/shop/en_us/p/hope-necklace?icn=best_sellers&ici=hope_necklace_us
+  95. file://localhost/shop/en_us/p/pave-triangle-cuff-rose-gold?icn=best_sellers&ici=pave_triangle_us
+  96. file://localhost/shop/en_us/p/inspire-bracelet?icn=best_sellers&ici=inspire_bracelet_us
+  97. file://localhost/shop/en_us/p/strength-bracelet?icn=best_sellers&ici=strength_bracelet_us
+  98. file://localhost/shop/en_us/p/renegade-cluster-bracelets?color=gold&icn=best_sellers&ici=renegade_cluster_us
+  99. file://localhost/shop/en_us/p/arrison-stretch-bracelet-gold-silver?color=gold&icn=best_sellers&ici=arrison_us

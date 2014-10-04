@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!--
+ 
+The Eon Theme brought to you by Atlas Designs
+http://atlasdesigns.tumblr.com/
+ 
+Do not remove credits or republish this theme without permission.
+ 
+-->
+ 
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+ 
+<link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_70c07127c57f_128.png">
+ 
+<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+ 
+
+ 
+<script type="text/javascript"
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+ 
+<script type="text/javascript" src="http://static.tumblr.com/dbek3sy/iBElrgjim/jquerymasonry.js"></script>
+ 
+<script type="text/javascript" src="http://static.tumblr.com/dbek3sy/Qyblrgjfn/jqueryinfintescroll.js"></script>
+<script type="text/javascript">
+$(window).load(function () {
+var $content = $('#content');
+$content.masonry({itemSelector: '.entry'}),
+$content.infinitescroll({
+navSelector : 'div#pagination',
+nextSelector : 'div#pagination a#nextPage',
+itemSelector : '.entry',
+loading: {
+finishedMsg: '',
+img: 'http://static.tumblr.com/dbek3sy/pX1lrx8xv/ajax-loader.gif'
+},
+bufferPx : 600,
+debug : false,
+},
+// call masonry as a callback.
+function( newElements ) {
+var $newElems = $( newElements );
+$newElems.hide();
+// ensure that images load before adding to masonry layout
+$newElems.imagesLoaded(function(){
+$content.masonry( 'appended', $newElems, true, function(){$newElems.fadeIn(300);} );});});});</script>
+
+ 
+<meta name="color:background" content="#ffffff" />
+<meta name="color:text" content="#000" />
+<meta name="color:title" content="#000" />
+<meta name="color:link" content="#828282" />
+<meta name="color:link hover" content="#eee" />
+<meta name="color:scrollbar" content="#a3a3a3" />
+<meta name="color:top line" content="#ebebeb" />
+<meta name="color:post perma" content="#fff">
+ 
+<meta name="if:banner" content="">
+<meta name="if:link tabs" content="0">
+<meta name="if:four columns" content="0">
+<meta name="if:three columns" content="1">
+<meta name="if:two columns" content="0">
+ 
+<meta name="text:reblog" content="reblog">
+<meta name="text:home" content="Home">
+<meta name="text:message" content="Message">
+<meta name="text:archive" content="Archive">
+ 
+<meta name="image:background" content="" />
+<meta name="image:banner" content="">
+ 
+<style type="text/css">
+ 
+ 
+::-webkit-scrollbar {width: 5px; height: 0px; background:#ffffff;}
+::-webkit-scrollbar-thumb {background: #a3a3a3;}
+ 
+iframe#tumblr_controls {position:fixed; z-index:9999999999; top: 3px; margin: 0 0 0 0; right:4px; -webkit-filter: invert(100%);}
+ 
+body {
+background-color: #ffffff;
+background-image:url(http://assets.tumblr.com/images/x.gif);
+background-attachment: fixed;
+background-repeat: repeat;
+font-size:20px;
+font-family:Times New Roman;
+font-weight:200;
+line-height:17px;
+text-transform:none;
+color: #000;
+}
+ 
+#top{
+position:absolute;
+top:0px;
+left:0px;
+width:100%;
+height:5px;
+background-color:#ebebeb;
+}
+ 
+#blogtitle{
+position:fixed;
+font-family:Times New Roman;
+top:90px;
+left:20px;
+width:150px;
+font-weight:100;    
+font-size:20px;
+line-height:13px;
+letter-spacing:2px;
+text-transform:uppercase;
+text-align:right;
+}
+ 
+#blogtitle a{
+color: #000;
+}
+ 
+#description{
+font-family:Courier New;
+font-size:15px;
+text-align:right;    
+font-style:;
+text-transform:none;
+letter-spacing:0px;
+}
+ 
+#nav{
+font-family:pt sans narrow;    
+position:absolute;
+top:6px;
+left:250px;
+width:800px;
+word-spacing:10px;
+}
+ 
+#nav a{  
+  
+font-size:11px;
+line-height:30px;
+letter-spacing:2px;
+text-transform:uppercase;
+padding-top:10px;
+padding-left:3px;
+padding-right:1px;
+padding-bottom:2px;
+-webkit-transition: all 0.4s linear;
+-webkit-transition: all 0.4s linear;
+-moz-transition: all 0.4s linear;
+transition: all 0.4s linear;
+}
+ 
+#nav a:hover{      
+color:#ffffff;    
+background-color:#ebebeb;
+-webkit-transition: all 0.4s linear;
+-webkit-transition: all 0.4s linear;
+-moz-transition: all 0.4s linear;
+transition: all 0.4s linear;
+}
+ 
+.answer{
+}
+.answer img {
+width:250px;
+height:auto;
+
+}
+ 
+a {
+text-decoration:none;
+color:#828282;
+}
+ 
+a:link, a:active, a:visited{
+color: #828282;
+}
+ 
+a:hover{    
+color: #eee;
+}
+ 
+div#center{
+margin-left: 0px;
+width: 100%;
+height: auto;
+overflow-x:hidden;
+}
+ 
+div#content {
+
+    
+width: 1000px;
+
+
+margin-left:175px;
+margin-top:50px;
+float:left;
+position: relative;
+}
+ 
+.entry{
+margin:7px;
+float:left;
+height:auto;
+background-color: #trans;
+
+width:280px;
+overflow:hidden;
+
+
+-moz-transition: all 0.4s ease-in-out;
+-webkit-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+}
+ 
+.title{
+font-family:Times New Roman;      
+font-size:16px;
+line-height:17px;
+letter-spacing:2px;
+text-transform:uppercase;
+color: #000;
+}
+ 
+blockquote{
+padding:0px 0px 0px 3px;
+margin:0px 0px 0px 2px;
+border-left: 2px solid #ddd;
+}
+ 
+.entry .perma{
+position:absolute;
+font-family:Times New Roman;
+top:-30px;
+right:60px;
+background:#fff;
+font-size:11px;
+line-height:15px;
+height:13px;
+padding:6px;
+overflow:hidden;
+opacity: 0;
+-webkit-transition: all 0.2s linear;
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+transition: all 0.2s linear;
+}
+ 
+.entry:hover .perma{  
+top:10px;    
+overflow:hidden;
+opacity: .7;
+-webkit-transition: all 0.2s linear;
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+transition: all 0.2s linear;
+}
+ 
+.entry .reperma{
+position:absolute;
+font-family:Times New Roman;
+top:-30px;
+right:10px;
+background:#fff;
+font-size:11px;
+line-height:15px;
+height:13px;
+padding:6px;
+overflow:hidden;
+text-transform:uppercase;
+opacity: 0;
+-webkit-transition: all 0.2s linear;
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+transition: all 0.2s linear;
+}
+ 
+.entry:hover .reperma{  
+top:10px;    
+overflow:hidden;
+opacity: .7;
+-webkit-transition: all 0.2s linear;
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+transition: all 0.2s linear;
+}
+ 
+.entry .permalink{
+font-family:Times New Roman;
+font-size:11px;
+text-transform:uppercase;
+word-spacing:1px;
+text-align:center;    
+padding:0px;
+line-height:0px;
+opacity:0;
+-webkit-transition: all 0.4s linear;
+-webkit-transition: all 0.4s linear;
+-moz-transition: all 0.4s linear;
+transition: all 0.4s linear;
+}
+ 
+.entry:hover .permalink{
+line-height:12px;    
+opacity:1;
+-webkit-transition: all 0.4s linear;
+-webkit-transition: all 0.4s linear;
+-moz-transition: all 0.4s linear;
+transition: all 0.4s linear;
+}
+ 
+.lowerc{
+text-transform:lowercase;
+}
+ 
+.speclink{
+word-spacing:1px;
+}
+ 
+.notess{
+position:absolute;
+left:500px;
+top:20px;
+height:500px;
+width:500px;
+overflow:scroll;
+}
+ 
+#banner{
+   
+}
+ 
+
+</style>
+ 
+<title>-</title>
+ 
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://minionme07.tumblr.com/rss" />
+ 
+<meta name="robots" content="noindex"/>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=minionme07" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="-" /><meta property="og:url" content="http://minionme07.tumblr.com/?og=1" /><meta property="og:description" content="Nicole Zx Singapore" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_70c07127c57f_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=minionme07" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=minionme07" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="minionme07" /><meta name="twitter:description" content="Nicole Zx&lt;br&gt;
+Singapore&lt;br&gt;&lt;br&gt;
+&lt;a href=&quot;http://facebook.com/nicoletinn07&quot;&gt;&lt;img src=&quot;http://icons.iconarchive.com/icons/icons8/android/16/Social-Networks-facebook-icon.png&quot;&gt;&lt;/a&gt;  &lt;a href=&quot;http://instagram.com/nicoletinn&quot;&gt;&lt;img src=&quot;http://icons.iconarchive.com/icons/icons8/android/16/Social-Networks-instagram-icon.png&quot;&gt;&lt;/a&gt;   &lt;a href=&quot;http://twitter.com/nicoletinn&quot;&gt;&lt;img src=&quot;http://icons.iconarchive.com/icons/custom-icon-design/mono-general-3/16/twitter-icon.png&quot;&gt;&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;!-- nuffnang --&gt;
+ 
+&lt;!-- nuffnang--&gt;" /><meta name="twitter:creator" content="nicoletinn" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=minionme07&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=minionme07&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=minionme07&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+ 
+<div id="top"></div>
+ 
+<div id="nav">
+<a href="/"></a>
+<a href="/ask"></a>
+<a href="/archive"></a>
+
+</div>
+ 
+<div id="blogtitle"><a href="/">-<br></a>
+<span id="description"><br>Nicole Zx<br>
+Singapore<br><br>
+<a href="http://facebook.com/nicoletinn07"><img src="http://icons.iconarchive.com/icons/icons8/android/16/Social-Networks-facebook-icon.png"></a>  <a href="http://instagram.com/nicoletinn"><img src="http://icons.iconarchive.com/icons/icons8/android/16/Social-Networks-instagram-icon.png"></a>   <a href="http://twitter.com/nicoletinn"><img src="http://icons.iconarchive.com/icons/custom-icon-design/mono-general-3/16/twitter-icon.png"><br><br>
+<br>
+<!-- nuffnang -->
+ 
+<!-- nuffnang--></span>
+</div>
+ 
+<div id="center">
+ 
+<div id="content">
+ 
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<a href="http://minionme07.tumblr.com/image/99033499016"><div class="photo"><a href="http://minionme07.tumblr.com/post/99033499016"><img src="http://31.media.tumblr.com/57d45eea31155083c2cc33e6f2d2eaab/tumblr_ncuruiFzer1qc868ko1_500.jpg" alt="TGIF" width=280px/></a></div></a>
+<div class="perma">
+<a href="http://minionme07.tumblr.com/post/99033499016">0</a>
+</div><div class="reperma">
+<a href="https://www.tumblr.com/reblog/99033499016/iQJUgYqE">reblog</a>    
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+</div>
+ 
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<a href="http://minionme07.tumblr.com/image/98961867751"><div class="photo"><a href="http://minionme07.tumblr.com/post/98961867751"><img src="http://38.media.tumblr.com/92d90ce0911a8085b48ea10833c3211f/tumblr_n9hrr8njQa1rkro3so1_500.jpg" alt="inkeddotwork:
+
+Timur Lysenko
+" width=280px/></a></div></a>
+<div class="perma">
+<a href="http://minionme07.tumblr.com/post/98961867751">2605</a>
+</div><div class="reperma">
+<a href="https://www.tumblr.com/reblog/98961867751/H5AsylsL">reblog</a>    
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+</div>
+ 
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<a href="http://4himglory.tumblr.com"><div class="photo"><a href="http://minionme07.tumblr.com/post/98961702201"><img src="http://33.media.tumblr.com/ccaa3439b0c1221a8ca58c57cb31a291/tumblr_mj1vlexWBH1rpwhvdo1_500.jpg" alt="token:
+
+&nbsp;Will always follow back&nbsp;
+" width=280px/></a></div></a>
+<div class="perma">
+<a href="http://minionme07.tumblr.com/post/98961702201">18203</a>
+</div><div class="reperma">
+<a href="https://www.tumblr.com/reblog/98961702201/nGOdi8UG">reblog</a>    
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+</div>
+ 
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<div class="photo"><a href="http://minionme07.tumblr.com/post/98951040526"><img src="http://38.media.tumblr.com/624a9a4bdf64529de4997dd8392bc199/tumblr_na1locBgfF1tckqllo1_500.jpg" alt="" width=280px/></a></div>
+<div class="perma">
+<a href="http://minionme07.tumblr.com/post/98951040526">3</a>
+</div><div class="reperma">
+<a href="https://www.tumblr.com/reblog/98951040526/TUQah37o">reblog</a>    
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+</div>
+ 
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<a href="http://minionme07.tumblr.com/image/98950943556"><div class="photo"><a href="http://minionme07.tumblr.com/post/98950943556"><img src="http://33.media.tumblr.com/bd74514d156da09564c7638e289cb90c/tumblr_mt6rgbbra61ru6qc6o1_500.jpg" alt="" width=280px/></a></div></a>
+<div class="perma">
+<a href="http://minionme07.tumblr.com/post/98950943556">173943</a>
+</div><div class="reperma">
+<a href="https://www.tumblr.com/reblog/98950943556/gpdPQfQU">reblog</a>    
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+</div>
+ 
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<div style="margin-left:3px;">
+What and how much had I lost by trying to do only what was expected of me instead of what I myself had wished to do?</span><br><i><span>Ralph Ellison</span><span>, </span><em>Invisible Man</em> (via <a class="tumblr_blog" href="http://feellng.com/">feellng</a>)</i>
+</div>
+<div class="permalink"><a href="https://www.tumblr.com/reblog/98943773636/0jo2MxNE"></a>&nbsp;<span class="lowerc">with</span>&nbsp;<a href="http://minionme07.tumblr.com/post/98943773636">966 notes</a></div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+</div>
+ 
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<a href="http://minionme07.tumblr.com/image/98887003026"><div class="photo"><a href="http://minionme07.tumblr.com/post/98887003026"><img src="http://33.media.tumblr.com/2aa836b02db2ed8434fdbff845c00ffd/tumblr_ncmkb8a31d1rbvogzo1_500.jpg" alt="" width=280px/></a></div></a>
+<div class="perma">
+<a href="http://minionme07.tumblr.com/post/98887003026">25867</a>
+</div><div class="reperma">
+<a href="https://www.tumblr.com/reblog/98887003026/8JCustWO">reblog</a>    
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+</div>
+ 
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<a href="https://www.flickr.com/photos/belle_fleur/14611923163/in/photostream/"><div class="photo"><a href="http://minionme07.tumblr.com/post/98886993016"><img src="http://38.media.tumblr.com/26d776c5c283eb67a05e09a29153745b/tumblr_n96vv2MCa41raqev0o1_500.png" alt="deletingmyself:
+
+before the storm. (belle.fleur)| New York, US
+" width=280px/></a></div></a>
+<div class="perma">
+<a href="http://minionme07.tumblr.com/post/98886993016">1516</a>
+</div><div class="reperma">
+<a href="https://www.tumblr.com/reblog/98886993016/MchRGaz8">reblog</a>    
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+</div>
+ 
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<a href="http://teenager90s.tumblr.com/"><div class="photo"><a href="http://minionme07.tumblr.com/post/98886873251"><img src="http://33.media.tumblr.com/aa5a2d5469c23392e91a070acdd3a098/tumblr_ncmxmcnNUf1r4ueyro1_400.jpg" alt="" width=280px/></a></div></a>
+<div class="perma">
+<a href="http://minionme07.tumblr.com/post/98886873251">1797</a>
+</div><div class="reperma">
+<a href="https://www.tumblr.com/reblog/98886873251/xV2MXLa7">reblog</a>    
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+</div>
+ 
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<div style="margin-left:3px;">
+Everybody talks about wanting to change things and help and fix, but ultimately all you can do is fix yourself. And that’s a lot. Because if you can fix yourself, it has a ripple effect.</span><br><i><span>Rob Reiner</span> (via <a class="tumblr_blog" href="http://feellng.com/">feellng</a>)</i>
+</div>
+<div class="permalink"><a href="https://www.tumblr.com/reblog/98886830656/IaJtPNK5"></a>&nbsp;<span class="lowerc">with</span>&nbsp;<a href="http://minionme07.tumblr.com/post/98886830656">1,560 notes</a></div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+</div>
+ 
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<div class="photo"><a href="http://minionme07.tumblr.com/post/98886747271"><img src="http://38.media.tumblr.com/cca7b98999a9c43ea0653477d0ccd104/tumblr_n4list8wST1s15nabo1_500.jpg" alt="colourofthepast:
+
+thrashturbate:
+
+x
+
+Follow me on instagram to stay in touch: @jess.colourofthepast
+" width=280px/></a></div>
+<div class="perma">
+<a href="http://minionme07.tumblr.com/post/98886747271">1481</a>
+</div><div class="reperma">
+<a href="https://www.tumblr.com/reblog/98886747271/hNKM8nvW">reblog</a>    
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+</div>
+ 
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<a href="http://teenager90s.tumblr.com/"><div class="photo"><a href="http://minionme07.tumblr.com/post/98797017326"><img src="http://38.media.tumblr.com/c27e15768d19c771f66810c803d77092/tumblr_ncp9osvlXJ1rcf4rko1_500.jpg" alt="" width=280px/></a></div></a>
+<div class="perma">
+<a href="http://minionme07.tumblr.com/post/98797017326">876</a>
+</div><div class="reperma">
+<a href="https://www.tumblr.com/reblog/98797017326/1OmsR6f6">reblog</a>    
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+</div>
+ 
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<div class="photo"><a href="http://minionme07.tumblr.com/post/98795950441"><img src="http://33.media.tumblr.com/7b6cc4b6983dcea414450750ea0505d8/tumblr_nckvkzCXCm1r95ufao1_500.jpg" alt="" width=280px/></a></div>
+<div class="perma">
+<a href="http://minionme07.tumblr.com/post/98795950441">87</a>
+</div><div class="reperma">
+<a href="https://www.tumblr.com/reblog/98795950441/Bq3gQBQA">reblog</a>    
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+</div>
+ 
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<div class="photo"><a href="http://minionme07.tumblr.com/post/98702877941"><img src="http://31.media.tumblr.com/4834890cabcee0809cbccaffcce2eeb5/tumblr_ncn1dziNX61s4j88qo1_500.jpg" alt="" width=280px/></a></div>
+<div class="perma">
+<a href="http://minionme07.tumblr.com/post/98702877941">107</a>
+</div><div class="reperma">
+<a href="https://www.tumblr.com/reblog/98702877941/vrY8OUVv">reblog</a>    
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+</div>
+ 
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<div style="margin-left:3px;">
+We accept the love we think we deserve.</span><br><i><span>Stephen Chbosky</span><span>, </span><em>The Perks of Being a Wallflower</em> (via <a href="http://feellng.com/" class="tumblr_blog">feellng</a>)<p>(via <a href='http://feellng.com/post/97958482592/we-accept-the-love-we-think-we-deserve'>feellng</a>)</p></i>
+</div>
+<div class="permalink"><a href="https://www.tumblr.com/reblog/98695605566/7Y8Ewxyd"></a>&nbsp;<span class="lowerc">with</span>&nbsp;<a href="http://minionme07.tumblr.com/post/98695605566">5,963 notes</a></div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+</div>
+ 
+
+ 
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+</div>
+ 
+<div style="position:absolute;z-index:99999999999999999999999999999999999; !important;top:24px;right:3px;-webkit-filter:invert(100%);"><a href="http://atlasdesigns.tumblr.com/"><img src="http://static.tumblr.com/2w7y46r/wuvmba8c2/installtheme.png"></a></div>
+ 
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://minionme07.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412372957&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbWluaW9ubWUwNy50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=ENJDKJJJHC&K=c9a38294436500f4b2d80361922b1141f6461f3dc0d2c3dd1ecb0736cfa49fd8&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412372957&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbWluaW9ubWUwNy50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=ENJDKJJJHC&K=141021cd8ea275b161eff49878baa2d2cb91fbbdcb8044d50c71c343ac1afbfe&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412372957&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL21pbmlvbm1lMDcudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJwb3N0aWQiOiI5OTAzMzQ5OTAxNiIsImJsb2dpZCI6IjUyMTQzNjkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzk0MDM2OTEiLCJyb290X3Bvc3RpZCI6IjkzMjQxMjA0NTU0IiwicG9zdGlkIjoiOTg5NjE4Njc3NTEiLCJibG9naWQiOiI1MjE0MzY5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQ0MzkwMjEwIiwicm9vdF9wb3N0aWQiOjQ0Mzk0NDE1NDM1LCJwb3N0aWQiOiI5ODk2MTcwMjIwMSIsImJsb2dpZCI6IjUyMTQzNjkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTg3Nzg5MzA2Iiwicm9vdF9wb3N0aWQiOiI5NDI0Nzc0NTc1MCIsInBvc3RpZCI6Ijk4OTUxMDQwNTI2IiwiYmxvZ2lkIjoiNTIxNDM2OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI1MjE1OTk2MiIsInJvb3RfcG9zdGlkIjoiNjEzNTAzODU5NjUiLCJwb3N0aWQiOiI5ODk1MDk0MzU1NiIsImJsb2dpZCI6IjUyMTQzNjkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzA4NTYxNzgiLCJyb290X3Bvc3RpZCI6Ijk4OTQwNDc5MzU5IiwicG9zdGlkIjoiOTg5NDM3NzM2MzYiLCJibG9naWQiOiI1MjE0MzY5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjY0NDc0NzE0Iiwicm9vdF9wb3N0aWQiOiI5ODY1NTgxMzcwNiIsInBvc3RpZCI6Ijk4ODg3MDAzMDI2IiwiYmxvZ2lkIjoiNTIxNDM2OSIsInNvdXJjZSI6MzN9XX0=&U=IANAFCNNHN&K=0fe2c1d479ce7c2d09ff71d218d66cec84f1ed1220efed6ac6aaba6509259c18&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412372957&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL21pbmlvbm1lMDcudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJwb3N0aWQiOiI5OTAzMzQ5OTAxNiIsImJsb2dpZCI6IjUyMTQzNjkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzk0MDM2OTEiLCJyb290X3Bvc3RpZCI6IjkzMjQxMjA0NTU0IiwicG9zdGlkIjoiOTg5NjE4Njc3NTEiLCJibG9naWQiOiI1MjE0MzY5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQ0MzkwMjEwIiwicm9vdF9wb3N0aWQiOjQ0Mzk0NDE1NDM1LCJwb3N0aWQiOiI5ODk2MTcwMjIwMSIsImJsb2dpZCI6IjUyMTQzNjkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTg3Nzg5MzA2Iiwicm9vdF9wb3N0aWQiOiI5NDI0Nzc0NTc1MCIsInBvc3RpZCI6Ijk4OTUxMDQwNTI2IiwiYmxvZ2lkIjoiNTIxNDM2OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI1MjE1OTk2MiIsInJvb3RfcG9zdGlkIjoiNjEzNTAzODU5NjUiLCJwb3N0aWQiOiI5ODk1MDk0MzU1NiIsImJsb2dpZCI6IjUyMTQzNjkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzA4NTYxNzgiLCJyb290X3Bvc3RpZCI6Ijk4OTQwNDc5MzU5IiwicG9zdGlkIjoiOTg5NDM3NzM2MzYiLCJibG9naWQiOiI1MjE0MzY5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjY0NDc0NzE0Iiwicm9vdF9wb3N0aWQiOiI5ODY1NTgxMzcwNiIsInBvc3RpZCI6Ijk4ODg3MDAzMDI2IiwiYmxvZ2lkIjoiNTIxNDM2OSIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=IANAFCNNHN&K=895d715347526e2e63573a893fa47ec8fcbf9d257f63fba8aeaa362acc242ffa&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412372957&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL21pbmlvbm1lMDcudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjYyNTgyMTM2Iiwicm9vdF9wb3N0aWQiOiI5MjY3ODE4OTIwOCIsInBvc3RpZCI6Ijk4ODg2OTkzMDE2IiwiYmxvZ2lkIjoiNTIxNDM2OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzMDg1NjE3OCIsInJvb3RfcG9zdGlkIjoiOTg3OTI0MTcyMzAiLCJwb3N0aWQiOiI5ODg4Njg3MzI1MSIsImJsb2dpZCI6IjUyMTQzNjkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzA4NTYxNzgiLCJyb290X3Bvc3RpZCI6Ijk4ODQ2NDEyNDg1IiwicG9zdGlkIjoiOTg4ODY4MzA2NTYiLCJibG9naWQiOiI1MjE0MzY5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijg1NzAxNjg0Iiwicm9vdF9wb3N0aWQiOiI4MzgyNjg3NzgxNSIsInBvc3RpZCI6Ijk4ODg2NzQ3MjcxIiwiYmxvZ2lkIjoiNTIxNDM2OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2NjYxMTI4OSIsInJvb3RfcG9zdGlkIjoiOTg3ODkzNDUyNDMiLCJwb3N0aWQiOiI5ODc5NzAxNzMyNiIsImJsb2dpZCI6IjUyMTQzNjkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzg2ODE2ODciLCJyb290X3Bvc3RpZCI6Ijk4Nzg3ODM5Njg2IiwicG9zdGlkIjoiOTg3OTU5NTA0NDEiLCJibG9naWQiOiI1MjE0MzY5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjkxOTk3MTAxIiwicm9vdF9wb3N0aWQiOiI5ODY4NDgxNjc0NSIsInBvc3RpZCI6Ijk4NzAyODc3OTQxIiwiYmxvZ2lkIjoiNTIxNDM2OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzMDg1NjE3OCIsInJvb3RfcG9zdGlkIjoiODQzMTI4MTc4NTYiLCJwb3N0aWQiOiI5ODY5NTYwNTU2NiIsImJsb2dpZCI6IjUyMTQzNjkiLCJzb3VyY2UiOjMzfV19&U=GDHJFOPPAL&K=d2526799f2ff8a6dd0e65e562b0e315b5ff164050213a4c756347ef6020abb7d&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412372957&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL21pbmlvbm1lMDcudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjYyNTgyMTM2Iiwicm9vdF9wb3N0aWQiOiI5MjY3ODE4OTIwOCIsInBvc3RpZCI6Ijk4ODg2OTkzMDE2IiwiYmxvZ2lkIjoiNTIxNDM2OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzMDg1NjE3OCIsInJvb3RfcG9zdGlkIjoiOTg3OTI0MTcyMzAiLCJwb3N0aWQiOiI5ODg4Njg3MzI1MSIsImJsb2dpZCI6IjUyMTQzNjkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzA4NTYxNzgiLCJyb290X3Bvc3RpZCI6Ijk4ODQ2NDEyNDg1IiwicG9zdGlkIjoiOTg4ODY4MzA2NTYiLCJibG9naWQiOiI1MjE0MzY5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijg1NzAxNjg0Iiwicm9vdF9wb3N0aWQiOiI4MzgyNjg3NzgxNSIsInBvc3RpZCI6Ijk4ODg2NzQ3MjcxIiwiYmxvZ2lkIjoiNTIxNDM2OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2NjYxMTI4OSIsInJvb3RfcG9zdGlkIjoiOTg3ODkzNDUyNDMiLCJwb3N0aWQiOiI5ODc5NzAxNzMyNiIsImJsb2dpZCI6IjUyMTQzNjkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzg2ODE2ODciLCJyb290X3Bvc3RpZCI6Ijk4Nzg3ODM5Njg2IiwicG9zdGlkIjoiOTg3OTU5NTA0NDEiLCJibG9naWQiOiI1MjE0MzY5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjkxOTk3MTAxIiwicm9vdF9wb3N0aWQiOiI5ODY4NDgxNjc0NSIsInBvc3RpZCI6Ijk4NzAyODc3OTQxIiwiYmxvZ2lkIjoiNTIxNDM2OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzMDg1NjE3OCIsInJvb3RfcG9zdGlkIjoiODQzMTI4MTc4NTYiLCJwb3N0aWQiOiI5ODY5NTYwNTU2NiIsImJsb2dpZCI6IjUyMTQzNjkiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=GDHJFOPPAL&K=c5c71b6616e47bd8755175a2be5f0fd062fa794337fe08d36da2838572863a72&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:5214369,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+                        if (d.getElementById('tumblr-cdx')) return;
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fminionme07.tumblr.com%2F&amp;lang=en_US&amp;name=minionme07&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_70c07127c57f_64.png&amp;title=-&amp;url=http%3A%2F%2Fminionme07.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=156b0620bba89e0c441937123f6317e1#src=http%3A%2F%2Fminionme07.tumblr.com%2F&amp;lang=en_US&amp;name=minionme07&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_70c07127c57f_64.png&amp;title=-&amp;url=http%3A%2F%2Fminionme07.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+    #[1]YouTube Video Search [2]alternate [3]alternate
+
+   [4]YouTube home
+   (BUTTON)
+   [5]Upload (BUTTON) Sign in
+   (BUTTON) Search
+   ____________________
+
+   Loading...
+
+This video is unavailable.
+
+   Sorry about that.
+
+Watch Queue
+
+TV Queue
+
+   Watch QueueTV Queue
+   (BUTTON)
+     * Remove all
+     * Disconnect
+
+   (BUTTON) (BUTTON) (BUTTON) (BUTTON)
+       Loading...
+
+   Watch Queue
+   TV Queue
+   __count__/__total__
+
+     * (BUTTON) Language: English
+     * (BUTTON) Country: Worldwide
+     * (BUTTON) Safety: Off
+
+   (BUTTON) Help
+
+   Loading...
+
+   Loading...
+
+   Loading...
+     * [6]About
+     * [7]Press & Blogs
+     * [8]Copyright
+     * [9]Creators & Partners
+     * [10]Advertising
+     * [11]Developers
+     * [12]+YouTube
+
+     * [13]Terms
+     * [14]Privacy
+     * [15]Policy & Safety
+     * [16]Send feedback
+     * [17]Try something new!
+     *
+
+   Loading...
+   Working...
+
+   [18]Sign in to add this to Watch Later
+
+Add to
+
+References
+
+   Visible links
+   1. http://www.youtube.com/opensearch?locale=en_US
+   2. https://m.youtube.com/watch?v=VsxHiPClu0A
+   3. https://m.youtube.com/watch?v=VsxHiPClu0A
+   4. file:///
+   5. file://www.youtube.com/upload
+   6. file://www.youtube.com/yt/about/
+   7. file://www.youtube.com/yt/press/
+   8. file://www.youtube.com/yt/copyright/
+   9. file://www.youtube.com/yt/creators/
+  10. file://www.youtube.com/yt/advertise/
+  11. file://www.youtube.com/yt/dev/
+  12. https://plus.google.com/+youtube
+  13. file:///t/terms
+  14. https://www.google.com/intl/en/policies/privacy/
+  15. file://www.youtube.com/yt/policyandsafety/
+  16. file://support.google.com/youtube/?hl=en
+  17. file:///testtube
+  18. https://accounts.google.com/ServiceLogin?hl=en&continue=https://www.youtube.com/signin?hl=en&feature=playlist&app=desktop&action_handle_signin=true&next=%2Fwatch%3Fv%3DVsxHiPClu0A&service=youtube&passive=true&uilel=3
+
+   Hidden links:
+  20. file://localhost/

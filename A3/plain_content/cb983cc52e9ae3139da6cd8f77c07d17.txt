@@ -1,0 +1,135 @@
+   REFRESH(0 sec): [1]file://localhost/?_fb_noscript=1
+   #[2]alternate [3]alternate [4]alternate [5]alternate [6]alternate
+   [7]alternate [8]alternate [9]alternate [10]alternate [11]alternate
+   [12]alternate [13]alternate [14]alternate [15]alternate [16]alternate
+   [17]alternate [18]alternate [19]alternate [20]alternate [21]alternate
+   [22]alternate [23]alternate [24]alternate [25]alternate [26]alternate
+   [27]alternate [28]alternate [29]alternate [30]alternate [31]alternate
+   [32]alternate
+
+   [33]Facebook logo
+   Email or Phone______ Password____________     (1) Log In
+   [ ] Keep me logged in
+                        [34]Forgot your password?
+   Sign Up
+   It's free and always will be.
+
+JavaScript is disabled on your browser.
+
+   Please enable JavaScript on your browser or upgrade to a
+   JavaScript-capable browser to register for Facebook.
+   First name__________
+   Last name___________
+   Email_______________
+   Re-enter email______
+   New password________
+   Birthday
+   [Month][Day][Year]
+   [35]Why do we ask for this?
+   Gender (*) Female ( ) Male
+
+   By clicking Sign Up for Facebook, you agree to our [36]Terms and that
+   you have read our [37]Data Use Policy, including our [38]Cookie Use.
+   (1) Sign Up for Facebook
+
+Security Check
+
+   This field is required.
+   Enter both words below, separated by a space.
+   Can't read the words below? [39]Try different words or [40]an audio
+   captcha .
+   Please enter the words or numbers you hear.
+   [41]Try different words or [42]back to text .
+   Loading...
+   Text in the box
+   ____________________
+   [43]Why am I seeing this?
+   Security Check
+   This is a standard security test that we use to prevent spammers from
+   creating fake accounts and spamming users.
+
+   [44]Back
+   (BUTTON) Sign Up
+   An error occurred. Please try again.
+   [45]Create a Page for a celebrity, band or business.
+   [46]What's this?
+   Stay in touch
+   Keep up with friends and family far away. Or chat with the friends you
+   see everyday.
+   Get the latest
+   See what friends and celebrities are saying about today's news. And
+   never miss a birthday.
+   Share what's up with you
+   Post a photo of the best meal you ever ate. Or a video of your friend's
+   wedding.
+   [47]About [48]Developers [49]Create Ad [50]Create Page [51]Music
+   [52]Games [53]Apps [54]Privacy [55]Help
+   [56]Careers [57]Mobile [58]Find Friends [59]People [60]Pages
+   [61]Cookies [62]Terms
+   Facebook © 2014 [63]English (US)
+
+References
+
+   1. file:///?_fb_noscript=1
+   2. https://www.facebook.com/
+   3. https://www.facebook.com/
+   4. https://www.facebook.com/
+   5. https://www.facebook.com/
+   6. https://ar-ar.facebook.com/
+   7. https://bg-bg.facebook.com/
+   8. https://bs-ba.facebook.com/
+   9. https://ca-es.facebook.com/
+  10. https://da-dk.facebook.com/
+  11. https://el-gr.facebook.com/
+  12. https://es-la.facebook.com/
+  13. https://es-es.facebook.com/
+  14. https://fa-ir.facebook.com/
+  15. https://fi-fi.facebook.com/
+  16. https://fr-fr.facebook.com/
+  17. https://fr-ca.facebook.com/
+  18. https://hi-in.facebook.com/
+  19. https://hr-hr.facebook.com/
+  20. https://id-id.facebook.com/
+  21. https://it-it.facebook.com/
+  22. https://ko-kr.facebook.com/
+  23. https://mk-mk.facebook.com/
+  24. https://ms-my.facebook.com/
+  25. https://pl-pl.facebook.com/
+  26. https://pt-br.facebook.com/
+  27. https://pt-pt.facebook.com/
+  28. https://ro-ro.facebook.com/
+  29. https://sl-si.facebook.com/
+  30. https://sr-rs.facebook.com/
+  31. https://th-th.facebook.com/
+  32. https://vi-vn.facebook.com/
+  33. file:///
+  34. https://www.facebook.com/recover/initiate
+  35. file:///home/bbokka/cs594/Assignment/programs/html_content/cb983cc52e9ae3139da6cd8f77c07d17.htm
+  36. file:///legal/terms
+  37. file:///about/privacy
+  38. file:///help/cookies
+  39. file:///home/bbokka/cs594/Assignment/programs/html_content/cb983cc52e9ae3139da6cd8f77c07d17.htm
+  40. file:///home/bbokka/cs594/Assignment/programs/html_content/cb983cc52e9ae3139da6cd8f77c07d17.htm
+  41. file:///home/bbokka/cs594/Assignment/programs/html_content/cb983cc52e9ae3139da6cd8f77c07d17.htm
+  42. file:///home/bbokka/cs594/Assignment/programs/html_content/cb983cc52e9ae3139da6cd8f77c07d17.htm
+  43. file:///home/bbokka/cs594/Assignment/programs/html_content/cb983cc52e9ae3139da6cd8f77c07d17.htm
+  44. file:///home/bbokka/cs594/Assignment/programs/html_content/cb983cc52e9ae3139da6cd8f77c07d17.htm
+  45. file:///pages/create/?ref_type=registration_form
+  46. file:///help/1425472654332648
+  47. https://www.facebook.com/facebook
+  48. https://developers.facebook.com/?ref=pf
+  49. https://www.facebook.com/campaign/landing.php?placement=pflo&campaign_id=402047449186&extra_1=auto
+  50. https://www.facebook.com/pages/create/?ref_type=sitefooter
+  51. https://www.facebook.com/appcenter/category/music/?ref=pf
+  52. https://www.facebook.com/appcenter/category/games/?ref=pf
+  53. https://www.facebook.com/appcenter/?ref=pf
+  54. https://www.facebook.com/privacy/explanation
+  55. https://www.facebook.com/help/?ref=pf
+  56. https://www.facebook.com/careers/?ref=pf
+  57. https://www.facebook.com/mobile/?ref=pf
+  58. https://www.facebook.com/find-friends?ref=pf
+  59. https://www.facebook.com/directory/people/
+  60. https://www.facebook.com/directory/pages/
+  61. https://www.facebook.com/help/cookies/?ref=sitefooter
+  62. https://www.facebook.com/policies/?ref=pf
+  63. file:///home/bbokka/cs594/Assignment/programs/html_content/cb983cc52e9ae3139da6cd8f77c07d17.htm

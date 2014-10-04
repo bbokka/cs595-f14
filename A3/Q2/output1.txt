@@ -1,0 +1,12 @@
+ URI                                k_count t_count   TF    IDF  TFIDF
+ 
+ http://ifoodi.blogspot.com/            1435 29780  0.048  3.313  0.159
+ http://turtlestravel.com               86   1707   0.050  3.313  0.166
+ http://howchow.blogspot.com/           81   14190  0.005  3.313  0.018
+ http://thescienceofeating.com          56   4107   0.013  3.313  0.045
+ http://www.cookinglight.com            56   1111   0.050  3.313  0.167
+ http://foodnex.tumblr.com              44   503    0.087  3.313  0.289
+ http://baconforthesoul.wordpress.com   22   6850   0.003  3.313  0.010
+ http://rockinrina.tumblr.com           22   3044   0.007  3.313  0.023
+ http://thedaintypig.com                20   1709   0.011  3.313  0.038
+ http://oxymoron101.wordpress.com/      16   3929   0.004  3.313  0.013

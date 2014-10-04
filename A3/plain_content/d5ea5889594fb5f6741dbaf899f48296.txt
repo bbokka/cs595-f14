@@ -1,0 +1,8 @@
+   REFRESH(0 sec): [1]file://localhost/index.shtm
+
+   IFRAME: [2]//www.googletagmanager.com/ns.html?id=GTM-2CLM
+
+References
+
+   1. file:///index.shtm
+   2. file://www.googletagmanager.com/ns.html?id=GTM-2CLM

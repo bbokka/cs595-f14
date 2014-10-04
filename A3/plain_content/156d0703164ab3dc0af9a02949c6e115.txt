@@ -1,0 +1,8 @@
+   IFRAME: [1]historyframe
+
+   IFRAME: [2]conversionPixel
+
+References
+
+   1. file:///siteBackHtml?adress=docName:,userNick:,pageNum:0,docId:${pageModel.document.intId},pageId:
+   2. about:blank

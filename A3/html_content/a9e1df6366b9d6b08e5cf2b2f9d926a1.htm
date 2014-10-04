@@ -1,0 +1,315 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--[if lt IE 7]> <html class="no-js ie6 oldie ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> <!--<![endif]-->
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwcDVlBaGwAGUFRbAQU="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e){function n(t,e,n){n||(n={});for(var r=o[t],a=r&&r.length||0,s=n[i]||(n[i]={}),u=0;a>u;u++)r[u].apply(s,e);return s}function r(t,e){var n=o[t]||(o[t]=[]);n.push(e)}var o={},i="nr@context";e.exports={on:r,emit:n}},{}],2:[function(t){function e(t,e,n,i,s){try{u?u-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(c){try{r("ierr",[c,(new Date).getTime(),!0])}catch(d){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t(5),a=window.onerror,s=!1,u=0;t("loader").features.push("err"),window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(c){"stack"in c&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(4),s=!0)}i.on("fn-start",function(){s&&(u+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&u>0&&(u-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:5,2:4,3:3,4:6,5:1,6:14,handle:"D5DuLP",loader:"G9z0Bl"}],3:[function(t){function e(t){r.inPlace(t,["addEventListener","removeEventListener"],"-",n)}function n(t){return t[1]}var r=t(1),o=(t(3),t(2));if(e(window),"getPrototypeOf"in Object){for(var i=document;i&&!i.hasOwnProperty("addEventListener");)i=Object.getPrototypeOf(i);i&&e(i);for(var a=XMLHttpRequest.prototype;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&e(a)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&e(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=r(e,"fn-"):"function"==typeof e.handleEvent&&r.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:15,2:1,3:14}],4:[function(t){var e=(t(3),t(1)),n=t(2);e.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=e(t[0],"fn-")})},{1:15,2:1,3:14}],5:[function(t){function e(t){var e=t[0];"string"==typeof e&&(e=new Function(e)),t[0]=n(e,"fn-")}var n=(t(3),t(1)),r=t(2);n.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",e)},{1:15,2:1,3:14}],6:[function(t){function e(){o.inPlace(this,s,"fn-")}function n(t,e){o.inPlace(e,["onreadystatechange"],"fn-")}function r(t,e){return e}var o=t(1),i=t(2),a=window.XMLHttpRequest,s=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];window.XMLHttpRequest=function(t){var n=new a(t);try{i.emit("new-xhr",[],n),o.inPlace(n,["addEventListener","removeEventListener"],"-",function(t,e){return e}),n.addEventListener("readystatechange",e,!1)}catch(r){try{i.emit("internal-error",r)}catch(s){}}return n},window.XMLHttpRequest.prototype=a.prototype,o.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",r),i.on("send-xhr-start",n),i.on("open-xhr-start",n)},{1:15,2:1}],7:[function(t){function e(){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;u>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,c="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,d=e(c);if(d&&(r.rxSize=d),this.sameOrigin){var f=t.getResponseHeader("X-NewRelic-App-Data");f&&(n.cat=f.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}t("loader").features.push("xhr");var o=t("handle"),i=t(1),a=t(5),s=["load","error","abort","timeout"],u=s.length,c=t(2);t(3),t(4),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var c=e(o);c&&(r.txSize=c)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",e)}catch(r){}}};for(var d=0;u>d;d++)n.addEventListener(s[d],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+c(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+c(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&e()},{1:8,2:11,3:3,4:6,5:1,handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e){var n=r[t];return n?n.apply(this,e):(o[t]||(o[t]=[]),void o[t].push(e))}var r={},o={};e.exports=n,n.queues=o,n.handlers=r},{}],11:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&u&&u.body){p.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=u.createElement("script");e.src=p.proto+t.agent,u.body.appendChild(e)}}function r(){"complete"===u.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,u=s.document,c="addEventListener",d="attachEvent",f=(""+location).split("?")[0],p=e.exports={offset:i(),origin:f,features:[]};u[c]?(u[c]("DOMContentLoaded",o,!1),s[c]("load",n,!1)):(u[d]("onreadystatechange",r),s[d]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],14:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],15:[function(t,e){function n(t,e,r,s){function nrWrapper(){try{var n,a=u(arguments),c=this,d=r&&r(a,c)||{}}catch(f){i([f,"",[a,c,s],d])}o(e+"start",[a,c,s],d);try{return n=t.apply(c,a)}catch(p){throw o(e+"err",[a,c,p],d),p}finally{o(e+"end",[a,c,n],d)}}return a(t)?t:(e||(e=""),nrWrapper[n.flag]=!0,nrWrapper)}function r(t,e,r,o){r||(r="");var i,s,u,c="-"===r.charAt(0);for(u=0;u<e.length;u++)s=e[u],i=t[s],a(i)||(t[s]=n(i,c?s+r:r,o,s,t))}function o(t,e,n){try{s.emit(t,e,n)}catch(r){i([r,t,e,n])}}function i(t){try{s.emit("internal-error",t)}catch(e){}}function a(t){return!(t&&"function"==typeof t&&t.apply&&!t[n.flag])}var s=t(1),u=t(2);e.exports=n,n.inPlace=r,n.flag="nr@wrapper"},{1:1,2:14}]},{},["G9z0Bl",2,7]);</script>
+
+								<meta property="og:url" content="http://mileycyrus.com/" />
+				<meta property="og:site_name" content="Miley Cyrus" />
+				<meta property="fb:admins" content="620488868,682091272,799055396,573242407,589532541,584578491" />
+				<meta property="og:title" content="Miley Cyrus" />
+				<meta property="og:image" content="" />
+				<meta property="og:description" content="" />
+				<meta property="og:type" content="website" />
+				
+						<link rel="shortcut icon" href="/clients/miley-cyrus/img/favicon.ico" />
+		
+				
+				<title>Miley Cyrus</title>
+
+				
+				<!--[if !IE 6]><!-->
+		<link href="/themes/master/css/master.css" media="screen" rel="stylesheet" type="text/css" />
+				<link href="/clients/miley-cyrus/css/client.css" media="screen" rel="stylesheet" type="text/css" />
+						<!--<![endif]-->
+					<!--[if IE 6]><link href="/themes/master/css/client_IE6.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+		
+
+				
+				<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+		<script>window.jQuery || document.write('<script src="/engine/js/jquery/jquery-1.7.1.min.js" type="text/javascript"><\/script>')</script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script>
+		<script>window.jQuery.ui || document.write('<script src="/engine/js/jquery/jquery-ui-1.8.16.min.js" type="text/javascript"><\/script>')</script>
+
+		<script src="/engine/js/underscore.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/engine/js/jquery/plugins/fancybox/jquery.fancybox-1.3.1.js" type="text/javascript"></script>
+		<script src="/engine/js/jquery/plugins/jquery.json.js" type="text/javascript"></script>
+		<script src="/engine/js/jquery/plugins/jquery.cookie.js" type="text/javascript"></script>
+		<script src="/engine/js/swfobject/swfobject-2.2.js" type="text/javascript"></script>
+		<script src="/themes/master/js/master.js" type="text/javascript"></script>
+		
+				<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+ <script src="/engine/js/jquery/plugins/embedagram/jquery-embedagram.pack.js" type="text/javascript"></script>
+<script src="/clients/miley-cyrus/js/client.js" type="text/javascript"></script>
+
+<!-- Typography -->
+<script type="text/javascript" src="//use.typekit.net/iut0mph.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" type="text/css">
+
+
+<!-- Google Code for Miley Cyrus Conversion Page -->
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 993583143;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "k6lgCPmjzwUQp8Dj2QM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div class="targeting-pixel">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/993583143/?value=0&label=k6lgCPmjzwUQp8Dj2QM&guid=ON&script=0"/>
+</div>
+</noscript>
+
+<!-- Some Extra Targeting Pixel -->
+<div class="targeting-pixel">
+	<img src="http://tags.w55c.net/rs?id=3c200e220d8648cabccee106b91d754c&t=homepage" />
+</div>
+
+				<link rel="alternate" type="application/rss+xml" title="News" href="/api/rss/news" />
+		<link rel="alternate" type="application/rss+xml" title="Events" href="/api/rss/events" />
+
+						
+
+	</head>
+	<body class="home">
+		<!--[if lt IE 7]>
+		<div id="ie6alert">
+			<p><strong>Warning:</strong> We do not support the <a href="http://en.wikipedia.org/wiki/Web_browser" title="What is a web browser, you ask?" target="_blank" class="help">web browser</a> you are using, and cannot guarantee a problem free experience. Please upgrade to one of these modern web browsers (they&rsquo;re free):</p>
+			<ul>
+				<li><a href="http://www.mozilla.com/en-US/firefox/firefox.html" title="Download Firefox for Windows, Mac OS X, and Linux">Mozilla Firefox 3.5+</a></li>
+				<li><a href="http://www.apple.com/safari/" title="Download Safari for Mac OS X and Windows">Apple Safari 3.0+</a></li>
+				<li><a href="http://www.google.com/chrome?brand=CHFV" title="Download Google Chrome for Windows, Mac OS X, and Linux">Google Chrome 4.0+</a></li>
+				<li><a href="http://www.opera.com/download/" title="Download Opera for Windows, Mac OS X and Linux">Opera 9.5+</a></li>
+				<li><a href="http://www.microsoft.com/windows/Internet-explorer/default.aspx" title="Download a newer Internet Explorer Windows">Internet Explorer 7.0+</a></li>
+			</ul>
+		</div>
+		<![endif]-->
+
+		
+
+		
+		
+<div id="pot-wrapper"></div>
+<div id="header">
+
+		<div class="logo"><span>Miley Cyrus</span></div>
+	<div class="banner"><span></span></div>
+	
+	<div class="site">
+		<div class="nav">
+	<ul>
+		<li class="news"><a href="/news">news</a></li>
+		<li class="events"><a href="/events">events</a></li>
+        <li><a href="http://www.smarturl.it/MileyStore" target="_blank">Shop</a></li>
+		<li class="media"><a href="/media/">Videos</a></li>
+	</ul>
+</div>
+	</div>
+
+	<div class="section socials">
+		<ul>
+			<li class="facebook">
+				<a target="_blank" href="https://www.facebook.com/MileyCyrus"></a>
+			</li>
+			<li class="twitter">
+				<a target="_blank" href="http://twitter.com/mileycyrus"></a>
+			</li>
+			<li class="youtube">
+				<a target="_blank" href="http://www.youtube.com/user/MileyCyrusVEVO"></a>
+			</li>
+			<li class="instagram">
+				<a target="_blank" href="http://instagram.com/mileycyrus"></a>
+			</li>
+			<li class="my-friends-place desktop-hide"><span><a href="http://www.prizeo.com/miley" target="_blank"></a></span></li>
+		</ul>
+	</div>
+
+	<div class="page-objects">
+		<ul>
+						<li class="pot-leaf"><a id="pot-leaf" href="#"></a></li>
+			<li class="balloons"><span></span></li>
+			<li class="leg-up"><span></span></li>
+			<li class="my-friends-place"><span><a href="http://myfriendsplace.org/give-get-involved/give-today" target="_blank"></a></span></li>
+			<li class="boo-bear-tour-sign"><a href="http://www.smarturl.it/MileyStore" target="_blank"></a></li>
+			<!-- <li class="drag-me clickable tattoo-under-boob"><span></span></li> -->
+			<li class="drag-me name-in-text-bubble"><span></span></li>
+			<li class="drag-me thang-cake"><span></span></li>
+			<li class="drag-me fu-balloons-photo"><span></span></li>
+			<li class="drag-me grabbing-crotch"><span></span></li>
+			<li class="drag-me lips-w-gold-grill"><span></span></li>
+			<li class="drag-me pink-banana"><span></span></li>
+			<li class="drag-me birthday-burger-pic"><span></span></li>
+			<li class="drag-me chevy-over-boobies"><span></span></li>
+			<li class="drag-me love-money-party"><span></span></li>
+			<li class="drag-me birthday-burger"><span></span></li>
+			<li class="drag-me animated-joint"><span></span></li>
+					</ul>
+	</div>
+
+	<div id="mailing-list" class="mailing-list">
+		<form action="http://campaigns.mileycyrus.com/t/j/s/kyulij/" method="post">
+			<label><span>Sign Up For The Mailing List</span></label>
+			<input id="fieldEmail" class="text input" name="cm-kyulij-kyulij" type="email" placeholder="Enter email address">
+			<button class="submit input" type="submit"><span>Sign Up</span></button>
+		</form>
+	</div>
+	
+</div>
+
+		
+		
+
+		<div id="page">
+			<div id="container">
+				<div id="main" class="full">
+
+	<div class="section random">
+		<ul>
+			<li class="welcome"><a class="fancybox-photo" href="http://groundctrl.s3.amazonaws.com/clients/miley-cyrus/site/random/welcome.jpg"></a></li>
+					</ul>
+	</div>
+
+	<div class="section purchase">
+		<a class="text" target="_blank" href="http://smarturl.it/bangerz?IQid=site">
+			<span class="one">Buy!</span>
+			<span class="two">Buy!</span>
+			<span class="three">Buy!</span>
+		</a>
+		<a class="album-cover" target="_blank" href="http://smarturl.it/bangerz?IQid=site"><span>Bangers Album</span></a>
+	</div>
+
+	<div class="section music-videos">
+
+		<ul>
+			<li class="music-video we-cant-stop">
+				<a class="fancybox-video" href="http://www.youtube.com/watch?v=LrUvu1mlWco">Watch We Can't Stop</a>
+			</li>
+			<li class="music-video wrecking-ball">
+				<a class="fancybox-video" href="https://www.youtube.com/watch?v=TTYSibC4SxA">Watch Tour Promo</a>
+			</li>
+			<li class="drag-me musiv-video we-cant-stop-directors-cut"></li>
+			<li class="drag-me musiv-video wrecking-ball-directors-cut">
+				<span></span>
+			</li>
+		</ul>
+
+	</div>
+
+	<div class="section instagram">
+		<ul id="instagram">
+            
+            <li class="item-0"><a target="_blank" href="http://instagram.com/p/tkLHk7QzH6/">
+	<img src="http://scontent-a-atl.cdninstagram.com/hphotos-xpf1/t51.2885-15/10387813_291708147699804_1123813922_n.jpg">
+</a></li>
+            <li class="item-1"><a target="_blank" href="http://instagram.com/p/tkHyCkQzEr/">
+	<img src="http://photos-b.ak.instagram.com/hphotos-ak-xaf1/10632009_1515269812050289_1936800518_n.jpg">
+</a></li>
+            <li class="item-2"><a target="_blank" href="http://instagram.com/p/tkHpDoQzEl/">
+	<img src="http://photos-c.ak.instagram.com/hphotos-ak-xpa1/1391209_647684768684210_514252423_n.jpg");
+}">
+</a></li>
+		</ul>
+	</div>
+
+</div><!-- #main -->
+
+<div id="easterDirectorCut-wrapper">
+	<div id="easterDirectorCut">
+		<object type="application/x-shockwave-flash" data="/engine/swf/jw/player.swf" width="640" height="382" id="video_player" style="visibility: visible;">
+			<param name="allowfullscreen" value="true">
+			<param name="allowscriptaccess" value="always">
+			<param name="allownetworking" value="all">
+			<param name="wmode" value="transparent">
+			<param name="flashvars" value="file=http://groundctrl.s3.amazonaws.com/clients/miley-cyrus/site/MC_12_YOUTUBE_compressed.mp4&amp;skin=/engine/swf/jw/skins/glow2/glow.zip&amp;controlbar=over&amp;autostart=false&amp;stretching=fill&amp;abouttext=ground(ctrl)&amp;aboutlink=http://www.groundctrl.com/&amp;frontcolor=#FFFFFF&amp;image=http://groundctrl.s3.amazonaws.com/clients/miley-cyrus/site/music_videos/directors-cut-placeholder.jpg"></object>
+	</div>
+</div>
+			</div><!-- #container -->
+		</div><!-- #page -->
+
+		<div id="footer">
+
+	<ul class="nav terms">
+		<li class="copyright">&copy; 2014 Miley Cyrus. All rights reserved.</li>
+		<li class="privacy"><a href="/privacy/">Privacy Policy</a></li>
+		<li class="conditions"><a target="_blank" href="http://groundctrl.com/terms/">Terms &amp; Conditions</a></li>
+		<li class="support"><a target="_blank" href="http://support.groundctrl.com/">Support</a></li>
+		<li class="coppa"><span>Visit <a href="http://www.OnGuardOnline.gov" target='blank'>www.OnGuardOnline.gov</a> for social networking safety tips for parents and youth.</span></li>
+	</ul>
+
+	<div id="powered-by">
+		<p><span class="poweredby">powered by <a target="_blank" href="http://groundctrl.com"><strong>ground</strong>(ctrl)</a></span></p>
+	</div><!-- #copyright -->
+		
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+
+	//client specific
+			var pageTracker = _gat._getTracker("UA-453121-1");
+		pageTracker._trackPageview();
+			
+	//ground(ctrl) wide
+	var pageTrackerAll = _gat._getTracker("UA-2233934-41");
+	pageTrackerAll._setDomainName("none");
+	pageTrackerAll._setAllowLinker(true);
+	pageTrackerAll._trackPageview();
+</script>
+
+<script type="text/javascript">
+
+   var GoSquared={};
+   GoSquared.acct = "GSN-353074-Z";
+   (function(w){
+       function gs(){
+           w._gstc_lt=+(new Date); var d=document;
+           var g = d.createElement("script"); g.type = "text/javascript"; g.async = true; g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
+           var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(g, s);
+       }
+       w.addEventListener?w.addEventListener("load",gs,false):w.attachEvent("onload",gs);
+   })(window);
+
+</script>
+
+<div id="fb-root"></div>
+<script src="//connect.facebook.net/en_US/all.js#xfbml=1&amp;appId=148881529100"></script>
+<script src="//platform.twitter.com/widgets.js"></script>
+<script src="//apis.google.com/js/plusone.js"></script>
+
+
+<script type='text/javascript'>
+var _vmass = {};
+_vmass['profile'] = 1357;
+_vmass['website'] = window.location.hostname;
+_vmass['_setHost'] = window.location.hostname;
+_vmass['_setHref'] = window.location.href;
+(function() {
+var v = document.createElement('script');
+v.type = 'text/javascript';
+v.async = true;
+v.src = document.location.protocol + '//track.verticalmass.com/js/pixel.js';
+var m = document.getElementsByTagName('script')[0];
+m.parentNode.insertBefore(v, m);
+})();
+</script>
+
+
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-6.newrelic.com","licenseKey":"765edf4a24","applicationID":"3645964","transactionName":"ZV1QN0BXD0pZW0RaX1wXcRZBQg5UF3BfXlU=","queueTime":0,"applicationTime":48,"ttGuid":"","agentToken":"","atts":"SRpTQQhNHEQ=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-412.min.js"}</script></body>
+</html>

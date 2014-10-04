@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+	
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+     
+     
+         
+         
+    <!---          THEME 21 - MADE BY YEOLI.TUMBLR.COM          --->
+     
+    
+    
+    
+    <script type="text/javascript">
+ 
+ 
+var snowcolor=new Array("#f7941d", "#f7941d")
+var snowmax=40
+var snowtype=new Array("Times")
+var snowletter="🎃 " 
+var sinkspeed=0.90
+var snowmaxsize=20
+var snowminsize=15
+var snowingzone=1
+ 
+var snow=new Array()
+var marginbottom
+var marginright
+var timer
+var i_snow=0
+var x_mv=new Array();
+var crds=new Array();
+var lftrght=new Array();
+var browserinfos=navigator.userAgent
+var ie5=document.all&&document.getElementById&&!browserinfos.match(/Opera/)
+var ns6=document.getElementById&&!document.all
+var opera=browserinfos.match(/Opera/)
+var browserok=ie5||ns6||opera
+ 
+function randommaker(range) {
+rand=Math.floor(range*Math.random())
+return rand
+}
+ 
+function initsnow() {
+if (ie5 || opera) {
+marginbottom = document.body.scrollHeight
+marginright = document.body.clientWidth-15
+}
+else if (ns6) {
+marginbottom = document.body.scrollHeight
+marginright = window.innerWidth-15
+}
+var snowsizerange=snowmaxsize-snowminsize
+for (i=0;i<=snowmax;i++) {
+crds[i] = 0;
+lftrght[i] = Math.random()*15;
+x_mv[i] = 0.03 + Math.random()/10;
+snow[i]=document.getElementById("s"+i)
+snow[i].style.fontFamily=snowtype[randommaker(snowtype.length)]
+snow[i].size=randommaker(snowsizerange)+snowminsize
+snow[i].style.fontSize=snow[i].size+'px';
+snow[i].style.color=snowcolor[randommaker(snowcolor.length)]
+snow[i].style.zIndex=1000
+snow[i].sink=sinkspeed*snow[i].size/5
+if (snowingzone==1) {snow[i].posx=randommaker(marginright-snow[i].size)}
+if (snowingzone==2) {snow[i].posx=randommaker(marginright/2-snow[i].size)}
+if (snowingzone==3) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/4}
+if (snowingzone==4) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/2}
+snow[i].posy=randommaker(2*marginbottom-marginbottom-2*snow[i].size)
+snow[i].style.left=snow[i].posx+'px';
+snow[i].style.top=snow[i].posy+'px';
+}
+movesnow()
+}
+ 
+function movesnow() {
+for (i=0;i<=snowmax;i++) {
+crds[i] += x_mv[i];
+snow[i].posy+=snow[i].sink
+snow[i].style.left=snow[i].posx+lftrght[i]*Math.sin(crds[i])+'px';
+snow[i].style.top=snow[i].posy+'px';
+ 
+if (snow[i].posy>=marginbottom-2*snow[i].size || parseInt(snow[i].style.left)>(marginright-3*lftrght[i])){
+if (snowingzone==1) {snow[i].posx=randommaker(marginright-snow[i].size)}
+if (snowingzone==2) {snow[i].posx=randommaker(marginright/2-snow[i].size)}
+if (snowingzone==3) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/4}
+if (snowingzone==4) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/2}
+snow[i].posy=0
+}
+}
+var timer=setTimeout("movesnow()",50)
+}
+ 
+for (i=0;i<=snowmax;i++) {
+document.write("<span id='s"+i+"' style='position:absolute;top:-"+snowmaxsize+"'>"+snowletter+"</span>")
+}
+if (browserok) {
+window.onload=initsnow
+}
+ 
+</script>
+
+
+     
+     
+             
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+     
+    <title>Surgeon of Death</title>
+    <link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_e0b467eb3fff_128.png" />
+    <meta name="image:Sidebar Image" content=""/>
+    <meta name="image:Background" content=""/>
+    <meta name="if:400px" content="1"/>
+    <meta name="if:500px" content="0"/>
+    <meta name="if:Infinite Scroll" content="0"/>
+    <meta name="if:Show Captions" content="1"/>
+    <meta name="if:Show Tags" content="1"/>
+    <meta name="text:Link1" content="Link 1"/>
+    <meta name="text:Link1 URL"content=""/>
+    <meta name="text:Link2" content="Link 2"/>
+    <meta name="text:Link2 URL"content=""/>
+    <meta name="text:Link3" content="Link 3"/>
+    <meta name="text:Link3 URL"content=""/>
+    <meta name="text:Link4" content="Link 4"/>
+    <meta name="text:Link4 URL"content=""/>
+    <meta name="text:Link5" content="Link 5"/>
+    <meta name="text:Link5 URL"content=""/>
+    <meta name="text:Link6" content="Link 6"/>
+    <meta name="text:Link6 URL"content=""/>
+    <meta name="text:Instagram URL"content=""/>
+    <meta name="text:Twitter URL"content=""/>
+    <meta name="text:Flickr URL"content=""/>
+    <meta name="text:Facebook URL"content=""/>
+    <meta name="text:Tumblr URL"content=""/>
+    <meta name="text:Youtube URL"content=""/>
+    <meta name="text:Music Player Code" content=""/>
+    <meta name="color:Text" content="#999999"/>
+    <meta name="color:Background" content="#ffffff"/>
+    <meta name="color:Borders" content="#f1f1f1"/>
+    <meta name="color:Links" content="#444444"/>
+    <meta name="color:Links Hover" content="#bbbbbb"/>
+    <meta name="color:Post Bg 1" content="#ffffff"/>
+    <meta name="color:Post Bg 2" content="#fafafa"/>
+    <meta name="color:Permalink Text" content="#999999"/>
+    <meta name="color:Sidebar Bg" content="#fafafa"/>
+    <meta name="color:Sidebar Title" content="#aaaaaa"/>
+    <meta name="color:Sidebar Links" content="#999999"/>
+    <meta name="color:Sidebar Links Bg" content="#ffffff"/>
+    <meta name="color:Sidebar Description" content="#999999"/>
+    <meta name="color:Pagination Bg" content="#fafafa"/>
+    <meta name="color:Pagination Text" content="#999999"/>
+    <meta name="color:Scrollbar" content="#fafafa"/>
+     
+    <style type="text/css">
+             
+    iframe#tumblr_controls{
+        position:fixed !important;
+        right:0px !important;
+        z-index:999;
+    }
+             
+    ::-webkit-scrollbar{
+        width:8px;
+        height:8px;
+        background-color:#fff;
+    }
+                 
+    ::-webkit-scrollbar-thumb{
+        background-color:#f8f8f8;
+        border:1px solid #f1f1f1;
+    }  
+                 
+    body{
+        cursor:url(http://static.tumblr.com/kmw8hta/YoEn3ksuh/zorzc.png), auto;
+        margin:0px;
+        padding:0px;
+        font-family:Cambria;
+        font-size:10px;
+        color:#9f9f9f;
+        background:#fff;
+        background-attachment:fixed;
+        background-repeat:no-repeat;
+        background-image:url('http://assets.tumblr.com/images/x.gif');
+        
+    }
+             
+    a, a:link, a:visited{
+        cursor:url(http://cur.cursors-4u.net/others/oth-6/oth589.cur), auto;
+        text-decoration:none;
+        color:#444444;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
+               
+    a:hover, a:active{
+        cursor:url(http://cur.cursors-4u.net/others/oth-6/oth589.cur), auto;
+        color:#f7941d;
+        -webkit-transition: all 0.3s  linear;
+        -moz-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
+         
+    #content{
+        margin:60px auto 60px auto;
+        
+        width:602px;
+    }
+     
+    .container{
+        margin:60px auto;
+        padding:40px;
+        
+        width:520px;
+        border:1px solid #f1f1f1;
+    }
+       
+    .posts{
+        margin:auto;
+        padding:10px;
+        
+        width:500px;
+    }
+     
+    .container:nth-child(odd), .container:nth-child(even) .posts, .container:nth-child(even) .perma, .container:nth-child(even) .tag, .container:nth-child(even) .caption{
+        background:#ffffff;
+    }
+     
+    .container:nth-child(even), .container:nth-child(odd) .posts, .container:nth-child(odd) .perma, .container:nth-child(odd) .tag, .container:nth-child(odd) .caption{
+        background:#fafafa;
+    }
+     
+    h1{
+        padding:15px;
+        font-size:14px;
+        line-height:14px;
+    }
+     
+    h2{
+        padding:10px;
+        font-size:12px;
+        line-height:12px;
+    }
+     
+    blockquote{
+        margin:10px;
+        padding:0px 5px;
+        border-left:1px solid #9f9f9f;
+    }
+     
+    blockquote img, .posts img{
+        max-width:100%;
+    }
+     
+    ul.chat{
+        margin:0px;
+        padding:0px;
+    }
+     
+    .chat li{
+        list-style-type: none;
+        padding:5px 0px;
+    }
+     
+    .label{
+        font-weight:bold;
+    }
+     
+    .ask{
+        
+        width:500px;
+        margin-left:-10px;
+        padding:5px 10px 10px 10px;
+    }
+     
+    .asker{
+        font-weight:bold;
+        font-style:italic;
+        font-size:12px;
+    }
+     
+    .asker a{
+        color:#9f9f9f;
+    }
+     
+    .asker a:hover{
+        color:#444444;
+    }
+     
+    .container:nth-child(odd) .ask{
+        border-bottom:1px solid #ffffff;
+    }
+     
+    .container:nth-child(even) .ask{
+        border-bottom:1px solid #fafafa;
+    }
+     
+    .abox{
+        margin:-10px;
+        padding:10px;
+        
+        width:500px;
+        height:200px;
+        text-align:center;
+    }
+     
+    .abox h1{
+        padding:15px 0px;
+        font-size:14px;
+        line-height:14px;
+    }
+     
+    .audio{
+        float:left;
+        overflow:hidden;
+        width:200px;
+        height:200px;
+        margin:-10px 10px 0px -10px;
+        padding:10px;
+    }
+     
+    .container:nth-child(odd) .audio{
+        border-right:1px solid #ffffff;
+    }
+     
+    .container:nth-child(even) .audio{
+        border-right:1px solid #fafafa;
+    }
+     
+    .art{
+        width:200px;
+        height:200px;
+        overflow:hidden;
+        background:#ffffff;
+    }
+     
+    .art img{
+        display:block;
+    }
+     
+    .art1{  
+        overflow:hidden;
+        width:200px;
+        height:200px;
+    }
+     
+    .art1 img{
+        opacity:0.9;
+    }
+     
+    .art2 img{
+        overflow:hidden;
+        opacity:0.9;
+        width:200px;
+        height:200px;
+        margin-top:-200px;
+    }
+     
+    .caption{
+        position:relative;
+        margin-top:1px;
+        
+        width:500px;
+        padding:5px 10px;
+    }
+       
+    .perma, .tag{
+        position:relative;
+        margin-top:1px;
+        
+        width:500px;
+        line-height:10px;
+        padding:5px 10px;
+        font-family:Calibri;
+        font-size:8px;
+        text-transform:uppercase;
+    }
+     
+    .perma{
+        color:#999999;
+    }
+     
+    .perma a{
+        display:inline;
+        color:#999999;
+    }
+     
+    
+    .lb{
+        cursor:url(http://cur.cursors-4u.net/others/oth-6/oth589.cur), auto;
+        float:right;
+        margin-top:1px;
+        margin-left:1px;
+        width:8px;
+        height:9px;
+        padding:0px 1px 0px 0px;
+        text-align:center;
+        overflow:hidden;
+        border-radius:10px;
+    }
+     
+    .heart{
+        margin-top:-14px;
+        margin-left:-4px;
+        opacity:0.2;
+    }
+    
+     
+    .tag a{
+        display:inline;
+        margin-right:3px;
+        color:#9f9f9f;
+    }
+     
+    #notes{
+        position:relative;
+        margin-top:1px;
+        
+        width:500px;
+        line-height:10px;
+        padding:5px 10px;
+        font-family:Calibri;
+        font-size:8px;
+        text-transform:uppercase;
+    }
+     
+    ol.notes{
+        padding:0px;
+        list-style:none;
+    }
+     
+    ol.notes li{
+        padding:0px;
+        margin-top:1px;
+    }
+     
+    ol.notes .avatar {
+        vertical-align:-2px;
+        width:10px;
+        height:10px;
+        margin-right:5px;
+    }
+     
+    #side{
+        position:fixed;
+        top:0px;
+        left:0px;
+        width:180px;
+        padding:100px 60px 60px 60px;
+        height:100%;
+        color:;
+        background:#000000;
+        border-right:1px solid #f1f1f1;
+    }
+     
+    .title{
+        width:180px;
+        margin-bottom:-1px;
+        text-align:right;
+        font-size:12px;
+        line-height:12px;
+        font-weight:bolder;
+        font-style:italic;
+        color:#f7941d;
+    }
+     
+    .musicbox{
+        float:right;
+        margin-top:3px;
+        margin-left:4px;
+        left:231px;
+        width:8px;
+        height:8px;
+        overflow:hidden;
+    }
+     
+    .music{
+        margin-top:-6px;
+        margin-left:-35px;
+    }
+     
+    .image{
+        width:160px;
+        padding:10px;
+        margin-bottom:1px;
+        background:#ffffff;
+    }
+     
+    .image img{
+        width:160px;
+    }
+     
+    .navi{
+        position:relative;
+        margin-bottom:1px;
+        width:160px;
+        line-height:10px;
+        padding:5px 10px;
+        font-family:Calibri;
+        font-size:8px;
+        text-transform:uppercase;
+        text-align:center;
+        background:#ffffff;
+    }
+     
+    .navi a{
+        display:inline-block;
+        color:#444444;
+    }
+     
+    .desc{
+        position:relative;
+        z-index:999;
+        width:160px;
+        padding:10px;
+        font-style:italic;
+        font-size:9px;
+        text-align:justify;
+        color:#999999;
+        border-bottom:1px solid #f1f1f1;
+    }
+     
+    .flt:after{
+      content:"";
+      display:table;
+      clear:both;
+    }
+     
+    .sn{
+        padding:5px 10px;
+        opacity:0.3;
+    }
+     
+    .sni{
+        float:right;
+        width:8px;
+        height:8px;
+        overflow:hidden;
+        margin-left:4px;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
+     
+    .sni:hover{
+        opacity:0.5;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
+     
+    #pagination{
+        position:fixed;
+        top:260px;
+        
+        margin-left:670px;
+        padding:5px 10px;
+        width:80px;
+        font-size:9px;
+        text-align:center;
+        font-style:italic;
+        color:#999999;
+        border-left:1px solid #f1f1f1;
+    }
+     
+    #pagination a{
+        display:block;
+        padding:5px 10px;
+        margin:5px -11px;
+        font-family:Calibri;
+        font-size:8px;
+        text-transform:uppercase;
+        font-style:normal;
+        color:#999999;
+        background:#fafafa;
+        border:1px solid #f1f1f1;
+    }
+     
+    #credit a{
+        position:fixed;
+        z-index:999;
+        bottom:5px;
+        right:10px;
+        width:36px;
+        text-align:center;
+        line-height:12px;
+        font-family:calibri;
+        font-size:8px;
+        color:#999999;
+        background:#fafafa;
+        border:1px solid #f1f1f1;
+    }
+     
+    #btt{
+        cursor: url(http://cur.cursors-4u.net/others/oth-6/oth589.cur), auto;
+        position:fixed;
+        z-index:999;
+        bottom:20px;
+        right:10px;
+        width:36px;
+        line-height:36px;
+        text-align:center;
+        color:#999999;
+        background:#fafafa;
+        border:1px solid #f1f1f1;
+    }
+     
+    </style>
+    <style type="text/css"></style>
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=trrafalgarlaw" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="Q: Touching Trafalgar,one piece,bby,FUCk,this is cute" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Surgeon of Death" /><meta property="og:url" content="http://trrafalgarlaw.tumblr.com/?og=1" /><meta property="og:description" content="Kelly ○ 19 ○ Personal Multifandom ○ Not Spoiler Free" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_e0b467eb3fff_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=trrafalgarlaw" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=trrafalgarlaw" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="trrafalgarlaw" /><meta name="twitter:description" content="&lt;center&gt;Kelly ○  19 ○  Personal 
+ 
+
+&lt;small&gt;&lt;center&gt;Multifandom ○ Not Spoiler Free&lt;/center&gt;&lt;/small&gt;
+
+
+&lt;center&gt;&lt;script language=&quot;JavaScript&quot;&gt; 
+var ref = (&#039;&#039;+document.referrer+&#039;&#039;);
+document.write(&#039;&lt;script src=&quot;http://s1.freehostedscripts.net/ocounter.php?site=ID3322725&amp;e1=person is under Kakashi.&amp;e2=people are under Kakashi.&amp;r=&#039; + ref + &#039;&quot;&gt;&lt;\/script&gt;&#039;); 
+&lt;/script&gt; 
+
+
+&lt;br/&gt;
+ &lt;center&gt;&lt;img src=&quot;http://media.tumblr.com/3fa7a2615e119b5a5cf7a40904c8775e/tumblr_inline_mlzt5x9XbX1qz4rgp.gif&quot;border=&quot;0&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+&lt;Right&gt;&lt;img src=&quot;http://media.tumblr.com/abcf1ecda97b562ae2f4bbf690bba5d7/tumblr_inline_mlzt62P8TJ1qz4rgp.gif&quot;border=&quot;0&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+
+&lt;embed src=&quot;http://www.sheepproductions.com/billy/billy.swf?autoplay=true&amp;f0=https://www.dropbox.com/s/8ytx07y8tm661m1/Samara%27s%20song%20%28piano%20arrangement%29.mp3?dl=1&amp;t0=&amp;total=1&quot; quality=&quot;high&quot; wmode=&quot;transparent&quot; width=&quot;200&quot; height=&quot;10&quot; name=&quot;billy&quot; align=&quot;middle&quot; type=&quot;application/x-shockwave-flash&quot; /&gt;
+" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=trrafalgarlaw&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=trrafalgarlaw&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=trrafalgarlaw&amp;referrer=twitter-cards" />
+
+</head>
+         
+    <body>
+     
+    <div id="credit"><a href="http://yeoli.tumblr.com">CREDIT</a></div>
+     
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script> <script type='text/javascript'> $(function() { $.fn.scrollToTop = function() { $(this).hide().removeAttr("href"); if ($(window).scrollTop() != "0") { $(this).fadeIn("slow") } var scrollDiv = $(this); $(window).scroll(function() { if ($(window).scrollTop() == "0") { $(scrollDiv).fadeOut("slow") } else { $(scrollDiv).fadeIn("slow") } }); $(this).click(function() { $("html, body").animate({ scrollTop: 0 }, "slow") }) } }); $(function() { $("#btt").scrollToTop(); });</script><a id="btt" href='#' style="display:none;">▲</a>
+     
+    <div id="side">
+    <div class="title">
+    
+    Surgeon of Death
+    </div>
+    <a href="/"><div class="image"><img src="http://static.tumblr.com/ed083c410c77c71506ca6e00f61554f4/lzzvugq/sBencui48/tumblr_static_8lg6fx3my3gg0cwks0oo008w8.png"/></div></a>
+    <div class="navi">
+    <a href="/">home</a> ○
+    <a href="/ask">inbox</a> ○
+    <a href="/archive">archive</a>
+    </div>
+    <div class="navi">
+    <a href="http://trrafalgarlaw.tumblr.com/aboutme">About Me</a>
+    ○ <a href="http://trrafalgarlaw.tumblr.com/tagged/edit">Edits</a>
+    ○ <a href="http://trrafalgarlaw.tumblr.com/tags">Tags</a>
+    ○ <a href="http://trrafalgarlaw.tumblr.com/bitches">Bitches</a>
+    ○ <a href="http://trrafalgarlaw.tumblr.com/bestfriends">Idiots</a>
+    ○ <a href="http://trrafalgarlaw.tumblr.com/amie">Amie</a>
+    </div>
+    <div class="desc"><center>Kelly ○  19 ○  Personal 
+ 
+
+<small><center>Multifandom ○ Not Spoiler Free</center></small>
+
+
+<center><script language="JavaScript"> 
+var ref = (''+document.referrer+'');
+document.write('<script src="http://s1.freehostedscripts.net/ocounter.php?site=ID3322725&e1=person is under Kakashi.&e2=people are under Kakashi.&r=' + ref + '"><\/script>'); 
+</script> 
+
+
+<br/>
+ <center><img src="http://media.tumblr.com/3fa7a2615e119b5a5cf7a40904c8775e/tumblr_inline_mlzt5x9XbX1qz4rgp.gif"border="0" alt=""></a>
+<Right><img src="http://media.tumblr.com/abcf1ecda97b562ae2f4bbf690bba5d7/tumblr_inline_mlzt62P8TJ1qz4rgp.gif"border="0" alt=""></a>
+
+<embed src="http://www.sheepproductions.com/billy/billy.swf?autoplay=true&f0=https://www.dropbox.com/s/8ytx07y8tm661m1/Samara%27s%20song%20%28piano%20arrangement%29.mp3?dl=1&t0=&total=1" quality="high" wmode="transparent" width="200" height="10" name="billy" align="middle" type="application/x-shockwave-flash" /></div>
+    <div class="sn">
+    
+    
+    <div class="sni"><a href="https://www.facebook.com/profile.php?id=1357943722" target="_blank"><img src="http://static.tumblr.com/kmw8hta/1EGn3kkat/facebook.jpg"/></a></div>
+    
+    <div class="sni"><a href="https://twitter.com/KellyEsposito9" target="_blank"><img src="http://static.tumblr.com/kmw8hta/PZ8n3kkc2/twitter.jpg"/></a></div>
+    <div class="sni"><a href="http://instagram.com/kellyesposito9" target="_blank"><img src="http://static.tumblr.com/kmw8hta/tbin3ljfn/instagram.jpg"/></a></div>
+    </div>
+    <div class="flt"></div>
+    </div>
+     
+    <script type="text/javascript" src="http://codysherman.com/tools/infinite-scrolling/code"></script>
+     
+    <div style="margin-left:370px;width:600px;">
+     
+    
+     
+    <div class="autopagerize_page_element">
+     
+    <table id="content" style="margin-top:-60px;">
+    
+    <div class="container">
+    <div class="posts">
+     
+    
+    <!-- http://jmihelic.tumblr.com<a href="http://jmihelic.tumblr.com" class="source_link">jmihelic</a>-->
+    
+     
+    
+             
+      
+             
+    
+    
+    <div id="photoset_99082809565" class="html_photoset">    <iframe id="photoset_iframe_99082809565" class="photoset" scrolling="no" frameborder="0" height="550" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://trrafalgarlaw.tumblr.com/post/99082809565/photoset_iframe/trrafalgarlaw/tumblr_nbpwghg81v1s0c1pd/500/false"></iframe></div>
+    
+             
+    
+             
+    
+     
+    
+     
+    
+     
+    
+     
+                
+     
+    </div>
+     
+    <div class="caption"><blockquote>
+<p><em><small>Ray of Light // FMAB Ending 5</small></em></p>
+</blockquote></div>
+     
+    
+    <div class="perma">
+    <div style="float:right">/ <a href="https://www.tumblr.com/reblog/99082809565/zInQQ9Dq" target="_blank">reblog</a></div>
+    <div class="lb"><div style="margin-top:-1px">♥</div><div class="heart"><div class="like_button" data-post-id="99082809565" id="like_button_99082809565"><iframe id="like_iframe_99082809565" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=trrafalgarlaw&amp;post_id=99082809565&amp;color=white&amp;rk=zInQQ9Dq" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div></div>
+    <div style="float:right"><a href="http://trrafalgarlaw.tumblr.com/post/99082809565/ray-of-light-fmab-ending-5">permalink</a> /</div>
+    Oct 03rd / 2,073 notes
+     / <a href="http://gaarakagez.tumblr.com/post/97382703405/ray-of-light-fmab-ending-5">via</a> / <a href="http://jmihelic.tumblr.com/post/97226015604/ray-of-light-fmab-ending-5">src</a>
+    </div>
+    <div class="flt"></div>
+    
+     
+    <div class="tag"># <a href="http://trrafalgarlaw.tumblr.com/tagged/fma">fma </a> # <a href="http://trrafalgarlaw.tumblr.com/tagged/Q%3A-Touching-Trafalgar">Q: Touching Trafalgar </a> </div>
+    
+     
+    
+     
+    </div>
+    
+    <div class="container">
+    <div class="posts">
+     
+    
+    <!-- http://cierin.tumblr.com/post/97068037137/live-yukine<a href="http://cierin.tumblr.com/post/97068037137/live-yukine" class="source_link">cierin</a>-->
+    
+     
+    
+             
+      
+             
+    
+    
+    <div id="photoset_99081584277" class="html_photoset">    <iframe id="photoset_iframe_99081584277" class="photoset" scrolling="no" frameborder="0" height="636" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://trrafalgarlaw.tumblr.com/post/99081584277/photoset_iframe/trrafalgarlaw/tumblr_nb4j1p9DnQ1s0gagy/500/false"></iframe></div>
+    
+             
+    
+             
+    
+     
+    
+     
+    
+     
+    
+     
+                
+     
+    </div>
+     
+    <div class="caption"><blockquote>
+<div><em><small>Live, Yukine. </small></em></div>
+</blockquote></div>
+     
+    
+    <div class="perma">
+    <div style="float:right">/ <a href="https://www.tumblr.com/reblog/99081584277/ojUAK8L5" target="_blank">reblog</a></div>
+    <div class="lb"><div style="margin-top:-1px">♥</div><div class="heart"><div class="like_button" data-post-id="99081584277" id="like_button_99081584277"><iframe id="like_iframe_99081584277" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=trrafalgarlaw&amp;post_id=99081584277&amp;color=white&amp;rk=ojUAK8L5" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div></div>
+    <div style="float:right"><a href="http://trrafalgarlaw.tumblr.com/post/99081584277/live-yukine">permalink</a> /</div>
+    Oct 03rd / 1,623 notes
+     / <a href="http://gaarakagez.tumblr.com/post/97382668755/live-yukine">via</a> / <a href="http://cierin.tumblr.com/post/97068037137/live-yukine">src</a>
+    </div>
+    <div class="flt"></div>
+    
+     
+    <div class="tag"># <a href="http://trrafalgarlaw.tumblr.com/tagged/noragami">noragami </a> # <a href="http://trrafalgarlaw.tumblr.com/tagged/Q%3A-Touching-Trafalgar">Q: Touching Trafalgar </a> </div>
+    
+     
+    
+     
+    </div>
+    
+    <div class="container">
+    <div class="posts">
+     
+    
+    <!-- http://suits-neechan.tumblr.com/post/97264085214/its-like-8800-km<a href="http://suits-neechan.tumblr.com/post/97264085214/its-like-8800-km" class="source_link">suits-neechan</a>-->
+    
+     
+    
+             
+      
+             
+    
+    
+    <div id="photoset_99080357257" class="html_photoset">    <iframe id="photoset_iframe_99080357257" class="photoset" scrolling="no" frameborder="0" height="875" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://trrafalgarlaw.tumblr.com/post/99080357257/photoset_iframe/trrafalgarlaw/tumblr_nbr6ivDoou1rhyip6/500/false"></iframe></div>
+    
+             
+    
+             
+    
+     
+    
+     
+    
+     
+    
+     
+                
+     
+    </div>
+     
+    <div class="caption"><p><a class="tumblr_blog" href="http://suits-neechan.tumblr.com/post/97264085214/its-like-8800-km">suits-neechan</a>:</p>
+<blockquote>
+<p>(It’s like 8800 km)</p>
+</blockquote></div>
+     
+    
+    <div class="perma">
+    <div style="float:right">/ <a href="https://www.tumblr.com/reblog/99080357257/u0s20zsh" target="_blank">reblog</a></div>
+    <div class="lb"><div style="margin-top:-1px">♥</div><div class="heart"><div class="like_button" data-post-id="99080357257" id="like_button_99080357257"><iframe id="like_iframe_99080357257" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=trrafalgarlaw&amp;post_id=99080357257&amp;color=white&amp;rk=u0s20zsh" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div></div>
+    <div style="float:right"><a href="http://trrafalgarlaw.tumblr.com/post/99080357257/suits-neechan-its-like-8800-km">permalink</a> /</div>
+    Oct 03rd / 25,143 notes
+     / <a href="http://gaarakagez.tumblr.com/post/97382658235/suits-neechan-its-like-8800-km">via</a> / <a href="http://suits-neechan.tumblr.com/post/97264085214/its-like-8800-km">src</a>
+    </div>
+    <div class="flt"></div>
+    
+     
+    <div class="tag"># <a href="http://trrafalgarlaw.tumblr.com/tagged/free%21">free! </a> # <a href="http://trrafalgarlaw.tumblr.com/tagged/Q%3A-Touching-Trafalgar">Q: Touching Trafalgar </a> </div>
+    
+     
+    
+     
+    </div>
+    
+    <div class="container">
+    <div class="posts">
+     
+    
+    <!-- http://lawlietisawesome.tumblr.com/post/96184692079/compilation-of-idiots<a href="http://lawlietisawesome.tumblr.com/post/96184692079/compilation-of-idiots" class="source_link">lawlietisawesome</a>-->
+    
+     
+    
+             
+      
+             
+    
+    
+    <div id="photoset_99079144155" class="html_photoset">    <iframe id="photoset_iframe_99079144155" class="photoset" scrolling="no" frameborder="0" height="816" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://trrafalgarlaw.tumblr.com/post/99079144155/photoset_iframe/trrafalgarlaw/tumblr_nb4jeg35Ay1sqjk6i/500/false"></iframe></div>
+    
+             
+    
+             
+    
+     
+    
+     
+    
+     
+    
+     
+                
+     
+    </div>
+     
+    <div class="caption"><blockquote>
+<pre>Compilation of idiots</pre>
+</blockquote></div>
+     
+    
+    <div class="perma">
+    <div style="float:right">/ <a href="https://www.tumblr.com/reblog/99079144155/byh8ac0y" target="_blank">reblog</a></div>
+    <div class="lb"><div style="margin-top:-1px">♥</div><div class="heart"><div class="like_button" data-post-id="99079144155" id="like_button_99079144155"><iframe id="like_iframe_99079144155" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=trrafalgarlaw&amp;post_id=99079144155&amp;color=white&amp;rk=byh8ac0y" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div></div>
+    <div style="float:right"><a href="http://trrafalgarlaw.tumblr.com/post/99079144155/compilation-of-idiots">permalink</a> /</div>
+    Oct 03rd / 4,694 notes
+     / <a href="http://gaarakagez.tumblr.com/post/97382626310/compilation-of-idiots">via</a> / <a href="http://lawlietisawesome.tumblr.com/post/96184692079/compilation-of-idiots">src</a>
+    </div>
+    <div class="flt"></div>
+    
+     
+    <div class="tag"># <a href="http://trrafalgarlaw.tumblr.com/tagged/kuroshitsuji">kuroshitsuji </a> # <a href="http://trrafalgarlaw.tumblr.com/tagged/Q%3A-Touching-Trafalgar">Q: Touching Trafalgar </a> </div>
+    
+     
+    
+     
+    </div>
+    
+    <div class="container">
+    <div class="posts">
+     
+    
+    <!-- http://user.chollian.net/~mana85/sasuke/<a href="http://user.chollian.net/~mana85/sasuke/" class="source_link">user.chollian.net</a>-->
+    
+     
+    
+             
+    
+    
+    
+    <img src="http://38.media.tumblr.com/ee1b19d834734d30d0c05e43a92c677e/tumblr_migcgqhPgu1qepa4fo1_400.gif" style="display:block; width:500px"/>
+    
+    
+      
+             
+    
+             
+    
+             
+    
+     
+    
+     
+    
+     
+    
+     
+                
+     
+    </div>
+     
+    <div class="caption"><blockquote>
+<blockquote>
+<blockquote>
+<pre> Mikoto and Sasuke </pre>
+</blockquote>
+</blockquote>
+</blockquote></div>
+     
+    
+    <div class="perma">
+    <div style="float:right">/ <a href="https://www.tumblr.com/reblog/99077917004/Qc7rOzWb" target="_blank">reblog</a></div>
+    <div class="lb"><div style="margin-top:-1px">♥</div><div class="heart"><div class="like_button" data-post-id="99077917004" id="like_button_99077917004"><iframe id="like_iframe_99077917004" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=trrafalgarlaw&amp;post_id=99077917004&amp;color=white&amp;rk=Qc7rOzWb" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div></div>
+    <div style="float:right"><a href="http://trrafalgarlaw.tumblr.com/post/99077917004/mikoto-and-sasuke">permalink</a> /</div>
+    Oct 03rd / 1,156 notes
+     / <a href="http://narutomakis.tumblr.com/post/97382534252/mikoto-and-sasuke">via</a> / <a href="http://offansandflames.tumblr.com/post/43467204749">src</a>
+    </div>
+    <div class="flt"></div>
+    
+     
+    <div class="tag"># <a href="http://trrafalgarlaw.tumblr.com/tagged/naruto">naruto </a> # <a href="http://trrafalgarlaw.tumblr.com/tagged/Q%3A-Touching-Trafalgar">Q: Touching Trafalgar </a> </div>
+    
+     
+    
+     
+    </div>
+    
+    <div class="container">
+    <div class="posts">
+     
+    
+    <!-- http://tensa-zangetsu.tumblr.com/post/64007121573/the-pretender-the-dark-horse-the-unknown<a href="http://tensa-zangetsu.tumblr.com/post/64007121573/the-pretender-the-dark-horse-the-unknown" class="source_link">tensa-zangetsu</a>-->
+    
+     
+    
+             
+      
+             
+    
+    
+    <div id="photoset_99076705312" class="html_photoset">    <iframe id="photoset_iframe_99076705312" class="photoset" scrolling="no" frameborder="0" height="1820" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://trrafalgarlaw.tumblr.com/post/99076705312/photoset_iframe/trrafalgarlaw/tumblr_mumtyjdjIM1r4bcwb/500/false"></iframe></div>
+    
+             
+    
+             
+    
+     
+    
+     
+    
+     
+    
+     
+                
+     
+    </div>
+     
+    <div class="caption"><blockquote>
+<pre>the Pretender | the Dark Horse | the Unknown</pre>
+</blockquote>
+
+
+
+<p></p></div>
+     
+    
+    <div class="perma">
+    <div style="float:right">/ <a href="https://www.tumblr.com/reblog/99076705312/tvgn8uM5" target="_blank">reblog</a></div>
+    <div class="lb"><div style="margin-top:-1px">♥</div><div class="heart"><div class="like_button" data-post-id="99076705312" id="like_button_99076705312"><iframe id="like_iframe_99076705312" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=trrafalgarlaw&amp;post_id=99076705312&amp;color=white&amp;rk=tvgn8uM5" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div></div>
+    <div style="float:right"><a href="http://trrafalgarlaw.tumblr.com/post/99076705312/the-pretender-the-dark-horse-the-unknown">permalink</a> /</div>
+    Oct 03rd / 4,564 notes
+     / <a href="http://nosev.tumblr.com/post/97382088102/the-pretender-the-dark-horse-the-unknown">via</a> / <a href="http://tensa-zangetsu.tumblr.com/post/64007121573/the-pretender-the-dark-horse-the-unknown">src</a>
+    </div>
+    <div class="flt"></div>
+    
+     
+    <div class="tag"># <a href="http://trrafalgarlaw.tumblr.com/tagged/bleach">bleach </a> # <a href="http://trrafalgarlaw.tumblr.com/tagged/Q%3A-Touching-Trafalgar">Q: Touching Trafalgar </a> </div>
+    
+     
+    
+     
+    </div>
+    
+    <div class="container">
+    <div class="posts">
+     
+    
+    <!-- http://muchanime-verykpop.tumblr.com/post/97358466522<a href="http://muchanime-verykpop.tumblr.com/post/97358466522" class="source_link">muchanime-verykpop</a>-->
+    
+     
+    
+             
+      
+             
+    
+    
+    <div id="photoset_99075654916" class="html_photoset">    <iframe id="photoset_iframe_99075654916" class="photoset" scrolling="no" frameborder="0" height="508" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://trrafalgarlaw.tumblr.com/post/99075654916/photoset_iframe/trrafalgarlaw/tumblr_nbtp45V6ZF1s5rmyw/500/false"></iframe></div>
+    
+             
+    
+             
+    
+     
+    
+     
+    
+     
+    
+     
+                
+     
+    </div>
+     
+    
+     
+    
+    <div class="perma">
+    <div style="float:right">/ <a href="https://www.tumblr.com/reblog/99075654916/Jh86maV4" target="_blank">reblog</a></div>
+    <div class="lb"><div style="margin-top:-1px">♥</div><div class="heart"><div class="like_button" data-post-id="99075654916" id="like_button_99075654916"><iframe id="like_iframe_99075654916" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=trrafalgarlaw&amp;post_id=99075654916&amp;color=white&amp;rk=Jh86maV4" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div></div>
+    <div style="float:right"><a href="http://trrafalgarlaw.tumblr.com/post/99075654916">permalink</a> /</div>
+    Oct 03rd / 1,075 notes
+     / <a href="http://secondorigin.tumblr.com/post/97381933336">via</a> / <a href="http://muchanime-verykpop.tumblr.com/post/97358466522">src</a>
+    </div>
+    <div class="flt"></div>
+    
+     
+    <div class="tag"># <a href="http://trrafalgarlaw.tumblr.com/tagged/fairy-tail">fairy tail </a> # <a href="http://trrafalgarlaw.tumblr.com/tagged/Q%3A-Touching-Trafalgar">Q: Touching Trafalgar </a> </div>
+    
+     
+    
+     
+    </div>
+    
+    <div class="container">
+    <div class="posts">
+     
+    
+     
+    
+             
+    
+    
+    
+    <img src="http://33.media.tumblr.com/82404047c943fa95915895ba531927d5/tumblr_nbtjygiEan1rujgj6o1_500.jpg" style="display:block; width:500px"/>
+    
+    
+      
+             
+    
+             
+    
+             
+    
+     
+    
+     
+    
+     
+    
+     
+                
+     
+    </div>
+     
+    <div class="caption"><p><a class="tumblelog" href="http://tmblr.co/m2Up_--iCeQpYCMKsKta1Ug">d-a-i-k-i-a</a>:</p>
+<blockquote>
+<p>Art by <a href="http://weibo.com/u/5124575893?from=feed&amp;loc=nickname#_rnd1410576583549"><strong>今天也很spiritual呐</strong></a></p>
+</blockquote></div>
+     
+    
+    <div class="perma">
+    <div style="float:right">/ <a href="https://www.tumblr.com/reblog/99074311549/R6OyJgif" target="_blank">reblog</a></div>
+    <div class="lb"><div style="margin-top:-1px">♥</div><div class="heart"><div class="like_button" data-post-id="99074311549" id="like_button_99074311549"><iframe id="like_iframe_99074311549" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=trrafalgarlaw&amp;post_id=99074311549&amp;color=white&amp;rk=R6OyJgif" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div></div>
+    <div style="float:right"><a href="http://trrafalgarlaw.tumblr.com/post/99074311549/d-a-i-k-i-a-art-by-spiritual">permalink</a> /</div>
+    Oct 03rd / 487 notes
+     / <a href="http://d-a-i-k-i-a.tumblr.com/post/97350901700/d-a-i-k-i-a-art-by-spiritual">via</a> / <a href="http://d-a-i-k-i-a.tumblr.com/post/97350901700/d-a-i-k-i-a-art-by-spiritual">src</a>
+    </div>
+    <div class="flt"></div>
+    
+     
+    <div class="tag"># <a href="http://trrafalgarlaw.tumblr.com/tagged/one-piece">one piece </a> # <a href="http://trrafalgarlaw.tumblr.com/tagged/bby">bby </a> # <a href="http://trrafalgarlaw.tumblr.com/tagged/FUCk">FUCk </a> # <a href="http://trrafalgarlaw.tumblr.com/tagged/Q%3A-Touching-Trafalgar">Q: Touching Trafalgar </a> </div>
+    
+     
+    
+     
+    </div>
+    
+    <div class="container">
+    <div class="posts">
+     
+    
+     
+    
+             
+      
+             
+    
+    
+    <div id="photoset_99073155979" class="html_photoset">    <iframe id="photoset_iframe_99073155979" class="photoset" scrolling="no" frameborder="0" height="1406" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://trrafalgarlaw.tumblr.com/post/99073155979/photoset_iframe/trrafalgarlaw/tumblr_nbsvr00uL21rg7nz0/500/false"></iframe></div>
+    
+             
+    
+             
+    
+     
+    
+     
+    
+     
+    
+     
+                
+     
+    </div>
+     
+    
+     
+    
+    <div class="perma">
+    <div style="float:right">/ <a href="https://www.tumblr.com/reblog/99073155979/AwOXM3Gh" target="_blank">reblog</a></div>
+    <div class="lb"><div style="margin-top:-1px">♥</div><div class="heart"><div class="like_button" data-post-id="99073155979" id="like_button_99073155979"><iframe id="like_iframe_99073155979" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=trrafalgarlaw&amp;post_id=99073155979&amp;color=white&amp;rk=AwOXM3Gh" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div></div>
+    <div style="float:right"><a href="http://trrafalgarlaw.tumblr.com/post/99073155979">permalink</a> /</div>
+    Oct 03rd / 537 notes
+     / <a href="http://youichi21.tumblr.com/post/97314571720">via</a> / <a href="http://youichi21.tumblr.com/post/97314571720">src</a>
+    </div>
+    <div class="flt"></div>
+    
+     
+    <div class="tag"># <a href="http://trrafalgarlaw.tumblr.com/tagged/one-piece">one piece </a> # <a href="http://trrafalgarlaw.tumblr.com/tagged/this-is-cute">this is cute </a> # <a href="http://trrafalgarlaw.tumblr.com/tagged/Q%3A-Touching-Trafalgar">Q: Touching Trafalgar </a> </div>
+    
+     
+    
+     
+    </div>
+    
+    <div class="container">
+    <div class="posts">
+     
+    
+    <!-- http://utsushiame.tumblr.com/post/97932550183/smile-for<a href="http://utsushiame.tumblr.com/post/97932550183/smile-for" class="source_link">utsushiame</a>-->
+    
+     
+    
+             
+      
+             
+    
+    
+    <div id="photoset_99072012556" class="html_photoset">    <iframe id="photoset_iframe_99072012556" class="photoset" scrolling="no" frameborder="0" height="750" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://trrafalgarlaw.tumblr.com/post/99072012556/photoset_iframe/trrafalgarlaw/tumblr_nc1t2eHO131taey45/500/false"></iframe></div>
+    
+             
+    
+             
+    
+     
+    
+     
+    
+     
+    
+     
+                
+     
+    </div>
+     
+    <div class="caption"><blockquote>
+<pre>SMILE <a href="http://utsushiame.tumblr.com">★</a> FOR</pre>
+</blockquote></div>
+     
+    
+    <div class="perma">
+    <div style="float:right">/ <a href="https://www.tumblr.com/reblog/99072012556/mTqqvq34" target="_blank">reblog</a></div>
+    <div class="lb"><div style="margin-top:-1px">♥</div><div class="heart"><div class="like_button" data-post-id="99072012556" id="like_button_99072012556"><iframe id="like_iframe_99072012556" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=trrafalgarlaw&amp;post_id=99072012556&amp;color=white&amp;rk=mTqqvq34" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div></div>
+    <div style="float:right"><a href="http://trrafalgarlaw.tumblr.com/post/99072012556/smile-for">permalink</a> /</div>
+    Oct 03rd / 891 notes
+     / <a href="http://noiziotix.tumblr.com/post/98143932792/smile-for">via</a> / <a href="http://utsushiame.tumblr.com/post/97932550183/smile-for">src</a>
+    </div>
+    <div class="flt"></div>
+    
+     
+    <div class="tag"># <a href="http://trrafalgarlaw.tumblr.com/tagged/khr">khr </a> # <a href="http://trrafalgarlaw.tumblr.com/tagged/Q%3A-Touching-Trafalgar">Q: Touching Trafalgar </a> </div>
+    
+     
+    
+     
+    </div>
+    
+    </table>
+    </div>
+    </div>
+     
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://trrafalgarlaw.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412373093&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdHJyYWZhbGdhcmxhdy50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=CPELBMDEJJ&K=6c0f25c059a905463089089e16a73cedde5a709dd52670fa84ba23e78ce86341&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412373093&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdHJyYWZhbGdhcmxhdy50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=CPELBMDEJJ&K=8fc5d644418f1e875a372ae6fff2f1c17229b82b63054edd2950fba6404022bf&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+                        if (d.getElementById('tumblr-cdx')) return;
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412373093&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3RycmFmYWxnYXJsYXcudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6Ijg0OTQzMTMwIiwicm9vdF9wb3N0aWQiOiI5NzIyNjAxNTYwNCIsInBvc3RpZCI6OTkwODI4MDk1NjUsImJsb2dpZCI6IjUwMzk5NzMzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijg1MTU4ODczIiwicm9vdF9wb3N0aWQiOiI5NzA2ODAzNzEzNyIsInBvc3RpZCI6Ijk5MDgxNTg0Mjc3IiwiYmxvZ2lkIjoiNTAzOTk3MzMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzQ3MTc2NzAiLCJyb290X3Bvc3RpZCI6Ijk3MjY0MDg1MjE0IiwicG9zdGlkIjoiOTkwODAzNTcyNTciLCJibG9naWQiOiI1MDM5OTczMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDcxNDU5OTEiLCJyb290X3Bvc3RpZCI6OTYxODQ2OTIwNzksInBvc3RpZCI6Ijk5MDc5MTQ0MTU1IiwiYmxvZ2lkIjoiNTAzOTk3MzMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODc4MjEwOCIsInJvb3RfcG9zdGlkIjoiNDM0NjcyMDQ3NDkiLCJwb3N0aWQiOiI5OTA3NzkxNzAwNCIsImJsb2dpZCI6IjUwMzk5NzMzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjMxMTgwMTE2Iiwicm9vdF9wb3N0aWQiOjY0MDA3MTIxNTczLCJwb3N0aWQiOiI5OTA3NjcwNTMxMiIsImJsb2dpZCI6IjUwMzk5NzMzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjkyODcyMzc1Iiwicm9vdF9wb3N0aWQiOiI5NzM1ODQ2NjUyMiIsInBvc3RpZCI6Ijk5MDc1NjU0OTE2IiwiYmxvZ2lkIjoiNTAzOTk3MzMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTMzOTQwMDYiLCJyb290X3Bvc3RpZCI6Ijk3MzUwOTAxNzAwIiwicG9zdGlkIjoiOTkwNzQzMTE1NDkiLCJibG9naWQiOiI1MDM5OTczMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3MjM1ODAwOCIsInJvb3RfcG9zdGlkIjoiOTczMTQ1NzE3MjAiLCJwb3N0aWQiOiI5OTA3MzE1NTk3OSIsImJsb2dpZCI6IjUwMzk5NzMzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4NDE1OTM5NyIsInJvb3RfcG9zdGlkIjoiOTc5MzI1NTAxODMiLCJwb3N0aWQiOiI5OTA3MjAxMjU1NiIsImJsb2dpZCI6IjUwMzk5NzMzIiwic291cmNlIjozM31dfQ==&U=CKHECPIHFP&K=1de423414a5260737e7511b67039152c31b3d18f65c3bbefdb611ad00b5eaa63&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412373093&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3RycmFmYWxnYXJsYXcudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6Ijg0OTQzMTMwIiwicm9vdF9wb3N0aWQiOiI5NzIyNjAxNTYwNCIsInBvc3RpZCI6OTkwODI4MDk1NjUsImJsb2dpZCI6IjUwMzk5NzMzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijg1MTU4ODczIiwicm9vdF9wb3N0aWQiOiI5NzA2ODAzNzEzNyIsInBvc3RpZCI6Ijk5MDgxNTg0Mjc3IiwiYmxvZ2lkIjoiNTAzOTk3MzMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzQ3MTc2NzAiLCJyb290X3Bvc3RpZCI6Ijk3MjY0MDg1MjE0IiwicG9zdGlkIjoiOTkwODAzNTcyNTciLCJibG9naWQiOiI1MDM5OTczMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDcxNDU5OTEiLCJyb290X3Bvc3RpZCI6OTYxODQ2OTIwNzksInBvc3RpZCI6Ijk5MDc5MTQ0MTU1IiwiYmxvZ2lkIjoiNTAzOTk3MzMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODc4MjEwOCIsInJvb3RfcG9zdGlkIjoiNDM0NjcyMDQ3NDkiLCJwb3N0aWQiOiI5OTA3NzkxNzAwNCIsImJsb2dpZCI6IjUwMzk5NzMzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjMxMTgwMTE2Iiwicm9vdF9wb3N0aWQiOjY0MDA3MTIxNTczLCJwb3N0aWQiOiI5OTA3NjcwNTMxMiIsImJsb2dpZCI6IjUwMzk5NzMzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjkyODcyMzc1Iiwicm9vdF9wb3N0aWQiOiI5NzM1ODQ2NjUyMiIsInBvc3RpZCI6Ijk5MDc1NjU0OTE2IiwiYmxvZ2lkIjoiNTAzOTk3MzMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTMzOTQwMDYiLCJyb290X3Bvc3RpZCI6Ijk3MzUwOTAxNzAwIiwicG9zdGlkIjoiOTkwNzQzMTE1NDkiLCJibG9naWQiOiI1MDM5OTczMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3MjM1ODAwOCIsInJvb3RfcG9zdGlkIjoiOTczMTQ1NzE3MjAiLCJwb3N0aWQiOiI5OTA3MzE1NTk3OSIsImJsb2dpZCI6IjUwMzk5NzMzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4NDE1OTM5NyIsInJvb3RfcG9zdGlkIjoiOTc5MzI1NTAxODMiLCJwb3N0aWQiOiI5OTA3MjAxMjU1NiIsImJsb2dpZCI6IjUwMzk5NzMzIiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=CKHECPIHFP&K=ce178ce2aedd7e73d6522806d627894bff7e8b15e88c7d1a0073becd4442e4bb&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:50399733,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Ftrrafalgarlaw.tumblr.com%2F&amp;lang=en_US&amp;name=trrafalgarlaw&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_e0b467eb3fff_64.png&amp;title=Surgeon+of+Death&amp;url=http%3A%2F%2Ftrrafalgarlaw.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=156b0620bba89e0c441937123f6317e1#src=http%3A%2F%2Ftrrafalgarlaw.tumblr.com%2F&amp;lang=en_US&amp;name=trrafalgarlaw&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_e0b467eb3fff_64.png&amp;title=Surgeon+of+Death&amp;url=http%3A%2F%2Ftrrafalgarlaw.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+    </html>
+
+
+<img src="http://i57.tinypic.com/1z94yd.jpg" style="position    :fixed;bottom:0px;right:0px;width:344px;">
+

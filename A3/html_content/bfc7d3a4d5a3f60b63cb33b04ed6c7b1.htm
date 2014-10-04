@@ -1,0 +1,468 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The National Accommodation Association of South Africa</title>
+<meta name="Distribution" content="All" />
+<meta name="Keywords" content="South Africa,National accommodation,accommodation,basic accommodation,luxury,up market,guest house,bed and breakfast, B&B" />
+<meta name="Description" content="The NAA-SA is a national organisation bringing together guesthouses, bed and breakfasts (B&B) and self-catering accommodation throughout South Africa. We are the national voice for medium and small accommodation establishments." />
+<meta name="revisit-after" content="4 days" />
+<meta name="ROBOTS" content="ALL" />
+<meta name="Author" content="National Accommodation Association" />
+<script type="text/javascript" src="slideshow/js/jquery-1.3.1.min.js"></script>
+<script src="scripts/swfobject_modified.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+$(document).ready(function() {		
+	
+	//Execute the slideShow
+	slideShow();
+
+});
+
+function slideShow() {
+
+	//Set the opacity of all images to 0
+	$('#gallery a').css({opacity: 0.0});
+	
+	//Get the first image and display it (set it to full opacity)
+	$('#gallery a:first').css({opacity: 1.0});
+	
+	//Set the caption background to semi-transparent
+	$('#gallery .caption').css({opacity: 0.7});
+
+	//Resize the width of the caption according to the image width
+	$('#gallery .caption').css({width: $('#gallery a').find('img').css('width')});
+	
+	//Get the caption of the first image from REL attribute and display it
+	$('#gallery .content').html($('#gallery a:first').find('img').attr('rel'))
+	.animate({opacity: 0.7}, 400);
+	
+	//Call the gallery function to run the slideshow, 6000 = change to next image after 6 seconds
+	setInterval('gallery()',6000);
+	
+}
+
+function gallery() {
+	
+	//if no IMGs have the show class, grab the first image
+	var current = ($('#gallery a.show')?  $('#gallery a.show') : $('#gallery a:first'));
+
+	//Get next image, if it reached the end of the slideshow, rotate it back to the first image
+	var next = ((current.next().length) ? ((current.next().hasClass('caption'))? $('#gallery a:first') :current.next()) : $('#gallery a:first'));	
+	
+	//Get next image caption
+	var caption = next.find('img').attr('rel');	
+	
+	//Set the fade in effect for the next image, show class has higher z-index
+	next.css({opacity: 0.0})
+	.addClass('show')
+	.animate({opacity: 1.0}, 1000);
+
+	//Hide the current image
+	current.animate({opacity: 0.0}, 1000)
+	.removeClass('show');
+	
+	//Set the opacity to 0 and height to 1px
+	$('#gallery .caption').animate({opacity: 0.0}, { queue:false, duration:0 }).animate({height: '1px'}, { queue:true, duration:300 });	
+	
+	//Animate the caption, opacity to 0.7 and heigth to 100px, a slide up effect
+	$('#gallery .caption').animate({opacity: 0.7},100 ).animate({height: '100px'},500 );
+	
+	//Display the content
+	$('#gallery .content').html(caption);
+	
+	
+}
+
+</script>
+<style type="text/css">
+body{
+	font-family:arial
+}
+
+.clear {
+	clear:both
+}
+
+#gallery {
+	position:relative;
+	height:250px
+}
+	#gallery a {
+		float:left;
+		position:absolute;
+	}
+	
+	#gallery a img {
+		border:none;
+	}
+	
+	#gallery a.show {
+		z-index:500
+	}
+
+	#gallery .caption {
+		z-index:600; 
+		background-color:#000; 
+		color:#ffffff; 
+		height:100px; 
+		width:100%; 
+		position:absolute;
+		bottom:0;
+	}
+
+	#gallery .caption .content {
+		margin:0px
+	}
+	
+	#gallery .caption .content h3 {
+		margin:0;
+		padding:0;
+		color:#b9df64;
+	}
+
+
+
+body  { background:url(images/bg.png); background-position:fixed; 
+background-attachment:
+fixed; }
+h2 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: medium;
+	font-weight: normal;
+}
+.aaa {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: x-large;
+}
+em { color: #aaaaaa;
+	 font-size: 10pt;
+	 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.subheader {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: medium;
+}
+.maintext {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: small;
+}
+.white_text_header {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: medium;
+	color: #FFF;
+}
+.white_text_small {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: small;
+	color: #FFF;
+}
+.subtext {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: x-small;
+	color: #000;
+}
+.style11 { color: #ffffff;
+		   text-decoration: underline;
+}
+li {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: small;
+	color: #555555;
+	line-height: 16pt;
+}
+#news { background-color: #DFEBD4;
+		margin-left: 4pt;
+		margin-right: 4pt;
+		text-align: left;
+		padding: 2pt;
+		font-size: 10pt;
+	}
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30337827-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!--Start of Zopim Live Chat Script-->
+
+<script type="text/javascript">
+
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+
+$.src='//v2.zopim.com/?1wg1lyyg50BOyDmEPeouhd0c33gImUPy';z.t=+new Date;$.
+
+type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+
+</script>
+
+<!--End of Zopim Live Chat Script-->
+</head>
+
+<body>
+<table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="3"><img src="images/logo.png" width="170" height="158" alt="NAA SA Logo" /><img src="images/top_welcome.png" alt="Welcome to the NAA South Africa" width="730" height="158" border="0" usemap="#Map3" /></td>
+  </tr>
+  <tr>
+    <td colspan="3" bgcolor="#FFFFFF"><img src="images/menu.png" alt="NAA SA Top Menu" width="900" height="35" border="0" usemap="#Map" /></td>
+  </tr>
+  <tr>
+    <td colspan="3" bgcolor="#FFFFFF">
+
+<div id="gallery">
+
+	<a href="#" class="show">
+		<img src="images/1.jpg" alt="Welcome to South Africa" width="900" height="250" title="" alt="" rel="<h3>Welcome to South Africa</h3>The NAA-SA is there to help you find the perfect accommodation during your stay whilst visiting our breathtaking nation. With  peace of mind knowing your accommodation needs are taken care of, you can sit back and enjoy South Africa's unparralleled beauty and the  warmth of it's people  "/>
+	</a>
+	
+	<a href="#">
+		<img src="images/2.jpg" alt="Coast to Coast" width="900" height="250" title="" alt="" rel="<h3>Coast to Coast</h3>From the endless untouched beaches of the West Coast, to the magnificent tropical paradise that is Kwazulu-Natal, each corner of South Africa's coastline is awe-inspiring and beautifully unique.  "/>
+	</a>
+	
+	<a href="#">
+		<img src="images/3.jpg" alt="On the Prowl" width="900" height="250" title="" alt="" rel="<h3>On the Prowl</h3>South Africa offers tourists and locals alike the perfect opportunity to witness African wildlife and game at its best - unspoilt and untouched. "/>
+	</a>
+
+	<a href="#">
+		<img src="images/4.jpg" alt="Cape of Good Hope" width="900" height="250" title="" alt="" rel="<h3>Cape of Good Hope</h3>The name says it all. At the very pinnacle of South Africa's Mother City - Cape Town - lies the Cape Point nature reserve, where panoramic views abound wherever the eye can see. "/>
+	</a>
+	
+	<a href="#">
+		<img src="images/5.jpg" alt="Mountain High, River Deep" width="900" height="250" title="" alt="" rel="<h3>Mountain High, River Deep</h3>From the flat-topped marvel that the world knows as Table Mountain, to the cavernous giant of the Drakensberg range - and from the lush banks of the Limpopo to the arid plains of the might Orange river, each landscape is shaped as unique as the next. "/>
+	</a>
+	
+	<a href="#">
+		<img src="images/6.jpg" alt="Table Mountain" width="900" height="250" title="" alt="" rel="<h3>Table Mountain</h3>The plateau, flanked by Devil's Peak to the east and by Lion's Head to the west, forms a dramatic backdrop to Cape Town."/>
+	</a>
+		
+	<a href="#">
+		<img src="images/7.jpg" alt="The value in preservation" width="900" height="250" title="" alt="" rel="<h3>The value in preservation</h3>The Cape, in all its beauty and awe does not forget the true value of its vast wildlife"/> 
+	</a>
+	
+	<a href="#">
+		<img src="images/8.jpg" alt="Wonders of the wilderness" width="900" height="250" title="" alt="" rel="<h3>Wonders of the wilderness</h3>With the greatest diversity of species in Africa, and easy accessibility, everyone can enjoy the wonders of the wilderness."/>
+	</a>
+	
+	<a href="#">
+		<img src="images/9.jpg" alt="Kruger National Park" width="900" height="250" title="" alt="" rel="<h3>Kruger National Park</h3>Explore the vast landscapes and spectacular South African wildlife. Enjoy thrilling game drives and walking safaris.  The wildlife of South Africa is the world's greatest heritage, drawing millions of visitors from around the globe to the legendary game parks and the Kruger Park is easily the best place to experience it all.."/>
+	</a>
+
+	<div class="caption"><div class="content"></div></div>
+</div>
+<div class="clear"></div></td>
+  </tr>
+  
+  <tr>
+    <!-- width="2226" --> <td width="" rowspan="9" valign="top" bgcolor="#FFFFFF"><br />
+      <table width="570" border="0" cellspacing="0" cellpadding="5">
+        <tr>
+          <td height="58">&nbsp;</td>
+          <td valign="bottom"><span class="aaa">Welcome to NAA South Africa<br />
+          </span> <span class="subheader">We act nationally and network locally</span>
+         <!--
+          <br>
+          <span class="aaa" style="text-align:center; background-color: #A5F312; padding: 0.1em;">Innibos National Arts Festival in Mbombela</span>
+          <br>
+          <span class="aaa" style="text-align:center; background-color: #A5F312; padding: 0.1em; font-size: 9pt;"><strong>( Nelspruit ) from 2-5 July</strong></span>
+          -->
+          </td>
+        </tr>
+        <tr>
+          <td width="4">&nbsp;</td>
+          <td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="250" height="250" id="FlashID" title="Enjoy South Africa!" style="float: left">
+            <param name="movie" value="images/polaroid.swf" />
+            <param name="quality" value="high" />
+            <param name="wmode" value="opaque" />
+            <param name="swfversion" value="6.0.65.0" />
+            <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+            <param name="expressinstall" value="scripts/expressInstall.swf" />
+            <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+            <!--[if !IE]>-->
+            <object type="application/x-shockwave-flash" data="images/polaroid.swf" width="250" height="250">
+              <!--<![endif]-->
+              <param name="quality" value="high" />
+              <param name="wmode" value="opaque" />
+              <param name="swfversion" value="6.0.65.0" />
+              <param name="expressinstall" value="scripts/expressInstall.swf" />
+              <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+              <div>
+                <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+                <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+                </div>
+              <!--[if !IE]>-->
+              </object>
+            <!--<![endif]-->
+            </object>
+            <p class="maintext"><strong>Your one-stop accommodation finder<br><br>The National Accommodation Association</strong> is a network of mainly smaller accommodation providers around South Africa – from B&Bs in country towns offering comfortable personal service to luxurious boutique city lodges with those extra special touches – you're sure to find a suitable place, and at the same time feel confident that your stay at an NAA-SA member's establishment will meet your requirements.</p>
+          <p class="maintext">Find your ideal accommodation now by searching via the accommodation map. For starters, select the desired <a href="accommodation.php" target="_self">province</a>.</p>
+          <p></p>
+          <hr />
+       		
+
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="maintext"><br />
+             
+            <a href="http://www.tbcsa.travel/" target="_blank"><img src="images/logos/logo1.jpg" width="83" height="35" border="0" /></a>
+            <a href="http://www.satsa.com/pages/default.asp" target="_blank"><img src="images/logos/logo2.jpg" width="62" height="35" border="0" /></a>
+            <a href="http://www.fedhasa.co.za/Pages/Default.asp?" target="_blank"><img src="images/logos/logo3.jpg" width="83" height="35" border="0" /></a>
+            <a href="http://www.theta.org.za/" target="_blank"><img src="images/logos/logo4.jpg" width="40" height="35" border="0" /></a>  
+            <a href="http://www.southafrica.net/sat/content/en/za/home" target="_blank"><img src="images/logos/logo6.jpg" width="76" height="35" border="0" /></a>
+            <a href="http://tourismsafety.co.za/?content=home" target="_blank"><img src="images/logos/tsi.jpg" width="37" height="35" border="0" /></a>
+          
+          </td>
+        </tr>
+    </table></td>
+    <td height="65" colspan="-2" align="center" valign="bottom" bgcolor="#FFFFFF"><img src="images/sidebar_login.png" width="320" height="50" alt="NAA SA Members area" /></td>
+    <td width="8" colspan="-2" rowspan="9" align="center" valign="bottom" bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="65" colspan="-2" align="center" valign="bottom" bgcolor="#174223">
+    	<span class="white_text_small">
+        	<a href="members_login.php" target="_self">
+            	<img src="images/login_nav/Bevel_Button-Grey_s1.png" width="87" height="36" border="0" />
+            </a> 
+        </span></td>
+  </tr>
+  <tr>
+    <td height="65" colspan="-2" align="center" valign="bottom" bgcolor="#FFFFFF"><img src="images/sidebar_accommodation.png" width="320" height="50" alt="NAA SA Accommodation" /></td>
+  </tr>
+  <tr>
+    <td height="144" colspan="-2" align="center" valign="bottom" bgcolor="#174223"><span class="white_text_small"><img src="images/map.png" alt="NAA SA Map of South Africa" width="320" height="276" border="0" usemap="#Map2" /></span></td>
+  </tr>
+  <tr>
+    <td height="20" colspan="-2" align="center" valign="middle" bgcolor="#174223"><span class="white_text_small">    Click on the required province to open its page</span><br /></td>
+  </tr>
+  <tr>
+    <td height="19" colspan="-2" align="center" valign="bottom" bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="320" height="52" colspan="-2" align="center" valign="bottom" bgcolor="#FFFFFF"><img src="images/thelatestnews.png" alt="The Latest News" width="320" height="50" border="0" /></td>
+  </tr>
+  <tr>
+    <td height="163" colspan="-2" align="center" valign="middle" bgcolor="#174223">
+    
+    <div id="news">
+    	<script type="text/javascript" src="http://app.feed.informer.com/digest3/WSD1Q6RLX9.js">
+<noscript><a href="http://app.feed.informer.com/digest3/WSD1Q6RLX9.html">Click for &quot;National site feed&quot;.</a>
+Powered by <a href="http://feed.informer.com/">RSS Feed Informer</a></noscript></script>
+    </div>
+    <!--
+    <iframe src="ticker.php" width="300" marginwidth="0" height="150" marginheight="0" align="middle" scrolling="Auto" frameborder="0"></iframe>--></td>
+  </tr>
+  <tr>
+    <td colspan="-2" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;
+    
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center" valign="middle" bgcolor="#174223"><img src="images/strip.png" width="900" height="39" alt="NAA SA" /><br />
+      <table width="880" border="0" cellspacing="0" cellpadding="5">
+        <tr class="white_text_header">
+          <td width="246"><img src="images/small_logo.png" alt="NAA-SA" width="53" height="47" align="absmiddle" />Resources</td>
+          <td colspan="2"><img src="images/small_logo.png" alt="NAA-SA" width="53" height="47" align="absmiddle" />Provincial NAA-SA Sites</td>
+          <td width="274"><img src="images/small_logo.png" alt="NAA-SA" width="53" height="47" align="absmiddle" />Contact Information</td>
+        </tr>
+        <tr class="white_text_small">
+          <td rowspan="3" valign="top"><a href="index.php" target="_self"><span class="style11">Welcome</span></a><br />
+            <a href="who_are_we.php" target="_self"><span class="style11">Who are we?</span></a><br />
+            <a href="join_the_naa.php" target="_self"><span class="style11">Join the NAA-SA</span></a><br />
+            <a href="accommodation.php" target="_self"><span class="style11">Accommodation finder</span></a><br />
+            <a href="south_africa.php" target="_self"><span class="style11">About South Africa</span></a><br />
+            <a href="contact_us.php" target="_self"><span class="style11">Contact us</span></a><br />
+            <a href="suppliers.php" target="_self"><span class="style11">Suppliers</span></a>
+            
+            </td>
+          <td width="165" rowspan="3" valign="top"><a href="http://naaeasterncape.co.za/accommodation.php" target="_self"><span class="style11">Eastern Cape</span></a><br />
+            <a href="http://naanortherncape.co.za/accommodation.php" target="_self"><span class="style11">Northern Cape</span></a><br /> <a href="http://naawesterncape.co.za/accommodation.php" target="_self"><span class="style11">Western Cape</span></a><br />
+            <a href="http://www.naagardenroute.co.za/" target="_self"><span class="style11">Garden Route</span></a><br />
+          <a href="http://www.naafreestate.co.za/" target="_self"><span class="style11">Free State</span></a><br /></td>
+          <td width="155" rowspan="3" valign="top">
+            <a href="http://www.kwababa.co.za" target="_self"><span class="style11">Kwazulu Natal</span></a><br />
+            <a href="http://www.accommodation.org.za/" target="_self"><span class="style11">Gauteng</span></a><br />
+            <a href="http://www.naasoweto.co.za" target="_self"><span class="style11">Soweto</span></a><br />
+            <a href="http://naampumalanga.co.za" target="_self"><span class="style11">Mpumalanga</span></a><br />
+            <a href="http://naalimpopo.co.za" target="_self"><span class="style11">Limpopo</span></a><br />
+            <a href="http://naanorthwest.co.za" target="_self"><span class="style11">Northwest</span></a><br /></td>
+          <td valign="top">Head Office Tel: +27 (0) 31 561 3795<br />
+            Head Office Fax: +27 (0) 31 561 2088<br />
+            Email: <a href="mailto:info@naa-sa.co.za"><span class="style11">info@naa-sa.co.za</span></a></td>
+        </tr>
+        <tr class="white_text_small">
+          <td valign="top" class="white_text_header">Sign up to our newsletter</td>
+        </tr>
+        <tr class="white_text_small">
+          <td valign="top">Please enter your email address:<br />
+            <form id="form1" name="form1" method="post" action="http://formmail.dreamhost.com/cgi-bin/formmail.cgi">
+              <input name="recipient" type="hidden" value="join@naa-sa.co.za" />
+              <input name="subject" type="hidden" value="Request to join NAA newsletter" />
+              <input name="date_offset" type="hidden" value="2" />
+              <label for="join_newsletter"></label>
+              <input type="text" name="join_newsletter" id="join_newsletter" />
+              <input type="submit" name="joinnewsletternow" id="joinnewsletternow" value="Sign up" />
+            </form></td>
+        </tr>
+        <tr class="white_text_small">
+          <td colspan="2" align="left" valign="top"><a href="http://www.webworxx.co.za" target="_blank"><img src="images/wwx.png" width="251" height="61" border="0" /></a></td>
+          <td valign="top">&nbsp;</td>
+          <td valign="top">&nbsp;</td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="50" colspan="3" align="center" background="images/bottom_bar.png" class="subtext">
+    All content on this website is subject to copyright law, (c) 2011. All rights are reserved to the respected owners. Please read our disclaimer here.</td>
+  </tr>
+</table>
+<br />
+
+<map name="Map" id="Map">
+  <area shape="rect" coords="8,4,84,30" href="index.php" />
+  <area shape="rect" coords="89,5,168,29" href="who_are_we.php" />
+  <area shape="rect" coords="281,5,412,29" href="accommodation.php" />
+  <area shape="rect" coords="427,7,531,29" href="south_africa.php" />
+  <area shape="rect" coords="540,8,632,28" href="contact_us.php" />
+  <area shape="rect" coords="639,8,743,28" href="join_the_naa.php" />
+  <area shape="rect" coords="757,7,886,31" href="locums.php" target="_self" />
+  <area shape="rect" coords="183,6,267,31" href="suppliers.php" target="_self" />
+</map>
+<map name="Map2" id="Map2">
+  <area shape="poly" coords="236,165" href="#" />
+  <area shape="poly" coords="247,172" href="#" />
+  <area shape="poly" coords="251,172" href="#" />
+  <area shape="poly" coords="153,159,163,131,175,117,184,119,194,106,214,99,250,115,248,129,234,141,229,135,214,141,199,158,205,172,193,179,183,174,173,179" href="http://www.naafreestate.co.za" target="_blank" />
+  <area shape="poly" coords="255,189,250,184,241,180,239,174,237,164,244,155,243,147,242,136,248,131,251,116,262,112,275,114,290,115,293,105,308,105,299,134" href="http://www.kwababa.co.za" target="_blank" />
+  <area shape="poly" coords="223,100,216,97,211,95,203,92,205,84,220,79,221,70,235,62,240,70,236,76,231,84,233,93" href="http://www.accommodation.org.za/" target="_blank" />
+  <area shape="rect" coords="91,238,164,273" href="http://www.naagardenroute.co.za/" target="_blank" />
+  <area shape="poly" coords="89,258,74,268,68,269,61,266,61,262,52,260,51,254,46,257,46,260,43,256,46,250,42,242,35,232,35,226,39,228,41,221,39,207,31,195,35,186,41,181,46,180,50,191,55,208,62,213,63,224,70,218,74,214,75,216,73,221,81,230,87,230,88,222,102,214,106,214,109,210,109,206,112,200,127,207,135,201,144,203,146,210,134,215,129,217,132,225,122,230,120,236,89,236" href="http://naawesterncape.co.za/" target="_blank" />
+  <area shape="poly" coords="122,236,165,236,166,250,172,251,174,245,186,246,216,227,243,202,255,192,242,182,236,180,236,170,222,172,219,182,214,182,206,175,195,181,182,178,171,181,169,190,153,197,153,201,147,204,147,211,142,215,131,218,135,225" href="http://naaeasterncape.co.za/" target="_blank" />
+  <area shape="poly" coords="30,190,44,176,50,179,52,190,57,205,64,211,65,218,74,211,78,215,76,220,81,226,86,227,86,221,100,212,107,211,107,203,112,196,127,203,135,198,146,200,151,198,152,194,167,188,167,178,150,160,158,135,160,126,160,117,156,116,154,123,150,124,150,117,144,118,140,99,129,89,126,82,118,92,114,86,101,100,80,102,78,92,83,83,77,70,67,59,69,131,56,142,53,145,38,144,23,142,18,133,13,129,8,135,3,140" href="http://naanortherncape.co.za" target="_blank" />
+  <area shape="poly" coords="116,88,126,80,141,97,146,114,153,116,159,111,162,124,173,114,187,110,195,101,208,98,199,93,200,83,216,78,217,70,220,63,185,55,177,55,122,67" href="http://naanorthwest.co.za/" target="_blank" />
+  <area shape="poly" coords="227,101,251,112,260,110,278,112,269,98,278,82,293,85,297,53,294,45,284,47,284,57,274,56,269,65,262,63,258,71,242,73,235,84,236,92" href="http://naampumalanga.co.za/" target="_blank" />
+  <area shape="poly" coords="190,53,224,61,222,66,236,60,243,70,256,68,261,61,267,63,273,54,281,55,281,45,293,43,285,9,250,3,227,10,198,33" href="http://naalimpopo.co.za/" target="_blank" />
+</map>
+<map name="Map3" id="Map3">
+  <area shape="rect" coords="1,78,39,116" href="https://twitter.com/#!/NAASA2" target="_blank" />
+  <area shape="rect" coords="41,79,75,114" href="http://www.facebook.com/pages/National-Accommodation-Association-of-South-Africa/122027251162658" target="_blank" />
+</map>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>
+</body>
+</html>

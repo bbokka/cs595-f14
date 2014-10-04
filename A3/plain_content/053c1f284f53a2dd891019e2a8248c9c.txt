@@ -1,0 +1,75 @@
+   [1]Login
+   Have an account?
+   [2]Create account
+   ____________________ Username
+   ____________________ Password
+   Log in [spinner.gif]
+   Login with
+   [3][facebookLoader.gif] [4][twitterLoader.gif] [5][vkontakteLoader.gif]
+   [6]Forgot your password or username?
+
+   IFRAME: [7]aa0e87ab
+
+   [8]tiara oktavia @tiaraviviara
+   [9]tiara oktavia @tiaraviviara
+   surabaya
+   follow me
+   [10]0 gifts
+   [11]0 likes
+   [12]0 answers
+   [13]+ Follow
+   [14]Make a gift
+   Ask me a question
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   Ask
+   [15]RSS [16]Report answers
+   This user hasn't answered any questions yet.
+
+   © Ask.fm 2014
+   [17]Safety center
+   [18]Terms and policies
+   [19]FAQ
+   [20]Logos
+   [21]Advertising
+   [22]Contact us
+   [23]Language: English
+
+   [p?c1=2&c2=15414502&c3=&c4=ask.fm%2Ftiaraviviara&c5=&c6=&c15=&cv=2.0&cj
+   =1]
+
+   Quantcast
+
+References
+
+   Visible links
+   1. javascript:void(0)
+   2. file:///signup
+   3. javascript:void(0)
+   4. javascript:void(0)
+   5. javascript:void(0)
+   6. file:///remind/request
+   7. http://cas.criteo.com/delivery/afr.php?nodis=1&zoneid=62074
+   8. file:///home/bbokka/cs594/Assignment/programs/html_content/053c1f284f53a2dd891019e2a8248c9c.htm
+   9. file:///tiaraviviara
+  10. file:///tiaraviviara/gifts
+  11. file:///tiaraviviara/best
+  12. file:///tiaraviviara
+  13. file:///tiaraviviara/follow/mobile_prompt
+  14. file:///tiaraviviara/gifts/select
+  15. http://ask.fm/feed/profile/tiaraviviara.rss
+  16. file:///tiaraviviara/report
+  17. file:///about/safety/about-company
+  18. file:///about/policy/terms-of-service
+  19. file:///about/safety/faq
+  20. file:///about/logos
+  21. file:///advertisements/new
+  22. file:///feedbacks/new
+  23. file:///languages
+
+   Hidden links:
+  25. file://localhost/
+  26. http://cas.criteo.com/delivery/ck.php?n=a381d56c&cb=INSERT_RANDOM_NUMBER_HERE

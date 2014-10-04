@@ -1,0 +1,24 @@
+   [1][PYRANKLogo.png]
+   [BUTTON Input] (not implemented)_______
+
+Pyrank is an innovative digital currency network based on surfmining.
+
+   Earn valuable Pyrand digital currency by enjoying your favorite music,
+   videos and more.
+
+Get started - it's free.
+
+   ____________________
+   ____________________
+   ____________________
+   Join now
+   [2]Contact us
+
+References
+
+   Visible links
+   1. file:///home/bbokka/cs594/Assignment/programs/html_content/index.php
+   2. mailto:info@pyrank.com
+
+   Hidden links:
+   4. file://localhost/home/bbokka/cs594/Assignment/programs/html_content/login.php

@@ -1,0 +1,224 @@
+﻿
+
+        
+        <!doctype html>
+<html>
+    <head>
+        <title>UBU - Understand.  Be Understood</title>
+        <meta charset="utf-8" />
+        <meta name="keywords"           content="" />
+        <meta name="description"        content="" />
+        <meta name="HandheldFriendly"   content="true"/>
+        <meta name="MobileOptimized"    content="320"/>  
+        <link rel="apple-touch-icon"    sizes="57x57"       href="/logo/ubu-apple-touch-icon-iphone.png" />
+        <link rel="apple-touch-icon"    sizes="72x72"       href="/logo/ubu-apple-touch-icon-ipad.png" />
+        <link rel="apple-touch-icon"    sizes="114x114"     href="/logo/ubu-apple-touch-icon-iphone-retina-display.png" />        
+        <link rel="shortcut icon"       sizes="16x16"       href="/logo/ubu-favicon.png" type="image/x-icon" />   
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>    
+        <link rel="stylesheet" type="text/css" href="/css/SourceSansPro.css" />                                
+        <link rel="stylesheet" type="text/css" href="/css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="/css/simplegrid.css" />                
+        <link rel="stylesheet" type="text/css" href="/css/base.css" />
+        <link rel="stylesheet" type="text/css" href="/css/supersized/supersized.css"></link>
+        <link rel="stylesheet" type="text/css" href="/css/supersized/supersized.shutter.css"></link>        
+        <link rel="stylesheet" type="text/css" href="/css/landing.css"></link>
+        
+       
+        
+        <!--[if lt IE 9]>
+            <script src="/js/html5shiv.js"></script>
+            <script src="/js/respond.js"></script>
+        <![endif]-->      
+        
+    </head>
+    <body> 
+   
+        <div id="home-slider">	
+            <div class="overlay"></div>
+            
+            
+            <nav id="submenu">
+                <ul id="menu-subnav">     
+                    <li><a id="lang-en-btn" class="lang-btn blue ssp_bold fs14"    href="#" attr_lang="en">ENG</a></li>    
+                    <li><a id="lang-sc-btn" class="lang-btn blue hks_bold fs14"    href="#" attr_lang="sc">中文</a></li>                              
+                    <li><a id="lang-fr-btn" class="lang-btn blue ssp_bold fs14"    href="#" attr_lang="fr">FR</a></li>   
+                    <li class="responsive_hidden"><a class="sm-btn weibo"    target="ubu_social" href="http://weibo.com/ubutravel"    title="weibo">&nbsp;</a></li>
+                    <li class="responsive_hidden"><a class="sm-btn facebook" target="ubu_social" href="http://www.facebook.com/ubutravel" title="Facebook">&nbsp;</a></li>
+                    <li class="responsive_hidden"><a class="sm-btn twitter"  target="ubu_social" href="https://twitter.com/UBUtravel"  title="Twitter">&nbsp;</a></li>
+                    <li class="responsive_hidden"><a class="sm-btn gplus"  target="ubu_social" href="https://plus.google.com/u/0/b/111470244012727190581/111470244012727190581/posts"  title="Google+">&nbsp;</a></li>
+                    <li class="responsive_hidden"><a class="sm-btn youtube"  target="ubu_social" href="https://www.youtube.com/channel/UCcPG2pfE1wFy8i2mfw7SAAA/feed"  title="Youtube">&nbsp;</a></li>
+                </ul>
+            </nav>
+            
+            <img class="home-logo" src="/logo/ubu_logo.png" title="UBU - Landing Page" alt="UBU - Landing Page" />  
+            <p class="solgan1">Understand.<span class="linebreak">&nbsp;</span>Be Understood.</p>
+            <p class="solgan2">Language solutions for a better<span class="linebreak">&nbsp;</span>travel experience.</p>
+             <ul class="home-main-shortcut-link-p">
+             	<li><a href="/tourism-operator/en/"><img class="mainpage_button" src="/images/ubu_tourism_operator_button_en.png" attr_n="/images/ubu_tourism_operator_button_en.png" attr_h="/images/ubu_tourism_operator_button_hover_en.png" /></a></li>
+          
+                 <li><a href="/travel-agent/en/"><img class="mainpage_button" src="/images/ubu_travel_agent_button_en.png" attr_n="/images/ubu_travel_agent_button_en.png" attr_h="/images/ubu_travel_agent_button_hover_en.png" /></a></li>
+                  <li><a href="/tourist/en/"><img class="mainpage_button" src="/images/ubu_tourist_button_en.png" attr_n="/images/ubu_tourist_button_en.png" attr_h="/images/ubu_tourist_button_hover_en.png" /></a></li>
+            
+                 </ul>
+            <ul class="home-main-shortcut-link-l">
+            	 <li><a href="/tourism-operator/en/"><img class="mainpage_button" src="/images/ubu_tourism_operator_button_en.png" attr_n="/images/ubu_tourism_operator_button_en.png" attr_h="/images/ubu_tourism_operator_button_hover_en.png" /></a></li>
+         
+                <li><a href="/travel-agent/en/"><img class="mainpage_button" src="/images/ubu_travel_agent_button_en.png" attr_n="/images/ubu_travel_agent_button_en.png" attr_h="/images/ubu_travel_agent_button_hover_en.png" /></a></li>
+               
+                 <li><a href="/tourist/en/"><img class="mainpage_button" src="/images/ubu_tourist_button_en.png" attr_n="/images/ubu_tourist_button_en.png" attr_h="/images/ubu_tourist_button_hover_en.png" /></a></li>
+              
+            </ul>
+            
+            <div class="slider-text">
+                <div id="slidecaption"></div>
+            </div>  
+            
+            <div class="control-nav">        
+                <ul id="slide-list"></ul>        
+            </div>
+        </div>
+        <script src="/js/jquery-1.9.1.js"></script> <!-- jQuery core -->
+        <script src="/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+        
+        <script>
+            $(document).ready(function(){
+            $(window).load(function() {
+               
+               $('#lang-en-btn').click(function(event){
+                    event.preventDefault();
+                    $.get(
+                        '/lib/php/chglang.php',
+                        {
+                            'action'	: encodeURI('LANG_CHG'),
+                            'lang_code'	: encodeURI('eng')
+                        },
+                        function(data)
+                        {
+                            window.location.hash = '';
+                            var href=window.location.href;	   
+                            href= href.replace('#', '');                                          
+                            window.location.href = href;
+                        }
+                    );
+                });
+                $('#lang-sc-btn').click(function(event){
+                    event.preventDefault();
+                    $.get(
+                        '/lib/php/chglang.php',
+                        {
+                            'action'	: encodeURI('LANG_CHG'),
+                            'lang_code'	: encodeURI('sc')
+                        },
+                        function(data)
+                        {
+                            window.location.hash = '';
+                            var href=window.location.href;	   
+                            href= href.replace('#', '');           
+                            window.location.href = href;
+                        }
+                    );
+                });
+                $('#lang-fr-btn').click(function(event){
+                    event.preventDefault();
+                    $.get(
+                        '/lib/php/chglang.php',
+                        {
+                            'action'	: encodeURI('LANG_CHG'),
+                            'lang_code'	: encodeURI('fr')
+                        },
+                        function(data)
+                        {
+                            window.location.hash = '';
+                            var href=window.location.href;	   
+                            href= href.replace('#', '');                                      
+                            window.location.href = href;
+                        }
+                    );
+                });
+
+
+
+               
+               
+               
+                $.supersized({
+                    // Functionality
+                    slideshow               :   1,			// Slideshow on/off
+                    autoplay                :	1,			// Slideshow starts playing automatically
+                    start_slide             :   1,			// Start slide (0 is random)
+                    stop_loop				:	0,			// Pauses slideshow on last slide
+                    random					: 	0,			// Randomize slide order (Ignores start slide)
+                    slide_interval          :   2000,		// Length between transitions
+                    transition              :   3, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+                    transition_speed		:	800,		// Speed of transition
+                    new_window				:	1,			// Image links open in new window/tab
+                    pause_hover             :   0,			// Pause slideshow on hover
+                    keyboard_nav            :   0,			// Keyboard navigation on/off
+                    performance				:	1,			// 0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
+                    image_protect			:	1,			// Disables image dragging and right click with Javascript
+
+                    // Size & Position						   
+                    min_width		        :   0,			// Min width allowed (in pixels)
+                    min_height		        :   0,			// Min height allowed (in pixels)
+                    vertical_center         :   1,			// Vertically center background
+                    horizontal_center       :   1,			// Horizontally center background
+                    fit_always				:	0,			// Image will never exceed browser width or height (Ignores min. dimensions)
+                    fit_portrait         	:   1,			// Portrait images will not exceed browser height
+                    fit_landscape			:   0,			// Landscape images will not exceed browser width
+
+                    // Components							
+                    slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+                    thumb_links				:	0,			// Individual thumb links for each slide
+                    thumbnail_navigation    :   0,			// Thumbnail navigation
+                    slides 					:  	[			// Slideshow Images
+                        {image : '/images/landing/new1.jpg', title : '', thumb : '', url : ''}
+                       ,{image : '/images/landing/new2.jpg', title : '', thumb : '', url : ''}
+                       
+                      // ,{image : '/images/landing/new3.jpg', title : '', thumb : '', url : ''}
+                       //,{image : '/images/landing/new4.jpg', title : '', thumb : '', url : ''}
+                       //,{image : '/images/landing/new5.jpg', title : '', thumb : '', url : ''}
+                       //,{image : '/images/landing/new6.jpg', title : '', thumb : '', url : ''}
+                       //,{image : '/images/landing/new7.jpg', title : '', thumb : '', url : ''}                       
+                       //,{image : '/images/landing/05.jpg', title : '', thumb : '', url : ''}
+                       
+                       ,{image : '/images/landing/09.jpg', title : '', thumb : '', url : ''}                       
+                       ,{image : '/images/landing/10.jpg', title : '', thumb : '', url : ''}
+                       
+                       ,{image : '/images/landing/08.jpg', title : '', thumb : '', url : ''}
+                       
+                       ,{image : '/images/landing/12.jpg', title : '', thumb : '', url : ''}
+                       
+                      // ,{image : '/images/landing/13.jpg', title : '', thumb : '', url : ''}
+                      // ,{image : '/images/landing/06.jpg', title : '', thumb : '', url : ''}
+                      // ,{image : '/images/landing/07.jpg', title : '', thumb : '', url : ''}
+                    ],
+
+                    // Theme Options			   
+                    progress_bar			:	0,			// Timer for each slide							
+                    mouse_scrub				:	0
+
+                });
+                $('.mainpage_button').hover(function(){
+                    $(this).attr('src',$(this).attr('attr_h'));                    
+                }, function(){
+                    $(this).attr('src',$(this).attr('attr_n'));
+                });    
+                
+            });
+            });
+        </script>
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53387243-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+        
+   <p style="color:black; text-align:center; margin:10px 0; display:none"> This website is administrated by <a target="_blank" href="http://www.ucbchinaconsulting.com">UCB Consulting - Website Design and Development Shanghai</a>. Ultimahub is a specialist agency in web site design, social media marketing, web applications, search engine optimization (SEO) and online marketing.</p>     
+    </body>
+</html>

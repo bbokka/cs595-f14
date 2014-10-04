@@ -1,0 +1,62 @@
+     * [1][de.png] German
+          + [2][us1.png] English
+          + [3][de.png] German
+          + [4][nw.png] Norway
+          + [5][slo.png] Slo
+          + [6][cz.png] Czech
+          + [7][dk.png] Danish
+          + [8][fr.png] French
+          + [9][hu.png] Hu
+          + [10][it.png] Italian
+          + [11][es.png] Spanish
+          + [12][sk.png] Slovak
+          + [13][fi.png] Finnish
+          + [14][nl.png] Dutch
+          + [15][se.png] Swedish
+          + [16][hr.png] Croatian
+
+   Secure your future with Karatbars,
+   because the future is happening now
+   Loading the player...
+
+   Tell Me More
+
+   ____________________
+   First Name
+
+   ____________________
+   Last Name
+
+   ____________________
+   Phone No
+
+   ____________________
+   Email address
+
+   Submit
+   "Pay Yourself First Because the Economy that Matters Most... is the One
+   in Your Own Home"
+
+   Additionally you will receive our Bonouscard worth 100
+   [17]Imprint
+   Copyright © 2011 Karatbars International ™ GmbH
+
+References
+
+   1. javascript:void(0)
+   2. javascript:void(0)
+   3. javascript:void(0)
+   4. javascript:void(0)
+   5. javascript:void(0)
+   6. javascript:void(0)
+   7. javascript:void(0)
+   8. javascript:void(0)
+   9. javascript:void(0)
+  10. javascript:void(0)
+  11. javascript:void(0)
+  12. javascript:void(0)
+  13. javascript:void(0)
+  14. javascript:void(0)
+  15. javascript:void(0)
+  16. javascript:void(0)
+  17. file:///home/bbokka/cs594/Assignment/programs/index.php?page=imprint

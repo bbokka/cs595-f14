@@ -1,0 +1,112 @@
+   #[1]SoundCloud Search [2]alternate [3]alternate
+
+[4]SoundCloud
+
+   [loader-dark-38b02b00.gif]
+
+[5]The Violent Hippy
+
+   McTitty Tha'Don
+
+   Your local neighborhood trapedelic house, United States
+   The Violent Hippy’s avatar
+
+   Life Is But A Trip. Email: theviolenthippy@gmail.com
+
+Sounds
+
+                 [6]Sunday Morning Interlude (prod. by Frander)
+
+   by [7]The Violent Hippy published on 2014/08/29 22:02:38 +0000
+
+                          [8]Track 13 (prod. by Omito)
+
+   by [9]The Violent Hippy published on 2014/08/29 21:39:34 +0000
+
+                 [10]Little Shine Of Mine (prod. by Lo Chinoo)
+
+   by [11]The Violent Hippy published on 2014/08/29 21:39:18 +0000
+
+                         [12]Infinity (prod. by Omito)
+
+   by [13]The Violent Hippy published on 2014/08/29 21:39:12 +0000
+
+                       [14]Mr Olympus (prod. by Frander)
+
+   by [15]The Violent Hippy published on 2014/08/29 21:29:13 +0000
+
+             [16]The Principle Of Entropy (prod. by AndreOnTheBeat)
+
+   by [17]The Violent Hippy published on 2014/08/29 21:24:29 +0000
+
+                                [18]Sober Intro
+
+   by [19]The Violent Hippy published on 2014/08/29 21:21:26 +0000
+
+                       [20]3:47 AM (prod. by Taylor King)
+
+   by [21]The Violent Hippy published on 2014/08/29 21:20:04 +0000
+
+                        [22]The Void (prod. by Frander)
+
+   by [23]The Violent Hippy published on 2014/07/31 03:22:42 +0000
+
+                 [24]Those Darn Kids (prod. by One Ugly Child)
+
+   by [25]The Violent Hippy published on 2014/07/24 23:18:42 +0000
+     * [26]The Violent Hippy's likes
+     * [27]The Violent Hippy's playlists
+     * [28]The Violent Hippy's comments
+
+JavaScript is disabled
+
+   You need to enable JavaScript to use SoundCloud
+   [29]Show me how to enable it
+
+   Your current browser isn't compatible with SoundCloud.
+   Please download one of our supported browsers. [30]Need help?
+   [31]Chrome | [32]Firefox | [33]Safari | [34]Internet Explorer
+
+Sorry! Something went wrong
+
+   Is your network connection unstable or browser outdated?
+   [35]I need help [36]Try our mobile site
+
+References
+
+   1. file:///sc-opensearch.xml
+   2. http://soundcloud.com/oembed?url=http://soundcloud.com/fuckvazquez&format=xml
+   3. http://soundcloud.com/oembed?url=http://soundcloud.com/fuckvazquez&format=json
+   4. file:///
+   5. file:///fuckvazquez
+   6. file:///fuckvazquez/sunday-morning-interlude-prod-by-frander
+   7. file:///fuckvazquez
+   8. file:///fuckvazquez/track-13-prod-by-omito
+   9. file:///fuckvazquez
+  10. file:///fuckvazquez/little-shine-of-mine-prod-by-lo-chinoo
+  11. file:///fuckvazquez
+  12. file:///fuckvazquez/infinity-prod-by-omito
+  13. file:///fuckvazquez
+  14. file:///fuckvazquez/mr-olympus-prod-by-frander
+  15. file:///fuckvazquez
+  16. file:///fuckvazquez/the-principle-of-entropy-prod-by-andreonthebeat
+  17. file:///fuckvazquez
+  18. file:///fuckvazquez/sober-intro
+  19. file:///fuckvazquez
+  20. file:///fuckvazquez/347-am-prod-by-taylor-king
+  21. file:///fuckvazquez
+  22. file:///fuckvazquez/the-void-prod-by-frander
+  23. file:///fuckvazquez
+  24. file:///fuckvazquez/those-darn-kids-prod-by-one-ugly-child
+  25. file:///fuckvazquez
+  26. file:///fuckvazquez/likes
+  27. file:///fuckvazquez/sets
+  28. file:///fuckvazquez/comments
+  29. http://www.enable-javascript.com/
+  30. http://help.soundcloud.com/customer/portal/articles/552882-the-site-won-t-load-for-me-all-i-see-is-the-soundcloud-logo-what-can-i-do-
+  31. http://google.com/chrome
+  32. http://firefox.com/
+  33. http://apple.com/safari
+  34. http://windows.microsoft.com/ie
+  35. http://help.soundcloud.com/
+  36. http://m.soundcloud.com/

@@ -1,0 +1,12 @@
+                               Moved Permanently
+
+   The document has moved [1]here.
+     __________________________________________________________________
+
+
+    Apache/2.2.22 (Ubuntu) Server at www.masterryken.podomatic.com Port
+    80
+
+References
+
+   1. http://masterryken.podomatic.com/

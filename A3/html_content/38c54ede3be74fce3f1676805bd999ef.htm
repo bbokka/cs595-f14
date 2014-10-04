@@ -1,0 +1,2890 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE HTML>
+<html>
+<!------------------------------
+       Whirlpy Theme by WoWOnly v2.0
+        http://wowonly.com
+ __        _______        __   ___  _   _ _  __   __
+ \ \      / / _ \ \      / /  / _ \| \ | | | \ \ / /
+  \ \ /\ / / | | \ \ /\ / /  | | | |  \| | |  \ V / 
+   \ V  V /| |_| |\ V  V /   | |_| | |\  | |___| |  
+    \_/\_/  \___/  \_/\_/     \___/|_| \_|_____|_|  
+                                                    
+		------------------------------>
+
+<meta charset="utf-8">
+<title>This Ain't No Place For No Hero</title>
+
+<link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_e84500a4425c_128.png">
+<meta name="description" content="Doubt fucks everything.Take a foundation, no matter how strong, sprinkle generously with doubt, and watch it crumble. Me? I&rsquo;m unfuckwithable. niggas struggling">
+<meta name="color:description" content="#000">
+
+
+
+		  
+		  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="android-mobile-web-app-capable" content="yes">
+      
+
+<link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_e84500a4425c_128.png">
+<link rel="apple-touch-icon-precomposed" href="http://38.media.tumblr.com/avatar_e84500a4425c_128.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="alternate" type="application/rss+xml" href="http://vandal--savage.tumblr.com/rss">
+		
+<link rel="apple-touch-icon" href="http://38.media.tumblr.com/avatar_e84500a4425c_128.png"> 
+<link rel="alternate" type="application/rss+xml" href="http://vandal--savage.tumblr.com/rss">
+
+    <!-- Bootstrap core CSS -->
+<link href="http://static.tumblr.com/nj7urwg/ax5n9k6jk/style-grid.css" rel="stylesheet">
+<link href="http://static.tumblr.com/x3k5azr/FxRn8j6if/drop.css" rel="stylesheet">
+<link href="http://static.tumblr.com/x3k5azr/YA1n8qyyp/component.css" rel="stylesheet">
+<link href="http://static.tumblr.com/x3k5azr/4Q1n8orex/bootstrap.css" rel="stylesheet">
+<link href="http://static.tumblr.com/nj7urwg/pGZn9vdyb/webcss.css" rel="stylesheet" type="text/css" media="screen">
+<link href="http://static.tumblr.com/x3k5azr/l2an8hw7q/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="http://static.tumblr.com/x3k5azr/Utln8e6ud/scroll-style.css">
+
+<!-- custom scrollbar stylesheet -->
+<link rel="stylesheet" href="http://static.tumblr.com/x3k5azr/6Uun8e6ua/jquery.mcustomscrollbar.css">
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://static.tumblr.com/x3k5azr/xk1n8jqq6/classie.js"></script>
+<script type="text/javascript" src="http://static.tumblr.com/x3k5azr/RWsn8jqqc/uisearch.js"></script>
+<script type="text/javascript" src="http://static.tumblr.com/x3k5azr/XFkn8j4ie/drop.js"></script>
+<script type="text/javascript" src="http://malsup.github.io/jquery.cycle.all.js"></script>
+
+<!-- masonry Infinite scroll scripts -->
+<script src="http://static.tumblr.com/0ccgvfs/ZyIn8jd23/jquery.scale.js"></script>
+<script src="http://static.tumblr.com/iwtk77u/Yhym2yygt/jquery.imagesloaded.min.js"></script>
+<script src="http://static.tumblr.com/wgijwsy/Ebfm2v4gy/jquery.masonry.min.js"></script>
+<script src="http://static.tumblr.com/wgijwsy/u2vm2hxv6/jquery.infinitescroll.min.js"></script>
+
+<script type="text/javascript">
+
+$( document ).ready(function() {
+ var $tumblelog = $('#container');
+ $('#container img').load(function(){
+           $tumblelog.masonry();
+        });
+ $tumblelog.imagesLoaded(function () {
+
+     setTimeout(function() {
+  console.log('loaded');
+            $tumblelog.masonry({
+               isFitWidth: true,
+            });
+            
+     }, 5000);
+     
+        });
+  
+
+        $tumblelog.infinitescroll({
+            navSelector: ".pagination",
+            nextSelector: ".prvbtn",
+            itemSelector: ".grid",
+        },
+        
+         
+        function (newElements) {
+            var $newElems = $(newElements).css({
+                opacity: 0
+            });
+            
+              // Create Array of $newElems IDs
+    var $newElemsIDs = $newElems.map(function () { 
+        return this.id; 
+    }).get();
+    
+            $newElems.imagesLoaded(function () {
+                $newElems.animate({
+                    opacity: 1
+                });
+                $tumblelog.masonry('appended', $newElems);
+                
+                 Tumblr.LikeButton.get_status_by_post_ids($newElemsIDs);
+            });
+        });
+        
+  });
+
+
+//CALL THE SCRIPT TO START...
+$( document ).ready(function() {
+	//start your engines
+	loadEmUp(start_url);
+
+});
+
+</script>
+
+<script>
+$(document).ready(function() {
+
+  if($('.logoimage img').attr('src').indexOf("x.gif") != -1) // 
+     {
+         $('.logoimage').hide();
+          $('.logotext').show();
+       
+     }
+     else {
+          $('.logotext').hide();
+     }
+
+
+//Close Popups and Fade Layer
+
+
+
+ $('#flickrimages').cycle({
+    fx:     'fade',
+    speed:    'fast',
+    timeout:  0,
+    next:   '#flickrnext',
+    prev:   '#flickrprev'
+  });
+
+
+});
+
+</script>
+
+<style >
+body {
+background-color: #222222 !important;
+background-image: url('http://assets.tumblr.com/images/x.gif')  !important;
+overflow-x: hidden !important;
+margin-bottom: 0px!important;
+     }
+.grid strong {
+color: #ff0000;
+}
+.grid 
+{
+ background:#F6F6F6;
+ overflow:hidden;
+}
+ .datelist a {
+                color: #FF0000;
+            }
+#instagram img {
+border: none;
+width: 98px;
+height: 100px;
+margin: 1px 6px 8px 6px;
+}
+div.like_button iframe {
+width: 20px;
+height: 20px !important;
+}
+
+.imgholder iframe {
+min-height: 1% !important;
+width: 100%!important;
+}
+span a.likey img {
+display: block;
+margin: -4px auto 7px -2px;
+}
+div#disqus_thread {
+margin-top: 75px;
+display: block;
+}
+#flickrimages { height: 185px; width: 240px; padding:0; margin:0; overflow: hidden;}
+#flickrimages img {
+ border:none;
+width: 98px;
+height: 100px;
+margin: 1px 6px 8px 6px;
+
+}
+a#close_page {
+margin-right: 20px;
+margin-top: -30%;
+}
+a.nextbtn {
+float: right;
+font-weight: bold;
+}
+a.prvbtn {
+float: left;
+font-weight: bold;
+}
+div.linkbtn {
+padding: 0px 10px 10px;
+float: left;
+width: 100% !important;
+margin-left: 0px !important;
+border-bottom: #EDEAEA 1px solid;
+left: 0 !important;
+}
+
+div.aftpost iframe {
+width: 100%;
+height: 426px;
+}
+div.imgholder > video{
+width: 100% !important;
+height: 100% !important;
+}
+#fade {
+	display: none;
+	background: #000;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .80;
+	z-index:100;
+	cursor:pointer;
+}
+
+a.men:hover
+{
+text-decoration:none;
+}
+
+img.btn_close {
+	float: right;
+	display:block !important;
+}
+
+*html #fade {
+	position: absolute;
+}
+
+*html .popup_block {
+	
+}
+iframe .headerin {
+	display:none !important;
+}
+
+	
+#pagination a, .exposed-nav-wrapper li a {
+                color: #FF0000;
+            }
+
+#pagination a.next:after {
+                border-left-color: #FF0000;
+            }
+
+ #pagination a.previous:after {
+                border-right-color: #FF0000;
+            }
+
+.user-avatar {
+                background-color: #222222;
+                border-color: #222222;
+            }
+ 
+
+.avatar-style-square .user-avatar {
+                -wekbit-box-shadow: 0 0 0 4px #222222;
+                -moz-box-shadow: 0 0 0 4px #222222;
+                box-shadow: 0 0 0 4px #222222;
+            }
+        
+ /* Adjust menus for light accents on light backgrounds */
+.light-on-light.no-header-image .selector .bar-icon,
+            .light-on-light.contain-header-image .selector .bar-icon {
+                background: #444;
+            }
+
+.light-on-light.no-header-image .search-only .selector .icon,
+            .light-on-light.contain-header-image .search-only .selector .icon {
+                color: #444;
+            }
+
+            /* Adjust menus for dark accents on dark backgrounds */
+ .dark-on-dark.no-header-image .selector .bar-icon,
+            .dark-on-dark.contain-header-image .selector .bar-icon {
+                background: #fff;
+            }
+
+.dark-on-dark.no-header-image .search-only .selector .icon,
+            .dark-on-dark.contain-header-image .search-only .selector .icon {
+                color: #fff;
+}
+ /*  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) */
+
+@media screen and (min-device-width: 568px) {
+.header-image.cover {
+                    background-image: url(http://static.tumblr.com/46455e808707aab6b71ef0d5195c8e1e/ijuw39c/oLTna7qkn/tumblr_static_tumblr_static__640.jpg);
+                    -webkit-background-size: cover;
+                    background-size: cover;
+}
+
+.nav-menu-bg,
+.nav-menu-wrapper .nav-menu.active:before,
+.nav-menu .pop-menu ul {
+background: #222222;
+}
+
+.nav-menu.active .selector .bar-icon,
+.below-header .selector .bar-icon {
+background: #FF0000;
+}
+
+.nav-menu .pop-menu ul li a,
+.below-header .search-only .selector .icon {
+color: #FF0000;
+ }
+                
+ /* Adjust menus for light accents on light backgrounds */
+.light-on-light.below-header .nav-menu .selector .bar-icon,
+ .light-on-light.below-header .selector .bar-icon {
+                    background: #444;
+                }
+
+ .light-on-light .nav-menu .pop-menu ul li a,
+.light-on-light.below-header .search-only .selector .icon {
+                    color: #444;
+}
+                
+/* Adjust menus for dark accents on dark backgrounds */
+.dark-on-dark .nav-menu .selector .bar-icon,
+ .dark-on-dark .below-header .selector .bar-icon {
+                    background: #fff;
+}
+
+.dark-on-dark .nav-menu .pop-menu ul li a,
+.dark-on-dark.below-header .search-only .selector .icon {
+ color: #fff;
+}
+.share-menu.active {
+bottom: 283px !important;
+margin-left: 126px !important;
+}
+
+.avatar-style-square .user-avatar {
+-wekbit-box-shadow: 0 0 0 3px #222222;
+-moz-box-shadow: 0 0 0 3px #222222;
+box-shadow: 0 0 0 3px #222222;
+}
+.col-lg-10.col-md-10.col-sm-10.col-xs-12 {
+    width: 90% !important;
+}
+
+@media(min-width:250px) and (max-width:1100px) {
+.col-lg-10.col-md-10.col-sm-10.col-xs-12 {
+    width: 75% !important;
+}
+}
+
+@media(min-width:250px) and (max-width:575px) {
+.datelist {
+    float: left !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 200px !important;
+}
+.pull-left {
+    float: none !important;
+    width: 200px !important;
+}
+.pull-right {
+    display: block !important;
+    float: none !important;
+    margin: 22px auto !important;
+    width: 55px;
+}
+
+}
+}
+
+#ask_form header{display:none !important;}
+div.aftpost img {
+display: block;
+margin: 0 auto;
+}
+
+.maintub {
+float: none !important;
+position: relative !important;
+left: auto !important;
+top: 181px !important;
+margin: 0 auto !important;
+z-index: 110;
+width: 60% !important;
+}
+.aftpost {
+float: left;
+height: auto;
+list-style: none outside none;
+margin-left: 5%;
+margin-top: 68px;
+width: 90% !important;
+margin-right: 5%;
+position: relative !important;
+left: 0px !important;
+
+}
+
+.aftpost  strong {
+border-bottom: 1px solid #ccc;
+margin: 15px 0 10px;
+display: block;
+padding: 0 0 10px;
+font-size: 18px;
+color: #ec1111;
+font-weight: normal;
+}
+
+h2{color:#000}
+
+h2 span{color:#000}
+
+.conversation li {
+    font-family: Courier,monospace !important;
+    list-style: none outside none !important;
+	
+    font-family: Courier,monospace;
+    list-style: none outside none;
+	min-height:50px !important;
+	margin-bottom: 7px;
+
+}
+.fa-times
+{color:white;}
+strong p
+{font-size:12px}
+img.imglink {
+
+margin-top: 19%;
+width:100% !important;
+height:110px !important;
+margin: 15px 0 10px !important;
+}
+.linkhead
+{
+	
+font-style: normal !important;
+font-family: Georgia, serif !important;
+font-weight: normal !important;
+font-size: 16px !important;
+text-shadow: 1px 1px 0 #fff !important;
+color: red !important;
+margin: 5px 0 !important;
+max-height:85px !important;
+overflow:hidden !important;
+}
+div.aftpost img {
+display: block;
+margin: 0 auto;
+margin-left: 5%;
+margin-right: 5%;
+width: 90%;
+}
+footer 
+	{
+width: 100%;
+float: left;
+background: #000;
+font-size: 13px;
+color: #ccc;
+margin: 0px;
+}
+	.footer {
+
+padding: 15px;
+}
+	 .fot-left
+	 {
+	 }
+	  .fot-right
+	 {
+	 
+	 }
+	   .fot-right a
+	 {
+	 margin-right: 0;
+	 margin-top:2px;
+	 }
+	.footersocial {
+margin: 0px !important;
+padding: 0;
+}
+ .fot-right li {
+list-style: none;
+padding: 5px 0px;
+}
+.footer-nav li {
+line-height: 30px;
+text-indent: 20px;
+float: left;
+}
+.footer-nav li a {
+color:#FFF;
+display: block;
+text-decoration: none;
+font-family: arial;
+font-size: 15px;
+font-weight: normal;
+font-size: .95em;
+}
+.fot-left {
+font-family: arial;
+}
+.footer-nav {
+width: auto;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.grid {
+    width:255px!important;
+}
+.chatname {
+	margin:0px 0px 0px 0px !important;width:auto !important;height:auto !important;font-weight:bold !important;
+}
+.rebloggername{
+	margin:0px 0px 0px 0px !important;width:auto !important;height:auto !important;font-weight:bold !important;
+}
+.rebloggedcont {
+margin:0px 0px 0px 0px !important;width:auto !important;height:auto !important;font-weight:bold !important;
+}
+.logotitle {
+          font-family:  Futura, 'Century Gothic', AppleGothic, sans-serif ,sans-serif;
+    color:#fff;
+     margin-top: 5px;
+}
+.sideavatar {
+border-radius: 75px;    
+display:block;
+margin:0px auto;
+width: 100%;
+height: auto;
+}
+.pagination{
+    display:none;
+}
+#container {
+    min-height: 800px;
+    height: auto;
+}
+
+
+.column1 .container-fluid {
+    width: 55% !important;
+}
+.column1 .grid {
+    width: 100% !important;
+}
+.column2 .container-fluid {
+    width: 86% !important;
+}
+.column2 .grid {
+    width: 50% !important;
+}
+.column3 .container-fluid {
+    width: 90% !important;
+}
+.column3 .grid {
+    width: 30% !important;
+}
+.rebloggedcont {
+    float: left;
+    margin-right: 15px !important;
+}
+
+.meta {
+    clear: both !important;
+    margin-top: 35px !important;
+    	
+}
+#container {
+    position: relative;
+    float: none !important;
+    margin: 0px auto !important;
+    padding-bottom: 10px;
+    left: 130px;
+}
+.containerbox {
+    display: block;
+    margin: 1% 0% 3% !important
+    position: relative !important;
+    width: 94%;
+}
+.grid .imgholder img {
+    width: 100% !important;
+    background: none repeat scroll 0% 0% #CCC;
+    display: block;
+}
+.content.mCustomScrollbar strong {
+    color: #ffffff!important;
+}
+
+@media (min-width:980px) and (max-width: 1100px) {
+   .column2 .container-fluid {
+    width: 100% !important;
+}
+.column2 .grid {
+    width: 48% !important;
+}
+.column3 .container-fluid {
+    width: 100% !important;
+}
+.column3 .grid {
+    width: 30% !important;
+}
+}
+
+
+@media (min-width:730px) and (max-width: 980px) {
+.column2 .container-fluid {
+    width: 100% !important;
+}
+.column2 .grid {
+    width: 45% !important;
+}
+.column3 .container-fluid {
+    width: 100% !important;
+}
+.column3 .grid {
+    width: 22% !important;
+}
+.containerbox {
+    margin-top:85px!important;
+}
+}
+
+@media (min-width:250px) and (max-width: 730px) {
+.column2 .container-fluid {
+    width: 100% !important;
+}
+.column2 .grid {
+    width: 100% !important;
+}
+.column3 .container-fluid {
+    width: 100% !important;
+}
+.column3 .grid {
+    width: 80% !important;
+}
+.containerbox {
+    margin:0;
+    width: 100%;
+}
+.containerbox {
+    margin-top:85px!important;
+}
+#wrapper {
+      width: 100%;
+      margin-top:0px;
+}
+.col-lg-10.col-md-10.col-sm-10.col-xs-12 {
+    width: 100% !important;
+}
+.grid img {
+    width:100%;
+} 
+#container {
+    float: none !important;
+    left: 0 !important;
+  /*  top: 145px !important;*/
+    margin: 0 auto !important;
+    padding-bottom: 10px;
+}
+.sidebar-brand {
+    background: none repeat scroll 0 0 #fff;
+    border: 2px solid #ffffff;
+    border-radius: 75px;
+    font-size: 18px;
+    height: 110px;
+    left: 0!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    margin-top: 20px;
+    position: relative!important;
+    top: 160px!important;
+    width: 110px;
+    display:none!important;
+}
+.grid {
+     left: 0!important;
+       margin: 8px 8px 8px 0!important;
+}
+}
+
+.notes {
+    margin-top:20px;
+}
+
+.notes img {
+    
+    width: 25px!important;
+    margin:0px!important;
+    margin-right:5px!important;
+}
+.avatar_frame {
+    float:left!important;
+}
+.notes li {
+    height:40px!important;
+     min-height:20px!important;
+    width:100% !important;
+    float: left;
+}
+.instagram-wrap {
+    display: none;
+}
+
+.avatar-container {
+    background-image: url(http://static.tumblr.com/nj7urwg/gqdnani7o/border.png);
+    background-size: 121px 120px;
+    width: 120px;
+    height: 120px;
+    left: 130px;
+    margin-top: 20px;
+    position: fixed;
+    top: 130px;
+}
+
+@media (min-width:250px) and (max-width: 730px) {
+.avatar-container {
+    display: none!important;
+}
+}
+
+.avatar-container:hover {
+    -moz-transform:scale(1.5,1.5);
+   -webkit-transform:scale(1.5,1.5);
+   -o-transform:scale(1.5,1.5);
+   -ms-transform:scale(1.5,1.5);
+   transform:scale(1.5,1.5);
+   -webkit-transition: all 0.2s ease-in;
+   -moz-transition: all 0.2s ease-in;
+   -o-transition: all 0.2s ease-in;
+   -ms-transition: all 0.2s ease-in;
+   transition: all 0.2s ease-in;
+}
+
+.sidebar-brand {
+    font-size: 18px;
+    width: 110px;
+    height: 110px;
+    border-radius: 75px;
+    background:#fff;
+    margin-top: 5px;
+    margin-left: 6px;
+    padding: 1px;
+    
+}
+.sidebar-brand:hover {
+    background-image: url(http://static.tumblr.com/nj7urwg/2A5nanmbn/sidebar-bg.png)!important;
+    background-color: transparent;
+    background-repeat: repeat!important;
+}
+.sidebar-innerbrand {
+    font-size: 18px;
+    left: 60px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 0px;
+    width: 128px;
+    height: 128px;
+    background:#fff;
+}
+
+.sideavatar_inner {
+display:block;
+margin:0px auto;
+width: 100%;
+height: auto;
+}
+
+.sideavatar:hover {
+display:block;
+margin:0px auto;
+width: 100%;
+height: auto;
+}
+
+h2 {
+color: #000000;
+text-transform: none;
+}
+.aftpost.masonry-brick {
+top: 0px!important;
+margin-bottom: 30px;
+}
+
+/* Custom CSS */
+
+</style>
+		
+
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=vandal--savage" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="the swirl 2k14,about me" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="This Ain&#039;t No Place For No Hero" /><meta property="og:url" content="http://vandal--savage.tumblr.com/?og=1" /><meta property="og:description" content="Doubt fucks everything.Take a foundation, no matter how strong, sprinkle generously with doubt, and..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_e84500a4425c_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=vandal--savage" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=vandal--savage" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="vandal--savage" /><meta name="twitter:description" content="Doubt fucks everything.Take a foundation, no matter how strong, sprinkle generously with doubt, and watch it crumble. Me? I&rsquo;m unfuckwithable.
+
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+
+  var _gaq = _gaq || [];
+  _gaq.push([&#039;_setAccount&#039;, &#039;UA-16984453-1&#039;]);
+  _gaq.push([&#039;_trackPageview&#039;]);
+
+  (function() {
+    var ga = document.createElement(&#039;script&#039;); ga.type = &#039;text/javascript&#039;; ga.async = true;
+    ga.src = (&#039;https:&#039; == document.location.protocol ? &#039;https://ssl&#039; : &#039;http://www&#039;) + &#039;.google-analytics.com/ga.js&#039;;
+    var s = document.getElementsByTagName(&#039;script&#039;)[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;a href=&quot;http://www.freeonlineusers.com&quot;&gt;
+&lt;font color=#FF0000&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;http://st1.freeonlineusers.com/on4.php?id=503632&quot;&gt; &lt;/script&gt; niggas struggling&lt;/font&gt;&lt;/a&gt;
+
+
+
+
+&lt;!-- Start of StatCounter Code --&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var sc_project=6880910; 
+var sc_invisible=1; 
+var sc_security=&quot;0a7e3941&quot;; 
+&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;
+src=&quot;http://www.statcounter.com/counter/counter.js&quot;&gt;&lt;/script&gt;
+&lt;noscript&gt;&lt;div class=&quot;statcounter&quot;&gt;&lt;a title=&quot;tumblr visit
+counter&quot; href=&quot;http://statcounter.com/tumblr/&quot;
+target=&quot;_blank&quot;&gt;&lt;img class=&quot;statcounter&quot;
+src=&quot;http://c.statcounter.com/6880910/0/0a7e3941/1/&quot;
+alt=&quot;tumblr visit counter&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/noscript&gt;
+&lt;!-- End of StatCounter Code --&gt;" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=vandal--savage&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=vandal--savage&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=vandal--savage&amp;referrer=twitter-cards" />
+
+</head>
+
+   <body  data-urlencoded-name="vandal--savage" class="column2 index-page"  >
+
+
+	<!-- Side Menu -->
+    <a id="menu-toggle" class="men" href="#" style="margin:12px 0px 0px 10px;">
+	 
+	<img src="http://static.tumblr.com/x3k5azr/c7Hn8hygz/menu-top.png" style="width:20px;height:20px;">
+	
+	</a>
+    <div id="sidebar-wrapper">
+   <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle btntog" style="color:white;background:transparent">X</a>
+
+        <div class="content mCustomScrollbar">
+        <!--<div class="sidebar-brand">
+		 
+                <a href="/" style="background-image: url(http://38.media.tumblr.com/avatar_e84500a4425c_128.png)" ><img src="http://38.media.tumblr.com/avatar_e84500a4425c_128.png" class="sideavatar" width="128" height="128" alt="" ></a>
+       
+            </div>-->
+        
+        
+        
+        <div class="sidebar-innerbrand">
+		<a href="/" style="background-image: url(http://38.media.tumblr.com/avatar_e84500a4425c_128.png)" ><img src="http://38.media.tumblr.com/avatar_e84500a4425c_128.png" class="sideavatar_inner" width="128" height="128" alt="" ></a>
+        </div>
+        
+        
+        
+    <div class="midpart col-sm-10">
+        <p>Doubt fucks everything.Take a foundation, no matter how strong, sprinkle generously with doubt, and watch it crumble. Me? I’m unfuckwithable.
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16984453-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<a href="http://www.freeonlineusers.com">
+<font color=#FF0000><script type="text/javascript" src="http://st1.freeonlineusers.com/on4.php?id=503632"> </script> niggas struggling</font></a>
+
+
+
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=6880910; 
+var sc_invisible=1; 
+var sc_security="0a7e3941"; 
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="tumblr visit
+counter" href="http://statcounter.com/tumblr/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/6880910/0/0a7e3941/1/"
+alt="tumblr visit counter"></a></div></noscript>
+<!-- End of StatCounter Code --></p>
+    </div>
+    
+    
+               
+    <ul class="sidebar-nav">
+    <li><a href="/">Home</a> </li>
+           
+    
+    
+    <li><a href="/rss">Rss</a> </li>
+  
+  
+ <li>   <a href="/ask">Ask me shit</a></li>
+
+ 
+ <li>   <a href="/submit">what you twerkin wit</a></li>
+ 
+        
+ 
+    </ul>
+       
+    <div class="socialicon col-sm-10">
+    <ul>
+		
+		 <li style="overflow:hidden;"><a title=""  href="https://twitter.com/VandalSavage_"><img src="http://static.tumblr.com/kbv78yw/qCzn9bpwv/tw.png" width="20" height="20"></a></li>
+		
+		
+    </ul>
+	</div>
+	
+	
+	
+       	
+        
+        </div>
+       
+    </div>
+    <!-- /Side Menu -->
+	<div class="wrapper">
+		<section id="page">
+		
+			<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#"er></header >
+			<header >
+			<div class="headerin col-lg-12">
+			<div class="lefthead col-lg-6 col-md-8 col-sm-12 col-xs-12 pull-left">
+			<div class="logo col-md-3 col-sm-2 col-xs-12 pull-left"><a href="/"><a href="/" style="color:#fff" class="logoimage" ><img width="306" alt="This Ain't No Place For No Hero" border="0" class="logo" src="http://assets.tumblr.com/images/x.gif" ></a>
+<a  class="logotext" href="/" style="color:#fff" class="logotitle" ><h1 style="color:#fff" class="logo logotitle">This Ain't No Place For No Hero</h1></a></a></div>
+
+			<div class="searchtext col-lg-8 col-md-8 col-sm-9 col-xs-12">
+			<div class="main clearfix">
+				<!-- Optional columns for small components -->
+				<div class="sercitem col-lg-5 col-md-5 col-sm-12 col-xs-12 ">
+					<div id="sb-search" class="sb-search">
+						<form action="/search" method="get" id="demo-b">
+							<input class="sb-search-input" type="search" name="q" id="q" placeholder="Type your content here" value=""/>
+							<input class="sb-search-submit" type="submit" value="">
+							<span class="sb-icon-search"><img src="http://static.tumblr.com/x3k5azr/b2Yn8qyrc/submit-btn.png" style="margin:-5px 0px 0px 0px;" /></span>
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			
+			</div>
+
+			</div>
+	
+			</div>
+			</header>
+	
+	<div class="container-fluid">
+	<div class="row">
+		<div class="headerifx containerbox col-lg-12">
+		
+		
+		<div class="avatar-container">
+		<div class="sidebar-brand">
+		<a href="/" style="background-image: url(http://38.media.tumblr.com/avatar_e84500a4425c_128.png)" ><img src="http://38.media.tumblr.com/avatar_e84500a4425c_128.png" class="sideavatar" width="128" height="128" alt="" ></a>
+        </div>
+		</div>
+		
+		
+		<h2>Doubt fucks everything.Take a foundation, no matter how strong, sprinkle generously with doubt, and watch it crumble. Me? I’m unfuckwithable.
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16984453-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<a href="http://www.freeonlineusers.com">
+<font color=#FF0000><script type="text/javascript" src="http://st1.freeonlineusers.com/on4.php?id=503632"> </script> niggas struggling</font></a>
+
+
+
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=6880910; 
+var sc_invisible=1; 
+var sc_security="0a7e3941"; 
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="tumblr visit
+counter" href="http://statcounter.com/tumblr/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/6880910/0/0a7e3941/1/"
+alt="tumblr visit counter"></a></div></noscript>
+<!-- End of StatCounter Code --></h2> 
+			<section id="wrapper">
+				
+					
+	
+	<div id="container" class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+								
+	
+	
+<!--Pagination Starts -->	
+    
+ <!--Pagination Ends -->           
+ 
+	<div class="grid" >
+   
+	<!--Text post Starts-->
+   
+	
+	<!--Text post Ends-->
+	<!--Photo post starts-->
+	
+	
+<a href="http://vandal--savage.tumblr.com/post/98933953629/well-damn" rel="popup_name_98933953629"  >
+	<div class="imgholderhigh-res" data-photo-width="640">
+	
+	
+	<img src="http://38.media.tumblr.com/ea6942f434e070ad98013c8437bb9236/tumblr_ncslneH3VJ1qe1pl8o1_1280.jpg" class="img-responsive">
+		
+    <p>  <p>Well damn</p></p>
+    
+    
+ </div>
+ </a>
+	
+	 
+	
+	
+    
+	<!--Photo post Ends-->
+	
+	<!--Photoset post Starts-->
+    
+	<!--Photoset post Ends-->
+
+	<!--Quote post Starts-->
+    
+	<!--Quote post Ends-->
+
+	<!--Link post Starts-->
+    
+	<!--Link post Ends-->
+
+	<!--Chat post Starts-->
+    
+<!--Chat post Ends-->
+
+<!--Audio post Starts-->
+    
+	<!--Audio post Ends-->
+
+    <!--Video post Starts-->
+	 
+	   <!--Video post Ends-->
+	
+   <!--Answer post Starts-->	
+    
+	<!--Answer post Ends-->	
+	
+	
+	<!--RebloggedFrom post Ends-->	
+	
+	
+                                    
+    
+	
+	<div class="meta">
+										
+	<div class="datelist">
+	<a href="http://vandal--savage.tumblr.com/post/98933953629/well-damn"    title="1 day ago"><span class="watc"></span>1 day ago </a>
+	</div> 
+												
+	<div class="datelist"><a href="http://vandal--savage.tumblr.com/post/98933953629/well-damn#notes"  >
+	<span class="note"></span> 17 notes </a></div> 
+	<span class="pull-left likbtn">
+											
+	<a href="#" title="Like" class="likey"><div class="like_button" data-post-id="98933953629" id="like_button_98933953629"><iframe id="like_iframe_98933953629" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=vandal--savage&amp;post_id=98933953629&amp;rk=GmlRzu53" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></a> 
+	<a href="http://vandal--savage.tumblr.com/post/98933953629/well-damn" title="Permalink" class="likey">
+	<img src=" http://static.tumblr.com/x3k5azr/p1tn8fqdd/chain-icon.png" style="" ></a>
+	</span>						
+	<span class="pull-right likbtn">	
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F98933953629%2Fwell-damn&amp;t=This%20Ain%27t%20No%20Place%20For%20No%20Hero"   ><img src="http://static.tumblr.com/x3k5azr/DmGn8hszc/facebook.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Facebook"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="https://twitter.com/intent/tweet?text=Photo%3A%20Well%20damn%20http%3A%2F%2Ftmblr.co%2FZiXS6y1S8x5HT"   ><img src="http://static.tumblr.com/x3k5azr/DIun8hszh/twitter.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Twitter"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="mailto:?subject=A%20photo%20from%20This%20Ain%26%23039%3Bt%20No%20Place%20For%20No%20Hero&amp;body=Photo%3A%20Well%20damn%20http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F98933953629%2Fwell-damn" ><img src="http://static.tumblr.com/x3k5azr/iF5n8hszm/mail.png" width="20" height="21"  style="margin:0px 0px 0px 0px !important;" title="Mail"></a>
+	</span>			
+																				
+	</div>
+	
+									
+
+                               
+                                 
+    
+	</div>
+	
+	
+<!--Pagination Starts -->	
+    
+ <!--Pagination Ends -->           
+ 
+	<div class="grid" >
+   
+	<!--Text post Starts-->
+   
+	
+	
+	<a href="http://vandal--savage.tumblr.com/post/98928319209/reblog-if-your-tumblr-picture-is-actually-you" rel="popup_name_98928319209"  >
+	<div class="imgholder">
+	<strong>Reblog if your Tumblr picture is actually you.</strong>
+    
+    </div> 
+ 	</a>
+	 
+										
+	
+    
+	
+	
+	<!--Text post Ends-->
+	<!--Photo post starts-->
+	
+	<!--Photo post Ends-->
+	
+	<!--Photoset post Starts-->
+    
+	<!--Photoset post Ends-->
+
+	<!--Quote post Starts-->
+    
+	<!--Quote post Ends-->
+
+	<!--Link post Starts-->
+    
+	<!--Link post Ends-->
+
+	<!--Chat post Starts-->
+    
+<!--Chat post Ends-->
+
+<!--Audio post Starts-->
+    
+	<!--Audio post Ends-->
+
+    <!--Video post Starts-->
+	 
+	   <!--Video post Ends-->
+	
+   <!--Answer post Starts-->	
+    
+	<!--Answer post Ends-->	
+	
+	
+	<!--RebloggedFrom post Ends-->	
+	
+	
+	<p class="rebloggername">  
+	<a  href="http://daddynoooo.tumblr.com/post/98927814587/reblog-if-your-tumblr-picture-is-actually-you">daddynoooo</a>
+	</p>
+    
+    <p class="rebloggedcont"><a  href="http://kamrynndenise.tumblr.com/post/4625434407/reblog-if-your-tumblr-picture-is-actually-you">Source: kamrynndenise</a></p>
+    
+     
+    
+	
+	
+	<div class="meta">
+										
+	<div class="datelist">
+	<a href="http://vandal--savage.tumblr.com/post/98928319209/reblog-if-your-tumblr-picture-is-actually-you"    title="1 day ago"><span class="watc"></span>1 day ago </a>
+	</div> 
+												
+	<div class="datelist"><a href="http://vandal--savage.tumblr.com/post/98928319209/reblog-if-your-tumblr-picture-is-actually-you#notes"  >
+	<span class="note"></span> 963,773 notes </a></div> 
+	<span class="pull-left likbtn">
+											
+	<a href="#" title="Like" class="likey"><div class="like_button" data-post-id="98928319209" id="like_button_98928319209"><iframe id="like_iframe_98928319209" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=vandal--savage&amp;post_id=98928319209&amp;rk=TeCQ7qHL" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></a> 
+	<a href="http://vandal--savage.tumblr.com/post/98928319209/reblog-if-your-tumblr-picture-is-actually-you" title="Permalink" class="likey">
+	<img src=" http://static.tumblr.com/x3k5azr/p1tn8fqdd/chain-icon.png" style="" ></a>
+	</span>						
+	<span class="pull-right likbtn">	
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F98928319209%2Freblog-if-your-tumblr-picture-is-actually-you&amp;t=Reblog%20if%20your%20Tumblr%20picture%20is%20actually%20you."   ><img src="http://static.tumblr.com/x3k5azr/DmGn8hszc/facebook.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Facebook"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="https://twitter.com/intent/tweet?text=Reblog%20if%20your%20Tumblr%20picture%20is%20actually%20you.%20http%3A%2F%2Ftmblr.co%2FZiXS6y1S8bbhf"   ><img src="http://static.tumblr.com/x3k5azr/DIun8hszh/twitter.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Twitter"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="mailto:?subject=A%20post%20from%20This%20Ain%26%23039%3Bt%20No%20Place%20For%20No%20Hero&amp;body=Reblog%20if%20your%20Tumblr%20picture%20is%20actually%20you.%20http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F98928319209%2Freblog-if-your-tumblr-picture-is-actually-you" ><img src="http://static.tumblr.com/x3k5azr/iF5n8hszm/mail.png" width="20" height="21"  style="margin:0px 0px 0px 0px !important;" title="Mail"></a>
+	</span>			
+																				
+	</div>
+	
+									
+
+                               
+                                 
+    
+	</div>
+	
+	
+<!--Pagination Starts -->	
+    
+ <!--Pagination Ends -->           
+ 
+	<div class="grid" >
+   
+	<!--Text post Starts-->
+   
+	
+	<!--Text post Ends-->
+	<!--Photo post starts-->
+	
+	<!--Photo post Ends-->
+	
+	<!--Photoset post Starts-->
+    
+	<a href="http://vandal--savage.tumblr.com/post/98928232159/solarsenpai-october-2014-ps-plus-line-up-got-me" rel="popup_name_98928232159"  >
+    <figure class="photoset with-caption">
+    <div id="photoset_98928232159" class="html_photoset">    <iframe id="photoset_iframe_98928232159" class="photoset" scrolling="no" frameborder="0" height="-5" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://vandal--savage.tumblr.com/post/98928232159/photoset_iframe/vandal--savage/tumblr_ncq16gcxvY1roocgh/0/false"></iframe></div>
+    
+    <p>  <p><a class="tumblr_blog" href="http://solarsenpai.tumblr.com/post/98812263461" target="_blank">solarsenpai</a>:</p>
+<blockquote>
+<p>October 2014 PS Plus line up got me like</p>
+<p><img alt="" src="http://media.tumblr.com/e2b0801913ad9a29c2f35ba5969c6585/tumblr_inline_n1o64ajbAz1r3825d.png"/></p>
+</blockquote></p>
+    
+    </figure>
+	</a>
+	
+	<!--Photoset post Ends-->
+
+	<!--Quote post Starts-->
+    
+	<!--Quote post Ends-->
+
+	<!--Link post Starts-->
+    
+	<!--Link post Ends-->
+
+	<!--Chat post Starts-->
+    
+<!--Chat post Ends-->
+
+<!--Audio post Starts-->
+    
+	<!--Audio post Ends-->
+
+    <!--Video post Starts-->
+	 
+	   <!--Video post Ends-->
+	
+   <!--Answer post Starts-->	
+    
+	<!--Answer post Ends-->	
+	
+	
+	<!--RebloggedFrom post Ends-->	
+	
+	
+	<p class="rebloggername">  
+	<a  href="http://solarsenpai.tumblr.com/post/98927519006">solarsenpai</a>
+	</p>
+    
+     
+    
+	
+	
+	<div class="meta">
+										
+	<div class="datelist">
+	<a href="http://vandal--savage.tumblr.com/post/98928232159/solarsenpai-october-2014-ps-plus-line-up-got-me"    title="1 day ago"><span class="watc"></span>1 day ago </a>
+	</div> 
+												
+	<div class="datelist"><a href="http://vandal--savage.tumblr.com/post/98928232159/solarsenpai-october-2014-ps-plus-line-up-got-me#notes"  >
+	<span class="note"></span> 31 notes </a></div> 
+	<span class="pull-left likbtn">
+											
+	<a href="#" title="Like" class="likey"><div class="like_button" data-post-id="98928232159" id="like_button_98928232159"><iframe id="like_iframe_98928232159" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=vandal--savage&amp;post_id=98928232159&amp;rk=SQfHrPNg" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></a> 
+	<a href="http://vandal--savage.tumblr.com/post/98928232159/solarsenpai-october-2014-ps-plus-line-up-got-me" title="Permalink" class="likey">
+	<img src=" http://static.tumblr.com/x3k5azr/p1tn8fqdd/chain-icon.png" style="" ></a>
+	</span>						
+	<span class="pull-right likbtn">	
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F98928232159%2Fsolarsenpai-october-2014-ps-plus-line-up-got-me&amp;t=This%20Ain%27t%20No%20Place%20For%20No%20Hero"   ><img src="http://static.tumblr.com/x3k5azr/DmGn8hszc/facebook.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Facebook"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="https://twitter.com/intent/tweet?text=Photoset%3A%20solarsenpai%3A%20October%202014%20PS%20Plus%20line%20up%20got%20me%20like%20http%3A%2F%2Ftmblr.co%2FZiXS6y1S8bGRV"   ><img src="http://static.tumblr.com/x3k5azr/DIun8hszh/twitter.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Twitter"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="mailto:?subject=A%20photo%20from%20This%20Ain%26%23039%3Bt%20No%20Place%20For%20No%20Hero&amp;body=Photoset%3A%20solarsenpai%3A%20October%202014%20PS%20Plus%20line%20up%20got%20me%20like%20http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F98928232159%2Fsolarsenpai-october-2014-ps-plus-line-up-got-me" ><img src="http://static.tumblr.com/x3k5azr/iF5n8hszm/mail.png" width="20" height="21"  style="margin:0px 0px 0px 0px !important;" title="Mail"></a>
+	</span>			
+																				
+	</div>
+	
+									
+
+                               
+                                 
+    
+	</div>
+	
+	
+<!--Pagination Starts -->	
+    
+ <!--Pagination Ends -->           
+ 
+	<div class="grid" >
+   
+	<!--Text post Starts-->
+   
+	
+	
+	<a href="http://vandal--savage.tumblr.com/post/98130555999/solarsenpai-just-know-that-if-one-of-yall" rel="popup_name_98130555999"  >
+	<div class="imgholder">
+	
+    
+    <p><p><a href="http://solarsenpai.tumblr.com/post/77986742925" class="tumblr_blog" target="_blank">solarsenpai</a>:</p>
+
+<blockquote><p>just know that if one of ya’ll niggas make it big I’ma sell your tumblr secrets to TMZ and I expect the same if I blow up</p></blockquote>
+
+<p>That means TMZ having access to Dat Lepsy: Riahh Edition</p></p>
+	   
+    </div> 
+ 	</a>
+	 
+										
+	
+    
+	
+	
+	<!--Text post Ends-->
+	<!--Photo post starts-->
+	
+	<!--Photo post Ends-->
+	
+	<!--Photoset post Starts-->
+    
+	<!--Photoset post Ends-->
+
+	<!--Quote post Starts-->
+    
+	<!--Quote post Ends-->
+
+	<!--Link post Starts-->
+    
+	<!--Link post Ends-->
+
+	<!--Chat post Starts-->
+    
+<!--Chat post Ends-->
+
+<!--Audio post Starts-->
+    
+	<!--Audio post Ends-->
+
+    <!--Video post Starts-->
+	 
+	   <!--Video post Ends-->
+	
+   <!--Answer post Starts-->	
+    
+	<!--Answer post Ends-->	
+	
+	
+	<!--RebloggedFrom post Ends-->	
+	
+	
+	<p class="rebloggername">  
+	<a  href="http://solarsenpai.tumblr.com/post/98130114486">solarsenpai</a>
+	</p>
+    
+     
+    
+	
+	
+	<div class="meta">
+										
+	<div class="datelist">
+	<a href="http://vandal--savage.tumblr.com/post/98130555999/solarsenpai-just-know-that-if-one-of-yall"    title="1 week ago"><span class="watc"></span>1 week ago </a>
+	</div> 
+												
+	<div class="datelist"><a href="http://vandal--savage.tumblr.com/post/98130555999/solarsenpai-just-know-that-if-one-of-yall#notes"  >
+	<span class="note"></span> 27 notes </a></div> 
+	<span class="pull-left likbtn">
+											
+	<a href="#" title="Like" class="likey"><div class="like_button" data-post-id="98130555999" id="like_button_98130555999"><iframe id="like_iframe_98130555999" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=vandal--savage&amp;post_id=98130555999&amp;rk=L57tIWjb" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></a> 
+	<a href="http://vandal--savage.tumblr.com/post/98130555999/solarsenpai-just-know-that-if-one-of-yall" title="Permalink" class="likey">
+	<img src=" http://static.tumblr.com/x3k5azr/p1tn8fqdd/chain-icon.png" style="" ></a>
+	</span>						
+	<span class="pull-right likbtn">	
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F98130555999%2Fsolarsenpai-just-know-that-if-one-of-yall&amp;t="   ><img src="http://static.tumblr.com/x3k5azr/DmGn8hszc/facebook.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Facebook"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="https://twitter.com/intent/tweet?text=solarsenpai%3A%20just%20know%20that%20if%20one%20of%20ya%E2%80%99ll%20niggas%20make%20it%20big%20I%E2%80%99ma%20sell%20your%20tumblr%20secrets%20to%20TMZ%20and%20I...%20http%3A%2F%2Ftmblr.co%2FZiXS6y1RP2NHV"   ><img src="http://static.tumblr.com/x3k5azr/DIun8hszh/twitter.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Twitter"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="mailto:?subject=A%20post%20from%20This%20Ain%26%23039%3Bt%20No%20Place%20For%20No%20Hero&amp;body=solarsenpai%3A%20just%20know%20that%20if%20one%20of%20ya%E2%80%99ll%20niggas%20make%20it%20big%20I%E2%80%99ma%20sell%20your%20tumblr%20secrets%20to%20TMZ%20and%20I%20expect%20the%20same%20if%20I%20blow%20up%20That%20means%20TMZ%20having...%20http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F98130555999%2Fsolarsenpai-just-know-that-if-one-of-yall" ><img src="http://static.tumblr.com/x3k5azr/iF5n8hszm/mail.png" width="20" height="21"  style="margin:0px 0px 0px 0px !important;" title="Mail"></a>
+	</span>			
+																				
+	</div>
+	
+									
+
+                               
+                                 
+    
+	</div>
+	
+	
+<!--Pagination Starts -->	
+    
+ <!--Pagination Ends -->           
+ 
+	<div class="grid" >
+   
+	<!--Text post Starts-->
+   
+	
+	<!--Text post Ends-->
+	<!--Photo post starts-->
+	
+	
+<a href="http://vandal--savage.tumblr.com/post/98130520464/lyquydenyggma-super-happy-ahegao-fun-club-i" rel="popup_name_98130520464"  >
+	<div class="imgholder" data-photo-width="193">
+	
+	
+	<img src="http://31.media.tumblr.com/255a6c97e679a41aeb433feea188d210/tumblr_nc6a9jDLpX1tfcrc6o1_250.png" class="img-responsive">
+		
+    <p>  <p><a href="http://lyquydenyggma.tumblr.com/post/98130201771/super-happy-ahegao-fun-club-i-need-this-in-a" class="tumblr_blog" target="_blank">lyquydenyggma</a>:</p>
+
+<blockquote><p><a href="http://super-happy-ahegao-fun-club.tumblr.com/post/98129895462" class="tumblr_blog" target="_blank">super-happy-ahegao-fun-club</a>:</p>
+
+<blockquote><p>I need this in a medium</p></blockquote>
+
+<p>*Large</p></blockquote></p>
+    
+    
+ </div>
+ </a>
+	
+	 
+	
+	
+    
+	<!--Photo post Ends-->
+	
+	<!--Photoset post Starts-->
+    
+	<!--Photoset post Ends-->
+
+	<!--Quote post Starts-->
+    
+	<!--Quote post Ends-->
+
+	<!--Link post Starts-->
+    
+	<!--Link post Ends-->
+
+	<!--Chat post Starts-->
+    
+<!--Chat post Ends-->
+
+<!--Audio post Starts-->
+    
+	<!--Audio post Ends-->
+
+    <!--Video post Starts-->
+	 
+	   <!--Video post Ends-->
+	
+   <!--Answer post Starts-->	
+    
+	<!--Answer post Ends-->	
+	
+	
+	<!--RebloggedFrom post Ends-->	
+	
+	
+	<p class="rebloggername">  
+	<a  href="http://lyquydenyggma.tumblr.com/post/98130201771/super-happy-ahegao-fun-club-i-need-this-in-a">lyquydenyggma</a>
+	</p>
+    
+     
+    
+	
+	
+	<div class="meta">
+										
+	<div class="datelist">
+	<a href="http://vandal--savage.tumblr.com/post/98130520464/lyquydenyggma-super-happy-ahegao-fun-club-i"    title="1 week ago"><span class="watc"></span>1 week ago </a>
+	</div> 
+												
+	<div class="datelist"><a href="http://vandal--savage.tumblr.com/post/98130520464/lyquydenyggma-super-happy-ahegao-fun-club-i#notes"  >
+	<span class="note"></span> 54,822 notes </a></div> 
+	<span class="pull-left likbtn">
+											
+	<a href="#" title="Like" class="likey"><div class="like_button" data-post-id="98130520464" id="like_button_98130520464"><iframe id="like_iframe_98130520464" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=vandal--savage&amp;post_id=98130520464&amp;rk=2N8rv9iQ" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></a> 
+	<a href="http://vandal--savage.tumblr.com/post/98130520464/lyquydenyggma-super-happy-ahegao-fun-club-i" title="Permalink" class="likey">
+	<img src=" http://static.tumblr.com/x3k5azr/p1tn8fqdd/chain-icon.png" style="" ></a>
+	</span>						
+	<span class="pull-right likbtn">	
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F98130520464%2Flyquydenyggma-super-happy-ahegao-fun-club-i&amp;t=This%20Ain%27t%20No%20Place%20For%20No%20Hero"   ><img src="http://static.tumblr.com/x3k5azr/DmGn8hszc/facebook.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Facebook"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="https://twitter.com/intent/tweet?text=Photo%3A%20lyquydenyggma%3A%20super-happy-ahegao-fun-club%3A%20I%20need%20this%20in%20a%20medium%20%2ALarge%20http%3A%2F%2Ftmblr.co%2FZiXS6y1RP2EcG"   ><img src="http://static.tumblr.com/x3k5azr/DIun8hszh/twitter.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Twitter"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="mailto:?subject=A%20photo%20from%20This%20Ain%26%23039%3Bt%20No%20Place%20For%20No%20Hero&amp;body=Photo%3A%20lyquydenyggma%3A%20super-happy-ahegao-fun-club%3A%20I%20need%20this%20in%20a%20medium%20%2ALarge%20http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F98130520464%2Flyquydenyggma-super-happy-ahegao-fun-club-i" ><img src="http://static.tumblr.com/x3k5azr/iF5n8hszm/mail.png" width="20" height="21"  style="margin:0px 0px 0px 0px !important;" title="Mail"></a>
+	</span>			
+																				
+	</div>
+	
+									
+
+                               
+                                 
+    
+	</div>
+	
+	
+<!--Pagination Starts -->	
+    
+ <!--Pagination Ends -->           
+ 
+	<div class="grid" >
+   
+	<!--Text post Starts-->
+   
+	
+	<!--Text post Ends-->
+	<!--Photo post starts-->
+	
+	<!--Photo post Ends-->
+	
+	<!--Photoset post Starts-->
+    
+	<a href="http://vandal--savage.tumblr.com/post/98129521064" rel="popup_name_98129521064"  >
+    <figure class="photoset ">
+    <div id="photoset_98129521064" class="html_photoset">    <iframe id="photoset_iframe_98129521064" class="photoset" scrolling="no" frameborder="0" height="-10" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://vandal--savage.tumblr.com/post/98129521064/photoset_iframe/vandal--savage/tumblr_nbjl3l9IMp1qzo8ih/0/false"></iframe></div>
+    
+    </figure>
+	</a>
+	
+	<!--Photoset post Ends-->
+
+	<!--Quote post Starts-->
+    
+	<!--Quote post Ends-->
+
+	<!--Link post Starts-->
+    
+	<!--Link post Ends-->
+
+	<!--Chat post Starts-->
+    
+<!--Chat post Ends-->
+
+<!--Audio post Starts-->
+    
+	<!--Audio post Ends-->
+
+    <!--Video post Starts-->
+	 
+	   <!--Video post Ends-->
+	
+   <!--Answer post Starts-->	
+    
+	<!--Answer post Ends-->	
+	
+	
+	<!--RebloggedFrom post Ends-->	
+	
+	
+	<p class="rebloggername">  
+	<a  href="http://super-happy-ahegao-fun-club.tumblr.com/post/98129449127">super-happy-ahegao-fun-club</a>
+	</p>
+    
+    <p class="rebloggedcont"><a  href="http://lospaziobianco.tumblr.com/post/96964827045/dexter-by-supercluster-hong">Source: lospaziobianco</a></p>
+    
+     
+    
+	
+	
+	<div class="meta">
+										
+	<div class="datelist">
+	<a href="http://vandal--savage.tumblr.com/post/98129521064"    title="1 week ago"><span class="watc"></span>1 week ago </a>
+	</div> 
+												
+	<div class="datelist"><a href="http://vandal--savage.tumblr.com/post/98129521064#notes"  >
+	<span class="note"></span> 38,185 notes </a></div> 
+	<span class="pull-left likbtn">
+											
+	<a href="#" title="Like" class="likey"><div class="like_button" data-post-id="98129521064" id="like_button_98129521064"><iframe id="like_iframe_98129521064" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=vandal--savage&amp;post_id=98129521064&amp;rk=ZcLdRfhF" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></a> 
+	<a href="http://vandal--savage.tumblr.com/post/98129521064" title="Permalink" class="likey">
+	<img src=" http://static.tumblr.com/x3k5azr/p1tn8fqdd/chain-icon.png" style="" ></a>
+	</span>						
+	<span class="pull-right likbtn">	
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F98129521064&amp;t=This%20Ain%27t%20No%20Place%20For%20No%20Hero"   ><img src="http://static.tumblr.com/x3k5azr/DmGn8hszc/facebook.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Facebook"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="https://twitter.com/intent/tweet?text=Photoset%3A%20%20http%3A%2F%2Ftmblr.co%2FZiXS6y1RO_Qce"   ><img src="http://static.tumblr.com/x3k5azr/DIun8hszh/twitter.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Twitter"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="mailto:?subject=A%20photo%20from%20This%20Ain%26%23039%3Bt%20No%20Place%20For%20No%20Hero&amp;body=Photoset%3A%20%20http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F98129521064" ><img src="http://static.tumblr.com/x3k5azr/iF5n8hszm/mail.png" width="20" height="21"  style="margin:0px 0px 0px 0px !important;" title="Mail"></a>
+	</span>			
+																				
+	</div>
+	
+									
+
+                               
+                                 
+    
+	</div>
+	
+	
+<!--Pagination Starts -->	
+    
+ <!--Pagination Ends -->           
+ 
+	<div class="grid" >
+   
+	<!--Text post Starts-->
+   
+	
+	
+	<a href="http://vandal--savage.tumblr.com/post/98129471469/solarsenpai-why-didnt-dc-do-an-animated" rel="popup_name_98129471469"  >
+	<div class="imgholder">
+	
+    
+    <p><p><a href="http://solarsenpai.tumblr.com/post/78083457888" class="tumblr_blog" target="_blank">solarsenpai</a>:</p>
+
+<blockquote><p>Why didn’t DC do an animated adaption of Blackest Night and Brightest Day?</p>
+<p>Do they just not like money as much as they love making subpar movies and cancelling good animated tv shows</p></blockquote>
+
+<p>Because they&#8217;ll somehow fuck it up like they did Young Justice.</p></p>
+	   
+    </div> 
+ 	</a>
+	 
+										
+	
+    
+	
+	
+	<!--Text post Ends-->
+	<!--Photo post starts-->
+	
+	<!--Photo post Ends-->
+	
+	<!--Photoset post Starts-->
+    
+	<!--Photoset post Ends-->
+
+	<!--Quote post Starts-->
+    
+	<!--Quote post Ends-->
+
+	<!--Link post Starts-->
+    
+	<!--Link post Ends-->
+
+	<!--Chat post Starts-->
+    
+<!--Chat post Ends-->
+
+<!--Audio post Starts-->
+    
+	<!--Audio post Ends-->
+
+    <!--Video post Starts-->
+	 
+	   <!--Video post Ends-->
+	
+   <!--Answer post Starts-->	
+    
+	<!--Answer post Ends-->	
+	
+	
+	<!--RebloggedFrom post Ends-->	
+	
+	
+	<p class="rebloggername">  
+	<a  href="http://solarsenpai.tumblr.com/post/98129184436">solarsenpai</a>
+	</p>
+    
+     
+    
+	
+	
+	<div class="meta">
+										
+	<div class="datelist">
+	<a href="http://vandal--savage.tumblr.com/post/98129471469/solarsenpai-why-didnt-dc-do-an-animated"    title="1 week ago"><span class="watc"></span>1 week ago </a>
+	</div> 
+												
+	<div class="datelist"><a href="http://vandal--savage.tumblr.com/post/98129471469/solarsenpai-why-didnt-dc-do-an-animated#notes"  >
+	<span class="note"></span> 21 notes </a></div> 
+	<span class="pull-left likbtn">
+											
+	<a href="#" title="Like" class="likey"><div class="like_button" data-post-id="98129471469" id="like_button_98129471469"><iframe id="like_iframe_98129471469" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=vandal--savage&amp;post_id=98129471469&amp;rk=F5t11vf9" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></a> 
+	<a href="http://vandal--savage.tumblr.com/post/98129471469/solarsenpai-why-didnt-dc-do-an-animated" title="Permalink" class="likey">
+	<img src=" http://static.tumblr.com/x3k5azr/p1tn8fqdd/chain-icon.png" style="" ></a>
+	</span>						
+	<span class="pull-right likbtn">	
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F98129471469%2Fsolarsenpai-why-didnt-dc-do-an-animated&amp;t="   ><img src="http://static.tumblr.com/x3k5azr/DmGn8hszc/facebook.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Facebook"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="https://twitter.com/intent/tweet?text=solarsenpai%3A%20Why%20didn%E2%80%99t%20DC%20do%20an%20animated%20adaption%20of%20Blackest%20Night%20and%20Brightest%20Day%3F%20Do%20they%20just%20not...%20http%3A%2F%2Ftmblr.co%2FZiXS6y1RO_EVj"   ><img src="http://static.tumblr.com/x3k5azr/DIun8hszh/twitter.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Twitter"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="mailto:?subject=A%20post%20from%20This%20Ain%26%23039%3Bt%20No%20Place%20For%20No%20Hero&amp;body=solarsenpai%3A%20Why%20didn%E2%80%99t%20DC%20do%20an%20animated%20adaption%20of%20Blackest%20Night%20and%20Brightest%20Day%3F%20Do%20they%20just%20not%20like%20money%20as%20much%20as%20they%20love%20making%20subpar%20movies%20and...%20http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F98129471469%2Fsolarsenpai-why-didnt-dc-do-an-animated" ><img src="http://static.tumblr.com/x3k5azr/iF5n8hszm/mail.png" width="20" height="21"  style="margin:0px 0px 0px 0px !important;" title="Mail"></a>
+	</span>			
+																				
+	</div>
+	
+									
+
+                               
+                                 
+    
+	</div>
+	
+	
+<!--Pagination Starts -->	
+    
+ <!--Pagination Ends -->           
+ 
+	<div class="grid" >
+   
+	<!--Text post Starts-->
+   
+	
+	<!--Text post Ends-->
+	<!--Photo post starts-->
+	
+	<!--Photo post Ends-->
+	
+	<!--Photoset post Starts-->
+    
+	<a href="http://vandal--savage.tumblr.com/post/98128723329/saintlos-i-mean-damn-did-you-even-see-the" rel="popup_name_98128723329"  >
+    <figure class="photoset with-caption">
+    <div id="photoset_98128723329" class="html_photoset">    <iframe id="photoset_iframe_98128723329" class="photoset" scrolling="no" frameborder="0" height="-10" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://vandal--savage.tumblr.com/post/98128723329/photoset_iframe/vandal--savage/tumblr_ncahw33uWt1qmd43t/0/false"></iframe></div>
+    
+    <p>  <p><a href="http://saintlos.tumblr.com/post/98128598884/i-mean-damn-did-you-even-see-the-test" class="tumblr_blog" target="_blank">saintlos</a>:</p>
+
+<blockquote><p>"I mean damn, did you even see the test?"</p></blockquote>
+
+<p>"Bruh I listened to Yeezus. You won&#8217;t fool me again nigga."</p></p>
+    
+    </figure>
+	</a>
+	
+	<!--Photoset post Ends-->
+
+	<!--Quote post Starts-->
+    
+	<!--Quote post Ends-->
+
+	<!--Link post Starts-->
+    
+	<!--Link post Ends-->
+
+	<!--Chat post Starts-->
+    
+<!--Chat post Ends-->
+
+<!--Audio post Starts-->
+    
+	<!--Audio post Ends-->
+
+    <!--Video post Starts-->
+	 
+	   <!--Video post Ends-->
+	
+   <!--Answer post Starts-->	
+    
+	<!--Answer post Ends-->	
+	
+	
+	<!--RebloggedFrom post Ends-->	
+	
+	
+	<p class="rebloggername">  
+	<a  href="http://saintlos.tumblr.com/post/98128598884/i-mean-damn-did-you-even-see-the-test">saintlos</a>
+	</p>
+    
+     
+    
+	
+	
+	<div class="meta">
+										
+	<div class="datelist">
+	<a href="http://vandal--savage.tumblr.com/post/98128723329/saintlos-i-mean-damn-did-you-even-see-the"    title="1 week ago"><span class="watc"></span>1 week ago </a>
+	</div> 
+												
+	<div class="datelist"><a href="http://vandal--savage.tumblr.com/post/98128723329/saintlos-i-mean-damn-did-you-even-see-the#notes"  >
+	<span class="note"></span> 20 notes </a></div> 
+	<span class="pull-left likbtn">
+											
+	<a href="#" title="Like" class="likey"><div class="like_button" data-post-id="98128723329" id="like_button_98128723329"><iframe id="like_iframe_98128723329" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=vandal--savage&amp;post_id=98128723329&amp;rk=feesBgZc" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></a> 
+	<a href="http://vandal--savage.tumblr.com/post/98128723329/saintlos-i-mean-damn-did-you-even-see-the" title="Permalink" class="likey">
+	<img src=" http://static.tumblr.com/x3k5azr/p1tn8fqdd/chain-icon.png" style="" ></a>
+	</span>						
+	<span class="pull-right likbtn">	
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F98128723329%2Fsaintlos-i-mean-damn-did-you-even-see-the&amp;t=This%20Ain%27t%20No%20Place%20For%20No%20Hero"   ><img src="http://static.tumblr.com/x3k5azr/DmGn8hszc/facebook.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Facebook"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="https://twitter.com/intent/tweet?text=Photoset%3A%20saintlos%3A%20%22I%20mean%20damn%2C%20did%20you%20even%20see%20the%20test%3F%22%20%22Bruh%20I%20listened%20to%20Yeezus.%20You%20won%E2%80%99t%20fool%20me...%20http%3A%2F%2Ftmblr.co%2FZiXS6y1ROxNs1"   ><img src="http://static.tumblr.com/x3k5azr/DIun8hszh/twitter.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Twitter"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="mailto:?subject=A%20photo%20from%20This%20Ain%26%23039%3Bt%20No%20Place%20For%20No%20Hero&amp;body=Photoset%3A%20saintlos%3A%20%22I%20mean%20damn%2C%20did%20you%20even%20see%20the%20test%3F%22%20%22Bruh%20I%20listened%20to%20Yeezus.%20You%20won%E2%80%99t%20fool%20me%20again%20nigga.%22%20http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F98128723329%2Fsaintlos-i-mean-damn-did-you-even-see-the" ><img src="http://static.tumblr.com/x3k5azr/iF5n8hszm/mail.png" width="20" height="21"  style="margin:0px 0px 0px 0px !important;" title="Mail"></a>
+	</span>			
+																				
+	</div>
+	
+									
+
+                               
+                                 
+    
+	</div>
+	
+	
+<!--Pagination Starts -->	
+    
+ <!--Pagination Ends -->           
+ 
+	<div class="grid" >
+   
+	<!--Text post Starts-->
+   
+	
+	<!--Text post Ends-->
+	<!--Photo post starts-->
+	
+	
+<a href="http://vandal--savage.tumblr.com/post/98035032794/shawnpau-shes-getting-stronger" rel="popup_name_98035032794"  >
+	<div class="imgholderhigh-res" data-photo-width="550">
+	
+	
+	<img src="http://38.media.tumblr.com/63dd52011c5225390ab67332227f896d/tumblr_mzi7bpZuXS1r88u00o1_1280.jpg" class="img-responsive">
+		
+    <p>  <p><a class="tumblr_blog" href="http://shawnpau.tumblr.com/post/73555352027/shes-getting-stronger" target="_blank">shawnpau</a>:</p>
+<blockquote>
+<p>she’s getting stronger</p>
+</blockquote></p>
+    
+    
+ </div>
+ </a>
+	
+	 
+	
+	
+    
+	<!--Photo post Ends-->
+	
+	<!--Photoset post Starts-->
+    
+	<!--Photoset post Ends-->
+
+	<!--Quote post Starts-->
+    
+	<!--Quote post Ends-->
+
+	<!--Link post Starts-->
+    
+	<!--Link post Ends-->
+
+	<!--Chat post Starts-->
+    
+<!--Chat post Ends-->
+
+<!--Audio post Starts-->
+    
+	<!--Audio post Ends-->
+
+    <!--Video post Starts-->
+	 
+	   <!--Video post Ends-->
+	
+   <!--Answer post Starts-->	
+    
+	<!--Answer post Ends-->	
+	
+	
+	<!--RebloggedFrom post Ends-->	
+	
+	
+	<p class="rebloggername">  
+	<a  href="http://solarsenpai.tumblr.com/post/98034622846">solarsenpai</a>
+	</p>
+    
+    <p class="rebloggedcont"><a  href="http://jaidefinichon.com/post/73523924472">Source: jaidefinichon</a></p>
+    
+     
+    
+	
+	
+	<div class="meta">
+										
+	<div class="datelist">
+	<a href="http://vandal--savage.tumblr.com/post/98035032794/shawnpau-shes-getting-stronger"    title="1 week ago"><span class="watc"></span>1 week ago </a>
+	</div> 
+												
+	<div class="datelist"><a href="http://vandal--savage.tumblr.com/post/98035032794/shawnpau-shes-getting-stronger#notes"  >
+	<span class="note"></span> 420,662 notes </a></div> 
+	<span class="pull-left likbtn">
+											
+	<a href="#" title="Like" class="likey"><div class="like_button" data-post-id="98035032794" id="like_button_98035032794"><iframe id="like_iframe_98035032794" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=vandal--savage&amp;post_id=98035032794&amp;rk=0yZTFQmo" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></a> 
+	<a href="http://vandal--savage.tumblr.com/post/98035032794/shawnpau-shes-getting-stronger" title="Permalink" class="likey">
+	<img src=" http://static.tumblr.com/x3k5azr/p1tn8fqdd/chain-icon.png" style="" ></a>
+	</span>						
+	<span class="pull-right likbtn">	
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F98035032794%2Fshawnpau-shes-getting-stronger&amp;t=This%20Ain%27t%20No%20Place%20For%20No%20Hero"   ><img src="http://static.tumblr.com/x3k5azr/DmGn8hszc/facebook.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Facebook"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="https://twitter.com/intent/tweet?text=Photo%3A%20shawnpau%3A%20she%E2%80%99s%20getting%20stronger%20http%3A%2F%2Ftmblr.co%2FZiXS6y1RJL_BQ"   ><img src="http://static.tumblr.com/x3k5azr/DIun8hszh/twitter.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Twitter"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="mailto:?subject=A%20photo%20from%20This%20Ain%26%23039%3Bt%20No%20Place%20For%20No%20Hero&amp;body=Photo%3A%20shawnpau%3A%20she%E2%80%99s%20getting%20stronger%20http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F98035032794%2Fshawnpau-shes-getting-stronger" ><img src="http://static.tumblr.com/x3k5azr/iF5n8hszm/mail.png" width="20" height="21"  style="margin:0px 0px 0px 0px !important;" title="Mail"></a>
+	</span>			
+																				
+	</div>
+	
+									
+
+                               
+                                 
+    
+	</div>
+	
+	
+<!--Pagination Starts -->	
+    
+ <!--Pagination Ends -->           
+ 
+	<div class="grid" >
+   
+	<!--Text post Starts-->
+   
+	
+	<!--Text post Ends-->
+	<!--Photo post starts-->
+	
+	
+<a href="http://vandal--savage.tumblr.com/post/97938758569" rel="popup_name_97938758569"  >
+	<div class="imgholder" data-photo-width="500">
+	
+	
+	<img src="http://33.media.tumblr.com/deabab5422168a75ae2e775c5c8c1f36/tumblr_nbrp6itfjn1rd4gbso1_500.jpg" class="img-responsive">
+		
+ </div>
+ </a>
+	
+	 
+	
+	
+    
+	<!--Photo post Ends-->
+	
+	<!--Photoset post Starts-->
+    
+	<!--Photoset post Ends-->
+
+	<!--Quote post Starts-->
+    
+	<!--Quote post Ends-->
+
+	<!--Link post Starts-->
+    
+	<!--Link post Ends-->
+
+	<!--Chat post Starts-->
+    
+<!--Chat post Ends-->
+
+<!--Audio post Starts-->
+    
+	<!--Audio post Ends-->
+
+    <!--Video post Starts-->
+	 
+	   <!--Video post Ends-->
+	
+   <!--Answer post Starts-->	
+    
+	<!--Answer post Ends-->	
+	
+	
+	<!--RebloggedFrom post Ends-->	
+	
+	
+	<p class="rebloggername">  
+	<a  href="http://deidaras-handmouths.tumblr.com/post/97938714885/petpup-this-is-possibly-one-of-the-most">deidaras-handmouths</a>
+	</p>
+    
+    <p class="rebloggedcont"><a  href="http://caz.crotchboobs.com/post/97271410625/this-is-possibly-one-of-the-most-unfortunate">Source: petpup</a></p>
+    
+    
+    
+    <p class="rebloggedcont">    
+	<a href="http://vandal--savage.tumblr.com/tagged/about-me" class="tag">about me</a>
+	</p>
+    
+      
+    
+	
+	
+	<div class="meta">
+										
+	<div class="datelist">
+	<a href="http://vandal--savage.tumblr.com/post/97938758569"    title="1 week ago"><span class="watc"></span>1 week ago </a>
+	</div> 
+												
+	<div class="datelist"><a href="http://vandal--savage.tumblr.com/post/97938758569#notes"  >
+	<span class="note"></span> 15,825 notes </a></div> 
+	<span class="pull-left likbtn">
+											
+	<a href="#" title="Like" class="likey"><div class="like_button" data-post-id="97938758569" id="like_button_97938758569"><iframe id="like_iframe_97938758569" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=vandal--savage&amp;post_id=97938758569&amp;rk=pd7YKFaJ" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></a> 
+	<a href="http://vandal--savage.tumblr.com/post/97938758569" title="Permalink" class="likey">
+	<img src=" http://static.tumblr.com/x3k5azr/p1tn8fqdd/chain-icon.png" style="" ></a>
+	</span>						
+	<span class="pull-right likbtn">	
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F97938758569&amp;t=This%20Ain%27t%20No%20Place%20For%20No%20Hero"   ><img src="http://static.tumblr.com/x3k5azr/DmGn8hszc/facebook.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Facebook"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="https://twitter.com/intent/tweet?text=Photo%3A%20%20http%3A%2F%2Ftmblr.co%2FZiXS6y1RDcjkf"   ><img src="http://static.tumblr.com/x3k5azr/DIun8hszh/twitter.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Twitter"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="mailto:?subject=A%20photo%20from%20This%20Ain%26%23039%3Bt%20No%20Place%20For%20No%20Hero&amp;body=Photo%3A%20%20http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F97938758569" ><img src="http://static.tumblr.com/x3k5azr/iF5n8hszm/mail.png" width="20" height="21"  style="margin:0px 0px 0px 0px !important;" title="Mail"></a>
+	</span>			
+																				
+	</div>
+	
+									
+
+                               
+                                 
+    
+	</div>
+	
+	
+<!--Pagination Starts -->	
+    
+ <!--Pagination Ends -->           
+ 
+	<div class="grid" >
+   
+	<!--Text post Starts-->
+   
+	
+	
+	<a href="http://vandal--savage.tumblr.com/post/97938600354/gameboy-sp-honey-im-leaving-you-for-poussey" rel="popup_name_97938600354"  >
+	<div class="imgholder">
+	
+    
+    <p><p><a class="tumblr_blog" href="http://gameboy-sp.tumblr.com/post/97504765731/honey-im-leaving-you-for-poussey" target="_blank">gameboy-sp</a>:</p>
+<blockquote>
+<p>"Honey, I’m leaving you for Poussey”</p>
+<p><img alt="image" src="http://media.tumblr.com/94c4278b1bbbc0227fc11a9855ba170a/tumblr_inline_nbwsk2Adf41ss1yqw.gif"/></p>
+</blockquote></p>
+	   
+    </div> 
+ 	</a>
+	 
+										
+	
+    
+	
+	
+	<!--Text post Ends-->
+	<!--Photo post starts-->
+	
+	<!--Photo post Ends-->
+	
+	<!--Photoset post Starts-->
+    
+	<!--Photoset post Ends-->
+
+	<!--Quote post Starts-->
+    
+	<!--Quote post Ends-->
+
+	<!--Link post Starts-->
+    
+	<!--Link post Ends-->
+
+	<!--Chat post Starts-->
+    
+<!--Chat post Ends-->
+
+<!--Audio post Starts-->
+    
+	<!--Audio post Ends-->
+
+    <!--Video post Starts-->
+	 
+	   <!--Video post Ends-->
+	
+   <!--Answer post Starts-->	
+    
+	<!--Answer post Ends-->	
+	
+	
+	<!--RebloggedFrom post Ends-->	
+	
+	
+	<p class="rebloggername">  
+	<a  href="http://afternoonsnoozebutton.com/post/97938424151/gameboy-sp-honey-im-leaving-you-for-poussey">afternoonsnoozebutton</a>
+	</p>
+    
+    <p class="rebloggedcont"><a  href="http://gameboy-sp.tumblr.com/post/97504765731/honey-im-leaving-you-for-poussey">Source: gameboy-sp</a></p>
+    
+     
+    
+	
+	
+	<div class="meta">
+										
+	<div class="datelist">
+	<a href="http://vandal--savage.tumblr.com/post/97938600354/gameboy-sp-honey-im-leaving-you-for-poussey"    title="1 week ago"><span class="watc"></span>1 week ago </a>
+	</div> 
+												
+	<div class="datelist"><a href="http://vandal--savage.tumblr.com/post/97938600354/gameboy-sp-honey-im-leaving-you-for-poussey#notes"  >
+	<span class="note"></span> 32,772 notes </a></div> 
+	<span class="pull-left likbtn">
+											
+	<a href="#" title="Like" class="likey"><div class="like_button" data-post-id="97938600354" id="like_button_97938600354"><iframe id="like_iframe_97938600354" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=vandal--savage&amp;post_id=97938600354&amp;rk=z63NfZhq" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></a> 
+	<a href="http://vandal--savage.tumblr.com/post/97938600354/gameboy-sp-honey-im-leaving-you-for-poussey" title="Permalink" class="likey">
+	<img src=" http://static.tumblr.com/x3k5azr/p1tn8fqdd/chain-icon.png" style="" ></a>
+	</span>						
+	<span class="pull-right likbtn">	
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F97938600354%2Fgameboy-sp-honey-im-leaving-you-for-poussey&amp;t="   ><img src="http://static.tumblr.com/x3k5azr/DmGn8hszc/facebook.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Facebook"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="https://twitter.com/intent/tweet?text=gameboy-sp%3A%20%22Honey%2C%20I%E2%80%99m%20leaving%20you%20for%20Poussey%E2%80%9D%20http%3A%2F%2Ftmblr.co%2FZiXS6y1RDc76Y"   ><img src="http://static.tumblr.com/x3k5azr/DIun8hszh/twitter.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Twitter"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="mailto:?subject=A%20post%20from%20This%20Ain%26%23039%3Bt%20No%20Place%20For%20No%20Hero&amp;body=gameboy-sp%3A%20%22Honey%2C%20I%E2%80%99m%20leaving%20you%20for%20Poussey%E2%80%9D%20http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F97938600354%2Fgameboy-sp-honey-im-leaving-you-for-poussey" ><img src="http://static.tumblr.com/x3k5azr/iF5n8hszm/mail.png" width="20" height="21"  style="margin:0px 0px 0px 0px !important;" title="Mail"></a>
+	</span>			
+																				
+	</div>
+	
+									
+
+                               
+                                 
+    
+	</div>
+	
+	
+<!--Pagination Starts -->	
+    
+ <!--Pagination Ends -->           
+ 
+	<div class="grid" >
+   
+	<!--Text post Starts-->
+   
+	
+	<!--Text post Ends-->
+	<!--Photo post starts-->
+	
+	
+<a href="http://vandal--savage.tumblr.com/post/97938447454" rel="popup_name_97938447454"  >
+	<div class="imgholderhigh-res" data-photo-width="770">
+	
+	
+	<img src="http://33.media.tumblr.com/f7d3000dd7e82acde42d5caccaa71a75/tumblr_nc6iq3hE7B1scjhrvo1_1280.jpg" class="img-responsive">
+		
+ </div>
+ </a>
+	
+	 
+	
+	
+    
+	<!--Photo post Ends-->
+	
+	<!--Photoset post Starts-->
+    
+	<!--Photoset post Ends-->
+
+	<!--Quote post Starts-->
+    
+	<!--Quote post Ends-->
+
+	<!--Link post Starts-->
+    
+	<!--Link post Ends-->
+
+	<!--Chat post Starts-->
+    
+<!--Chat post Ends-->
+
+<!--Audio post Starts-->
+    
+	<!--Audio post Ends-->
+
+    <!--Video post Starts-->
+	 
+	   <!--Video post Ends-->
+	
+   <!--Answer post Starts-->	
+    
+	<!--Answer post Ends-->	
+	
+	
+	<!--RebloggedFrom post Ends-->	
+	
+	
+	<p class="rebloggername">  
+	<a  href="http://tease-meplease-me.tumblr.com/post/97937870478">tease-meplease-me</a>
+	</p>
+    
+    <p class="rebloggedcont"><a  href="http://femalebodyperfection.tumblr.com/post/97936138907/female-body-perfection">Source: femalebodyperfection</a></p>
+    
+    
+    
+    <p class="rebloggedcont">    
+	<a href="http://vandal--savage.tumblr.com/tagged/the-swirl-2k14" class="tag">the swirl 2k14</a>
+	</p>
+    
+      
+    
+	
+	
+	<div class="meta">
+										
+	<div class="datelist">
+	<a href="http://vandal--savage.tumblr.com/post/97938447454"    title="1 week ago"><span class="watc"></span>1 week ago </a>
+	</div> 
+												
+	<div class="datelist"><a href="http://vandal--savage.tumblr.com/post/97938447454#notes"  >
+	<span class="note"></span> 174 notes </a></div> 
+	<span class="pull-left likbtn">
+											
+	<a href="#" title="Like" class="likey"><div class="like_button" data-post-id="97938447454" id="like_button_97938447454"><iframe id="like_iframe_97938447454" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=vandal--savage&amp;post_id=97938447454&amp;rk=u7ODgNeb" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></a> 
+	<a href="http://vandal--savage.tumblr.com/post/97938447454" title="Permalink" class="likey">
+	<img src=" http://static.tumblr.com/x3k5azr/p1tn8fqdd/chain-icon.png" style="" ></a>
+	</span>						
+	<span class="pull-right likbtn">	
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F97938447454&amp;t=This%20Ain%27t%20No%20Place%20For%20No%20Hero"   ><img src="http://static.tumblr.com/x3k5azr/DmGn8hszc/facebook.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Facebook"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="https://twitter.com/intent/tweet?text=Photo%3A%20%20http%3A%2F%2Ftmblr.co%2FZiXS6y1RDbXnU"   ><img src="http://static.tumblr.com/x3k5azr/DIun8hszh/twitter.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Twitter"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="mailto:?subject=A%20photo%20from%20This%20Ain%26%23039%3Bt%20No%20Place%20For%20No%20Hero&amp;body=Photo%3A%20%20http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F97938447454" ><img src="http://static.tumblr.com/x3k5azr/iF5n8hszm/mail.png" width="20" height="21"  style="margin:0px 0px 0px 0px !important;" title="Mail"></a>
+	</span>			
+																				
+	</div>
+	
+									
+
+                               
+                                 
+    
+	</div>
+	
+	
+<!--Pagination Starts -->	
+    
+ <!--Pagination Ends -->           
+ 
+	<div class="grid" >
+   
+	<!--Text post Starts-->
+   
+	
+	
+	<a href="http://vandal--savage.tumblr.com/post/97938390924/fuck-batman" rel="popup_name_97938390924"  >
+	<div class="imgholder">
+	<strong>FUCK BATMAN</strong>
+    
+    </div> 
+ 	</a>
+	 
+										
+	
+    
+	
+	
+	<!--Text post Ends-->
+	<!--Photo post starts-->
+	
+	<!--Photo post Ends-->
+	
+	<!--Photoset post Starts-->
+    
+	<!--Photoset post Ends-->
+
+	<!--Quote post Starts-->
+    
+	<!--Quote post Ends-->
+
+	<!--Link post Starts-->
+    
+	<!--Link post Ends-->
+
+	<!--Chat post Starts-->
+    
+<!--Chat post Ends-->
+
+<!--Audio post Starts-->
+    
+	<!--Audio post Ends-->
+
+    <!--Video post Starts-->
+	 
+	   <!--Video post Ends-->
+	
+   <!--Answer post Starts-->	
+    
+	<!--Answer post Ends-->	
+	
+	
+	<!--RebloggedFrom post Ends-->	
+	
+	
+	<p class="rebloggername">  
+	<a  href="http://fish-dinner-connoisseur.tumblr.com/post/97937883143/fuck-batman">fish-dinner-connoisseur</a>
+	</p>
+    
+     
+    
+	
+	
+	<div class="meta">
+										
+	<div class="datelist">
+	<a href="http://vandal--savage.tumblr.com/post/97938390924/fuck-batman"    title="1 week ago"><span class="watc"></span>1 week ago </a>
+	</div> 
+												
+	<div class="datelist"><a href="http://vandal--savage.tumblr.com/post/97938390924/fuck-batman#notes"  >
+	<span class="note"></span> 2 notes </a></div> 
+	<span class="pull-left likbtn">
+											
+	<a href="#" title="Like" class="likey"><div class="like_button" data-post-id="97938390924" id="like_button_97938390924"><iframe id="like_iframe_97938390924" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=vandal--savage&amp;post_id=97938390924&amp;rk=LKlfJD0y" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></a> 
+	<a href="http://vandal--savage.tumblr.com/post/97938390924/fuck-batman" title="Permalink" class="likey">
+	<img src=" http://static.tumblr.com/x3k5azr/p1tn8fqdd/chain-icon.png" style="" ></a>
+	</span>						
+	<span class="pull-right likbtn">	
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F97938390924%2Ffuck-batman&amp;t=FUCK%20BATMAN"   ><img src="http://static.tumblr.com/x3k5azr/DmGn8hszc/facebook.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Facebook"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="https://twitter.com/intent/tweet?text=FUCK%20BATMAN%20http%3A%2F%2Ftmblr.co%2FZiXS6y1RDbJ_C"   ><img src="http://static.tumblr.com/x3k5azr/DIun8hszh/twitter.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Twitter"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="mailto:?subject=A%20post%20from%20This%20Ain%26%23039%3Bt%20No%20Place%20For%20No%20Hero&amp;body=FUCK%20BATMAN%20http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F97938390924%2Ffuck-batman" ><img src="http://static.tumblr.com/x3k5azr/iF5n8hszm/mail.png" width="20" height="21"  style="margin:0px 0px 0px 0px !important;" title="Mail"></a>
+	</span>			
+																				
+	</div>
+	
+									
+
+                               
+                                 
+    
+	</div>
+	
+	
+<!--Pagination Starts -->	
+    
+ <!--Pagination Ends -->           
+ 
+	<div class="grid" >
+   
+	<!--Text post Starts-->
+   
+	
+	<!--Text post Ends-->
+	<!--Photo post starts-->
+	
+	<!--Photo post Ends-->
+	
+	<!--Photoset post Starts-->
+    
+	<a href="http://vandal--savage.tumblr.com/post/97652650414" rel="popup_name_97652650414"  >
+    <figure class="photoset ">
+    <div id="photoset_97652650414" class="html_photoset">    <iframe id="photoset_iframe_97652650414" class="photoset" scrolling="no" frameborder="0" height="-10" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://vandal--savage.tumblr.com/post/97652650414/photoset_iframe/vandal--savage/tumblr_nbz351lzHX1s1gcc3/0/false"></iframe></div>
+    
+    </figure>
+	</a>
+	
+	<!--Photoset post Ends-->
+
+	<!--Quote post Starts-->
+    
+	<!--Quote post Ends-->
+
+	<!--Link post Starts-->
+    
+	<!--Link post Ends-->
+
+	<!--Chat post Starts-->
+    
+<!--Chat post Ends-->
+
+<!--Audio post Starts-->
+    
+	<!--Audio post Ends-->
+
+    <!--Video post Starts-->
+	 
+	   <!--Video post Ends-->
+	
+   <!--Answer post Starts-->	
+    
+	<!--Answer post Ends-->	
+	
+	
+	<!--RebloggedFrom post Ends-->	
+	
+	
+	<p class="rebloggername">  
+	<a  href="http://disambiguatedwikipediapage.tumblr.com/post/97652551572">disambiguatedwikipediapage</a>
+	</p>
+    
+    <p class="rebloggedcont"><a  href="http://cunnilingusluv.tumblr.com/post/97617679811/sexy-ebony">Source: cunnilingusluv</a></p>
+    
+    
+    
+    <p class="rebloggedcont">    
+	<a href="http://vandal--savage.tumblr.com/tagged/the-swirl-2k14" class="tag">the swirl 2k14</a>
+	</p>
+    
+      
+    
+	
+	
+	<div class="meta">
+										
+	<div class="datelist">
+	<a href="http://vandal--savage.tumblr.com/post/97652650414"    title="2 weeks ago"><span class="watc"></span>2 weeks ago </a>
+	</div> 
+												
+	<div class="datelist"><a href="http://vandal--savage.tumblr.com/post/97652650414#notes"  >
+	<span class="note"></span> 485 notes </a></div> 
+	<span class="pull-left likbtn">
+											
+	<a href="#" title="Like" class="likey"><div class="like_button" data-post-id="97652650414" id="like_button_97652650414"><iframe id="like_iframe_97652650414" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=vandal--savage&amp;post_id=97652650414&amp;rk=qLTrhJR2" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></a> 
+	<a href="http://vandal--savage.tumblr.com/post/97652650414" title="Permalink" class="likey">
+	<img src=" http://static.tumblr.com/x3k5azr/p1tn8fqdd/chain-icon.png" style="" ></a>
+	</span>						
+	<span class="pull-right likbtn">	
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F97652650414&amp;t=This%20Ain%27t%20No%20Place%20For%20No%20Hero"   ><img src="http://static.tumblr.com/x3k5azr/DmGn8hszc/facebook.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Facebook"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="https://twitter.com/intent/tweet?text=Photoset%3A%20%20http%3A%2F%2Ftmblr.co%2FZiXS6y1QyZJ6k"   ><img src="http://static.tumblr.com/x3k5azr/DIun8hszh/twitter.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Twitter"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="mailto:?subject=A%20photo%20from%20This%20Ain%26%23039%3Bt%20No%20Place%20For%20No%20Hero&amp;body=Photoset%3A%20%20http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F97652650414" ><img src="http://static.tumblr.com/x3k5azr/iF5n8hszm/mail.png" width="20" height="21"  style="margin:0px 0px 0px 0px !important;" title="Mail"></a>
+	</span>			
+																				
+	</div>
+	
+									
+
+                               
+                                 
+    
+	</div>
+	
+	
+<!--Pagination Starts -->	
+    
+ <!--Pagination Ends -->           
+ 
+	<div class="grid" >
+   
+	<!--Text post Starts-->
+   
+	
+	
+	<a href="http://vandal--savage.tumblr.com/post/97652572224/whats-with-u-guys-n-the-word-fuckboy-i-havent-heard-no" rel="popup_name_97652572224"  >
+	<div class="imgholder">
+	<strong>whats with u guys n the word fuckboy i havent heard no one outside tumblr say dat since da 08 myspace days</strong>
+    
+    </div> 
+ 	</a>
+	 
+										
+	
+    
+	
+	
+	<!--Text post Ends-->
+	<!--Photo post starts-->
+	
+	<!--Photo post Ends-->
+	
+	<!--Photoset post Starts-->
+    
+	<!--Photoset post Ends-->
+
+	<!--Quote post Starts-->
+    
+	<!--Quote post Ends-->
+
+	<!--Link post Starts-->
+    
+	<!--Link post Ends-->
+
+	<!--Chat post Starts-->
+    
+<!--Chat post Ends-->
+
+<!--Audio post Starts-->
+    
+	<!--Audio post Ends-->
+
+    <!--Video post Starts-->
+	 
+	   <!--Video post Ends-->
+	
+   <!--Answer post Starts-->	
+    
+	<!--Answer post Ends-->	
+	
+	
+	<!--RebloggedFrom post Ends-->	
+	
+	
+	<p class="rebloggername">  
+	<a  href="http://doomsday519.tumblr.com/post/97650821529/whats-with-u-guys-n-the-word-fuckboy-i-havent-heard-no">doomsday519</a>
+	</p>
+    
+    <p class="rebloggedcont"><a  href="http://queefdollaz.tumblr.com/post/97650331872/whats-with-u-guys-n-the-word-fuckboy-i-havent-heard-no">Source: queefdollaz</a></p>
+    
+     
+    
+	
+	
+	<div class="meta">
+										
+	<div class="datelist">
+	<a href="http://vandal--savage.tumblr.com/post/97652572224/whats-with-u-guys-n-the-word-fuckboy-i-havent-heard-no"    title="2 weeks ago"><span class="watc"></span>2 weeks ago </a>
+	</div> 
+												
+	<div class="datelist"><a href="http://vandal--savage.tumblr.com/post/97652572224/whats-with-u-guys-n-the-word-fuckboy-i-havent-heard-no#notes"  >
+	<span class="note"></span> 61 notes </a></div> 
+	<span class="pull-left likbtn">
+											
+	<a href="#" title="Like" class="likey"><div class="like_button" data-post-id="97652572224" id="like_button_97652572224"><iframe id="like_iframe_97652572224" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=4c191e61009b40fc672e8d1ca6ea050d#name=vandal--savage&amp;post_id=97652572224&amp;rk=MbtsKiQL" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></a> 
+	<a href="http://vandal--savage.tumblr.com/post/97652572224/whats-with-u-guys-n-the-word-fuckboy-i-havent-heard-no" title="Permalink" class="likey">
+	<img src=" http://static.tumblr.com/x3k5azr/p1tn8fqdd/chain-icon.png" style="" ></a>
+	</span>						
+	<span class="pull-right likbtn">	
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F97652572224%2Fwhats-with-u-guys-n-the-word-fuckboy-i-havent-heard-no&amp;t=whats%20with%20u%20guys%20n%20the%20word%20fuckboy%20i%20havent%20heard%20no%20one%20outside%20tumblr%20say%20dat%20since%20da%2008%20myspace%20days"   ><img src="http://static.tumblr.com/x3k5azr/DmGn8hszc/facebook.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Facebook"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="https://twitter.com/intent/tweet?text=whats%20with%20u%20guys%20n%20the%20word%20fuckboy%20i%20havent%20heard%20no%20one%20outside%20tumblr%20say%20dat%20since%20da%2008%20myspace%20days%20http%3A%2F%2Ftmblr.co%2FZiXS6y1QyZ010"   ><img src="http://static.tumblr.com/x3k5azr/DIun8hszh/twitter.png" width="20" height="21" style="margin:0px 0px 0px 0px !important;"  title="Twitter"></a>
+	<a class="likey" style="margin:0px 0px 0px 5px !important;" href="mailto:?subject=A%20post%20from%20This%20Ain%26%23039%3Bt%20No%20Place%20For%20No%20Hero&amp;body=whats%20with%20u%20guys%20n%20the%20word%20fuckboy%20i%20havent%20heard%20no%20one%20outside%20tumblr%20say%20dat%20since%20da%2008%20myspace%20days%20http%3A%2F%2Fvandal--savage.tumblr.com%2Fpost%2F97652572224%2Fwhats-with-u-guys-n-the-word-fuckboy-i-havent-heard-no" ><img src="http://static.tumblr.com/x3k5azr/iF5n8hszm/mail.png" width="20" height="21"  style="margin:0px 0px 0px 0px !important;" title="Mail"></a>
+	</span>			
+																				
+	</div>
+	
+									
+
+                               
+                                 
+    
+	</div>
+	
+	</div> 
+    </section>
+
+	</div>
+  
+
+                
+                    
+					<div class="linkbtn">
+                    
+						<a class="pagination prvbtn" href="/page/2"> <strong style="font-size:20px;margin-left:50px;">Next  &#187;</strong></a>
+            
+			</div>
+                    
+                
+      
+
+     </section>
+	 </div>
+	 
+	 
+	 
+	 <br><br>
+
+
+	  <footer>
+	 <div class="footer col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+	 <div class="fot-left col-lg-5 col-md-5 col-sm-5 col-xs-12 pull-left">
+
+	Copyright © 2010–2014 <span class="style1">This Ain't No Place For No Hero</span>. All rights reserved. <br>
+Theme by <a href="http://wowonly.com/">WOWOnly.com</a>
+	 </div>
+	  <ul class="footer-nav">
+           
+			
+            <li><a href="/">Home</a> </li>
+            <li><a href="/rss">Rss</a> </li>
+           
+           
+           
+ <li>   <a href="/ask">Ask me shit</a></li>
+
+ 
+ <li>   <a href="/submit">what you twerkin wit</a></li>
+ 
+        </ul>
+	  <div class="fot-right pull-right">
+	 
+	  
+	  <div class="socialicon footersocial col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      
+       <ul>
+	 
+			
+		 <li style="overflow:hidden;"><a title=""  href="https://twitter.com/VandalSavage_"><img src="http://static.tumblr.com/kbv78yw/qCzn9bpwv/tw.png" width="20" height="20"></a></li>
+		
+		
+
+         </ul>
+        </div>
+	  
+	 </div>
+	 </div>
+	 </footer>
+	
+        <script>
+            var Optica = {};
+            Optica.ENDLESS_SCROLLING = true;
+            Optica.LAYOUT = "";
+            Optica.GRID_LAYOUT = (Optica.LAYOUT === 'grid');
+            Optica.TITLE_COLOR = "#ff0000";
+            Optica.ACCENT_COLOR = "#FF0000";
+            Optica.BACKGROUND_COLOR = "#222222";
+            Optica.ENDLESS_NOTES_SCROLLING = true;
+        </script>
+
+    <script>
+    
+   
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    
+    
+      $('.container-fluid').click(function(e) {
+         if($("#sidebar-wrapper").hasClass("active")) {
+              e.preventDefault();
+     $("#sidebar-wrapper").removeClass("active");
+
+         }
+    });
+    
+    
+    </script>
+   
+
+		<script src="http://static.tumblr.com/x3k5azr/atkn8flsa/uisearch.js"></script>
+	
+        
+   
+    
+<script language="javascript">
+	new UISearch( document.getElementById( 'sb-search' ) );
+	function send()
+	{ document.theform.submit() }
+</script>
+
+
+
+
+<script type="text/javascript">
+
+var scrolltotop={
+   	setting: {startline:100, scrollto: 0, scrollduration:1000, fadeduration:[500, 100]},
+	controlHTML: '<img src="http://static.tumblr.com/0ccgvfs/gJcn8p6b0/up-arrow.png" style="filter:alpha(opacity=70); -moz-opacity:0.7;" width="51"/>', 
+	controlattrs: {offsetx:35, offsety:50},
+	anchorkeyword: '#top', 
+
+	state: {isvisible:false, shouldvisible:false},
+
+	scrollup:function(){
+		if (!this.cssfixedsupport) 
+			this.$control.css({opacity:0})
+		var dest=isNaN(this.setting.scrollto)? this.setting.scrollto : parseInt(this.setting.scrollto)
+		if (typeof dest=="string" && jQuery('#'+dest).length==1) //check element set by string exists
+			dest=jQuery('#'+dest).offset().top
+		else
+			dest=0
+		this.$body.animate({scrollTop: dest}, this.setting.scrollduration);
+	},
+
+	keepfixed:function(){
+		var $window=jQuery(window)
+		var controlx=$window.scrollLeft() + $window.width() - this.$control.width() - this.controlattrs.offsetx
+		var controly=$window.scrollTop() + $window.height() - this.$control.height() - this.controlattrs.offsety
+		this.$control.css({left:controlx+'px', top:controly+'px'})
+	},
+
+	togglecontrol:function(){
+		var scrolltop=jQuery(window).scrollTop()
+		if (!this.cssfixedsupport)
+			this.keepfixed()
+		this.state.shouldvisible=(scrolltop>=this.setting.startline)? true : false
+		if (this.state.shouldvisible && !this.state.isvisible){
+			this.$control.stop().animate({opacity:1}, this.setting.fadeduration[0])
+			this.state.isvisible=true
+		}
+		else if (this.state.shouldvisible==false && this.state.isvisible){
+			this.$control.stop().animate({opacity:0}, this.setting.fadeduration[1])
+			this.state.isvisible=false
+		}
+	},
+	
+	init:function(){
+		jQuery(document).ready(function($){
+			var mainobj=scrolltotop
+			var iebrws=document.all
+			mainobj.cssfixedsupport=!iebrws || iebrws && document.compatMode=="CSS1Compat" && window.XMLHttpRequest //not IE or IE7+ browsers in standards mode
+			mainobj.$body=(window.opera)? (document.compatMode=="CSS1Compat"? $('html') : $('body')) : $('html,body')
+			mainobj.$control=$('<div id="topcontrol">'+mainobj.controlHTML+'</div>')
+				.css({position:mainobj.cssfixedsupport? 'fixed' : 'absolute', bottom:mainobj.controlattrs.offsety, right:mainobj.controlattrs.offsetx, opacity:0, cursor:'pointer'})
+				.attr({title:'back to top'})
+				.click(function(){mainobj.scrollup(); return false})
+				.appendTo('body')
+			if (document.all && !window.XMLHttpRequest && mainobj.$control.text()!='') //loose check for IE6 and below, plus whether control contains any text
+				mainobj.$control.css({width:mainobj.$control.width()}) //IE6- seems to require an explicit width on a DIV containing text
+			mainobj.togglecontrol()
+			$('a[href="' + mainobj.anchorkeyword +'"]').click(function(){
+				mainobj.scrollup()
+				return false
+			})
+			$(window).bind('scroll resize', function(e){
+				mainobj.togglecontrol()
+			})
+		})
+	}
+}
+
+scrolltotop.init()</script>
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'Yes';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://vandal--savage.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412372985&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdmFuZGFsLS1zYXZhZ2UudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=KECNLPBOFI&K=cc4745871c86c90fd04c853a27b2812899e7288515a372153812f4131382ede5&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412372985&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdmFuZGFsLS1zYXZhZ2UudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=KECNLPBOFI&K=dfdb1c76df9a934e8c73d0d792486668d585b3711188d449176086284e871129&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+                        if (d.getElementById('tumblr-cdx')) return;
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412372985&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3ZhbmRhbC0tc2F2YWdlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicG9zdGlkIjoiOTg5MzM5NTM2MjkiLCJibG9naWQiOiI4MjU1Njk2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEzMDYzMjQ3Iiwicm9vdF9wb3N0aWQiOiI0NjI1NDM0NDA3IiwicG9zdGlkIjoiOTg5MjgzMTkyMDkiLCJibG9naWQiOiI4MjU1Njk2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQyMzMxMjY2Iiwicm9vdF9wb3N0aWQiOiI5ODgxMjI2MzQ2MSIsInBvc3RpZCI6Ijk4OTI4MjMyMTU5IiwiYmxvZ2lkIjoiODI1NTY5NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0MjMzMTI2NiIsInJvb3RfcG9zdGlkIjoiNzc5ODY3NDI5MjUiLCJwb3N0aWQiOiI5ODEzMDU1NTk5OSIsImJsb2dpZCI6IjgyNTU2OTYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTkyNDU1ODUwIiwicm9vdF9wb3N0aWQiOiI5NzkyNDIzMDUyMCIsInBvc3RpZCI6Ijk4MTMwNTIwNDY0IiwiYmxvZ2lkIjoiODI1NTY5NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzMTg5MDYiLCJyb290X3Bvc3RpZCI6Ijk2OTY0ODI3MDQ1IiwicG9zdGlkIjoiOTgxMjk1MjEwNjQiLCJibG9naWQiOiI4MjU1Njk2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQyMzMxMjY2Iiwicm9vdF9wb3N0aWQiOiI3ODA4MzQ1Nzg4OCIsInBvc3RpZCI6Ijk4MTI5NDcxNDY5IiwiYmxvZ2lkIjoiODI1NTY5NiIsInNvdXJjZSI6MzN9XX0=&U=HFMKEELICN&K=0bde6713568a316dbebf2551ea71b07a278944e561a9bba1a26f9a996e143990&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412372985&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3ZhbmRhbC0tc2F2YWdlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicG9zdGlkIjoiOTg5MzM5NTM2MjkiLCJibG9naWQiOiI4MjU1Njk2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEzMDYzMjQ3Iiwicm9vdF9wb3N0aWQiOiI0NjI1NDM0NDA3IiwicG9zdGlkIjoiOTg5MjgzMTkyMDkiLCJibG9naWQiOiI4MjU1Njk2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQyMzMxMjY2Iiwicm9vdF9wb3N0aWQiOiI5ODgxMjI2MzQ2MSIsInBvc3RpZCI6Ijk4OTI4MjMyMTU5IiwiYmxvZ2lkIjoiODI1NTY5NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0MjMzMTI2NiIsInJvb3RfcG9zdGlkIjoiNzc5ODY3NDI5MjUiLCJwb3N0aWQiOiI5ODEzMDU1NTk5OSIsImJsb2dpZCI6IjgyNTU2OTYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTkyNDU1ODUwIiwicm9vdF9wb3N0aWQiOiI5NzkyNDIzMDUyMCIsInBvc3RpZCI6Ijk4MTMwNTIwNDY0IiwiYmxvZ2lkIjoiODI1NTY5NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzMTg5MDYiLCJyb290X3Bvc3RpZCI6Ijk2OTY0ODI3MDQ1IiwicG9zdGlkIjoiOTgxMjk1MjEwNjQiLCJibG9naWQiOiI4MjU1Njk2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQyMzMxMjY2Iiwicm9vdF9wb3N0aWQiOiI3ODA4MzQ1Nzg4OCIsInBvc3RpZCI6Ijk4MTI5NDcxNDY5IiwiYmxvZ2lkIjoiODI1NTY5NiIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=HFMKEELICN&K=3d0ea11c1fea6f258c59bba71565f998050385c545cbc4ab2e1fd36f2a44287f&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412372985&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3ZhbmRhbC0tc2F2YWdlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIyMjg0NzU0OCIsInJvb3RfcG9zdGlkIjoiOTgxMjg1OTg4ODQiLCJwb3N0aWQiOiI5ODEyODcyMzMyOSIsImJsb2dpZCI6IjgyNTU2OTYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzcxNDEwMDgiLCJyb290X3Bvc3RpZCI6NzM1MjM5MjQ0NzIsInBvc3RpZCI6Ijk4MDM1MDMyNzk0IiwiYmxvZ2lkIjoiODI1NTY5NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2NzIwMzkwMyIsInJvb3RfcG9zdGlkIjoiOTcyNzE0MTA2MjUiLCJwb3N0aWQiOiI5NzkzODc1ODU2OSIsImJsb2dpZCI6IjgyNTU2OTYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTQ4MTc5NjYxIiwicm9vdF9wb3N0aWQiOjk3NTA0NzY1NzMxLCJwb3N0aWQiOiI5NzkzODYwMDM1NCIsImJsb2dpZCI6IjgyNTU2OTYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTI3Mjk3NzcwIiwicm9vdF9wb3N0aWQiOiI5NzkzNjEzODkwNyIsInBvc3RpZCI6Ijk3OTM4NDQ3NDU0IiwiYmxvZ2lkIjoiODI1NTY5NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDI4Mzg5Iiwicm9vdF9wb3N0aWQiOiI5NzkzNzg4MzE0MyIsInBvc3RpZCI6Ijk3OTM4MzkwOTI0IiwiYmxvZ2lkIjoiODI1NTY5NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4Njg0MDkxOSIsInJvb3RfcG9zdGlkIjoiOTc2MTc2Nzk4MTEiLCJwb3N0aWQiOiI5NzY1MjY1MDQxNCIsImJsb2dpZCI6IjgyNTU2OTYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTg0MTI0NzIiLCJyb290X3Bvc3RpZCI6Ijk3NjUwMzMxODcyIiwicG9zdGlkIjoiOTc2NTI1NzIyMjQiLCJibG9naWQiOiI4MjU1Njk2Iiwic291cmNlIjozM31dfQ==&U=FPNBGILCFB&K=db39da6794102d7c65d9154f04b6de6a5e8ee3925a06a89479da9c0b4ed7daee&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412372985&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3ZhbmRhbC0tc2F2YWdlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIyMjg0NzU0OCIsInJvb3RfcG9zdGlkIjoiOTgxMjg1OTg4ODQiLCJwb3N0aWQiOiI5ODEyODcyMzMyOSIsImJsb2dpZCI6IjgyNTU2OTYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzcxNDEwMDgiLCJyb290X3Bvc3RpZCI6NzM1MjM5MjQ0NzIsInBvc3RpZCI6Ijk4MDM1MDMyNzk0IiwiYmxvZ2lkIjoiODI1NTY5NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2NzIwMzkwMyIsInJvb3RfcG9zdGlkIjoiOTcyNzE0MTA2MjUiLCJwb3N0aWQiOiI5NzkzODc1ODU2OSIsImJsb2dpZCI6IjgyNTU2OTYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTQ4MTc5NjYxIiwicm9vdF9wb3N0aWQiOjk3NTA0NzY1NzMxLCJwb3N0aWQiOiI5NzkzODYwMDM1NCIsImJsb2dpZCI6IjgyNTU2OTYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTI3Mjk3NzcwIiwicm9vdF9wb3N0aWQiOiI5NzkzNjEzODkwNyIsInBvc3RpZCI6Ijk3OTM4NDQ3NDU0IiwiYmxvZ2lkIjoiODI1NTY5NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDI4Mzg5Iiwicm9vdF9wb3N0aWQiOiI5NzkzNzg4MzE0MyIsInBvc3RpZCI6Ijk3OTM4MzkwOTI0IiwiYmxvZ2lkIjoiODI1NTY5NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4Njg0MDkxOSIsInJvb3RfcG9zdGlkIjoiOTc2MTc2Nzk4MTEiLCJwb3N0aWQiOiI5NzY1MjY1MDQxNCIsImJsb2dpZCI6IjgyNTU2OTYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTg0MTI0NzIiLCJyb290X3Bvc3RpZCI6Ijk3NjUwMzMxODcyIiwicG9zdGlkIjoiOTc2NTI1NzIyMjQiLCJibG9naWQiOiI4MjU1Njk2Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=FPNBGILCFB&K=5c3fe86c64ef0066bf77d244275de3d912e3e444a0cdc346299e34c3de98651c&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:8255696,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+                        if (d.getElementById('tumblr-cdx')) return;
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fvandal--savage.tumblr.com%2F&amp;lang=en_US&amp;name=vandal--savage&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_e84500a4425c_64.png&amp;title=This+Ain%26%23039%3Bt+No+Place+For+No+Hero&amp;url=http%3A%2F%2Fvandal--savage.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=156b0620bba89e0c441937123f6317e1#src=http%3A%2F%2Fvandal--savage.tumblr.com%2F&amp;lang=en_US&amp;name=vandal--savage&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_e84500a4425c_64.png&amp;title=This+Ain%26%23039%3Bt+No+Place+For+No+Hero&amp;url=http%3A%2F%2Fvandal--savage.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

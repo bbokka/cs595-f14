@@ -1,0 +1,8 @@
+   #[1]AnythingRelated! - Atom [2]AnythingRelated! - RSS
+
+
+
+References
+
+   1. http://www.anythingrelated.com/feeds/posts/default
+   2. http://www.anythingrelated.com/feeds/posts/default?alt=rss

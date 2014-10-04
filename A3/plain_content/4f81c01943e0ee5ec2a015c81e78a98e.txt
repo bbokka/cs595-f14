@@ -1,0 +1,132 @@
+   #[1]LMGTFY
+
+   (BUTTON) Toggle navigation
+
+     * [2]Lmgtfy sticker icon Stickers
+     * [3]Lmgtfy shirts icon Shirts
+     * [4]Lmgtfy app icon iPhone App
+     * [5]Tip Bitcoin
+     * [6]Live Stream
+     * [7]Search
+          + [8]LMGTFY Web Search
+          + [9]LMGTFY Images
+          + [10]LMGTFY Maps
+          + [11]LMGTFY Videos
+          + [12]LMGTFY News
+          + [13]LMGTFY Shopping
+          + [14]LMGTFY Photos
+          + [15]LMGTFY Plus
+          + [16]LMGTFY Profiles
+          + [17]LMGTFY Books
+          + [18]LMGTFY Finance
+          + [19]LMGTFY Scholar
+          + [20]LMBTFY (Bing)
+          + [21]Let Me Snopes That For You
+          + [22]Let Me Wikipedia That For You
+          + [23]LMGTFY Doge
+     * [24]Language
+          + [25]English
+          + [26]Russian
+          + [27]German
+          + [28]Portugese (Brazil)
+          + [29]French
+          + [30]Polish
+          + [31]Chinese (Taiwan)
+          + [32]Dutch (Standard)
+          + [33]Spanish
+          +
+          + [34]More Languages...
+
+   let methat for you
+
+   _______________________________________________________ [BUTTON Input]
+   (not implemented)_____________ [BUTTON Input] (not
+   implemented)_________________
+
+   Enable javascript to use LMGTFY.
+
+   ____________________
+   [35]copy[36]reset[37]shorten[38]preview
+
+   [39]
+
+   your very own LMGTFY sticker!
+   [sticker-e970a7376665cb4cc860506fc2dbf3c8.png] You know you
+   want one!
+
+Thought that was cool? Try the [40]iPhone App or [41]Grab Some Stickers.
+
+   [42]App Store
+   [43][about:blank]
+   [44][sticker-e970a7376665cb4cc860506fc2dbf3c8.png]
+
+   PayPal
+   $1/sticker
+   (BUTTON) Buy Now
+
+   [45]Play it again or [46]Create one yourself.
+
+   [47]About[48]Privacy[49]Contact[50]@LMGTFY
+   [51]Shop Shirts[52]Shop Stickers[53]iPhone App[54]Tip Bitcoin
+   [55]Advertise
+   © LMGTFY, 2009-2012|GOOGLE is a trademark of Google Inc.| Not
+   associated with Google™ in any way.
+   Mouse arrow windows aero
+
+References
+
+   1. file:///home/bbokka/cs594/Assignment/programs/html_content/lmgtfy.xml
+   2. file:///home/bbokka/cs594/Assignment/programs/html_content/stickers.html?s=n
+   3. http://shop.lmgtfy.com/
+   4. http://itunes.apple.com/us/app/lmgtfy-official/id488551684?ls=1&mt=8
+   5. bitcoin:1EQHYzeLQGAuT5Ug3vkqJDb8o1K2YGU5ef?amount=0.01&label=LMGTFY
+   6. http://live.lmgtfy.com/
+   7. file:///home/bbokka/cs594/Assignment/programs/html_content/4f81c01943e0ee5ec2a015c81e78a98e.htm
+   8. file:///
+   9. file://images.lmgtfy.com/
+  10. file://maps.lmgtfy.com/
+  11. file://video.lmgtfy.com/
+  12. file://news.lmgtfy.com/
+  13. file://shopping.lmgtfy.com/
+  14. file://photos.lmgtfy.com/
+  15. file://plus.lmgtfy.com/
+  16. file://profiles.lmgtfy.com/
+  17. file://books.lmgtfy.com/
+  18. file://finance.lmgtfy.com/
+  19. file://scholar.lmgtfy.com/
+  20. file://bing.lmgtfy.com/
+  21. file://snopes.lmgtfy.com/
+  22. file://wikipedia.lmgtfy.com/
+  23. file://doge.lmgtfy.com/
+  24. file:///home/bbokka/cs594/Assignment/programs/html_content/4f81c01943e0ee5ec2a015c81e78a98e.htm
+  25. file://en.lmgtfy.com/
+  26. file://ru.lmgtfy.com/
+  27. file://de.lmgtfy.com/
+  28. file://pt-BR.lmgtfy.com/
+  29. file://fr.lmgtfy.com/
+  30. file://pl.lmgtfy.com/
+  31. file://zh-TW.lmgtfy.com/
+  32. file://nl.lmgtfy.com/
+  33. file://es.lmgtfy.com/
+  34. file:///home/bbokka/cs594/Assignment/programs/html_content/all_languages.html
+  35. file:///home/bbokka/cs594/Assignment/programs/html_content/4f81c01943e0ee5ec2a015c81e78a98e.htm
+  36. file:///home/bbokka/cs594/Assignment/programs/html_content/4f81c01943e0ee5ec2a015c81e78a98e.htm
+  37. file:///home/bbokka/cs594/Assignment/programs/html_content/4f81c01943e0ee5ec2a015c81e78a98e.htm
+  38. file:///home/bbokka/cs594/Assignment/programs/html_content/4f81c01943e0ee5ec2a015c81e78a98e.htm
+  39. file:///home/bbokka/cs594/Assignment/programs/html_content/stickers.html?s=c
+  40. http://itunes.apple.com/us/app/lmgtfy-official/id488551684?ls=1&mt=8
+  41. file:///stickers.html
+  42. http://itunes.apple.com/us/app/lmgtfy-official/id488551684?ls=1&mt=8
+  43. http://itunes.apple.com/us/app/lmgtfy-official/id488551684?ls=1&mt=8
+  44. file:///stickers.html
+  45. file:///home/bbokka/cs594/Assignment/programs/html_content/4f81c01943e0ee5ec2a015c81e78a98e.htm
+  46. file:///
+  47. file:///home/bbokka/cs594/Assignment/programs/html_content/about.html
+  48. file:///home/bbokka/cs594/Assignment/programs/html_content/privacy.html
+  49. mailto:staff@lmgtfy.com?body=Jim, you've changed my life.  Thank you.&subject=I love LMGTFY!
+  50. http://twitter.com/lmgtfy
+  51. http://shop.lmgtfy.com/
+  52. file:///home/bbokka/cs594/Assignment/programs/html_content/stickers.html?s=f
+  53. http://itunes.apple.com/us/app/lmgtfy-official/id488551684?ls=1&mt=8
+  54. bitcoin:1EQHYzeLQGAuT5Ug3vkqJDb8o1K2YGU5ef?amount=0.01&label=LMGTFY
+  55. http://buysellads.com/buy/detail/30626

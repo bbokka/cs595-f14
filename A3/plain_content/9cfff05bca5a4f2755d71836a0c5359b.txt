@@ -1,0 +1,8 @@
+   #[1]Obinna - Atom [2]Obinna - RSS
+
+
+
+References
+
+   1. http://obainogeorge.blogspot.com/feeds/posts/default
+   2. http://obainogeorge.blogspot.com/feeds/posts/default?alt=rss

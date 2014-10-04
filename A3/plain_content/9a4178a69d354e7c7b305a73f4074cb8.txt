@@ -1,0 +1,49 @@
+ひみつ草
+
+   [himitsugusa.png]
+
+   このサイトは、閲覧者の行動を分析するために[1]Google
+   Analyicsを使用しています。情報は匿名で収集され、個々の閲覧者を特定することはありません。また、個人情報との関連付けも行いません。Goo
+   gle Analyicsによる情報収集を拒否する場合は、[2]Google Analytics オプトアウト アドオンを利用してください。
+
+Contents
+
+   [3]Amigaについて
+
+   更新履歴
+     * [4]Triviaのページへの追加 ( 2014-09-14 )
+     * [5]Lists/Mediaのページへの追加 ( 2014-03-17 )
+     * [6]Lists/Historiesのページの追加と修正 ( 2014-01-23 )
+     * [7]Lists/Historiesのページの追加と修正 ( 2013-10-27 )
+     * [8]Tipsのページに記事を追加 ( 2013-06-16 )
+     * [9]Lists/Historiesの内容を修正 （ジェイ・マイナー氏の没年月日の誤り） ( 2013-06-12 )
+     * [10]Programmingのページに記事を追加 ( 2013-06-08 )
+     * [11]Lists/Peoplesのページを更新 ( 2013-05-18 )
+     * [12]Programmingのページに記事の追加と修正 ( 2013-04-20 )
+     * [13]Hardwareのページを追加 ( 2013-04-14 )
+
+Links
+
+     * [14]ひみつ草のブログ
+
+Others
+
+   [15]@himitsugusa からのツイート
+
+References
+
+   1. https://www.google.com/intl/ja/analytics/privacyoverview.html
+   2. https://tools.google.com/dlpage/gaoptout?hl=ja
+   3. file:///home/bbokka/cs594/Assignment/programs/html_content/AmigaIndex.html
+   4. file:///home/bbokka/cs594/Assignment/programs/html_content/Trivia.html
+   5. file:///home/bbokka/cs594/Assignment/programs/html_content/Lists2.html
+   6. file:///home/bbokka/cs594/Assignment/programs/html_content/Lists3.html
+   7. file:///home/bbokka/cs594/Assignment/programs/html_content/Lists3.html
+   8. file:///home/bbokka/cs594/Assignment/programs/html_content/Tips.html
+   9. file:///home/bbokka/cs594/Assignment/programs/html_content/Lists3.html
+  10. file:///home/bbokka/cs594/Assignment/programs/html_content/001003.html
+  11. file:///home/bbokka/cs594/Assignment/programs/html_content/Lists1.html
+  12. file:///home/bbokka/cs594/Assignment/programs/html_content/001003.html
+  13. file:///home/bbokka/cs594/Assignment/programs/html_content/Hardware.html
+  14. http://himitsugusa.cocolog-nifty.com/
+  15. https://twitter.com/himitsugusa

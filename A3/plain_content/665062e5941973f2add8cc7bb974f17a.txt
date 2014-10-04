@@ -1,0 +1,86 @@
+   [twitter.png] [1][facebook.png] [languageIcon.png]
+   [lock.png]
+   [2]TEMPLE ST [3]HONG KONG ST [4]LAVENDER ST
+     * [5]AWARDS
+     * [6]REVIEWS
+     * [7]TERMS & CONDITIONS
+     * [8]FACILITIES
+     * [9]PROMOTIONS
+     * [10]HAPPENINGS
+
+   [11][logo.png]
+
+SINGAPORE'S MOST AWARDED HOSTEL CHAIN
+
+   BOOK NOW
+   Select your preferred locations
+     * [12]Temple Street (Chinatown)
+
+       [emailIcon.png] [13]reservations@rucksackinn.com
+       [telIcon.png]   +65 64385146
+     * [14]Hong Kong Street (Clarke Quay)
+
+       [emailIcon.png] [15]sleep@rucksackinn.com
+       [telIcon.png]   +65 65324990
+     * [16]Lavender Street (Lavender)
+
+       [emailIcon.png] [17]lavender@rucksackinn.com
+       [telIcon.png]   +65 62952495
+
+   So you’re thinking of coming to Singapore with an idea of an adventure?
+   Well before you start, you will need a place to recharge your
+   batteries. A backpackers’ haven, we at Rucksack Inn provide everything
+   and more. Award winning hostel, cheap and affordable rates, squeaky
+   clean rooms and bathrooms, walking distance to the MRT and great
+   security...all this while located in the heart of the bustling city!
+   Fly solo or with a group, we’ve got the room for you - dorms, family
+   rooms and even pods! We provide free WIFI to stay connected with your
+   loved ones at home. Maybe that’s not your cup of tea? There’s always
+   cheap beer and good company for all.
+   So, head down to our chill-out lounge to trade travelling tales with
+   other fellow backpackers. See, smell and taste the local food and
+   culture Singapore has to offer. Don’t know the best local spots or
+   prefer to go with a guide? Fret not, you could join us on our free
+   tours and make new friends along the way. Lost for ideas? We could even
+   plan your adventure for you because we’re all travellers too. Just chat
+   with our friendly crew and we’ll be glad to share our insights and
+   trade secrets with you! Come down and see what the fuss is all about…!
+   Happy Rucksackin’
+
+WHY CHOOSE US?
+
+   [18][awardThumbLink.png]
+   [19][reviewThumbLink.png]
+   [20][exploreThumbLink.png]
+   [21][facilitiesThumbLink.png]
+   [22][promotionsThumbLink.png]
+   [23][video.png]
+
+   IFRAME: [24]//www.googletagmanager.com/ns.html?id=GTM-5DZDLN
+
+References
+
+   1. https://www.facebook.com/rucksackinn
+   2. file:///home/bbokka/cs594/Assignment/programs/html_content/templeST.php
+   3. file:///home/bbokka/cs594/Assignment/programs/html_content/hongkong.php
+   4. file:///home/bbokka/cs594/Assignment/programs/html_content/lavender.php
+   5. file:///home/bbokka/cs594/Assignment/programs/html_content/award.php
+   6. file:///home/bbokka/cs594/Assignment/programs/html_content/review.php
+   7. file:///home/bbokka/cs594/Assignment/programs/html_content/terms.php
+   8. file:///home/bbokka/cs594/Assignment/programs/html_content/facilities.php
+   9. file:///home/bbokka/cs594/Assignment/programs/html_content/promotions.php
+  10. file:///home/bbokka/cs594/Assignment/programs/html_content/happenings.php
+  11. file:///home/bbokka/cs594/Assignment/programs/html_content/index.php
+  12. file:///home/bbokka/cs594/Assignment/programs/html_content/templeST.php
+  13. mailto:reservations@rucksackinn.com
+  14. file:///home/bbokka/cs594/Assignment/programs/html_content/hongkong.php
+  15. mailto:sleep@rucksackinn.com
+  16. file:///home/bbokka/cs594/Assignment/programs/html_content/lavender.php
+  17. mailto:lavender@rucksackinn.com
+  18. file:///home/bbokka/cs594/Assignment/programs/html_content/award.php
+  19. file:///home/bbokka/cs594/Assignment/programs/html_content/review.php
+  20. file:///home/bbokka/cs594/Assignment/programs/html_content/groupBooking.php
+  21. file:///home/bbokka/cs594/Assignment/programs/html_content/facilities.php
+  22. file:///home/bbokka/cs594/Assignment/programs/html_content/promotions.php
+  23. file:///home/bbokka/cs594/Assignment/programs/html_content/video.php
+  24. file://www.googletagmanager.com/ns.html?id=GTM-5DZDLN

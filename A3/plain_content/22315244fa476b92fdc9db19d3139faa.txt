@@ -1,0 +1,67 @@
+   IFRAME: [1]//www.googletagmanager.com/ns.html?id=GTM-WGFL3Z
+
+   (BUTTON) [2]Purple Apron
+     * [3]Employers
+     * [4]Job Seekers
+     * [5]Jobs
+     * [6]Contact
+     * [7]Log In
+
+   [8]Sign Up
+
+Find a job in hospitality
+
+Bars, restaurants, hotels, and everything in between.
+
+   Find ____________________
+   work in ____________________
+   (BUTTON) Go
+
+Welcome to Purple Apron
+
+   The hospitality hub
+
+   Purple Apron is an online portal that matches employers to employees in
+   the hospitality industry.
+
+Looking for staff?
+
+   Purple Apron gives you unparalleled access to the very best workers, as
+   often as you need. We also allow you to post as many jobs as you want.
+   [9]Find out more
+
+Looking for work?
+
+   If you’re looking for work in any area of the hospitality industry,
+   look no further. You’ll find roles in hotels, cafes, restaurants, bars,
+   events, security and more.
+   [10]Find out more
+     * [11]Home
+     * [12]Employers
+     * [13]Job Seekers
+     * [14]Jobs
+     * [15]Contact
+     * [16]Log In
+
+   Be sure to take a look at our [17]Terms of Use and [18]Privacy Policy
+
+References
+
+   1. file://www.googletagmanager.com/ns.html?id=GTM-WGFL3Z
+   2. file:///
+   3. file:///employers/
+   4. file:///job-seekers/
+   5. file:///jobs/
+   6. file:///contact/
+   7. file:///login
+   8. file:///sign-up
+   9. file:///employers/
+  10. file:///job-seekers/
+  11. file:///
+  12. file:///employers/
+  13. file:///job-seekers/
+  14. file:///jobs/
+  15. file:///contact/
+  16. file:///login
+  17. file:///terms-of-service
+  18. file:///privacy-policy

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+         <title>StreetDeal.sg :: Wanna find the best discounts in Town?</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="description" content="StreetDeal.sg brings you the best daily deals in Singapore with amazing discounts from 50% to 90% off on spas, restaurants, travel packages, cinema and entertainment, and many more cool deals and activities. Choose your favorite deal and purchase your voucher today." />
+	<meta name="keywords" content="singapore deals,hotel deals,japanese restaurant singapore,cheap hotels,deals in singapore,travel deals,singapore deal,korean restaurant singapore,best deals singapore,best deal,best deals,all deals,last minute deals,big deal singapore,singapore discount,best deal singapore,dining singapore,singapore discounts,hotel discount,best dining singapore" />
+    <meta property="fb:app_id" content="180536045316870" />
+        <style>
+        /* Resets */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+abbr, acronym, address, big, cite, code, del,
+dfn, em, font, img, ins, kbd, q, s, samp, small,
+strike, strong, sub, sup, tt, var, dl, dt, dd,
+ol, ul, li, fieldset, form, label, legend, table,
+caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+:focus {
+	outline: 0;
+}
+a {
+    color:#073d4d;
+}
+a:hover {
+    color:#0D7592;
+}
+a:active {
+    color:#3da5c2;
+}
+ul, ol {
+	list-style: none outside none;
+}
+.left {
+	float:left;
+}
+.right {
+    float:right;
+}
+.center {
+    text-align:center;
+}
+.clear {
+	clear:both;
+}
+
+.inset_text {
+    /*text-shadow:0 1px 1px #fff;*/
+}
+h1,h2,h3 {
+    font-weight:bold;
+}
+h1 {
+    font-size:1.2em;
+}
+h2 {
+    font-size:1em;
+}
+h3 {
+    font-size:0.7em;
+}
+strong{
+    font-weight: bold;
+}
+
+        html{
+            background: #000000;
+        }
+
+        body {
+
+    width: 100%;
+    color:#333333;
+    font: 15px/21px "Helvetica Neue",Arial,Helvetica,sans-serif;
+            padding: 0;
+            margin: 0;
+            background: #262626;
+            width: 100%;
+			z-index: 0;
+        }
+
+        #background {
+            top: 0px;
+            left: 0px;
+            min-height: 950px;
+            width: 100%;
+            overflow: hidden;
+            position: fixed;
+            z-index: 0;
+            -moz-user-select: none;
+            background: transparent url(http://www.streetdeal.sg/images/v2/main/campaign/background_fade.png) repeat-x scroll left bottom ;
+        }
+        .fader,#background .fader{
+            height: 100%;
+            position: absolute;
+            background: url(http://www.streetdeal.sg/images/v2/main/campaign/background_fade.png) repeat-x scroll left bottom;
+            bottom:-100px;
+            left:0;
+            position: absolute;
+            width:100%;
+            z-index:0
+        }
+        #background img{
+            left: 0;
+            min-width: 960px;
+            position: absolute;
+            top:0;
+            z-index: -2;
+            width: 100%;
+        }
+        .fader{
+            height: 420px;
+            position: fixed;
+            z-index: -1;
+        }
+        #content_wrapper{
+            min-width: 960px;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            margin-left: 0;
+            margin-top: 0;
+            z-index: 0;
+        }
+        #slogan {
+            margin-bottom: 110px;
+            font-size: 15px;
+            color: #eeeeee;
+        }
+        #slogan_text{
+            padding-top: 12px;
+            font-family: "Segoe Print","Helvetica Neue",Arial;
+        }
+        #logo_wrap {
+            background: #f88e1e;
+            height: 96px;
+            position: absolute;
+            z-index: 100;
+            top: 47px;
+            width: 100%;
+        }
+        #logo_container{
+            min-width: 960px;
+            width: 960px;
+            margin: 0 auto;
+            padding: 25px 0;
+        }
+        a.logo {
+            background: url('http://www.streetdeal.sg/images/v2/main/i18n/sg/site_logo.png') no-repeat scroll 0 0 transparent;
+            width: 310px;
+            height: 50px;
+            display: inline-block;
+            margin-left: 40px;
+        }
+        #content{
+            background: transparent url('http://www.streetdeal.sg/images/v2/main/campaign/transparent_bg.png');
+            min-width: 960px;
+            width: 960px;
+            margin: 0 auto;
+            position: relative;
+        }
+        #content_body{
+            color: #ffffff;
+            padding: 0 25px 17px;
+        }
+        #campaign_wrap{
+            margin:28px 0 30px;
+        }
+        h1#campaign_title{
+            color: #f5bb11;
+            font-size:30px;
+        }
+        div#campaign_body{
+            width: 500px;
+            font-size: 20px;
+            line-height: 25px;
+            color: #ffffff;
+            margin-top: 12px;
+            font-weight: bold;
+        }
+                div.discount_95 {
+            background: transparent url('http://www.streetdeal.sg/images/v2/main/campaign/p95_english.png') no-repeat;
+            width: 225px;
+            height: 215px;
+            position: absolute;
+            z-index: 101;
+            top:65px;
+            right:50px;
+        }
+                div#get_deals_wrap{
+            width: 450px;
+            height: 46px;
+            /*margin-top: 30px;*/
+            background: #ffffff;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+        }
+        div#get_deals_content{
+            padding: 6px;
+        }
+        a#signup_submit{
+            background: #6aad01 url('http://www.streetdeal.sg/images/v2/main/campaign/get_deals_btn_bg.png') repeat-x;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            padding:6px 25px;
+            font-weight:bold;
+            display: inline-block;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            text-shadow: 1px 1px 1px rgba(103,141,2,0.5);
+        }
+        input#signup_email{
+            font-size: 18px;
+            width: 300px;
+            border: 0;
+        }
+        div#promo_thumbnail{
+            background: transparent url('http://www.streetdeal.sg/images/v2/main/campaign/promotion_thumbnail_english.png?2') no-repeat;
+            width: 910px;
+            height: 187px;
+            margin-top: 35px;
+        }
+        div.error{
+            background:#ffbfbf;
+        }
+        div.success{
+            background:#d8f3c5;
+        }
+        div#footer {
+            color:white;
+            font-size:11px;
+            text-align: center;
+        }
+        div#footer a {
+            color:white;
+            font-size:11px;
+        }
+    </style>
+    <script type="text/javascript" src="http://www.streetdeal.sg/js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript">
+        function isValidEmail(email) {
+            var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+            return pattern.test(email);
+        }
+
+        $(function(){
+            $("#signup_email").focus(function(){
+                $("#get_deals_wrap").css("background","#ffffff");
+                $(this).css("background","#ffffff");
+            });
+
+            $("#campaign_signup").submit(function(e){
+                var email = $.trim($("#signup_email").val());
+                if (isValidEmail(email)) {
+                    $("#get_deals_wrap").css("background","#d8f3c5");
+                    $("#signup_email").css("background","#d8f3c5");
+                }
+                else {
+                    $("#get_deals_wrap").css("background","#ffbfbf");
+                    $("#signup_email").css("background","#ffbfbf");
+                    return false;
+                }
+            });
+
+            $("#signup_submit").click(function(e){
+                $("#campaign_signup").submit();
+                e.preventDefault();
+            });
+        });
+    </script>
+</head>
+<body>
+<div style="display:none">
+    </div>
+<div id="fb-root"></div>
+<script type="text/javascript">
+    window.fbAsyncInit = function() {
+        FB.init({appId: '180536045316870', status: true, cookie: true, xfbml: true, oauth : true});
+        FB.Event.subscribe('auth.login', function(response) {fb_login(response);});
+    };
+    (function() {
+        var e = document.createElement('script');
+        e.type = 'text/javascript';
+        e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+        e.async = true;
+        document.getElementById('fb-root').appendChild(e);
+    }());
+    function fb_login(session){
+        var sid = session;
+        FB.api('/me', function(response) {
+            if (response) {
+                $.get('http://www.streetdeal.sg/auth/fb_login/'+response.email+'/'+(encodeURIComponent(response.name)+'/'+session.authResponse.userID+'/60366/50'), function(data) {
+                    if (data.success) {
+                        if (data.user.pass && data.user.pass != "0") {
+                            location.href = "http://www.streetdeal.sg/campaign/complete/60366/"+data.user.id+"/"+data.user.email;
+                        }
+                        else {
+                            location.href = "http://www.streetdeal.sg/";
+                        }
+                    }
+                },"json");
+            }
+        });
+    }
+</script>
+<div class="fader">&nbsp;</div>
+<div id="background">
+    <div class="fader">&nbsp;</div>
+    <img src="http://cdn.streetdeal.sg/images/campaign_bg/deals_1.jpg"/>
+</div>
+<div id="content_wrapper">
+    <div id="logo_wrap">
+        <div id="logo_container">
+            <a class="logo" href="http://www.streetdeal.sg/"></a>
+        </div>
+    </div>
+    <div id="content">
+        <div id="content_body">
+            <div id="slogan" class="right">
+                <div id="slogan_text">
+                    Amazing Daily Deals in Singapore                </div>
+            </div>
+            <div class="clear"></div>
+            <div id="campaign_wrap" class="left">
+                <h1 id="campaign_title">Wanna find the best discounts in Town?</h1>
+                <div id="campaign_body">Discover <strong>StreetDeal.sg</strong> and find the best <strong>Deals</strong> in town for up to <strong>95% discount!</strong></div>
+            </div>
+            <div class="right">
+                <div class="discount_95"></div>
+            </div>
+            <div class="clear"></div>
+                        <div id="get_deals_wrap" style="float:left;height:27px;width:265px;">
+                <div id="get_deals_content" style="padding:1px;">
+                    <form id="campaign_signup" action="http://www.streetdeal.sg/campaign/confirm" method="POST">
+                        <input type="hidden" name="campaign_id" value="60366"/>
+                        <input type="hidden" name="campaign_group" value="facebook"/>
+                        <label class="left" style="padding-top: 2px;padding-left:2px;"><input style="font-size:14px;width:160px;" type="text" name="email" id="signup_email" placeholder="Enter Your Email""></label>
+                        <a href="#" id="signup_submit" class="right" style="padding:2px 15px;font-size:11px;">GET DEALS</a>
+                        <div class="clear"></div>
+                    </form>
+                </div>
+            </div>
+            <div style="float:left;padding-top:2px">&nbsp;&nbsp;<span style="font-size:10px;font-weight:bold;">OR</span>&nbsp;&nbsp;<fb:login-button scope="email,publish_stream">Sign up with Facebook</fb:login-button></div>
+            <div class="clear"></div>
+            
+            <div id="promo_thumbnail"></div>
+            <div id="footer">
+                <a target="_blank" href="http://www.streetdeal.sg/home/info/terms">Terms of Service</a>&nbsp;|&nbsp;<a target="_blank" href="http://www.streetdeal.sg/home/info/privacy">Privacy Policy</a>
+                <div>Copyright &copy; 2011 StreetDeal.sg, All Rights reserved</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="display:none">
+ <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-18367473-1']);
+    _gaq.push(['_setDomainName', '.streetdeal.sg']);
+    _gaq.push(['_trackPageview','/campaign/60366/deals_1']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+<script type="text/javascript">
+    $(function() {
+        $.get('http://www.streetdeal.sg/tracker/track/campaign/0/60366/0/0/'+screen.width+'/'+screen.height, function(data) {});
+    });
+</script>
+
+<a title="Real Time Web Analytics" href="http://clicky.com/100609851"><img alt="Real Time Web Analytics" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ clicky.init(100609851); }catch(e){}</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100609851ns.gif" /></p></noscript>
+
+</div>
+<script type="text/javascript">
+(function() {
+    try {
+        var viz = document.createElement("script");
+        viz.type = "text/javascript";
+        viz.async = true;
+        viz.src = ("https:" == document.location.protocol ?"https://ssl.vizury.com" : "http://serv3.vizury.com")+ "/analyze/pixel.php?account_id=VIZVRM1433";
+
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(viz, s);
+        viz.onload = function() {
+            try {
+                pixel.parse();
+            } catch (i) {
+            }
+        };
+        viz.onreadystatechange = function() {
+            if (viz.readyState == "complete" || viz.readyState == "loaded") {
+                try {
+                    pixel.parse();
+                } catch (i) {
+                }
+            }
+        };
+    } catch (i) {
+    }
+})();
+</script>
+<script type="text/javascript">
+(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '1499794510233091']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1499794510233091&amp;ev=NoScript" /></noscript>
+</body>
+</html>

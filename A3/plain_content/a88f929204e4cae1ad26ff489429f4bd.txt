@@ -1,0 +1,353 @@
+   REFRESH(600 sec):
+   [1]file://localhost/home/bbokka/cs594/Assignment/programs/html_content/
+   a88f929204e4cae1ad26ff489429f4bd.htm
+   #[2]Kaskus - The Largest Indonesian Community
+
+KASKUS
+
+     * [3]Forum
+     * [4]FJB
+     * [5]Groupee
+     * [6]Radio
+
+     *
+     * ____________________
+     * (BUTTON)
+
+     * What's New?
+
+
+
+   [7]Sign In | Join
+
+   ____________________ ____________________ [8]forgot password?
+       [ ] Remember me Sign In
+         ______________________________________________________________
+
+       or sign in with :
+          + FACEBOOK
+          + TWITTER
+          + GOOGLEPLUS
+         ______________________________________________________________
+
+       New to KASKUS [9]Sign Up Now!
+
+
+
+   IFRAME: [10]a4a5701d
+
+   [11]Create New Thread [12]Want To Sell
+   loading gan...
+
+Hot Threads
+
+     * [13]Kemeriahan Festival Danau Toba 2014
+     * [14][FR] Futsal Kemerdekaan [K] Regional Bogor, 17 Agustus 2014
+     * [15]Perjuangan Keras Para Cewek yang Gak Suka Dandan
+     * [16]Ini Dia yang Legend dari Jajanan Tradisional Indonesia
+     * [17]Mitos Pengusiran Hantu dan Dedemit di Indonesia
+     * [18]7 Tipe Pemalak Anak Sekolah di Tahun 90-an
+     * [19]Kenyataan Seputar Pacaran di Umur 20-an yang Jarang Dibicarakan
+       Orang
+     * [20]Nih Gan, Foto-Foto yang Pasti di-Like Sama Temen Lo
+     * [21]Alasan Kenapa Kata "Jangan" Harus Dihindari Penggunaannya
+     * [22]5 Tempat yang "Super Sekali" Untuk Melamar Cewek
+
+Hot Reviews
+
+     * LA Fonte Pronto
+
+LA Fonte Pronto
+       Nikon Coolpix S3500
+
+Nikon Coolpix S3500
+     * Adolescente
+
+Adolescente
+       Peekmybook
+
+Peekmybook
+     * Olympus O-MD E-M10
+
+Olympus O-MD E-M10
+       Mr.Pale Bags
+
+Mr.Pale Bags
+
+   [23]< [24]>
+
+Top Forums
+
+   [25]Go to Forum
+     * The Lounge
+
+The Lounge
+     * Berita dan Politik
+
+Berita Dan Politik
+     * Android
+
+Android
+     * Fun with English
+
+Fun With English
+     * B-Log Collections
+
+B-log Collections
+     * Buat Latihan Posting
+
+Buat Latihan Posting
+     * Lounge Pictures & Video
+
+Lounge Pictures & Video
+     * Kalimantan Barat
+
+Kalimantan Barat
+     * Nightlife & Events
+
+Nightlife & Events
+     * Console & Handheld Games
+
+Console & Handheld Games
+
+   [26]< [27]>
+
+Top Products
+
+   [28]Go to FJB
+   Loading
+
+Promoted Forums
+
+   [29]Go to Forum
+       Loading
+
+Hot Services
+
+   [30]Go to FJB
+   Loading
+
+Second-hand Goods
+
+   [31]Go to FJB
+   Loading
+
+Success Stories
+
+   [32]Submit Your Story
+   Loading
+
+Quick Updates
+
+   [33]Post Thread
+   Loading
+
+KASKUS Store
+
+ePulsa
+
+   Jenis Pulsa
+   [Pilih Operator] [Pilih Nominal]
+   Harga Pulsa
+   Rp 0
+   Nomor Tujuan
+   ____________________
+   Buy Now
+
+KASKUS Donatur
+
+   Paket Donasi
+   [Pilih Donasi]
+   Biaya harga sudah termasuk PPN
+   Rp. 0
+   No. User ID KASKUS
+   ____________________
+   Donate Now
+
+Top Kaskusers
+
+   Loading
+
+Regionals
+
+   [34]See All
+     * [35]Indonesia
+     * [36]America
+     * [37]Asia
+     * [38]Australia
+     * [39]Europe
+     * [40]Lainnya
+
+   IFRAME: [41]a97f0af7
+
+KASKUS HQ
+
+   Loading
+
+KASKUS Ads
+
+   [42]Create Your Ad
+   Tips Menjadi Hot Thread
+
+Tips Menjadi Hot Thread
+
+   Tips handal buat kamu yang ingin threadnya terpilih jadi Hot Thread
+   Beriklanlah Di KASKUS
+
+Beriklanlah Di KASKUS
+
+   Buat lapak Kamu dijangkau oleh seluruh member KASKUS dengan KasAds.
+   Begitu mudah dan hemat
+   Mulai Berjualan
+
+Mulai Berjualan
+
+   Pelajari langkah mudah membuat Lapak baru di KASKUS
+
+Navigation
+
+     * [43]Home
+     * [44]Forum
+     * [45]Jual Beli
+     * [46]Groupee
+     * [47]Radio
+     * [48]Mobile site
+     * [49]Archive
+     * [50]Report Bug
+
+Company Info
+
+     * [51]Help Center
+     * [52]About Us
+     * [53]Advertise with Us
+     * [54]Contact Us
+     * [55]Careers
+     * [56]Official Forum
+     * [57]General Rules
+     * [58]Term of Services
+
+Find Us
+
+     * [59]MindTalk
+     * [60]Forum
+     * [61]Facebook
+     * [62]Google+
+
+     * [63]Instagram
+     * [64]FJB
+     * [65]Youtube
+     * [66]LinkedIn
+
+Mobile
+
+     *
+     *
+     *
+     *
+     *
+
+References
+
+   Visible links
+   1. file:///home/bbokka/cs594/Assignment/programs/html_content/a88f929204e4cae1ad26ff489429f4bd.htm
+   2. http://www.kaskus.co.id/rss/forum/-2
+   3. file:///forum
+   4. file:///fjb
+   5. file:///group
+   6. http://www.kaskusradio.com/
+   7. https://www.kaskus.co.id/user/login
+   8. file:///forgotpassword
+   9. https://www.kaskus.co.id/register
+  10. http://ad.kaskus.co.id/www/delivery/afr.php?zoneid=152&cb=INSERT_RANDOM_NUMBER_HERE
+  11. file:///forum/quicknewthread/?ref=forumlanding&med=top_right_button
+  12. file:///fjb/sell/?ref=forumlanding&med=top_right_button
+  13. file:///thread/54219a485a5163be798b4580/?ref=homelanding&med=hot_thread
+  14. file:///thread/53f378340f8b4661028b457c/?ref=homelanding&med=hot_thread
+  15. file:///thread/541295cc14088d144a8b4576/?ref=homelanding&med=hot_thread
+  16. file:///thread/540d5ceebecb17b41b8b4573/?ref=homelanding&med=hot_thread
+  17. file:///thread/542e00f4dc06bdf54a8b4568/?ref=homelanding&med=hot_thread
+  18. file:///thread/542d402c0f8b4639488b4568/?ref=homelanding&med=hot_thread
+  19. file:///thread/542da1179e740462298b456d/?ref=homelanding&med=hot_thread
+  20. file:///thread/542e1231925233e5238b456b/?ref=homelanding&med=hot_thread
+  21. file:///thread/542e7ab7108b461b2a8b4574/?ref=homelanding&med=hot_thread
+  22. file:///thread/542e4380bccb174a708b4574/?ref=homelanding&med=hot_thread
+  23. file:///home/bbokka/cs594/Assignment/programs/html_content/a88f929204e4cae1ad26ff489429f4bd.htm
+  24. file:///home/bbokka/cs594/Assignment/programs/html_content/a88f929204e4cae1ad26ff489429f4bd.htm
+  25. file:///forum/?ref=homelanding&med=top_forum
+  26. file:///home/bbokka/cs594/Assignment/programs/html_content/a88f929204e4cae1ad26ff489429f4bd.htm
+  27. file:///home/bbokka/cs594/Assignment/programs/html_content/a88f929204e4cae1ad26ff489429f4bd.htm
+  28. file:///classified/25/?ref=homelanding&med=top_products
+  29. file:///forum/?ref=homelanding&med=promoted_forum
+  30. file:///classified/202/jasa/?ref=homelanding&med=hot_services
+  31. file:///home/bbokka/cs594/Assignment/programs/html_content/search/fjb/classified?q=&lokasi=0&date=-1&ps=&pe=&kondisi_bekas=3&uname=&ref=homelanding&med=hot_2nd_goods
+  32. https://docs.google.com/a/kaskusnetworks.com/forms/d/14B-9_YvnfcsCgy95nbvB7q9NIIEo2tyultMU7Q5kMYs/viewform
+  33. file:///forum/quicknewthread/?ref=homelanding&med=quick_update
+  34. file:///forum/72/?ref=homelanding&med=regional
+  35. file:///forum/73/indonesia/?ref=homelanding&med=regional
+  36. file:///forum/617/america/?ref=homelanding&med=regional
+  37. file:///forum/109/asia/?ref=homelanding&med=regional
+  38. file:///forum/74/australia/?ref=homelanding&med=regional
+  39. file:///forum/157/europe/?ref=homelanding&med=regional
+  40. file:///forum/158/regional-lainnya/?ref=homelanding&med=regional
+  41. http://ad.kaskus.co.id/www/delivery/afr.php?zoneid=506&cb=INSERT_RANDOM_NUMBER_HERE
+  42. http://kad.kaskus.co.id/
+  43. file:///home
+  44. file:///forum
+  45. file:///fjb
+  46. file:///group
+  47. http://www.kaskusradio.com/
+  48. http://m.kaskus.co.id/
+  49. http://archive.kaskus.co.id/
+  50. http://www.kaskus.co.id/user/feedback
+  51. http://support.kaskus.co.id/
+  52. http://support.kaskus.co.id/about/about_kaskus.html
+  53. http://advertise.kaskus.co.id/
+  54. http://cs.kaskus.co.id/ask/index//
+  55. file:///about/jobs
+  56. file:///forum/629/kaskus-playground
+  57. file:///about/general_rules
+  58. file:///about/terms_of_use
+  59. http://www.mindtalk.com/kaskus#/
+  60. https://twitter.com/#!/kaskus
+  61. http://www.facebook.com/officialkaskus
+  62. http://google.com/+kaskus
+  63. http://www.instagram.com/kaskusnetworks
+  64. https://twitter.com/#!/FJBKASKUSID
+  65. http://www.youtube.com/user/kaskusnetworks
+  66. http://www.linkedin.com/company/793437
+
+   Hidden links:
+  68. file://localhost/
+  69. javascript:void(0);
+  70. javascript:void(0);
+  71. javascript:void(0);
+  72. javascript:void(0);
+  73. http://support.kaskus.co.id/
+  74. http://ad.kaskus.co.id/www/delivery/ck.php?n=a9c4bba0&cb=INSERT_RANDOM_NUMBER_HERE
+  75. file://localhost/thread/542251d99e7404e36a8b456e/?ref=homelanding&med=hot_reviews
+  76. file://localhost/thread/54195053138b469a3d8b456b/?ref=homelanding&med=hot_reviews
+  77. file://localhost/thread/54193d09bfcb1715708b4576/?ref=homelanding&med=hot_reviews
+  78. file://localhost/home/bbokka/cs594/Assignment/programs/html_content/thread/53eaecf4a09a3976048b459d/?ref=homelanding&med=hot_reviews
+  79. file://localhost/thread/5417fbb71a99759b1d8b4573/?ref=homelanding&med=hot_reviews
+  80. file://localhost/thread/53e44bfb60e24b47278b45ac/mrpale-bags/?ref=homelanding&med=hot_reviews
+  81. file://localhost/forum/21/the-lounge/?ref=homelanding&med=top_forum
+  82. file://localhost/forum/10/berita-dan-politik/?ref=homelanding&med=top_forum
+  83. file://localhost/forum/577/android/?ref=homelanding&med=top_forum
+  84. file://localhost/forum/465/fun-with-english/?ref=homelanding&med=top_forum
+  85. file://localhost/forum/49/b-log-collections/?ref=homelanding&med=top_forum
+  86. file://localhost/forum/22/buat-latihan-posting/?ref=homelanding&med=top_forum
+  87. file://localhost/forum/186/lounge-pictures-amp-video/?ref=homelanding&med=top_forum
+  88. file://localhost/forum/162/kalimantan-barat/?ref=homelanding&med=top_forum
+  89. file://localhost/forum/275/nightlife-amp-events/?ref=homelanding&med=top_forum
+  90. file://localhost/forum/119/console-amp-handheld-games/?ref=homelanding&med=top_forum
+  91. http://ad.kaskus.co.id/www/delivery/ck.php?n=abe98faa&cb=INSERT_RANDOM_NUMBER_HERE
+  92. http://ad.kaskus.co.id/www/delivery/ck.php?n=a51803c4&cb=INSERT_RANDOM_NUMBER_HERE
+  93. http://support.kaskus.co.id/forum/hot_thread.html#content
+  94. http://kad.kaskus.co.id/
+  95. http://support.kaskus.co.id/jual-beli/mulai_berjualan.html#content
+  96. file://localhost/home/bbokka/cs594/Assignment/programs/html_content/a88f929204e4cae1ad26ff489429f4bd.htm
+  97. http://m.kaskus.co.id/
+  98. https://play.google.com/store/apps/details?id=com.kaskus.android
+  99. https://itunes.apple.com/us/app/kaskus/id571569180?mt=8
+ 100. http://appworld.blackberry.com/webstore/content/17843431/?lang=en&countrycode=ID
+ 101. http://www.windowsphone.com/id-id/store/app/kaskus/0451810a-0753-417a-bdca-c377d3d6c7e0

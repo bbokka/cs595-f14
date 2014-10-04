@@ -1,0 +1,7 @@
+   REFRESH(0 sec):
+   [1]file://localhost/home/bbokka/cs594/Assignment/programs/html_content/
+   SharonDennisPhotographer/About_Me.html
+
+References
+
+   1. file:///home/bbokka/cs594/Assignment/programs/html_content/SharonDennisPhotographer/About_Me.html
