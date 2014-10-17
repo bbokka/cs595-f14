@@ -1,0 +1,8 @@
+count friend_Name
+907, Deborah Edds
+3956, Kurnia Foe
+762, Sherni Minu
+153, Aida Gha
+266, Babitha Reddy
+841, Barbara King
+

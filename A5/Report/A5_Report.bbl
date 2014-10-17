@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{p}
+Mosaic.
+\newblock http://cran.r-project.org/web/packages/mosaic/mosaic.pdf.
+
+\bibitem{pdf}
+Scatteplotpaper.
+\newblock
+  http://www.calvin.edu/\~rpruim/talks/SC11/Seattle/RatSC11/Master-StatsForScience.pdf.
+
+\bibitem{stackoverflow}
+scatterplot.
+\newblock
+  http://www.r-tutor.com/elementary-statistics/quantitative-data/scatter-plot.
+
+\bibitem{youtube}
+Youtubetutorial.
+\newblock https://www.youtube.com/watch?v=U64yNvlhv9I.
+
+\bibitem{twitter}
+Joshua Roesslein.
+\newblock Tweepydocumentation.
+\newblock https://media.readthedocs.org/pdf/tweepy/latest/tweepy.pdf.
+
+\end{thebibliography}

@@ -1,0 +1,7 @@
+friendId   friendFriendsCount friendName 
+1          0          511hamptonroads 
+2          0          AcademicsSay 
+3          0          TPDL2012 
+4          1          CommonwlthCup 
+5          1          W3CDataontheWeb 
+6          2          edwardafox 

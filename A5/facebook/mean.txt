@@ -1,0 +1,2 @@
+min  Q1 median  Q3  max     mean       sd  n missing
+  73 361    510 748 3956 626.8904 538.8189 73       0

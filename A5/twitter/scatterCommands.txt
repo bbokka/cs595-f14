@@ -1,0 +1,7 @@
+Twitter ScatterPlot with points :
+> plot(type="p" ,finalSorted$friendId , finalSorted$friendFriendsCount, xlab="Friends",ylab="Number of friends",main ="Friendship Paradox",las=1,xlim=c(1,149),ylim=c(1, 4000),col=2,pch=16,cex=0.5)
+> abline(v=66 , col=4 , lw=0.5)
+
+Twitter ScatterPlot with line :
+> plot(type="l" ,finalSorted$friendId , finalSorted$friendFriendsCount, xlab="Friends",ylab="Number of friends",main         ="Friendship Paradox",las=1,xlim=c(10,149),ylim=c(1, 4000),col=2,pch=16,cex=0.5)
+> abline(v=66 , col=4 , lw=0.5)

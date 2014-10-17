@@ -1,0 +1,7 @@
+Facebook ScatterPlot with points :
+plot(type="p" ,finalSortedFacebook$friendId , finalSortedFacebook$friendFriendsCount, xlab="Friends",ylab="Number of friends",main="Facebook Friendship Paradox",las=1,xlim=c(1,80),ylim=c(1, 4000),col=2,pch=16,cex=0.5)
+> abline(v=66 , col=4 , lw=0.5)
+
+Facebook ScatterPlot with line :
+plot(type="l" ,finalSortedFacebook$friendId , finalSortedFacebook$friendFriendsCount, xlab="Friends",ylab="Number of friends",main="Facebook Friendship Paradox",las=1,xlim=c(1,80),ylim=c(1, 4000),col=2,pch=16,cex=0.5)
+> abline(v=66 , col=4 , lw=0.5)

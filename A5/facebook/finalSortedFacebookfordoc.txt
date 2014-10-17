@@ -1,0 +1,7 @@
+friendId   friendFriendsCount 
+1          73
+2          116 
+3          121 
+4          139
+5          152 
+6          153

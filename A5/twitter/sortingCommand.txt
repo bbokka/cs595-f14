@@ -1,0 +1,1 @@
+sort -n friendsCount.txt -o friendsCount.txt.sort

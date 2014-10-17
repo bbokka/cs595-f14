@@ -1,0 +1,7 @@
+friendId   friendFriendsCount friendName 
+1          73,        Obaid 
+2          116,       Alexander 
+3          121,       Sruthi 
+4          139,       Alex 
+5          152,       Srikanth 
+6          153,       Aida 
