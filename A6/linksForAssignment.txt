@@ -1,0 +1,15 @@
+http://stackoverflow.com/questions/5822265/are-there-implementations-of-algorithms-for-community-detection-in-graphs
+http://en.wikipedia.org/wiki/Girvan%E2%80%93Newman_algorithm
+
+
+http://www-rohan.sdsu.edu/~gawron/python_for_ss/course_core/book_draft/Social_Networks/Social_Networks.html
+
+http://www.cs.rhul.ac.uk/home/tamas/development/igraph/tutorial/tutorial.html
+
+http://igraph.org/python/
+http://igraph.org/python/doc/tutorial/tutorial.html
+http://igraph.org/python/doc/igraph.clustering.Cover-class.html
+http://igraph.org/python/doc/igraph-pysrc.html#Graph.delete_edges
+
+http://lists.nongnu.org/archive/html/igraph-help/2008-10/msg00024.html
+

@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{resources}
+Helpfultutorials.
+\newblock
+  http://lists.nongnu.org/archive/html/igraph-help/2008-10/msg00024.html.
+
+\bibitem{p}
+igraph.
+\newblock http://igraph.org/python/.
+
+\bibitem{pdf}
+igraphtutorial.
+\newblock http://igraph.org/python/doc/tutorial/tutorial.html.
+
+\bibitem{tutorial}
+otherresources.
+\newblock
+  http://www.cs.rhul.ac.uk/home/tamas/development/igraph/tutorial/tutorial.html.
+
+\bibitem{igraph}
+W.~ZACHARY.
+\newblock An information flow model for conflict and fission in small groups.
+\newblock http://aris.ss.uci.edu/\~lin/76.pdf.
+
+\end{thebibliography}

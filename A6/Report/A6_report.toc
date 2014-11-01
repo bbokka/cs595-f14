@@ -1,0 +1,22 @@
+\contentsline {section}{\numberline {1}Question 1: Karate group split into 2 groups}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Approach}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Description of karateClubGraph.py}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Source Code}{3}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}karateClubGraph.py}{3}{subsubsection.1.3.1}
+\contentsline {subsection}{\numberline {1.4}Input}{4}{subsection.1.4}
+\contentsline {subsubsection}{\numberline {1.4.1}karate.GraphML}{4}{subsubsection.1.4.1}
+\contentsline {subsection}{\numberline {1.5}Output Files}{5}{subsection.1.5}
+\contentsline {subsubsection}{\numberline {1.5.1}Intial Graph}{5}{subsubsection.1.5.1}
+\contentsline {subsection}{\numberline {1.6}Graphs after the split}{6}{subsection.1.6}
+\contentsline {subsubsection}{\numberline {1.6.1}Graph split Reality}{6}{subsubsection.1.6.1}
+\contentsline {subsubsection}{\numberline {1.6.2}Predicted graph after split}{8}{subsubsection.1.6.2}
+\contentsline {section}{\numberline {2}Question 2: Karate group split into 3, 4, and 5}{9}{section.2}
+\contentsline {subsection}{\numberline {2.1}Approach}{9}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Source Code}{9}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}karateClubGraphSplit.py}{9}{subsubsection.2.2.1}
+\contentsline {subsection}{\numberline {2.3}Input}{10}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}karate.GraphML}{10}{subsubsection.2.3.1}
+\contentsline {subsection}{\numberline {2.4}Output Files}{11}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Intial-graph}{11}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Graph after the split}{12}{subsubsection.2.4.2}
+\contentsline {section}{\numberline {3}Conclusions}{15}{section.3}
