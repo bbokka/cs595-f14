@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2014.8.20)  8 NOV 2014 20:27
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2014.8.20)  8 NOV 2014 20:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -405,16 +405,16 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 File: ../beforeSplit.png Graphic file (type png)
 
 <use ../beforeSplit.png>
-Overfull \hbox (62.14366pt too wide) in paragraph at lines 126--128
+Overfull \hbox (62.14366pt too wide) in paragraph at lines 129--131
  [][] 
  []
 
 [10 <../beforeSplit.png (PNG copy)>]
-<../splitHighLlight.png, id=412, 963.6pt x 611.28375pt>
+<../splitHighLlight.png, id=413, 963.6pt x 611.28375pt>
 File: ../splitHighLlight.png Graphic file (type png)
 
 <use ../splitHighLlight.png>
-Overfull \hbox (61.69199pt too wide) in paragraph at lines 134--136
+Overfull \hbox (61.69199pt too wide) in paragraph at lines 137--139
  [][] 
  []
 
@@ -431,20 +431,20 @@ euroscipy2014/blob/master/04[]dataviz.ipynb.
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
  [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
  (./A7_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
 Package rerunfilecheck Info: File `A7_report.out' has not changed.
 (rerunfilecheck)             Checksum: 6224DC469B8C7B11CBFA4D30147282B2;796.
  ) 
 Here is how much of TeX's memory you used:
- 8281 strings out of 493747
- 126725 string characters out of 3143546
+ 8283 strings out of 493747
+ 126746 string characters out of 3143546
  634521 words of memory out of 3000000
- 11121 multiletter control sequences out of 15000+200000
- 8808 words of font info for 31 fonts, out of 3000000 for 9000
+ 11122 multiletter control sequences out of 15000+200000
+ 8977 words of font info for 32 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  36i,7n,52p,290b,1905s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
@@ -453,11 +453,12 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
-al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on A7_report.pdf (13 pages, 559638 bytes).
+al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
+l/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on A7_report.pdf (13 pages, 566347 bytes).
 PDF statistics:
- 517 PDF objects out of 1000 (max. 8388607)
- 488 compressed objects within 5 object streams
+ 521 PDF objects out of 1000 (max. 8388607)
+ 491 compressed objects within 5 object streams
  318 named destinations out of 1000 (max. 500000)
  107 words of extra memory for PDF output out of 10000 (max. 10000000)
 
