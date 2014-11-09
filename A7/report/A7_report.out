@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Question 1:}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Approach}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Description of generateJSON.py}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Description of graph.html}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Source Code}{section.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.4.1}{generateJSON.py}{subsection.1.4}% 6
+\BOOKMARK [3][-]{subsubsection.1.4.2}{graph.html}{subsection.1.4}% 7
+\BOOKMARK [2][-]{subsection.1.5}{Input}{section.1}% 8
+\BOOKMARK [3][-]{subsubsection.1.5.1}{karate.GraphML}{subsection.1.5}% 9
+\BOOKMARK [2][-]{subsection.1.6}{Output Files}{section.1}% 10
+\BOOKMARK [3][-]{subsubsection.1.6.1}{karateData.json}{subsection.1.6}% 11
+\BOOKMARK [3][-]{subsubsection.1.6.2}{Visulaization}{subsection.1.6}% 12

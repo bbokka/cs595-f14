@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+
+\bibitem{stack}
+Stack overflow for xml parsing.
+\newblock
+  http://stackoverflow.com/questions/4071696/python-beautifulsoup-xml-parsing.
+
+\bibitem{p}
+Template for d3.
+\newblock
+  http://nbviewer.ipython.org/github/rossant/euroscipy2014/blob/master/04\_dataviz.ipynb.
+
+\end{thebibliography}

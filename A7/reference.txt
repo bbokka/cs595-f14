@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type='text/xsl' href='MessageLog.xsl'?>
+<Log FirstSessionID="1" LastSessionID="2">
+
+    
+<Message Date="10/31/2010" Time="3:43:48 PM"     DateTime="2010-10-31T20:43:48.937Z" SessionID="1">
+    <From>
+        <User FriendlyName="Jon"/>
+    </From>    
+    <To>
+        <User FriendlyName="Bill"/>
+    </To>
+    <Text Style="font-family:Segoe UI; color:#000000; ">hey, what's up?</Text>
+</Message>
+
+<Message Date="10/31/2010" Time="3:44:03 PM" DateTime="2010-10-15T20:44:03.421Z" SessionID="1">
+    <From>
+        <User FriendlyName="Jon"/>
+    </From>
+    <To>
+        <User FriendlyName="Bill"/>
+    </To>
+    <Text Style="font-family:Segoe UI; color:#000000; ">Got your message</Text>
+</Message> 
+
+
+<node id="n33">
+<data key="Faction">2</data>
+<data key="name">John A</data>
+</node>
