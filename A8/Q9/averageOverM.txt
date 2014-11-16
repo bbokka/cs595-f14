@@ -1,0 +1,41 @@
+% clear ; python averageOverUnderGender.py
+Usage: averageOverUnderGender.py <F or M> <under or over>
+e.g. : averageOverUnderGender.py F over
+%
+%
+% clear ; python averageOverUnderGender.py M over
+*******************************************************
+Movies rated highest on average by men
+*******************************************************
+Movie Name                                      Avg Rating
+-------------------------------------------------------
+World of Apu, The (Apur Sansar)                   5.0
+Unstrung Heroes                                   5.0
+Two or Three Things I Know About Her              5.0
+They Made Me a Criminal                           5.0
+Strawberry and Chocolate (Fresa y chocolate)      5.0
+Star Kid                                          5.0
+Spice World                                       5.0
+Solo                                              5.0
+Rendezvous in Paris (Rendez-vous de Paris, Les)   5.0
+Prefontaine                                       5.0
+Poison Ivy II                                     5.0
+Marlene Dietrich: Shadow and Light                5.0
+Little Princess, The                              5.0
+Little City                                       5.0
+Leading Man, The                                  5.0
+Late Bloomers                                     5.0
+Indian Summer                                     5.0
+Hearts and Minds                                  5.0
+Great Day in Harlem, A                            5.0
+Grateful Dead                                     5.0
+Faithful                                          5.0
+Double Happiness                                  5.0
+Boxing Helena                                     5.0
+Aparajito                                         5.0
+Ace Ventura: When Nature Calls                    5.0
+Pather Panchali                                   4.8
+Whole Wide World, The                             4.7
+A Chef in Love                                    4.7
+Close Shave, A                                    4.6
+Shanghai Triad (Yao a yao yao dao waipo qiao)     4.6

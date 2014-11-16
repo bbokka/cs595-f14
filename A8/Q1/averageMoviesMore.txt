@@ -1,0 +1,19 @@
+% clear ; python averageMovies.py
+************************************************************
+Top 5 movies having the highest average ratings
+************************************************************
+Movie Name                                      Avg Rating
+------------------------------------------------------------
+They Made Me a Criminal                           5.0
+Star Kid                                          5.0
+Someone Else's America                            5.0
+Santa with Muscles                                5.0
+Saint of Fort Washington, The                     5.0
+Prefontaine                                       5.0
+Marlene Dietrich: Shadow and Light                5.0
+Great Day in Harlem, A                            5.0
+Entertaining Angels: The Dorothy Day Story        5.0
+Aiqing wansui                                     5.0
+Pather Panchali                                   4.6
+Some Mother's Son                                 4.5
+

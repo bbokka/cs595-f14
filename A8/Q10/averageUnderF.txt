@@ -1,0 +1,41 @@
+% clear ; python averageOverUnderGender.py
+Usage: averageOverUnderGender.py <F or M> <under or over>
+e.g. : averageOverUnderGender.py F over
+%
+%
+% clear ; python averageOverUnderGender.py F under
+*******************************************************
+Movies rated highest on average by women
+*******************************************************
+Movie Name                                      Avg Rating
+-------------------------------------------------------
+Year of the Horse                                 5.0
+Wedding Gift, The                                 5.0
+Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les) 5.0
+Telling Lies in America                           5.0
+Stripes                                           5.0
+Someone Else's America                            5.0
+Prefontaine                                       5.0
+Nico Icon                                         5.0
+Mina Tannenbaum                                   5.0
+Maya Lin: A Strong Clear Vision                   5.0
+Horseman on the Roof, The (Hussard sur le toit, Le) 5.0
+Heaven's Prisoners                                5.0
+Grace of My Heart                                 5.0
+Faster Pussycat! Kill! Kill!                      5.0
+Everest                                           5.0
+Don't Be a Menace to South Central While Drinking Your Juice in the Hood 5.0
+Backbeat                                          5.0
+Wallace & Gromit: The Best of Aardman Animation   4.8
+Paradise Lost: The Child Murders at Robin Hood Hills 4.8
+Anne Frank Remembered                             4.8
+Shawshank Redemption, The                         4.7
+Shall We Dance?                                   4.7
+Close Shave, A                                    4.7
+Schindler's List                                  4.7
+Margaret's Museum                                 4.7
+Women, The                                        4.5
+To Catch a Thief                                  4.5
+Thin Man, The                                     4.5
+Some Folks Call It a Sling Blade                  4.5
+Primary Colors                                    4.5

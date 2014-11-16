@@ -1,0 +1,41 @@
+% clear ; python averageOverUnderGender.py
+Usage: averageOverUnderGender.py <F or M> <under or over>
+e.g. : averageOverUnderGender.py F over
+%
+%
+% clear ; python averageOverUnderGender.py F over
+*******************************************************
+Movies rated highest on average by women
+*******************************************************
+Movie Name                                      Avg Rating
+-------------------------------------------------------
+Wrong Trousers, The                               5.0
+Visitors, The (Visiteurs, Les)                    5.0
+Top Hat                                           5.0
+Tombstone                                         5.0
+Swept from the Sea                                5.0
+Shallow Grave                                     5.0
+Shall We Dance?                                   5.0
+Safe                                              5.0
+Quest, The                                        5.0
+Pocahontas                                        5.0
+Nightmare Before Christmas, The                   5.0
+Mina Tannenbaum                                   5.0
+Mary Shelley's Frankenstein                       5.0
+Ma vie en rose (My Life in Pink)                  5.0
+Letter From Death Row, A                          5.0
+In the Bleak Midwinter                            5.0
+Great Dictator, The                               5.0
+Grand Day Out, A                                  5.0
+Gold Diggers: The Secret of Bear Mountain         5.0
+Funny Face                                        5.0
+Foreign Correspondent                             5.0
+Bride of Frankenstein                             5.0
+Best Men                                          5.0
+Band Wagon, The                                   5.0
+Balto                                             5.0
+Angel Baby                                        5.0
+Once Were Warriors                                4.8
+Fantasia                                          4.7
+Last of the Mohicans, The                         4.7
+Christmas Carol, A                                4.6

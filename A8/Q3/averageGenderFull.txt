@@ -1,0 +1,32 @@
+% clear ; python averageGender.py
+Usage: averageGender.py <F or M>
+e.g. : averageGender.py F
+%
+%
+%
+% clear ; python averageGender.py F
+************************************************************
+Top 5 movies rated the highest on average by women
+************************************************************
+Movie Name                                      Avg Rating
+------------------------------------------------------------
+Year of the Horse                                 5.0
+Visitors, The (Visiteurs, Les)                    5.0
+Telling Lies in America                           5.0
+Stripes                                           5.0
+Someone Else's America                            5.0
+Prefontaine                                       5.0
+Mina Tannenbaum                                   5.0
+Maya Lin: A Strong Clear Vision                   5.0
+Foreign Correspondent                             5.0
+Faster Pussycat! Kill! Kill!                      5.0
+Everest                                           5.0
+Schindler's List                                  4.6
+Close Shave, A                                    4.6
+Shawshank Redemption, The                         4.6
+Wallace & Gromit: The Best of Aardman Animation   4.5
+Shall We Dance?                                   4.5
+Women, The                                        4.5
+Some Mother's Son                                 4.5
+Friday                                            4.5
+Band Wagon, The                                   4.5

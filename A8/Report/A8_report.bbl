@@ -1,0 +1,34 @@
+\begin{thebibliography}{1}
+
+\bibitem{Data}
+Data files used for assignment.
+\newblock http://files.grouplens.org/datasets/movielens/ml-100k/, April 1998.
+\newblock Data collected by GroupLens Research Project.
+
+\bibitem{pythonProgram}
+K.~Arthur Endsley.
+\newblock recommendations.py program.
+\newblock
+  https://github.com/arthur-e/Programming-Collective-Intelligence/blob/master/chapter2/recommendations.py,
+  December 2012.
+
+\bibitem{stack}
+Frederick Hamidi.
+\newblock Python: Run function from the command line.
+\newblock
+  http://stackoverflow.com/questions/3987041/python-run-function-from-the-command-line,
+  October 2010.
+
+\bibitem{stackoverflow}
+Devin Jeanpierre.
+\newblock Sort a python dictionary by value.
+\newblock
+  http://stackoverflow.com/questions/613183/sort-a-python-dictionary-by-value,
+  March 2009.
+
+\bibitem{book}
+Toby Segaran.
+\newblock {\em Programming Collective Intelligence}.
+\newblock O'Reilly Media, August 2007.
+
+\end{thebibliography}

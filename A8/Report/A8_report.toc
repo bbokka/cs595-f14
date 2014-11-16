@@ -1,0 +1,97 @@
+\contentsline {section}{\numberline {1}Question 1:}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}Approach}{4}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Source Code}{5}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}averageMovies.py}{5}{subsubsection.1.2.1}
+\contentsline {subsection}{\numberline {1.3}Input Files}{6}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}u.data}{6}{subsubsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.2}u.item}{6}{subsubsection.1.3.2}
+\contentsline {subsection}{\numberline {1.4}Output Files}{7}{subsection.1.4}
+\contentsline {subsubsection}{\numberline {1.4.1}averageMovies.png}{7}{subsubsection.1.4.1}
+\contentsline {subsubsection}{\numberline {1.4.2}averageMoviesMore.txt}{8}{subsubsection.1.4.2}
+\contentsline {section}{\numberline {2}Question 2:}{9}{section.2}
+\contentsline {subsection}{\numberline {2.1}Approach}{9}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Source Code}{10}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}mostRatingMovies.py}{10}{subsubsection.2.2.1}
+\contentsline {subsection}{\numberline {2.3}Input Files}{11}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}u.data}{11}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}u.item}{11}{subsubsection.2.3.2}
+\contentsline {subsection}{\numberline {2.4}Output Files}{12}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}mostRatingMovies.png}{12}{subsubsection.2.4.1}
+\contentsline {section}{\numberline {3}Question 3:}{13}{section.3}
+\contentsline {subsection}{\numberline {3.1}Approach}{13}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Source Code}{14}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}averageMovies.py}{14}{subsubsection.3.2.1}
+\contentsline {subsection}{\numberline {3.3}Input Files}{16}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}u.data}{16}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}u.item}{16}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}u.user}{16}{subsubsection.3.3.3}
+\contentsline {subsection}{\numberline {3.4}Output Files}{17}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}averageGenderF.png}{17}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}averageGenderFull.txt}{18}{subsubsection.3.4.2}
+\contentsline {section}{\numberline {4}Question 4:}{19}{section.4}
+\contentsline {subsection}{\numberline {4.1}Approach}{19}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Source Code}{20}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}averageMovies.py}{20}{subsubsection.4.2.1}
+\contentsline {subsection}{\numberline {4.3}Input Files}{22}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}u.data}{22}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}u.item}{22}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}u.user}{22}{subsubsection.4.3.3}
+\contentsline {subsection}{\numberline {4.4}Output Files}{23}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}averageGenderM.png}{23}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}averageGenderFull.txt}{24}{subsubsection.4.4.2}
+\contentsline {section}{\numberline {5}Question 5:}{25}{section.5}
+\contentsline {subsection}{\numberline {5.1}Approach}{25}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Approach}{25}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Source Code}{26}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}recommendations.py}{26}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}ratingsTopGun.py}{27}{subsubsection.5.3.2}
+\contentsline {subsection}{\numberline {5.4}Input Files}{28}{subsection.5.4}
+\contentsline {subsubsection}{\numberline {5.4.1}u.data}{28}{subsubsection.5.4.1}
+\contentsline {subsubsection}{\numberline {5.4.2}u.item}{28}{subsubsection.5.4.2}
+\contentsline {subsection}{\numberline {5.5}Output Files}{29}{subsection.5.5}
+\contentsline {subsubsection}{\numberline {5.5.1}ratingsLikeTopGun.txt}{29}{subsubsection.5.5.1}
+\contentsline {subsubsection}{\numberline {5.5.2}ratingsLeastTopGun.txt}{31}{subsubsection.5.5.2}
+\contentsline {section}{\numberline {6}Question 6:}{33}{section.6}
+\contentsline {subsection}{\numberline {6.1}Approach}{33}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Source Code}{34}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}ratersMostRatedMovies.py}{34}{subsubsection.6.2.1}
+\contentsline {subsection}{\numberline {6.3}Input Files}{35}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}u.data}{35}{subsubsection.6.3.1}
+\contentsline {subsection}{\numberline {6.4}Output Files}{35}{subsection.6.4}
+\contentsline {subsubsection}{\numberline {6.4.1}ratersMostRatedMovies.png}{35}{subsubsection.6.4.1}
+\contentsline {section}{\numberline {7}Question 7:}{36}{section.7}
+\contentsline {subsection}{\numberline {7.1}Approach}{36}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Description of}{36}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Source Code}{36}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Output Files}{36}{subsection.7.4}
+\contentsline {section}{\numberline {8}Question 8:}{37}{section.8}
+\contentsline {subsection}{\numberline {8.1}Approach}{37}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Description of}{37}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Source Code}{37}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Output Files}{37}{subsection.8.4}
+\contentsline {section}{\numberline {9}Question 9:}{38}{section.9}
+\contentsline {subsection}{\numberline {9.1}Approach}{38}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Source Code}{39}{subsection.9.2}
+\contentsline {subsubsection}{\numberline {9.2.1}averageOverUnderGender.py}{39}{subsubsection.9.2.1}
+\contentsline {subsection}{\numberline {9.3}Input Files}{41}{subsection.9.3}
+\contentsline {subsubsection}{\numberline {9.3.1}u.data}{41}{subsubsection.9.3.1}
+\contentsline {subsubsection}{\numberline {9.3.2}u.item}{41}{subsubsection.9.3.2}
+\contentsline {subsubsection}{\numberline {9.3.3}u.user}{41}{subsubsection.9.3.3}
+\contentsline {subsection}{\numberline {9.4}Output Files}{42}{subsection.9.4}
+\contentsline {subsubsection}{\numberline {9.4.1}averageOverM.png}{42}{subsubsection.9.4.1}
+\contentsline {subsubsection}{\numberline {9.4.2}averageUnderM.png}{43}{subsubsection.9.4.2}
+\contentsline {subsubsection}{\numberline {9.4.3}averageOverM.txt}{44}{subsubsection.9.4.3}
+\contentsline {subsubsection}{\numberline {9.4.4}averageUnderM.txt}{45}{subsubsection.9.4.4}
+\contentsline {section}{\numberline {10}Question 10:}{46}{section.10}
+\contentsline {subsection}{\numberline {10.1}Approach}{46}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Source Code}{47}{subsection.10.2}
+\contentsline {subsubsection}{\numberline {10.2.1}averageOverUnderGender.py}{47}{subsubsection.10.2.1}
+\contentsline {subsection}{\numberline {10.3}Input Files}{49}{subsection.10.3}
+\contentsline {subsubsection}{\numberline {10.3.1}u.data}{49}{subsubsection.10.3.1}
+\contentsline {subsubsection}{\numberline {10.3.2}u.item}{49}{subsubsection.10.3.2}
+\contentsline {subsubsection}{\numberline {10.3.3}u.user}{49}{subsubsection.10.3.3}
+\contentsline {subsection}{\numberline {10.4}Output Files}{50}{subsection.10.4}
+\contentsline {subsubsection}{\numberline {10.4.1}averageOverF.png}{50}{subsubsection.10.4.1}
+\contentsline {subsubsection}{\numberline {10.4.2}averageUnderF.png}{51}{subsubsection.10.4.2}
+\contentsline {subsubsection}{\numberline {10.4.3}averageOverF.txt}{52}{subsubsection.10.4.3}
+\contentsline {subsubsection}{\numberline {10.4.4}averageUnderF.txt}{53}{subsubsection.10.4.4}

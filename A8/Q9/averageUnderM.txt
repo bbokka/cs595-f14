@@ -1,0 +1,41 @@
+% clear ; python averageOverUnderGender.py
+Usage: averageOverUnderGender.py <F or M> <under or over>
+e.g. : averageOverUnderGender.py F over
+%
+%
+% clear ; python averageOverUnderGender.py M under
+*******************************************************
+Movies rated highest on average by men
+*******************************************************
+Movie Name                                      Avg Rating
+-------------------------------------------------------
+Star Kid                                          5.0
+Santa with Muscles                                5.0
+Saint of Fort Washington, The                     5.0
+Quiet Room, The                                   5.0
+Prefontaine                                       5.0
+Perfect Candidate, A                              5.0
+Maya Lin: A Strong Clear Vision                   5.0
+Magic Hour, The                                   5.0
+Love in the Afternoon                             5.0
+Love Serenade                                     5.0
+Letter From Death Row, A                          5.0
+Leading Man, The                                  5.0
+Hugo Pool                                         5.0
+Entertaining Angels: The Dorothy Day Story        5.0
+Delta of Venus                                    5.0
+Crossfire                                         5.0
+Angel Baby                                        5.0
+Aiqing wansui                                     5.0
+Winter Guest, The                                 4.5
+Two or Three Things I Know About Her              4.5
+Sum of Us, The                                    4.5
+Sliding Doors                                     4.5
+Man of No Importance, A                           4.5
+Little Princess, The                              4.5
+Innocents, The                                    4.5
+Grosse Fatigue                                    4.5
+Fille seule, La (A Single Girl)                   4.5
+Boy's Life 2                                      4.5
+Anna                                              4.5
+Wallace & Gromit: The Best of Aardman Animation   4.5
