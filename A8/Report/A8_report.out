@@ -41,57 +41,56 @@
 \BOOKMARK [3][-]{subsubsection.4.4.2}{averageGenderFull.txt}{subsection.4.4}% 41
 \BOOKMARK [1][-]{section.5}{Question 5:}{}% 42
 \BOOKMARK [2][-]{subsection.5.1}{Approach}{section.5}% 43
-\BOOKMARK [2][-]{subsection.5.2}{Approach}{section.5}% 44
-\BOOKMARK [2][-]{subsection.5.3}{Source Code}{section.5}% 45
-\BOOKMARK [3][-]{subsubsection.5.3.1}{recommendations.py}{subsection.5.3}% 46
-\BOOKMARK [3][-]{subsubsection.5.3.2}{ratingsTopGun.py}{subsection.5.3}% 47
-\BOOKMARK [2][-]{subsection.5.4}{Input Files}{section.5}% 48
-\BOOKMARK [3][-]{subsubsection.5.4.1}{u.data}{subsection.5.4}% 49
-\BOOKMARK [3][-]{subsubsection.5.4.2}{u.item}{subsection.5.4}% 50
-\BOOKMARK [2][-]{subsection.5.5}{Output Files}{section.5}% 51
-\BOOKMARK [3][-]{subsubsection.5.5.1}{ratingsLikeTopGun.txt}{subsection.5.5}% 52
-\BOOKMARK [3][-]{subsubsection.5.5.2}{ratingsLeastTopGun.txt}{subsection.5.5}% 53
-\BOOKMARK [1][-]{section.6}{Question 6:}{}% 54
-\BOOKMARK [2][-]{subsection.6.1}{Approach}{section.6}% 55
-\BOOKMARK [2][-]{subsection.6.2}{Source Code}{section.6}% 56
-\BOOKMARK [3][-]{subsubsection.6.2.1}{ratersMostRatedMovies.py}{subsection.6.2}% 57
-\BOOKMARK [2][-]{subsection.6.3}{Input Files}{section.6}% 58
-\BOOKMARK [3][-]{subsubsection.6.3.1}{u.data}{subsection.6.3}% 59
-\BOOKMARK [2][-]{subsection.6.4}{Output Files}{section.6}% 60
-\BOOKMARK [3][-]{subsubsection.6.4.1}{ratersMostRatedMovies.png}{subsection.6.4}% 61
-\BOOKMARK [1][-]{section.7}{Question 7:}{}% 62
-\BOOKMARK [2][-]{subsection.7.1}{Approach}{section.7}% 63
-\BOOKMARK [2][-]{subsection.7.2}{Description of}{section.7}% 64
-\BOOKMARK [2][-]{subsection.7.3}{Source Code}{section.7}% 65
-\BOOKMARK [2][-]{subsection.7.4}{Output Files}{section.7}% 66
-\BOOKMARK [1][-]{section.8}{Question 8:}{}% 67
-\BOOKMARK [2][-]{subsection.8.1}{Approach}{section.8}% 68
-\BOOKMARK [2][-]{subsection.8.2}{Description of}{section.8}% 69
-\BOOKMARK [2][-]{subsection.8.3}{Source Code}{section.8}% 70
-\BOOKMARK [2][-]{subsection.8.4}{Output Files}{section.8}% 71
-\BOOKMARK [1][-]{section.9}{Question 9:}{}% 72
-\BOOKMARK [2][-]{subsection.9.1}{Approach}{section.9}% 73
-\BOOKMARK [2][-]{subsection.9.2}{Source Code}{section.9}% 74
-\BOOKMARK [3][-]{subsubsection.9.2.1}{averageOverUnderGender.py}{subsection.9.2}% 75
-\BOOKMARK [2][-]{subsection.9.3}{Input Files}{section.9}% 76
-\BOOKMARK [3][-]{subsubsection.9.3.1}{u.data}{subsection.9.3}% 77
-\BOOKMARK [3][-]{subsubsection.9.3.2}{u.item}{subsection.9.3}% 78
-\BOOKMARK [3][-]{subsubsection.9.3.3}{u.user}{subsection.9.3}% 79
-\BOOKMARK [2][-]{subsection.9.4}{Output Files}{section.9}% 80
-\BOOKMARK [3][-]{subsubsection.9.4.1}{averageOverM.png}{subsection.9.4}% 81
-\BOOKMARK [3][-]{subsubsection.9.4.2}{averageUnderM.png}{subsection.9.4}% 82
-\BOOKMARK [3][-]{subsubsection.9.4.3}{averageOverM.txt}{subsection.9.4}% 83
-\BOOKMARK [3][-]{subsubsection.9.4.4}{averageUnderM.txt}{subsection.9.4}% 84
-\BOOKMARK [1][-]{section.10}{Question 10:}{}% 85
-\BOOKMARK [2][-]{subsection.10.1}{Approach}{section.10}% 86
-\BOOKMARK [2][-]{subsection.10.2}{Source Code}{section.10}% 87
-\BOOKMARK [3][-]{subsubsection.10.2.1}{averageOverUnderGender.py}{subsection.10.2}% 88
-\BOOKMARK [2][-]{subsection.10.3}{Input Files}{section.10}% 89
-\BOOKMARK [3][-]{subsubsection.10.3.1}{u.data}{subsection.10.3}% 90
-\BOOKMARK [3][-]{subsubsection.10.3.2}{u.item}{subsection.10.3}% 91
-\BOOKMARK [3][-]{subsubsection.10.3.3}{u.user}{subsection.10.3}% 92
-\BOOKMARK [2][-]{subsection.10.4}{Output Files}{section.10}% 93
-\BOOKMARK [3][-]{subsubsection.10.4.1}{averageOverF.png}{subsection.10.4}% 94
-\BOOKMARK [3][-]{subsubsection.10.4.2}{averageUnderF.png}{subsection.10.4}% 95
-\BOOKMARK [3][-]{subsubsection.10.4.3}{averageOverF.txt}{subsection.10.4}% 96
-\BOOKMARK [3][-]{subsubsection.10.4.4}{averageUnderF.txt}{subsection.10.4}% 97
+\BOOKMARK [2][-]{subsection.5.2}{Source Code}{section.5}% 44
+\BOOKMARK [3][-]{subsubsection.5.2.1}{recommendations.py}{subsection.5.2}% 45
+\BOOKMARK [3][-]{subsubsection.5.2.2}{ratingsTopGun.py}{subsection.5.2}% 46
+\BOOKMARK [2][-]{subsection.5.3}{Input Files}{section.5}% 47
+\BOOKMARK [3][-]{subsubsection.5.3.1}{u.data}{subsection.5.3}% 48
+\BOOKMARK [3][-]{subsubsection.5.3.2}{u.item}{subsection.5.3}% 49
+\BOOKMARK [2][-]{subsection.5.4}{Output Files}{section.5}% 50
+\BOOKMARK [3][-]{subsubsection.5.4.1}{ratingsLikeTopGun.txt}{subsection.5.4}% 51
+\BOOKMARK [3][-]{subsubsection.5.4.2}{ratingsLeastTopGun.txt}{subsection.5.4}% 52
+\BOOKMARK [1][-]{section.6}{Question 6:}{}% 53
+\BOOKMARK [2][-]{subsection.6.1}{Approach}{section.6}% 54
+\BOOKMARK [2][-]{subsection.6.2}{Source Code}{section.6}% 55
+\BOOKMARK [3][-]{subsubsection.6.2.1}{ratersMostRatedMovies.py}{subsection.6.2}% 56
+\BOOKMARK [2][-]{subsection.6.3}{Input Files}{section.6}% 57
+\BOOKMARK [3][-]{subsubsection.6.3.1}{u.data}{subsection.6.3}% 58
+\BOOKMARK [2][-]{subsection.6.4}{Output Files}{section.6}% 59
+\BOOKMARK [3][-]{subsubsection.6.4.1}{ratersMostRatedMovies.png}{subsection.6.4}% 60
+\BOOKMARK [1][-]{section.7}{Question 7:}{}% 61
+\BOOKMARK [2][-]{subsection.7.1}{Approach}{section.7}% 62
+\BOOKMARK [2][-]{subsection.7.2}{Description of}{section.7}% 63
+\BOOKMARK [2][-]{subsection.7.3}{Source Code}{section.7}% 64
+\BOOKMARK [2][-]{subsection.7.4}{Output Files}{section.7}% 65
+\BOOKMARK [1][-]{section.8}{Question 8:}{}% 66
+\BOOKMARK [2][-]{subsection.8.1}{Approach}{section.8}% 67
+\BOOKMARK [2][-]{subsection.8.2}{Description of}{section.8}% 68
+\BOOKMARK [2][-]{subsection.8.3}{Source Code}{section.8}% 69
+\BOOKMARK [2][-]{subsection.8.4}{Output Files}{section.8}% 70
+\BOOKMARK [1][-]{section.9}{Question 9:}{}% 71
+\BOOKMARK [2][-]{subsection.9.1}{Approach}{section.9}% 72
+\BOOKMARK [2][-]{subsection.9.2}{Source Code}{section.9}% 73
+\BOOKMARK [3][-]{subsubsection.9.2.1}{averageOverUnderGender.py}{subsection.9.2}% 74
+\BOOKMARK [2][-]{subsection.9.3}{Input Files}{section.9}% 75
+\BOOKMARK [3][-]{subsubsection.9.3.1}{u.data}{subsection.9.3}% 76
+\BOOKMARK [3][-]{subsubsection.9.3.2}{u.item}{subsection.9.3}% 77
+\BOOKMARK [3][-]{subsubsection.9.3.3}{u.user}{subsection.9.3}% 78
+\BOOKMARK [2][-]{subsection.9.4}{Output Files}{section.9}% 79
+\BOOKMARK [3][-]{subsubsection.9.4.1}{averageOverM.png}{subsection.9.4}% 80
+\BOOKMARK [3][-]{subsubsection.9.4.2}{averageUnderM.png}{subsection.9.4}% 81
+\BOOKMARK [3][-]{subsubsection.9.4.3}{averageOverM.txt}{subsection.9.4}% 82
+\BOOKMARK [3][-]{subsubsection.9.4.4}{averageUnderM.txt}{subsection.9.4}% 83
+\BOOKMARK [1][-]{section.10}{Question 10:}{}% 84
+\BOOKMARK [2][-]{subsection.10.1}{Approach}{section.10}% 85
+\BOOKMARK [2][-]{subsection.10.2}{Source Code}{section.10}% 86
+\BOOKMARK [3][-]{subsubsection.10.2.1}{averageOverUnderGender.py}{subsection.10.2}% 87
+\BOOKMARK [2][-]{subsection.10.3}{Input Files}{section.10}% 88
+\BOOKMARK [3][-]{subsubsection.10.3.1}{u.data}{subsection.10.3}% 89
+\BOOKMARK [3][-]{subsubsection.10.3.2}{u.item}{subsection.10.3}% 90
+\BOOKMARK [3][-]{subsubsection.10.3.3}{u.user}{subsection.10.3}% 91
+\BOOKMARK [2][-]{subsection.10.4}{Output Files}{section.10}% 92
+\BOOKMARK [3][-]{subsubsection.10.4.1}{averageOverF.png}{subsection.10.4}% 93
+\BOOKMARK [3][-]{subsubsection.10.4.2}{averageUnderF.png}{subsection.10.4}% 94
+\BOOKMARK [3][-]{subsubsection.10.4.3}{averageOverF.txt}{subsection.10.4}% 95
+\BOOKMARK [3][-]{subsubsection.10.4.4}{averageUnderF.txt}{subsection.10.4}% 96
