@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{pythonProgram}
+feedparser.py program.
+\newblock
+  http://www.cs.odu.edu/~mln/teaching/cs595-f13/chapter3/code/generatefeedvector.python.
+
+\bibitem{feedparser}
+Python for beginners.
+\newblock
+  http://www.pythonforbeginners.com/feedparser/using-feedparser-in-python,
+  October 2009.
+
+\bibitem{stack}
+eumiro.
+\newblock Sorted function in python.
+\newblock
+  http://stackoverflow.com/questions/14218933/sorted-function-in-python,
+  January 2013.
+
+\bibitem{book}
+Toby Segaran.
+\newblock {\em Programming Collective Intelligence}.
+\newblock O'Reilly Media, August 2007.
+
+\end{thebibliography}
