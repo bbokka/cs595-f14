@@ -1,0 +1,413 @@
+%---------------------------------------------------------------------
+% Course 	: Introduction To web sciences
+% Professor : Dr.Nelson
+% Name   	: Babitha Bokka
+% Assignment: 10
+%---------------------------------------------------------------------
+\documentclass[12pt]{article}
+%--------------------------------------------------------------------
+% packages required
+%--------------------------------------------------------------------
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{color}
+\usepackage{pdfpages}
+\graphicspath{ {images/} }
+%--------------------------------------------------------------------
+% Start Margins
+%--------------------------------------------------------------------
+\addtolength{\oddsidemargin}{-.875in}
+\addtolength{\evensidemargin}{-.875in}
+\addtolength{\textwidth}{1.75in}
+\addtolength{\topmargin}{-.885in}
+\addtolength{\textheight}{1.95in}
+%-------------------------------------------------------------------
+% End Margins
+%--------------------------------------------------------------------
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+ 
+\lstset{style=mystyle}
+
+\begin{document}
+
+%---------------------------------------------------------------------
+%Making the title page
+%---------------------------------------------------------------------
+\begin{titlepage}
+\title{INTRODUCTION TO WEB SCIENCES:\\*Assignment 10}
+\author{Babitha Bokka}
+\date{11 December 2014}
+\maketitle
+\end{titlepage}
+
+%---------------------------------------------------------------------
+%Table of contents
+%---------------------------------------------------------------------
+\tableofcontents
+\newpage
+%------------------------------------------------------------------
+%Question 1
+%------------------------------------------------------------------
+\section{Question 1:}
+\begin{verbatim}
+Choose a blog or a newsfeed (or something similar as long as it has
+an Atom or RSS feed).  It should be on a topic or topics of which you
+are qualified to provide classification training data.  In other words,
+choose something that you enjoy and are knowledgable of.  Find a feed
+with at least 100 entries.
+Create between four and eight different categories for the entries
+in the feed:
+examples:
+work, class, family, news, deals
+liberal, conservative, moderate, libertarian
+sports, local, financial, national, international, entertainment
+metal, electronic, ambient, folk, hip-hop, pop
+Download and process the pages of the feed as per the week 12 
+class slides.
+\end{verbatim}
+
+%---------------------Approach----------------------------------
+\subsection{Approach}
+\begin{verbatim}
+ I started working on the assignment by choosing a blog
+ http://orangette.blogspot.com/.
+\end{verbatim}
+\begin{enumerate}
+\item The hardest part of the assignment is choosing a blog.
+ \item This is a blog which describes about a person important days and the type of food.
+ \item So, the categories I choose are\\
+  personal: When the author talks about her personal life.\\
+  cooking: About food and recipe.\\
+  place:   Describes about places and traveling.\\
+  weather: Describes about the month, season and days.
+  \item Downloaded and saved the 100 entries in an xml file orangette.xml. 
+\end{enumerate}   
+\newpage
+
+
+\newpage
+%------------------------------------------------------------------
+%Question 2
+%------------------------------------------------------------------
+\section{Question 2:}
+\begin{verbatim}
+Manually classify the first 50 entries, and then classify (using
+the fisher classifier) the remaining 50 entries. Report the cprob()
+values for the 50 titles as well.  From the title or entry itself,
+specify the 1-, 2-, or 3-gram that you used for the string to
+classify.  Do not repeat strings; you will have 50 unique strings.
+For example, in these titles the string used is marked with *s:
+*Rachel Goswell* - "Waves Are Universal" (LP Review) 
+The *Naked and Famous* - "Passive Me, Aggressive You" (LP Review)
+*Negativland* - "Live at Lewis's, Norfolk VA, November 21, 1992" (concert)
+Negativland - "*U2*" (LP Review)
+Note how "Negativland" is not repeated as a classification string.
+
+Create a table with the title, the string used for classification,
+cprob(), predicted category, and actual category.
+\end{verbatim}
+
+%-----------------------Approach--------------------------------
+\subsection{Approach}
+\begin{enumerate}
+    \item To solve this question I started my approach by using docclass.py and feedfilter.py.
+    \item The first 50 entries are manually classified and other 50 entries are classified using the fisher method.
+    \item Table 1 gives you the manually classified the entries.
+    \item Table 2 gives you the classification based on fisher method.
+\end{enumerate}
+\newpage
+%-----------------------Source Code-----------------------------
+\subsection{Source Code}
+\subsubsection{docclass.py}
+\lstinputlisting[breaklines=True]{../Q2/docclass.py}
+\newpage
+\subsubsection{feedfilter.py}
+\lstinputlisting[breaklines=True,language=Python]{../Q2/feedfilter.py}
+\newpage
+\subsubsection{entries.py}
+\lstinputlisting[breaklines=True,language=Python]{../Q2/entries.py}
+
+\newpage
+
+%-----------------------Output Section---------------------------
+\begin{longtable}{ | p{3.0cm} | p{12.0cm} |p{2.0cm}| }\hline
+\textbf{Title} & \textbf{Summary} & \textbf{Category} \\\hline
+ December 5 & Greetings from here, where the three of us are still sick.  Brandon told me that he counted it up in the bathtub this morning, and he’s now been sick for 27 days. & personal\\\hline
+ 
+Like he did & The three of us have that hanger-onner of a virus that’s going around. The past two nights, I’ve coughed myself to sleep in the basement guest room, and as anyone who’s ever coughed herself to sleep can tell you, it’s slow going. & personal \\\hline
+
+I got to go back &The first time I went to the Oklahoma Arts Institute at Quartz Mountain was in the summer of 1995, a few months after a fire destroyed the lodge, its rooms and dining hall and library.  & place \\\hline
+
+Even on a good day & My mother has been in town since early this month. We don’t often get this kind of extended time in the same place, and I’d forgotten what a good cooking collaborator she is. She makes sure our wine glasses are never empty.  & personal  \\\hline 
+
+Looking forward & I picked up a roll of film that I shot at Sam and Megan’s wedding last month, and maybe my friend at the lab did some wizardry with the negative scanner, but the whole roll has this glowy, ethereal light shining through it. &  season \\\hline
+
+The satisfaction &In early September, a kind reader in north-central Idaho left me a comment. Her name was Michele, and her Italian prune plum tree was promising a bumper crop: did I want some? This kind of thing does not happen all the time, or ever, so I said (yelled) yes.  &  season \\\hline
+
+Every Tuesday & Whoa. I got sucked into a black hole for a bit there, a (very pleasant, very festive) black hole of weddings and out-of-town visitors. Somehow it’s now September 26, and I’m glad to be alone tonight. & season \\\hline
+
+September 6 &  From the summer of 2006 until the early spring of 2011.&  season \\\hline
+
+And: FUDGESICLES & nnnI have a child who is about to be two years old. I have a lot of thoughts on the subject, but one thing I do not have a lot of thoughts about is a second birthday party. & personal \\\hline
+August 18 & A couple of weekends ago, we packed up the better part of the restaurant kitchen, crammed it in the back of a pick-up, and drove two and a half hours east to cook an all-day anniversary party for a pair of longtime Delancey regulars. We rented a big house along the Wenatchee River. & place \\\hline
+
+July 22& A month of summer gone already! I don’t want to think about it. &season \\\hline
+
+ I promised&It hit 85 degrees in Seattle today. &season  \\\hline
+ 
+ July 6& We spent half of last week on Lopez Island, staying with friends at the home of friends-of-friends, breaking in our sun hats, making buildings out of driftwood. & personal \\\hline
+ 
+ June 27&Friday! It’s rainy here in Seattle.  &  season \\\hline 
+ 
+Run with it & watching the world’s most subtle breeze blow through the branches of the neighbors’ tulip magnolia. & season \\\hline
+
+Right now & Hello from a train en route to Portland, Oregon! & place  \\\hline
+
+ June 1& I’d been planning to put up a post tonight about some meatballs that June has been into lately (MEAT! MEAT! she yells; & recipe  \\\hline
+ 
+Come on down & Hello from a plane somewhere between Minneapolis and San Francisco! &  place \\\hline
+
+Our people & I’m typing this post from my cousin’s kitchen table in Oakland, California, where June and I are visiting for a family baby shower and have stayed long enough to eat four slices of red velvet cake. &  recipe \\\hline
+
+ Maybe he's right& This is the fifth granola recipe I’ve posted on this blog. &  recipe \\\hline
+ 
+April 23 &In the time since you and I last spoke, I’ve been to New Jersey and back for my sister-in-law’s wedding and, in the name of research, have eaten a lot of New Jersey bagels and New Jersey pizza.  & recipe \\\hline
+
+That word is eat & June has mastered a new word, and that word is eat.  It’s one of many things I like about her. & personal \\\hline
+
+ Book tour, housekeeping, and you will now have Hole songs stuck in your head&   My publisher tells me that finished copies of Delancey, hot off the presses, are due to arrive in their offices early next week. &personal \\\hline
+ 
+ Call it a meal& We have reached the point in winter, or spring, or whatever it is, when even I am tired of making, eating, and talking about soup. &  recipe \\\hline 
+ 
+A short leap &  Our friend Ben is in town for a visit, and this past Friday, while we waited in line for lunch. & recipe \\\hline
+
+Felt like it & HELLOOOOOOOO I’m just off the plane from a week in Oklahoma City with June and my mother. & place  \\\hline
+
+ Always to acclaim& I typed most of this post on Valentine’s night, while Brandon worked at Delancey, slinging pizzas for all the lovers. &  season \\\hline
+ 
+Book update, housekeeping, la la la & That’s the way I look at it in my better moments, the ones when I’m not staring at the clock & personal  \\\hline
+The right buttons &Before we get started: thank you for your comments on my previous post, and for sharing so many good tips and ideas about feeding families.  & personal  \\\hline
+
+ In it together& First things first: if you don’t want to read about kid stuff, you should skip this post. I won’t mind.  A few years ago, I totally would have skipped it. &  personal \\\hline
+ 
+A good person to know & I first met Megan at a conference, I think? I’m a real loser when it comes to conferences - crowds make me feel like hiding under furniture, and my brain is a wide-mesh sieve for faces and names.  & personal\\\hline
+
+From now on & Our friend Ben was here last week. He arrived on Thursday, just in time for lunch.& personal \\\hline
+
+Their good work & Hello again! If I don’t write a post tonight, I will have to do my real work, which is to read the final proofs of Delancey before it goes to print, and that is a terrifying prospect. So!  La la laaaaaaaaaaaaaaa As it happens, combing through files of old film photos is also a great way to avoid work - and I can use the photos here! Behold: somewhat ancient photos that have nothing at all. & personal \\\hline
+Approximately a soup & First: RING THE BELLS! I HAVE A NEW CAMERA! Here at Wizenberg-Pettit World Headquarters, we are excited. And grabby. Second: we are also into soup, apparently, which is why I’m going to tell you about yet another, our third soup in a row. & recipe  \\\hline 
+
+Please consider & So, how bored will you be if we talk about soup again? Ham Bone, Greens, and Bean Soup? &  recipe. \\\hline
+
+But the soup & Would you look at that! While trying, and failing, to start this post about squash soup, I accidentally ate an entire chocolate chip cookie dough ball. & recipe \\\hline
+
+The days are twice as long & This time last week, I was in a wood stove-heated cottage with no Internet, no telephone, and no television, reading my sixth New Yorker of the day. & personal  \\\hline
+
+It made an impression & After I brought it home, while I waited for my blood pressure to stabilize, I combed through the files that had been on my old computer and happened to find a document that I had forgotten, a recipe for a brown sugar clafoutis with pears. BROWN SUGAR CLAFOUTIS! &  recipe \\\hline
+
+Over and over and over & It was a summer of greatest hits. I’ve always been a redundant cook, content to repeat a couple dozen recipes over and over (and over and over and over). &  recipe \\\hline
+
+Bottoms up & I planted about a half dozen plants back in late May &  personal \\\hline
+A new reason & I just sat down, looked at the calendar, and noticed that it’s August 9th. & personal\\\hline
+
+Nine & I am typing this post from the back office at Delancey. &personal  \\\hline
+A rare benefit & Does that ever happen to you? Do you do what I do and take a "break" to raid the walk-in at Delancey for chocolate chip cookie dough? & recipe\\\hline
+
+ This thing is on&Maybe you will remember a day, more than two years ago now.  & personal  \\\hline 
+ 
+June 28 &  Friday!  Yessssssss. It’s just after noon, and I’m sitting in Essex, my “office” by day, with an imposing to-do list& personal  \\\hline
+Told you so & Every so often, I encounter a recipe that makes me want to forgo the usual niceties of a post - the introduction, the story, the conclusion, the delicate foreplay - because that would only slow you down, when what you should really do is grab your shoes and make a list and run to the grocery store.   & recipe  \\\hline
+
+June 4 &Last night, it occurred to me that I had inadvertently neglected to write down something important: that June’s head smells like strawberry jam. I’ve thought about it for a long time, trying to make sure that was it, and now I’m certain: not strawberries, but strawberry jam. & personal  \\\hline
+
+Eureka &You women who manage to keep up smart, articulate blogs while raising young children? You women who manage to keep up smart, articulate blogs while working and raising young children and doing all that household stuff that most of us wind up doing? I throw myself at your feet.  I don’t have anything remotely original or insightful to say on the subject; I just think you’re remarkable.  &  personal \\\hline
+I'm feeling daring & I have finally learned how to use the espresso machine that Brandon chased down on eBay and gave me for Christmas in 2011!  & personal  \\\hline
+April 7 & I’ve been feeling a little under the weather for the past few days, but I wanted to pop in. I promise not to breathe on you. &  season \\\hline
+
+\caption{Manually classified first 50 entries}
+\end{longtable}
+
+\newpage
+\begin{longtable}{ | p{2.0cm} | p{5.0cm} |p{1.5cm}| p{2.0cm}| p{1.0cm}|p{2.0cm}|p{2.0cm}| }\hline
+\textbf{Title} & \textbf{Summary} & \textbf{Actual}& \textbf{Predicted}& \textbf{cprob()}& \textbf{String}& \textbf{type(gram)} \\\hline
+We have a rhythm & June is six months old. She has two teeth, monstrous thighs, and is my favorite person in the world. & personal& personal& 0.0& june& 1-gram\\\hline
+
+The usual & In the time since we last spoke, I’ve revised the manuscript for my next book! I’ve traveled alone with my five-month-old baby to a family wedding on the other side of the country! &personal &food &0.0 &five-month-old & 1-gram\\\hline
+
+ A small revolution & You good, good people. Before I say another word, I want to thank you for your many comments, your e-mails, and the incredibly kind card - a real, three-dimensional paper card - that one of you sent to me at Delancey.& personal&personal & 0.0& good people & 2-gram\\\hline 
+ 
+Ah ha & My father wasn’t a writer, or not in the vocational sense, but he liked to play with words. & personal&personal & 0.0&goofy& 1-gram \\\hline
+
+As loud as I wanted & I have to get back to writing it down, or I’ll forget. &personal & personal&0.0&esoteric vermouths& 2-gram \\\hline
+
+I stand by my assessment & I know. The universe does not need another recipe for a banana baked something. And yet. It’s a rainy Friday afternoon, and I have a couple of hours(!) home alone(!) to do whatever(!) I want(!), which is mostly to eat Häagen-Dazs coffee ice cream and stare at the wall &recipe &recipe & 0.0&polite&1-gram \\\hline
+
+All right &I hope you’re well. Things are all right here, I’m relieved to report, especially given the fact that I had exactly zero experience with babies prior to birthing one three short weeks ago.  &personal &personal & 0.0 & right & 1-gram\\\hline
+
+We did it & I am very happy to announce that June is here. &season & season&0.0&we did&1-gram \\\hline
+
+Essex & I MADE IT! By which I mean, I managed to not go into labor before, in the middle of, or in the days immediately following the opening of Essex. & personal&recipe &1.0&immediately &1-gram \\\hline
+
+All of it & Hi, all. I’ve received a number of concerned e-mails and comments in the past few days, wondering if the quiet around here meant that the baby has arrived, so let me say first: NO BABY YET. &personal & personal&0.0 & finished writing & 2-gram \\\hline
+
+Lately & Last night I went to the grocery store for milk and yogurt and the usuals, and the cashier smiled and commented on how much my belly has grown since she last rang me up. & personal & personal& 0.0&grocery&1-gram\\\hline
+
+Let's wing it & Before I say anything else, I want to thank you for your kindness about my aunt.  I was very nervous when I put up that post, but I felt much better for having written it. & personal& recipe&0.0&smooth transition&2-gram \\\hline
+
+She felt like cheering & I have three half-siblings. &personal &recipe &1.0&california&1-gram \\\hline 
+
+You know me well & My manuscript is due on June 1. &personal & personal&0.0&meats&1-gram \\\hline
+
+ No such thing& Earlier this week, I think it was, one of you kindly wrote to me, asking if I might do a post about what I’ve been eating for lunch lately. The reader who wrote to me is pregnant, and there are a number of foods that us pregnant ladies are told to avoid, making quick, easy lunches hard to come by: no deli meats, no (uncooked) cured meats, no high-mercury fish (tuna, for example). & recipe & recipe&0.0&lunch lately&2-gram  \\\hline
+ 
+The first night & Hi from here.I should clarify: not here exactly. These photos were taken at our dinner table, but I’m currently sitting at my desk. I would much rather be there than here. Oh well.These shots are from the first night of 2012, with our friends Ben, Bonnie, and Sam. We had wanted to go crabbing and catch our New Year’s dinner ourselves. & personal &personal & 0.0 & brandon&1-gram\\\hline
+
+The best part of the job &I am supposed to be writing a manuscript, not baking rye crumble bars.  & recipe& personal&0.0&crumble bars&2-gram \\\hline
+
+This is important & You people. YOU PEOPLE.I’m still blinking in disbelief at the kindness you’ve shared with me and Brandon and Tiny Person Under My Shirt. & personal & personal&0.0&you people&2-gram \\\hline
+
+September 4 & Hi.I’ve never made an announcement like this before, and it feels very awkward and shouty to do it through a computer screen, so please be nice and pretend that we’re sitting in your living room. &personal & personal&0.0&sitting in your living&3-gram \\\hline
+
+
+Dear World, & I am writing to you, once again, from my friend Ben’s dining room.When I was here last August, writing my brains out, I had a hunch that a return visit might be helpful before my manuscript deadline. & personal&personal &0.0&manuscript&1-gram \\\hline
+
+I am here to tell you & First things first: thank you for the well wishes.& personal&personal&0.0 & well&1-gram\\\hline
+
+You can count on me & I am writing to you today with a wool scarf wound around my entire upper body and a wool blanket tied at my waist. & personal& recipe&0.0&writing&1-gram \\\hline
+
+December 24 & Whenever we spend the holidays with my relatives in northern California, we eat Dungeness crab on Christmas Eve. &season & personal&0.0&christmas&1-gram \\\hline 
+
+In my better moments & About three weeks ago, I printed out all the drafts I’ve written so far for my next book, and then I spent three weeks avoiding reading them. & personal&personal &0.0&three weeks& 2-gram \\\hline
+To poach a pear & My mother is usually the one who makes poached pears. &personal &season &0.0&poached pears&2-gram \\\hline
+
+It’s my specialty & Hi. I am writing this from my in-laws’ kitchen. & recipe & recipe& 0.0& speciality&1-gram\\\hline
+
+October 31 & We’ve arrived at the end of my trip. &personal &personal &1.0&arrived&1-gram \\\hline
+
+October 29 & To those of you who advised me to go to Scotland. & place& personal&0.0&advised&1-gram \\\hline
+
+October 19 & My favorite church is in Paris, and it’s called Saint-Sulpice. &place &season &0.0&family&1-gram \\\hline
+
+October 22 & I sat down to write this post last night at a kitchen table in Edinburgh. &personal & personal&0.0&last night&2-gram \\\hline
+
+October 16, 17 & I love the mistakes that come with using film.Often, I like the mistakes more than the shots that turn out. & personal&season&0.0&mistakes& 1-gram  \\\hline
+
+October 15 & Hi, friends.I’m in Paris now.I know I just typed that as though it were nothing, but what I meant was: I’M IN PARIS NOW. &place &personal&0.0&paris&1-gram  \\\hline
+
+October 14 &When I was eighteen, I took my first big trip without my parents, and before I left, my mother suggested that I pack a nice notebook to use as a journal.  & personal& personal&0.0&eighteen&1-gram \\\hline 
+
+You're lucky, she told me. & Hi, friends.This is not the post I had expected to write next. In my head, there were going to be cheers, an obscene number of exclamation points, and maybe a picture of the evening street outside our apartment in Paris. & place& personal&0.0&lucky&1-gram \\\hline
+
+Paris Diary &I first met my friend Maria in 2005. &place &personal &0.0&maria&1-gram \\\hline
+
+Out on this limb &I was planning to start this post with something about food, because that’s the way these things usually work.  & personal&personal &0.0&planning to start&3-gram \\\hline
+
+No frosting, no ceremony & "The citrus is coming! The citrus is coming!" & recipe&season &0.0& window open& 2-gram \\\hline
+
+Not a tomato sandwich & So, I turned 33 a couple of days ago. & personal& personal&0.0&33 couple&2-gram \\\hline
+
+Ohio &  I am writing to you today from my friend Ben’s dining room.& place& personal&0.0&ohio&1-gram \\\hline
+
+A real thrill &  I’m going to tell it to you straight. When I got to the last step of this recipe and looked at the tower of dirty bowls and saucepans in the sink, I thought, This had damn well better be the best frozen yogurt the universe has ever seen.& recipe& personal& 0.0&quite&1-gram\\\hline
+
+It still surprises me & So. I think it would be fair to say that your comments on my last post made me very, very happy. & personal& personal&0.0 &surprises me& 2-gram \\\hline
+
+How we do what we do & I’ve been out of town for the past week, helping with preparations for my cousin’s wedding in Oakland & place& recipe.&0.3459&town&1-gram \\\hline
+
+You don't forget & I may be too late for strawberries. & recipe& personal&0.0&strawberries&1-gram \\\hline 
+
+I wish them a lifetime & I mentioned last week that I had been away at a wedding, Luisa’s wedding, and a number of you wrote that you were eager to see pictures. &personal &personal & 0.0&lifetime&1-gram\\\hline
+
+I could talk about the weather &  I woke up this morning and found the house entirely wrapped in fog.& personal&personal&0.0&woke up&2-gram  \\\hline
+
+This one's coming with me & On a Sunday night in June, you are required, by cosmic law, to make strawberry shortcake. &recipe &personal &0.0&coming with&2-gram \\\hline
+
+ Such is the power  &Let the record show that, I, Molly Wizenberg, have, in this lifetime, made some ugly deviled eggs. & personal&personal&0.0& recordshow&2-gram \\\hline
+ 
+Your efforts will be rewarded & Listen, I know it’s a holiday weekend. &personal & personal&0.0&holiday weekend &2-gram \\\hline
+
+We have some progress & This city has taken its sweet time in getting rid of winter. &season & recipe&0.0&sweet&1-gram \\\hline
+
+pile it on& Let's get it out of the way right now: this egg salad, the one we are going to talk aboit today.&recipe & personal&1.0&pile&1-gram \\\hline
+
+\caption{Entries classified based on fisher method}
+\end{longtable}
+\newpage
+
+
+
+%------------------------------------------------------------------
+%Question 
+%------------------------------------------------------------------
+\section{Question 3:}
+\begin{verbatim}
+Assess the performance of your classifier in each of your categories
+by computing precision, recall, and F1.  Note that the definitions
+of precisions and recall are slightly different in the context of
+classification; see:
+
+http://en.wikipedia.org/wiki/Precision_and_recall#Definition_.28classification_context.29
+and
+http://en.wikipedia.org/wiki/F1_score
+\end{verbatim}
+
+%-----------------------Approach--------------------------------
+\subsection{Approach}
+\begin{enumerate}
+    \item To calculate the precision, recall and F1 we need TP (True positive), TN (True negative), FP (False positive), FN (False negative).
+    \item Table 3 shows you the precision, recall and F1 values of each category.
+  \end{enumerate}  
+\newpage
+
+%-----------------------Output Section---------------------------
+\begin{center}
+\begin{table}
+\small
+\begin{tabular}{ | p{3.0cm} | p{2.0cm} |p{2.0cm} | p{2.0cm} | }\hline
+\textbf{Category} & \textbf{Precision} & \textbf{Recall} & \textbf{F1} \\\hline
+ personal& 0.68 & 0.61 &0.64  \\\hline
+places & 0 &0 & 0 \\\hline
+ recipe&  0.33& 0.06 &0.20  \\\hline
+ season & 0.2 & 0.02 & 0.03 \\\hline
+
+\end{tabular}
+\caption{Precision, Recall and F1 values for each category}
+\end{table}
+\end{center}
+
+
+
+\newpage
+%------------------------------------------------------------------
+%Bibilography
+%------------------------------------------------------------------
+\bibliographystyle{plain}
+\bibliography{A10-report}
+\cite{*}
+\newpage
+\end{document}
